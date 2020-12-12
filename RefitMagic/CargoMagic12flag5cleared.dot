@@ -1,0 +1,138 @@
+#!dot -O -Tpng
+#
+# Copyright 2010 Christoph Elsenhans
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+
+digraph CargoMagic {
+  PDC [shape=box label="Property: Default cargotype\n(Aircraft: Always 'first refittable')"]
+  PPC [shape=box label="Property:\nRefittable cargoclasses"]
+  PNC [shape=box label="Property:\nNon-refittable cargoclasses"]
+  PRM [shape=box label="Property:\nRefitmask"]
+  PEI [shape=box label="Property:\nRefittable cargos"]
+  PEE [shape=box label="Property:\nNon-refittable cargos"]
+  PCC [shape=box label="Property: Default capacity\n(Aircraft: Passenger capacity)"]
+
+  FRM [shape=box label="Final refittability"]
+  FDC [shape=box label="Final default cargo"]
+  FNA [shape=box label="Vehicle not available"]
+  FNRM [shape="box" label="Not refittable"]
+
+
+  FCC [shape=box label="Final cargo capacity"]
+
+  A [label="Any property set?"]
+  PRM -> A
+  PPC -> A
+  PNC -> A
+  PEI -> A
+  PEE -> A
+
+  B [label="(((Refittable classes \\ Non-refittable classes) ^ Refitmask)\n\
+∪ Refittable cargos) \\ Non-refittable cargos"]
+  A -> B [label="yes"]
+  B -> IRM
+
+  IRM [label="Intermediate\nrefitmask"]
+  IRM -> FRM [label="non-ship"]
+  IRM -> SRM [label="ship"]
+
+  SRM [label="Flag 'refittable' set?"]
+  SRM -> FRM [label="yes"]
+  SRM -> FNRM [label="no"]
+
+  ERM [label="Empty refitmask"]
+  ERM -> IRM
+
+  A -> C [label="no"]
+
+  C [label="Vehicletype?"]
+  C -> DRAIL [label="rail engine"]
+
+  PCC -> DRAIL [style="dashed"]
+  DRAIL [label="Any capacity?"]
+  DRAIL -> DRM [label="yes"]
+  DRAIL -> ERM [label="no"]
+  
+  C -> ERM [label="rail wagon or\nroad vehicle"]
+  C -> DRM [label="ship or aircraft"]
+
+  DRM [label="Use vehicletype's default refitmask"]
+  DRM -> IRM
+
+  PDC -> H
+  H [label="Valid cargotype?\n\
+(Must be part of refitmask, if refittable)"]
+  H -> FDC [label="yes"]
+  H -> G [label="no"]
+
+  IRM -> G [style="dashed"]
+  G [label="Pick first refittable"]
+  G -> FDC [label="success"]
+  G -> FNA [label="no refittables"]
+
+  FDC -> CC [style="dashed"]
+  CC [label="Current cargo"]
+
+  PAX [shape=box label="Road vehicle: Bus\nAircraft: With mail compartment."]
+  CC -> PAX [label="Has 'Passenger' cargoclass"]
+
+  NPAX [shape=box label="Road vehicle: Truck\nAircraft: No mail compartment."]
+  CC -> NPAX [label="No 'Passenger' cargoclass"]
+
+  NOC [label="No capacity"]
+  NOC -> FNRM
+  NOC -> FCC
+
+  PCC -> NOC [label="zero"]
+  PCC -> L [label="non-zero"]
+
+  L [label="Override with CB 36"]
+  L -> AIRC [label="aircraft"]
+  L -> NOCAPMULT [label="ship"]
+  L -> NAIR [label="rail or road vehicle"]
+
+  NAIR [label="Refitted?"]
+  NAIR -> FCC [label="no"]
+  NAIR -> M [label="yes"]
+
+  AIRC [label="Add mail capacity if no compartment\nApply capacity multipliers"]
+  AIRC -> NOCAPMULT
+  NOCAPMULT [label="Refitted?"]
+  NOCAPMULT -> N [label="yes"]
+  NOCAPMULT -> FCC [label="no"]
+
+  M [label="Apply capacity multipliers"]
+  M -> N
+
+  N [label="Override with CB 15"]
+  N -> FCC
+
+# Tell me how to do it better :)
+  SEPARATOR [shape=none label="                                                           "]
+
+  TITLE [shape=none margin=0 label="\
+Interaction of Refitting, DefaultCargoType and Capacity\n\n\
+Behaviour of OpenTTD 1.2.x with vehicle misc flag 5 cleared.\n\n\
+TTDPatch _will_ differ in corner cases like CB36/15 returning 'no capacity'."]
+
+  ABOUT [shape=none margin=0 label="\
+2012-01-28, Christoph Elsenhans\n\
+Source: http://devs.openttd.org/~frosch/texts/CargoMagic12flag5cleared.dot\n\
+License: GPLv2+"]
+
+  TITLE -> ABOUT [style=invis]
+}

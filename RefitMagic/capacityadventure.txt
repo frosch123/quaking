@@ -1,0 +1,164 @@
+Note: Parts of this document are now outdated!
+
+
+This is about the behaviour of
+ - Capacity properties (14 of trains, 0F of road vehicles, 0D of ships, 0F and 11 of aircraft)
+ - CB 36 'capacity'
+ - CB 15 'refitted capacity'
+ - default capacity multipliers when refitting without CB 15
+ - default capacity of vehicles when using 'default cargo is first refittable cargo'
+in OTTD r15297 and TTDP r2082.
+
+
+Trains:
+  OTTD behaviour:
+    Default capacity:
+      - As returned by callback 36.
+      - If that fails, use the capacity property.
+    Refitted capacity:
+      - As returned by callback 15.
+      - If that fails, use callback 36 and apply capacity multipliers relative to the default cargo.
+      - If that fails, use the capacity property and apply capacity multipliers relative to the default cargo.
+    Capacity multipliers:
+      4 passengers[0] = 2 mail[0] bags = 2 goods[0] boxes = 1 unit other cargo
+    Caveats:
+      - Callback 15 is not called on construction/in the purchase list.
+        So once refitted you cannot return to the original capacity.
+      - When using 'default cargo is first refittable cargo' the capacities are undefined and vary depending on
+        the capacity multiplier of the first refittable cargo. (which is unknown to the grf when using cargo classes)
+
+  TTDP behaviour:
+    Default capacity: As in OTTD.
+    Refitted capacity in refit GUI: As in OTTD.
+    Refitted capacity after actually refitting:
+      - As returned by callback 36 without applying any multipliers.
+      - If that fails, use the capacity property and apply capacity multipliers relative to the default cargo.
+    Capacity multiplies: As in OTTD.
+    Caveats:
+      - As in OTTD.
+      - CB 15 not working. (at least when CB 36 is also used)
+      - CB 36 without multipliers.
+
+
+Road vehicles:
+  OTTD behaviour: As for trains.
+  TTDP behaviour:
+    As in OTTD, except:
+      - no CB 36
+      - no capacity multipliers: 1 passenger = 1 mail bag = 1 goods box = 1 unit other cargo
+
+
+Ships:
+  OTTD behaviour:
+    As for trains, except:
+      - no capacity multipliers: 1 passenger = 1 mail bag = 1 goods box = 1 unit other cargo
+  TTDP behaviour: As in OTTD.
+
+
+Aircraft:
+  OTTD behaviour:
+    Default capacity, if default cargo is passenger+mail:
+      - No CB 36
+      - Use unmodified capacity properties.
+    Default capacity, if default cargo is not passenger+mail:
+      - Use a virtual capacity of 'passenger capacity + mail capacity' and apply the capacity multipliers relative to passengers.
+    Refitted capacity if refitting to passengers(+mail):
+      - Use CB 15 for passengers
+      - If that fails, use the capacity property.
+      - Always use the capacity property for mail.
+    Refitted capacity if refitting to other cargo:
+      - Use CB 15.
+      - If that fails, use a virtual capacity of 'passenger capacity + mail capacity' and apply the capacity multipliers relative to passengers.
+    Capacity multipliers:
+      4 passengers[0] = 4 mail[0] bags = 2 goods[0] boxes = 1 unit other cargo
+      (yes, passenger multiplier = mail multiplier)
+    Caveats:
+      - Different multipliers
+      - No CB 36 for passenger and mail capacity.
+
+  TTDP behaviour:
+    Default capacity, if default cargo is passenger+mail:
+      - No CB 36
+      - Use CB 15 for passengers
+      - If that fails, use the capacity property.
+      - Always use the capacity property for mail.
+    Default capacity, if default cargo is not passenger+mail:
+      - No CB 36
+      - Use CB 15 to replace passenger capacity, if succeeding.
+      - Use a virtual capacity of 'passenger capacity + 2 * mail capacity' and apply the capacity multipliers relative to passengers.
+    Refitted capacity: As for default capacity.
+    Caveats:
+      - '2 * mail capacity' is added to the result of callback 15
+
+
+Unmodified TTD behaviour:
+  Trains:
+    - Not refittable
+
+  Road vehicles:
+    - Not refittable
+
+  Ships:
+    - Not refittable to passengers
+    - No capacity multipliers
+
+  Aircraft:
+    - Not refittable to mail
+    - Use only passenger capacity for refitting
+    - 4 passengers = 2 goods boxes = 1 unit other cargo
+
+
+Proposed solution: (partly outdated!)
+  - Same method for all vehicles
+  - Same method for default cargo and after refitting.
+  - Specify vehicle default cargo as translateable 'cargo bit' instead of 'slot'. (only for grf version 8)
+  - Capacity multipliers from a newcargo property, instead of fixed slot.
+  - Test if a vehicle is refittable:
+      - Call CB 36 resp. use property, if that returns 0 the vehicle is not refittable.
+      - Do not call CB 15.
+  - Capacity:
+      - Use CB 15 result without applying any multipliers.
+      - If that fails, use CB 36 result and apply capacity multipliers.
+      - If that fails, use capacity property and apply capacity multipliers.
+  - Planes:
+      - If carrying passenger+mail
+          - Use CB 15 + 36 for passengers
+          - Use CB 36 also for mail
+      - If carrying other cargo:
+          - If using CB 15 succeeds, ignore mail capacity.
+          - In other cases use CB 36 and properties for passenger and mail.
+            Refitted capacity is:
+              'refit cargo multiplier' * ('passenger capacity' / 'passenger multiplier' + 'mail capacity' / 'mail multiplier')
+            Note: The implementation would use the equivalent formula:
+              'refit cargo multiplier' * ('passenger capacity' * 'mail multiplier' + 'mail capacity' * 'passenger multiplier') / ('mail multiplier' * 'passenger multiplier')
+  - Capacity multiplier:
+      - Property of newcargos.
+      - Byte ranging from 1 to 255, 0 reserved.
+      - Default values:
+         Passenger (slot 0): 0x40
+         Mail (slot 2): 0x20
+         Goods (slot 5): 0x20
+         Other: 0x10
+      - When using 'default cargo is first refittable cargo type' the capacity property and results of CB36 are those for the 'Other' multiplier 0x10
+  - Differences to original TTD (wrt. things that were already possible):
+      - Aircraft mail capacity is used when refitting.
+      - Ships have doubled capacity when refitted to mail or goods.
+  - Differences to current OTTD and TTDP:
+      - consistent
+      - well defined (esp. for 'default cargo is first refittable cargo')
+  - Advantages for grf authors:
+      - Can use callback 15 to specify individual capacities for known cargos.
+      - Can let callback 15 fail to use the multipliers given in the cargo definiton.
+      - CB 36 support for plane capacity including mail.
+      - Newcargo definitions can modify the capacity multipliers.
+      - Refittable vehicles stay refittable, though they carry currently 0 units. (CB 36 returns != 0, CB 15 return 0)
+      - Vehicles are refittable for livery trickery, though they never carry anything. (CB 36 return != 0, CB 15 return always 0)
+  - Caveats:
+      - The default multipliers in the cargo spec do not depend on the vehicle type.
+        (would be possible, if it becomes a callback (of the cargo) somewhen)
+
+
+
+[0] Identified by the 'cargo slots'. So maybe a different cargo when using newcargos.
+
+
