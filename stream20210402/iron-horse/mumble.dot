@@ -1,0 +1,126 @@
+digraph {
+rankdir="BT"
+ss_tail_light_railcar_24px_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_railcar_24px_1_unflipped"]
+ss_tail_light_railcar_24px_1_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_railcar_24px_1_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_railcar_24px_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_railcar_24px_1"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+mumble_ss_doors_closed_livery_1_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_0_unflipped"]
+mumble_ss_doors_open_livery_1_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_0_unflipped"]
+mumble_ss_doors_closed_livery_2_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_0_unflipped"]
+mumble_ss_doors_open_livery_2_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_0_unflipped"]
+mumble_ss_doors_closed_livery_1_0_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_0_flipped"]
+mumble_ss_doors_open_livery_1_0_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_0_flipped"]
+mumble_ss_doors_closed_livery_2_0_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_0_flipped"]
+mumble_ss_doors_open_livery_2_0_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_0_flipped"]
+mumble_switch_graphics_engine_id_0 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_engine_id_0"]
+mumble_switch_graphics_vehicle_layers_0 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_vehicle_layers_0"]
+mumble_ss_doors_closed_livery_1_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_1_unflipped"]
+mumble_ss_doors_open_livery_1_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_1_unflipped"]
+mumble_ss_doors_closed_livery_2_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_1_unflipped"]
+mumble_ss_doors_open_livery_2_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_1_unflipped"]
+mumble_ss_doors_closed_livery_1_1_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_1_flipped"]
+mumble_ss_doors_open_livery_1_1_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_1_flipped"]
+mumble_ss_doors_closed_livery_2_1_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_1_flipped"]
+mumble_ss_doors_open_livery_2_1_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_1_flipped"]
+mumble_switch_graphics_engine_id_1 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_engine_id_1"]
+mumble_switch_graphics_vehicle_layers_1 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_vehicle_layers_1"]
+mumble_ss_doors_closed_livery_1_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_2_unflipped"]
+mumble_ss_doors_open_livery_1_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_2_unflipped"]
+mumble_ss_doors_closed_livery_2_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_2_unflipped"]
+mumble_ss_doors_open_livery_2_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_2_unflipped"]
+mumble_ss_doors_closed_livery_1_2_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_2_flipped"]
+mumble_ss_doors_open_livery_1_2_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_2_flipped"]
+mumble_ss_doors_closed_livery_2_2_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_2_flipped"]
+mumble_ss_doors_open_livery_2_2_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_2_flipped"]
+mumble_switch_graphics_engine_id_2 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_engine_id_2"]
+mumble_switch_graphics_vehicle_layers_2 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_vehicle_layers_2"]
+mumble_ss_doors_closed_livery_1_3_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_3_unflipped"]
+mumble_ss_doors_open_livery_1_3_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_3_unflipped"]
+mumble_ss_doors_closed_livery_2_3_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_3_unflipped"]
+mumble_ss_doors_open_livery_2_3_unflipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_3_unflipped"]
+mumble_ss_doors_closed_livery_1_3_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_1_3_flipped"]
+mumble_ss_doors_open_livery_1_3_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_1_3_flipped"]
+mumble_ss_doors_closed_livery_2_3_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_closed_livery_2_3_flipped"]
+mumble_ss_doors_open_livery_2_3_flipped [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_doors_open_livery_2_3_flipped"]
+mumble_switch_graphics_engine_id_3 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_engine_id_3"]
+mumble_switch_graphics_vehicle_layers_3 [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_vehicle_layers_3"]
+mumble_switch_graphics_position_in_consist_entry_point_PASS [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_position_in_consist_entry_point_PASS"]
+mumble_switch_graphics_position_in_consist_entry_point_DFLT [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_position_in_consist_entry_point_DFLT"]
+mumble_switch_graphics_vehicle_cargo [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_vehicle_cargo"]
+mumble_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics_vehicle"]
+mumble_ss_vehicle_purchase [fillcolor=green style="filled" label="<spriteset>\nmumble_ss_vehicle_purchase"]
+mumble_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_set_layers_register_more_sprites"]
+mumble_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_graphics"]
+mumble_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_cargo_capacity"]
+mumble_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_create_effect_default_unreversed"]
+mumble_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nmumble_switch_buy_menu_text_result"]
+mumble [fillcolor=red style="filled" label="<FEAT_TRAINS 140>\nmumble"]
+switch_graphics_layer_tail_light_railcar_24px_1->ss_tail_light_railcar_24px_1_unflipped
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_open_livery_2_3_flipped
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_open_livery_1_3_flipped
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_closed_livery_1_2_unflipped
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_open_livery_2_0_flipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_closed_livery_1_1_unflipped
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_closed_livery_1_0_unflipped
+mumble_switch_graphics_position_in_consist_entry_point_PASS->mumble_switch_graphics_vehicle_layers_0
+mumble_switch_graphics_vehicle_cargo->mumble_switch_graphics_position_in_consist_entry_point_PASS
+mumble_switch_graphics_position_in_consist_entry_point_DFLT->mumble_switch_graphics_vehicle_layers_1
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_closed_livery_1_3_unflipped
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_open_livery_2_2_flipped
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_closed_livery_2_0_unflipped
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_closed_livery_2_2_unflipped
+mumble_switch_graphics_vehicle_layers_3->mumble_switch_graphics_engine_id_3
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_open_livery_1_3_unflipped
+mumble->mumble_ss_vehicle_purchase
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_closed_livery_2_3_unflipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_open_livery_2_1_flipped
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_open_livery_1_2_flipped
+mumble->mumble_switch_buy_menu_text_result
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_open_livery_1_0_flipped
+mumble_switch_graphics_position_in_consist_entry_point_PASS->mumble_switch_graphics_vehicle_layers_2
+mumble_switch_graphics_vehicle_cargo->mumble_switch_graphics_position_in_consist_entry_point_DFLT
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_closed_livery_1_2_flipped
+mumble_switch_graphics_position_in_consist_entry_point_PASS->mumble_switch_graphics_vehicle_layers_3
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_closed_livery_1_1_flipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_open_livery_1_1_unflipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_open_livery_1_1_flipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_closed_livery_2_1_unflipped
+mumble_switch_graphics_vehicle_layers_0->mumble_switch_graphics_engine_id_0
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_open_livery_2_3_unflipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_open_livery_2_1_unflipped
+mumble_switch_graphics_engine_id_1->mumble_ss_doors_closed_livery_2_1_flipped
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_open_livery_1_0_unflipped
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_closed_livery_1_0_flipped
+mumble_switch_graphics_position_in_consist_entry_point_DFLT->mumble_switch_graphics_vehicle_layers_3
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_open_livery_1_2_unflipped
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_open_livery_2_2_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+mumble->mumble_switch_create_effect_default_unreversed
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_closed_livery_1_3_flipped
+mumble_switch_graphics_position_in_consist_entry_point_DFLT->mumble_switch_graphics_vehicle_layers_0
+mumble_switch_graphics_engine_id_3->mumble_ss_doors_closed_livery_2_3_flipped
+mumble_switch_graphics->mumble_switch_set_layers_register_more_sprites
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_open_livery_2_0_unflipped
+mumble_switch_graphics_engine_id_2->mumble_ss_doors_closed_livery_2_2_flipped
+mumble_switch_graphics_engine_id_0->mumble_ss_doors_closed_livery_2_0_flipped
+mumble_switch_graphics->switch_graphics_layer_tail_light_railcar_24px_1
+mumble_switch_graphics_position_in_consist_entry_point_PASS->mumble_switch_graphics_vehicle_layers_1
+mumble_switch_cargo_capacity->switch_cargo_capacity
+mumble->mumble_switch_cargo_capacity
+switch_graphics_layer_tail_light_railcar_24px_1->ss_tail_light_railcar_24px_1_flipped
+mumble_switch_graphics_vehicle_layers_2->mumble_switch_graphics_engine_id_2
+mumble->mumble_switch_graphics
+mumble_switch_graphics_position_in_consist_entry_point_DFLT->mumble_switch_graphics_vehicle_layers_2
+switch_graphics_layer_tail_light_railcar_24px_1->ss_tail_light_empty_unflipped
+mumble_switch_graphics_vehicle_layers_1->mumble_switch_graphics_engine_id_1
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+mumble_switch_graphics_vehicle->mumble_switch_graphics_vehicle_cargo
+mumble_switch_set_layers_register_more_sprites->mumble_switch_graphics_vehicle
+}

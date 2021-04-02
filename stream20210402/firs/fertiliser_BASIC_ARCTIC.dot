@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_fertiliser [fillcolor=green style="filled" label="<spriteset>\ncargoicon_fertiliser"]
+fertiliser_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <6>\nfertiliser_BASIC_ARCTIC"]
+fertiliser_BASIC_ARCTIC->cargoicon_fertiliser
+}

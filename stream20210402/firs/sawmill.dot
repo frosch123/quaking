@@ -1,0 +1,76 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+sawmill_produce_0 [fillcolor=green style="filled" label="<produce>\nsawmill_produce_0"]
+sawmill_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nsawmill_produce_calculation_0"]
+sawmill_produce_1 [fillcolor=green style="filled" label="<produce>\nsawmill_produce_1"]
+sawmill_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nsawmill_produce_calculation_1"]
+sawmill_produce_4 [fillcolor=green style="filled" label="<produce>\nsawmill_produce_4"]
+sawmill_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nsawmill_produce_calculation_4"]
+sawmill_produce_5 [fillcolor=green style="filled" label="<produce>\nsawmill_produce_5"]
+sawmill_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nsawmill_produce_calculation_5"]
+sawmill_produce_3 [fillcolor=green style="filled" label="<produce>\nsawmill_produce_3"]
+sawmill_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nsawmill_produce_calculation_3"]
+sawmill_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nsawmill_produce_cargo_arrival"]
+sawmill_extra_text [fillcolor=yellow style="filled" label="<switch>\nsawmill_extra_text"]
+sawmill_cargo_subtype_display_cargo_WOOD_economy_1 [fillcolor=yellow style="filled" label="<switch>\nsawmill_cargo_subtype_display_cargo_WOOD_economy_1"]
+sawmill_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nsawmill_cargo_subtype_display_switch_cargo_economy_1"]
+sawmill_cargo_subtype_display_cargo_WOOD_economy_3 [fillcolor=yellow style="filled" label="<switch>\nsawmill_cargo_subtype_display_cargo_WOOD_economy_3"]
+sawmill_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nsawmill_cargo_subtype_display_switch_cargo_economy_3"]
+sawmill_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nsawmill_cargo_subtype_display_switch_economy"]
+sawmill_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nsawmill_cargo_subtype_display"]
+sawmill_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability_param"]
+sawmill_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_map_gen"]
+sawmill_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nsawmill_available_game_mode"]
+sawmill_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability_0"]
+sawmill_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability_1"]
+sawmill_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability_4"]
+sawmill_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability_5"]
+sawmill_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability_3"]
+sawmill_check_availability [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_availability"]
+sawmill_min_distance_11 [fillcolor=yellow style="filled" label="<switch>\nsawmill_min_distance_11"]
+sawmill_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nsawmill_min_distance_82"]
+sawmill_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nsawmill_min_distance_39"]
+sawmill_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nsawmill_min_distance_41"]
+sawmill_min_distance_12 [fillcolor=yellow style="filled" label="<switch>\nsawmill_min_distance_12"]
+sawmill_check_location [fillcolor=yellow style="filled" label="<switch>\nsawmill_check_location"]
+sawmill [fillcolor=red style="filled" label="FEAT_INDUSTRIES <12>\nsawmill"]
+sawmill_cargo_subtype_display->sawmill_cargo_subtype_display_switch_economy
+sawmill_min_distance_82->sawmill_min_distance_11
+sawmill->switch_colour
+sawmill->sawmill_extra_text
+sawmill_check_availability->sawmill_check_availability_0
+sawmill_check_availability_5->sawmill_available_game_mode
+sawmill_check_availability_4->sawmill_available_game_mode
+sawmill_check_map_gen->sawmill_check_availability_param
+sawmill_produce_cargo_arrival->sawmill_produce_calculation_3
+sawmill_produce_calculation_4->sawmill_produce_4
+sawmill->sawmill_check_availability
+sawmill_check_location->sawmill_min_distance_12
+sawmill_check_availability->sawmill_check_availability_5
+sawmill_produce_cargo_arrival->sawmill_produce_calculation_5
+sawmill_produce_cargo_arrival->sawmill_produce_calculation_0
+sawmill_produce_calculation_3->sawmill_produce_3
+sawmill_produce_calculation_0->sawmill_produce_0
+sawmill_check_availability->sawmill_check_availability_1
+sawmill_min_distance_39->sawmill_min_distance_82
+sawmill_min_distance_41->sawmill_min_distance_39
+sawmill_min_distance_12->sawmill_min_distance_41
+sawmill_produce_calculation_5->sawmill_produce_5
+sawmill_check_availability->sawmill_check_availability_3
+sawmill_check_availability_1->sawmill_available_game_mode
+sawmill_produce_cargo_arrival->sawmill_produce_calculation_1
+sawmill_available_game_mode->sawmill_check_map_gen
+sawmill->sawmill_produce_cargo_arrival
+sawmill_cargo_subtype_display_switch_cargo_economy_1->sawmill_cargo_subtype_display_cargo_WOOD_economy_1
+sawmill_check_availability_0->sawmill_available_game_mode
+sawmill_cargo_subtype_display_switch_economy->sawmill_cargo_subtype_display_switch_cargo_economy_3
+sawmill->sawmill_cargo_subtype_display
+sawmill_cargo_subtype_display_switch_cargo_economy_3->sawmill_cargo_subtype_display_cargo_WOOD_economy_3
+sawmill_check_availability->sawmill_check_availability_4
+sawmill->sawmill_check_location
+sawmill_cargo_subtype_display_switch_economy->sawmill_cargo_subtype_display_switch_cargo_economy_1
+sawmill_produce_calculation_1->sawmill_produce_1
+sawmill_check_availability_3->sawmill_available_game_mode
+sawmill_produce_cargo_arrival->sawmill_produce_calculation_4
+}

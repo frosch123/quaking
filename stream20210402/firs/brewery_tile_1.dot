@@ -1,0 +1,747 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_cobble_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_cobble_1"]
+spriteset_ground_tile_cobble_6 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_cobble_6"]
+brewery_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nbrewery_spriteset_2_0"]
+brewery_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nbrewery_spriteset_2_0_snow"]
+brewery_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nbrewery_spriteset_3_0"]
+brewery_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nbrewery_spriteset_3_0_snow"]
+brewery_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nbrewery_spriteset_6_0"]
+brewery_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nbrewery_spriteset_6_0_snow"]
+brewery_spritelayout_1_anim [fillcolor=yellow style="filled" label="<spritelayout>\nbrewery_spritelayout_1_anim"]
+brewery_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nbrewery_spritelayout_2"]
+brewery_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nbrewery_spritelayout_3"]
+brewery_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_layout_1_graphics_switch"]
+brewery_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_layout_2_graphics_switch"]
+brewery_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_layout_3_graphics_switch"]
+brewery_industry_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_layout_4_graphics_switch"]
+brewery_industry_layout_5_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_layout_5_graphics_switch"]
+brewery_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_graphics_switch_layouts"]
+brewery_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbrewery_industry_construction_state_graphics_switch"]
+brewery_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nbrewery_store_temp_vars"]
+brewery_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nbrewery_switch_graphics"]
+brewery_tile_1_lc_3_225 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_225"]
+brewery_tile_1_lc_3_224 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_224"]
+brewery_tile_1_lc_3_223 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_223"]
+brewery_tile_1_lc_3_222 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_222"]
+brewery_tile_1_lc_3_221 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_221"]
+brewery_tile_1_lc_3_220 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_220"]
+brewery_tile_1_lc_3_219 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_219"]
+brewery_tile_1_lc_3_218 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_218"]
+brewery_tile_1_lc_3_217 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_217"]
+brewery_tile_1_lc_3_216 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_216"]
+brewery_tile_1_lc_3_215 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_215"]
+brewery_tile_1_lc_3_214 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_214"]
+brewery_tile_1_lc_3_213 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_213"]
+brewery_tile_1_lc_3_212 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_212"]
+brewery_tile_1_lc_3_211 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_211"]
+brewery_tile_1_lc_3_210 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_210"]
+brewery_tile_1_lc_3_209 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_209"]
+brewery_tile_1_lc_3_208 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_208"]
+brewery_tile_1_lc_3_207 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_207"]
+brewery_tile_1_lc_3_206 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_206"]
+brewery_tile_1_lc_3_205 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_205"]
+brewery_tile_1_lc_3_204 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_204"]
+brewery_tile_1_lc_3_203 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_203"]
+brewery_tile_1_lc_3_202 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_202"]
+brewery_tile_1_lc_3_201 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_201"]
+brewery_tile_1_lc_3_200 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_200"]
+brewery_tile_1_lc_3_199 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_199"]
+brewery_tile_1_lc_3_198 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_198"]
+brewery_tile_1_lc_3_197 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_197"]
+brewery_tile_1_lc_3_196 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_196"]
+brewery_tile_1_lc_3_195 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_195"]
+brewery_tile_1_lc_3_194 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_194"]
+brewery_tile_1_lc_3_193 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_193"]
+brewery_tile_1_lc_3_192 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_192"]
+brewery_tile_1_lc_3_191 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_191"]
+brewery_tile_1_lc_3_190 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_190"]
+brewery_tile_1_lc_3_189 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_189"]
+brewery_tile_1_lc_3_188 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_188"]
+brewery_tile_1_lc_3_187 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_187"]
+brewery_tile_1_lc_3_186 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_186"]
+brewery_tile_1_lc_3_185 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_185"]
+brewery_tile_1_lc_3_184 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_184"]
+brewery_tile_1_lc_3_183 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_183"]
+brewery_tile_1_lc_3_182 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_182"]
+brewery_tile_1_lc_3_181 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_181"]
+brewery_tile_1_lc_3_180 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_180"]
+brewery_tile_1_lc_3_179 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_179"]
+brewery_tile_1_lc_3_178 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_178"]
+brewery_tile_1_lc_3_177 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_177"]
+brewery_tile_1_lc_3_176 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_176"]
+brewery_tile_1_lc_3_175 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_175"]
+brewery_tile_1_lc_3_174 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_174"]
+brewery_tile_1_lc_3_173 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_173"]
+brewery_tile_1_lc_3_172 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_172"]
+brewery_tile_1_lc_3_171 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_171"]
+brewery_tile_1_lc_3_170 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_170"]
+brewery_tile_1_lc_3_169 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_169"]
+brewery_tile_1_lc_3_168 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_168"]
+brewery_tile_1_lc_3_167 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_167"]
+brewery_tile_1_lc_3_166 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_166"]
+brewery_tile_1_lc_3_165 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_165"]
+brewery_tile_1_lc_3_164 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_164"]
+brewery_tile_1_lc_3_163 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_163"]
+brewery_tile_1_lc_3_162 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_162"]
+brewery_tile_1_lc_3_161 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_161"]
+brewery_tile_1_lc_3_160 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_160"]
+brewery_tile_1_lc_3_159 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_159"]
+brewery_tile_1_lc_3_158 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_158"]
+brewery_tile_1_lc_3_157 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_157"]
+brewery_tile_1_lc_3_156 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_156"]
+brewery_tile_1_lc_3_155 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_155"]
+brewery_tile_1_lc_3_154 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_154"]
+brewery_tile_1_lc_3_153 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_153"]
+brewery_tile_1_lc_3_152 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_152"]
+brewery_tile_1_lc_3_151 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_151"]
+brewery_tile_1_lc_3_150 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_150"]
+brewery_tile_1_lc_3_149 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_149"]
+brewery_tile_1_lc_3_148 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_148"]
+brewery_tile_1_lc_3_147 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_147"]
+brewery_tile_1_lc_3_146 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_146"]
+brewery_tile_1_lc_3_145 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_145"]
+brewery_tile_1_lc_3_144 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_144"]
+brewery_tile_1_lc_3_143 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_143"]
+brewery_tile_1_lc_3_142 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_142"]
+brewery_tile_1_lc_3_141 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_141"]
+brewery_tile_1_lc_3_140 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_140"]
+brewery_tile_1_lc_3_139 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_139"]
+brewery_tile_1_lc_3_138 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_138"]
+brewery_tile_1_lc_3_137 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_137"]
+brewery_tile_1_lc_3_136 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_136"]
+brewery_tile_1_lc_3_135 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_135"]
+brewery_tile_1_lc_3_134 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_134"]
+brewery_tile_1_lc_3_133 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_133"]
+brewery_tile_1_lc_3_132 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_132"]
+brewery_tile_1_lc_3_131 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_131"]
+brewery_tile_1_lc_3_130 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_130"]
+brewery_tile_1_lc_3_129 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_129"]
+brewery_tile_1_lc_3_128 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_128"]
+brewery_tile_1_lc_3_127 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_127"]
+brewery_tile_1_lc_3_126 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_126"]
+brewery_tile_1_lc_3_125 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_125"]
+brewery_tile_1_lc_3_124 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_124"]
+brewery_tile_1_lc_3_123 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_123"]
+brewery_tile_1_lc_3_122 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_122"]
+brewery_tile_1_lc_3_121 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_121"]
+brewery_tile_1_lc_3_120 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_120"]
+brewery_tile_1_lc_3_119 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_119"]
+brewery_tile_1_lc_3_118 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_118"]
+brewery_tile_1_lc_3_117 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_117"]
+brewery_tile_1_lc_3_116 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_116"]
+brewery_tile_1_lc_3_115 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_115"]
+brewery_tile_1_lc_3_114 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_114"]
+brewery_tile_1_lc_3_113 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_113"]
+brewery_tile_1_lc_3_112 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_112"]
+brewery_tile_1_lc_3_111 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_111"]
+brewery_tile_1_lc_3_110 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_110"]
+brewery_tile_1_lc_3_109 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_109"]
+brewery_tile_1_lc_3_108 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_108"]
+brewery_tile_1_lc_3_107 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_107"]
+brewery_tile_1_lc_3_106 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_106"]
+brewery_tile_1_lc_3_105 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_105"]
+brewery_tile_1_lc_3_104 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_104"]
+brewery_tile_1_lc_3_103 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_103"]
+brewery_tile_1_lc_3_102 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_102"]
+brewery_tile_1_lc_3_101 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_101"]
+brewery_tile_1_lc_3_100 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_100"]
+brewery_tile_1_lc_3_99 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_99"]
+brewery_tile_1_lc_3_98 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_98"]
+brewery_tile_1_lc_3_97 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_97"]
+brewery_tile_1_lc_3_96 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_96"]
+brewery_tile_1_lc_3_95 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_95"]
+brewery_tile_1_lc_3_94 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_94"]
+brewery_tile_1_lc_3_93 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_93"]
+brewery_tile_1_lc_3_92 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_92"]
+brewery_tile_1_lc_3_91 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_91"]
+brewery_tile_1_lc_3_90 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_90"]
+brewery_tile_1_lc_3_89 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_89"]
+brewery_tile_1_lc_3_88 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_88"]
+brewery_tile_1_lc_3_87 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_87"]
+brewery_tile_1_lc_3_86 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_86"]
+brewery_tile_1_lc_3_85 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_85"]
+brewery_tile_1_lc_3_84 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_84"]
+brewery_tile_1_lc_3_83 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_83"]
+brewery_tile_1_lc_3_82 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_82"]
+brewery_tile_1_lc_3_81 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_81"]
+brewery_tile_1_lc_3_80 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_80"]
+brewery_tile_1_lc_3_79 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_79"]
+brewery_tile_1_lc_3_78 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_78"]
+brewery_tile_1_lc_3_77 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_77"]
+brewery_tile_1_lc_3_76 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_76"]
+brewery_tile_1_lc_3_75 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_75"]
+brewery_tile_1_lc_3_74 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_74"]
+brewery_tile_1_lc_3_73 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_73"]
+brewery_tile_1_lc_3_72 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_72"]
+brewery_tile_1_lc_3_71 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_71"]
+brewery_tile_1_lc_3_70 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_70"]
+brewery_tile_1_lc_3_69 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_69"]
+brewery_tile_1_lc_3_68 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_68"]
+brewery_tile_1_lc_3_67 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_67"]
+brewery_tile_1_lc_3_66 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_66"]
+brewery_tile_1_lc_3_65 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_65"]
+brewery_tile_1_lc_3_64 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_64"]
+brewery_tile_1_lc_3_63 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_63"]
+brewery_tile_1_lc_3_62 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_62"]
+brewery_tile_1_lc_3_61 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_61"]
+brewery_tile_1_lc_3_60 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_60"]
+brewery_tile_1_lc_3_59 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_59"]
+brewery_tile_1_lc_3_58 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_58"]
+brewery_tile_1_lc_3_57 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_57"]
+brewery_tile_1_lc_3_56 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_56"]
+brewery_tile_1_lc_3_55 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_55"]
+brewery_tile_1_lc_3_54 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_54"]
+brewery_tile_1_lc_3_53 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_53"]
+brewery_tile_1_lc_3_52 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_52"]
+brewery_tile_1_lc_3_51 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_51"]
+brewery_tile_1_lc_3_50 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_50"]
+brewery_tile_1_lc_3_49 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_49"]
+brewery_tile_1_lc_3_48 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_48"]
+brewery_tile_1_lc_3_47 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_47"]
+brewery_tile_1_lc_3_46 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_46"]
+brewery_tile_1_lc_3_45 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_45"]
+brewery_tile_1_lc_3_44 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_44"]
+brewery_tile_1_lc_3_43 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_43"]
+brewery_tile_1_lc_3_42 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_42"]
+brewery_tile_1_lc_3_41 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_41"]
+brewery_tile_1_lc_3_40 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_40"]
+brewery_tile_1_lc_3_39 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_39"]
+brewery_tile_1_lc_3_38 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_38"]
+brewery_tile_1_lc_3_37 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_37"]
+brewery_tile_1_lc_3_36 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_36"]
+brewery_tile_1_lc_3_35 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_35"]
+brewery_tile_1_lc_3_34 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_34"]
+brewery_tile_1_lc_3_33 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_33"]
+brewery_tile_1_lc_3_32 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_32"]
+brewery_tile_1_lc_3_31 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_31"]
+brewery_tile_1_lc_3_30 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_30"]
+brewery_tile_1_lc_3_29 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_29"]
+brewery_tile_1_lc_3_28 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_28"]
+brewery_tile_1_lc_3_27 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_27"]
+brewery_tile_1_lc_3_26 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_26"]
+brewery_tile_1_lc_3_25 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_25"]
+brewery_tile_1_lc_3_24 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_24"]
+brewery_tile_1_lc_3_23 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_23"]
+brewery_tile_1_lc_3_22 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_22"]
+brewery_tile_1_lc_3_21 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_21"]
+brewery_tile_1_lc_3_20 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_20"]
+brewery_tile_1_lc_3_19 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_19"]
+brewery_tile_1_lc_3_18 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_18"]
+brewery_tile_1_lc_3_17 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_17"]
+brewery_tile_1_lc_3_16 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_16"]
+brewery_tile_1_lc_3_15 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_15"]
+brewery_tile_1_lc_3_14 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_14"]
+brewery_tile_1_lc_3_13 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_13"]
+brewery_tile_1_lc_3_12 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_12"]
+brewery_tile_1_lc_3_11 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_11"]
+brewery_tile_1_lc_3_10 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_10"]
+brewery_tile_1_lc_3_9 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_9"]
+brewery_tile_1_lc_3_8 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_8"]
+brewery_tile_1_lc_3_7 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_7"]
+brewery_tile_1_lc_3_6 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_6"]
+brewery_tile_1_lc_3_5 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_5"]
+brewery_tile_1_lc_3_4 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_4"]
+brewery_tile_1_lc_3_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_3"]
+brewery_tile_1_lc_3_2 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_2"]
+brewery_tile_1_lc_3_1 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_1"]
+brewery_tile_1_lc_3_0 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3_0"]
+brewery_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_3"]
+brewery_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_2"]
+brewery_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_1"]
+brewery_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_lc_0"]
+brewery_tile_1_anim_control [fillcolor=yellow style="filled" label="<switch>\nbrewery_tile_1_anim_control"]
+brewery_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <161>\nbrewery_tile_1"]
+brewery_tile_1_lc_3_155->brewery_tile_1_lc_3_156
+brewery_tile_1_lc_3_134->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_212->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_11->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_29->brewery_tile_1_lc_3_30
+brewery_tile_1_lc_3_70->brewery_tile_1_lc_3_71
+brewery_tile_1_lc_3_66->brewery_tile_1_lc_3_67
+brewery_tile_1_lc_3_80->brewery_tile_1_lc_3_81
+brewery_tile_1_lc_3_173->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_47->brewery_tile_1_lc_3_48
+brewery_tile_1_lc_3_57->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_63->brewery_tile_1_lc_3_64
+brewery_tile_1->brewery_switch_graphics
+brewery_tile_1_lc_3_145->brewery_tile_1_lc_3_146
+brewery_tile_1_lc_3_183->brewery_tile_1_lc_3_184
+brewery_tile_1_lc_3_171->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_9->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_6->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_133->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_123->brewery_tile_1_lc_3_124
+brewery_spritelayout_1_anim->brewery_spriteset_2_0_snow
+brewery_tile_1_lc_3_107->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_79->brewery_tile_1_lc_3_80
+brewery_tile_1_lc_3_66->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_135->brewery_tile_1_lc_3_136
+brewery_industry_layout_2_graphics_switch->brewery_spritelayout_2
+brewery_tile_1_lc_3_86->brewery_tile_1_lc_3_87
+brewery_tile_1_lc_3_201->brewery_tile_1_lc_3_202
+brewery_tile_1_lc_3_51->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_28->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_50->brewery_tile_1_lc_3_51
+brewery_tile_1_lc_3_205->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_131->brewery_tile_1_lc_3_132
+brewery_tile_1_lc_3_164->brewery_tile_1_lc_3_165
+brewery_tile_1_lc_3_40->brewery_tile_1_lc_3_225
+brewery_tile_1->brewery_tile_1_anim_control
+brewery_tile_1_lc_3_46->brewery_tile_1_lc_3_47
+brewery_tile_1_lc_3_175->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_90->brewery_tile_1_lc_3_91
+brewery_tile_1_lc_3_172->brewery_tile_1_lc_3_173
+brewery_tile_1_lc_3_10->brewery_tile_1_lc_3_11
+brewery_tile_1_lc_3_209->brewery_tile_1_lc_3_210
+brewery_tile_1_lc_3_104->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_120->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_190->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_43->brewery_tile_1_lc_3_44
+brewery_tile_1_lc_3_25->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_196->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_104->brewery_tile_1_lc_3_105
+brewery_tile_1_lc_3_194->brewery_tile_1_lc_3_195
+brewery_tile_1_lc_3_182->brewery_tile_1_lc_3_183
+brewery_tile_1_lc_3_172->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_217->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_56->brewery_tile_1_lc_3_57
+brewery_tile_1_lc_3_80->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_39->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_83->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_114->brewery_tile_1_lc_3_115
+brewery_industry_graphics_switch_layouts->brewery_industry_layout_5_graphics_switch
+brewery_tile_1_lc_3_224->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_4->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_189->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_188->brewery_tile_1_lc_3_189
+brewery_tile_1_lc_3_32->brewery_tile_1_lc_3_33
+brewery_tile_1_lc_3_124->brewery_tile_1_lc_3_125
+brewery_tile_1_lc_3_127->brewery_tile_1_lc_3_128
+brewery_tile_1_lc_3_95->brewery_tile_1_lc_3_96
+brewery_tile_1_lc_3_112->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_210->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_219->brewery_tile_1_lc_3_220
+brewery_tile_1_lc_3_197->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_67->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_146->brewery_tile_1_lc_3_147
+brewery_tile_1_lc_3_117->brewery_tile_1_lc_3_118
+brewery_tile_1_lc_3_187->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_165->brewery_tile_1_lc_3_166
+brewery_tile_1_lc_3_181->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_113->brewery_tile_1_lc_3_114
+brewery_tile_1_lc_3_33->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_75->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_82->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_126->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_215->brewery_tile_1_lc_3_216
+brewery_tile_1_lc_3_189->brewery_tile_1_lc_3_190
+brewery_tile_1_lc_3_131->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_200->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_207->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_149->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_81->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_141->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_185->brewery_tile_1_lc_3_225
+brewery_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+brewery_tile_1_lc_3_96->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_45->brewery_tile_1_lc_3_46
+brewery_tile_1_lc_3_45->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_162->brewery_tile_1_lc_3_163
+brewery_tile_1_lc_3_31->brewery_tile_1_lc_3_32
+brewery_tile_1_lc_3_213->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_53->brewery_tile_1_lc_3_54
+brewery_tile_1_lc_3_176->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_169->brewery_tile_1_lc_3_170
+brewery_tile_1_lc_3_78->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_197->brewery_tile_1_lc_3_198
+brewery_tile_1_lc_3_93->brewery_tile_1_lc_3_94
+brewery_tile_1_lc_3_19->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_74->brewery_tile_1_lc_3_75
+brewery_tile_1_lc_3_34->brewery_tile_1_lc_3_35
+brewery_tile_1_lc_3_20->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_223->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_171->brewery_tile_1_lc_3_172
+brewery_industry_layout_1_graphics_switch->brewery_spritelayout_3
+brewery_tile_1_lc_3_103->brewery_tile_1_lc_3_104
+brewery_tile_1_lc_3_81->brewery_tile_1_lc_3_82
+brewery_tile_1_lc_3_206->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_30->brewery_tile_1_lc_3_31
+brewery_tile_1_lc_3_24->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_205->brewery_tile_1_lc_3_206
+brewery_tile_1_lc_3_40->brewery_tile_1_lc_3_41
+brewery_tile_1_lc_3_163->brewery_tile_1_lc_3_164
+brewery_spritelayout_3->brewery_spriteset_6_0_snow
+brewery_tile_1_lc_3_6->brewery_tile_1_lc_3_7
+brewery_tile_1_lc_3_19->brewery_tile_1_lc_3_20
+brewery_tile_1_lc_3_103->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_54->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_191->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_25->brewery_tile_1_lc_3_26
+brewery_tile_1_lc_3_110->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_65->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_15->brewery_tile_1_lc_3_16
+brewery_tile_1_lc_3_92->brewery_tile_1_lc_3_93
+brewery_tile_1_lc_3_209->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_122->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_2->brewery_tile_1_lc_3_3
+brewery_tile_1_lc_3_0->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_24->brewery_tile_1_lc_3_25
+brewery_tile_1_lc_3_114->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_139->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_60->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_180->brewery_tile_1_lc_3_225
+brewery_industry_layout_5_graphics_switch->brewery_spritelayout_3
+brewery_tile_1_lc_3_211->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_144->brewery_tile_1_lc_3_145
+brewery_industry_layout_1_graphics_switch->brewery_spritelayout_1_anim
+brewery_tile_1_lc_3_217->brewery_tile_1_lc_3_218
+brewery_industry_layout_5_graphics_switch->brewery_spritelayout_1_anim
+brewery_tile_1_lc_3_32->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_170->brewery_tile_1_lc_3_171
+brewery_tile_1_lc_3_43->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_201->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_30->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_152->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_41->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_79->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_62->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_208->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_106->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_101->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_35->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_157->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_39->brewery_tile_1_lc_3_40
+brewery_tile_1_lc_3_73->brewery_tile_1_lc_3_74
+brewery_tile_1_lc_3_121->brewery_tile_1_lc_3_122
+brewery_tile_1_lc_3_58->brewery_tile_1_lc_3_225
+brewery_industry_layout_1_graphics_switch->brewery_spritelayout_2
+brewery_tile_1_lc_3_44->brewery_tile_1_lc_3_45
+brewery_tile_1_lc_3_16->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_3->brewery_tile_1_lc_3_4
+brewery_tile_1_lc_3_75->brewery_tile_1_lc_3_76
+brewery_tile_1_lc_3_128->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_8->brewery_tile_1_lc_3_9
+brewery_tile_1_lc_3_130->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_97->brewery_tile_1_lc_3_98
+brewery_tile_1_lc_3_70->brewery_tile_1_lc_3_225
+brewery_industry_layout_2_graphics_switch->brewery_spritelayout_3
+brewery_tile_1_lc_3_49->brewery_tile_1_lc_3_50
+brewery_tile_1_lc_3_138->brewery_tile_1_lc_3_139
+brewery_tile_1_lc_3_110->brewery_tile_1_lc_3_111
+brewery_tile_1_lc_3_179->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_165->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_161->brewery_tile_1_lc_3_162
+brewery_tile_1_lc_3_167->brewery_tile_1_lc_3_168
+brewery_tile_1_lc_3_63->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_122->brewery_tile_1_lc_3_123
+brewery_tile_1_lc_3_119->brewery_tile_1_lc_3_120
+brewery_tile_1_lc_3_158->brewery_tile_1_lc_3_159
+brewery_tile_1_lc_3_96->brewery_tile_1_lc_3_97
+brewery_tile_1_lc_3_76->brewery_tile_1_lc_3_77
+brewery_tile_1_lc_3_218->brewery_tile_1_lc_3_219
+brewery_tile_1_lc_3_150->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_71->brewery_tile_1_lc_3_72
+brewery_tile_1_lc_3_57->brewery_tile_1_lc_3_58
+brewery_tile_1_lc_3_33->brewery_tile_1_lc_3_34
+brewery_tile_1_lc_3_111->brewery_tile_1_lc_3_112
+brewery_tile_1_lc_3_37->brewery_tile_1_lc_3_38
+brewery_tile_1_lc_3_190->brewery_tile_1_lc_3_191
+brewery_tile_1_lc_3_56->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_102->brewery_tile_1_lc_3_103
+brewery_tile_1_lc_3_186->brewery_tile_1_lc_3_187
+brewery_tile_1_lc_3_175->brewery_tile_1_lc_3_176
+brewery_tile_1_lc_3_145->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_72->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_198->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_121->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_162->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_36->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_184->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_38->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_82->brewery_tile_1_lc_3_83
+brewery_tile_1_lc_3_147->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_16->brewery_tile_1_lc_3_17
+brewery_tile_1_lc_3_199->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_107->brewery_tile_1_lc_3_108
+brewery_tile_1_lc_3_124->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_78->brewery_tile_1_lc_3_79
+brewery_tile_1_lc_3_109->brewery_tile_1_lc_3_225
+brewery_switch_graphics->brewery_store_temp_vars
+brewery_tile_1_lc_3_129->brewery_tile_1_lc_3_130
+brewery_tile_1_lc_3_27->brewery_tile_1_lc_3_28
+brewery_tile_1_lc_3_140->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_200->brewery_tile_1_lc_3_201
+brewery_tile_1_lc_3_218->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_221->brewery_tile_1_lc_3_222
+brewery_tile_1_lc_3_198->brewery_tile_1_lc_3_199
+brewery_tile_1_lc_3_207->brewery_tile_1_lc_3_208
+brewery_tile_1_lc_3_203->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_85->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_214->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_208->brewery_tile_1_lc_3_209
+brewery_tile_1_lc_3_34->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_136->brewery_tile_1_lc_3_137
+brewery_tile_1_lc_3_106->brewery_tile_1_lc_3_107
+brewery_tile_1_lc_3_216->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_158->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_93->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_108->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_69->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_26->brewery_tile_1_lc_3_27
+brewery_tile_1_lc_3_192->brewery_tile_1_lc_3_225
+brewery_industry_layout_3_graphics_switch->brewery_spritelayout_1_anim
+brewery_tile_1_lc_3_164->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_168->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_176->brewery_tile_1_lc_3_177
+brewery_tile_1_lc_3_154->brewery_tile_1_lc_3_155
+brewery_tile_1_lc_3_192->brewery_tile_1_lc_3_193
+brewery_spritelayout_2->spriteset_ground_tile_cobble_6
+brewery_tile_1_lc_3_35->brewery_tile_1_lc_3_36
+brewery_industry_layout_3_graphics_switch->brewery_spritelayout_3
+brewery_tile_1_lc_3_71->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_48->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_185->brewery_tile_1_lc_3_186
+brewery_tile_1_lc_3_20->brewery_tile_1_lc_3_21
+brewery_tile_1_lc_3_4->brewery_tile_1_lc_3_5
+brewery_tile_1_lc_3_11->brewery_tile_1_lc_3_12
+brewery_tile_1_lc_3_54->brewery_tile_1_lc_3_55
+brewery_tile_1_lc_3_13->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_22->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_116->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_202->brewery_tile_1_lc_3_203
+brewery_tile_1_lc_3_125->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_88->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_170->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_167->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_199->brewery_tile_1_lc_3_200
+brewery_tile_1_lc_3_14->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_137->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_174->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_105->brewery_tile_1_lc_3_225
+brewery_industry_graphics_switch_layouts->brewery_industry_layout_4_graphics_switch
+brewery_tile_1_lc_3_14->brewery_tile_1_lc_3_15
+brewery_tile_1_lc_3_87->brewery_tile_1_lc_3_88
+brewery_tile_1_lc_3_92->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_2->brewery_tile_1_lc_3
+brewery_tile_1_lc_3_87->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_29->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_46->brewery_tile_1_lc_3_225
+brewery_spritelayout_1_anim->spriteset_ground_tile_cobble_1
+brewery_tile_1_lc_3_68->brewery_tile_1_lc_3_69
+brewery_tile_1_lc_3_111->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_134->brewery_tile_1_lc_3_135
+brewery_tile_1_lc_3_77->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_95->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_156->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_18->brewery_tile_1_lc_3_225
+brewery_industry_construction_state_graphics_switch->brewery_industry_graphics_switch_layouts
+brewery_tile_1_lc_3_51->brewery_tile_1_lc_3_52
+brewery_tile_1_lc_3_12->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_62->brewery_tile_1_lc_3_63
+brewery_tile_1_lc_3_88->brewery_tile_1_lc_3_89
+brewery_tile_1_lc_3_47->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_59->brewery_tile_1_lc_3_60
+brewery_tile_1_lc_3_144->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_44->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_137->brewery_tile_1_lc_3_138
+brewery_tile_1_lc_3_59->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_83->brewery_tile_1_lc_3_84
+brewery_tile_1_lc_3_173->brewery_tile_1_lc_3_174
+brewery_tile_1_lc_3_125->brewery_tile_1_lc_3_126
+brewery_tile_1_lc_3_99->brewery_tile_1_lc_3_100
+brewery_tile_1_lc_3_65->brewery_tile_1_lc_3_66
+brewery_tile_1_lc_3_157->brewery_tile_1_lc_3_158
+brewery_tile_1_lc_3_13->brewery_tile_1_lc_3_14
+brewery_tile_1_lc_3_195->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_94->brewery_tile_1_lc_3_95
+brewery_tile_1_lc_3_113->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_188->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_136->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_223->brewery_tile_1_lc_3_224
+brewery_tile_1_lc_3_42->brewery_tile_1_lc_3_43
+brewery_tile_1_lc_3_154->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_41->brewery_tile_1_lc_3_42
+brewery_tile_1_lc_3_53->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_210->brewery_tile_1_lc_3_211
+brewery_tile_1_lc_3_222->brewery_tile_1_lc_3_223
+brewery_tile_1_lc_3_135->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_140->brewery_tile_1_lc_3_141
+brewery_spritelayout_3->brewery_spriteset_6_0
+brewery_tile_1_lc_3_169->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_2->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_23->brewery_tile_1_lc_3_24
+brewery_tile_1_lc_3_60->brewery_tile_1_lc_3_61
+brewery_tile_1_lc_3_21->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_159->brewery_tile_1_lc_3_160
+brewery_tile_1_lc_3_94->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_151->brewery_tile_1_lc_3_152
+brewery_tile_1_lc_3_27->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_52->brewery_tile_1_lc_3_53
+brewery_tile_1_lc_3_146->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_9->brewery_tile_1_lc_3_10
+brewery_tile_1_lc_3_123->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_117->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_7->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_143->brewery_tile_1_lc_3_144
+brewery_tile_1_lc_3_1->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_160->brewery_tile_1_lc_3_161
+brewery_tile_1_lc_3_141->brewery_tile_1_lc_3_142
+brewery_tile_1_lc_3_23->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_133->brewery_tile_1_lc_3_134
+brewery_tile_1_lc_3_109->brewery_tile_1_lc_3_110
+brewery_tile_1_lc_3_142->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_183->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_178->brewery_tile_1_lc_3_179
+brewery_tile_1_lc_3_115->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_26->brewery_tile_1_lc_3_225
+brewery_industry_layout_4_graphics_switch->brewery_spritelayout_2
+brewery_tile_1_lc_3_37->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_1->brewery_tile_1_lc_3_2
+brewery_spritelayout_2->brewery_spriteset_3_0_snow
+brewery_tile_1_lc_3_153->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_86->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_101->brewery_tile_1_lc_3_102
+brewery_tile_1_lc_3_194->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_219->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_112->brewery_tile_1_lc_3_113
+brewery_tile_1_lc_3_168->brewery_tile_1_lc_3_169
+brewery_tile_1_lc_3_139->brewery_tile_1_lc_3_140
+brewery_tile_1_lc_3_64->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_128->brewery_tile_1_lc_3_129
+brewery_tile_1_lc_3_5->brewery_tile_1_lc_3_6
+brewery_tile_1_lc_3_156->brewery_tile_1_lc_3_157
+brewery_tile_1_lc_3_193->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_166->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_22->brewery_tile_1_lc_3_23
+brewery_tile_1_lc_3_74->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_220->brewery_tile_1_lc_3_221
+brewery_tile_1_lc_3_159->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_100->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_0->brewery_tile_1_lc_1
+brewery_tile_1_lc_3_204->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_149->brewery_tile_1_lc_3_150
+brewery_tile_1_lc_3_91->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_150->brewery_tile_1_lc_3_151
+brewery_tile_1_lc_3_21->brewery_tile_1_lc_3_22
+brewery_tile_1_lc_3_76->brewery_tile_1_lc_3_225
+brewery_industry_graphics_switch_layouts->brewery_industry_layout_2_graphics_switch
+brewery_tile_1_lc_3_0->brewery_tile_1_lc_3_1
+brewery_tile_1_lc_3_10->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_36->brewery_tile_1_lc_3_37
+brewery_tile_1_lc_3_222->brewery_tile_1_lc_3_225
+brewery_industry_layout_4_graphics_switch->brewery_spritelayout_3
+brewery_tile_1_lc_3_12->brewery_tile_1_lc_3_13
+brewery_tile_1_lc_3_215->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_89->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_181->brewery_tile_1_lc_3_182
+brewery_tile_1_lc_3_100->brewery_tile_1_lc_3_101
+brewery_tile_1_lc_3_15->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_213->brewery_tile_1_lc_3_214
+brewery_tile_1_lc_1->brewery_tile_1_lc_2
+brewery_tile_1_lc_3_69->brewery_tile_1_lc_3_70
+brewery_industry_layout_2_graphics_switch->brewery_spritelayout_1_anim
+brewery_tile_1_lc_3_216->brewery_tile_1_lc_3_217
+brewery_tile_1_lc_3_179->brewery_tile_1_lc_3_180
+brewery_tile_1_lc_3_191->brewery_tile_1_lc_3_192
+brewery_tile_1_lc_3_153->brewery_tile_1_lc_3_154
+brewery_tile_1_lc_3_204->brewery_tile_1_lc_3_205
+brewery_tile_1_lc_3_61->brewery_tile_1_lc_3_62
+brewery_tile_1_lc_3_142->brewery_tile_1_lc_3_143
+brewery_tile_1_lc_3_132->brewery_tile_1_lc_3_133
+brewery_tile_1->brewery_tile_1_lc_0
+spritelayout_default_construction_states->spriteset_default_construction_states
+brewery_industry_graphics_switch_layouts->brewery_industry_layout_1_graphics_switch
+brewery_tile_1_lc_3_155->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_31->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_48->brewery_tile_1_lc_3_49
+brewery_tile_1_lc_3_160->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_151->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_89->brewery_tile_1_lc_3_90
+brewery_tile_1_lc_3_177->brewery_tile_1_lc_3_178
+brewery_tile_1_lc_3_17->brewery_tile_1_lc_3_18
+brewery_tile_1_lc_3_115->brewery_tile_1_lc_3_116
+brewery_tile_1_lc_3_147->brewery_tile_1_lc_3_148
+brewery_tile_1_lc_3_84->brewery_tile_1_lc_3_225
+brewery_industry_graphics_switch_layouts->brewery_industry_layout_3_graphics_switch
+brewery_industry_layout_4_graphics_switch->brewery_spritelayout_1_anim
+brewery_tile_1_lc_3_118->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_119->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_174->brewery_tile_1_lc_3_175
+brewery_tile_1_lc_3_58->brewery_tile_1_lc_3_59
+brewery_tile_1_lc_3_55->brewery_tile_1_lc_3_56
+brewery_tile_1_lc_3_118->brewery_tile_1_lc_3_119
+brewery_tile_1_lc_3_126->brewery_tile_1_lc_3_127
+brewery_tile_1_lc_3_161->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_67->brewery_tile_1_lc_3_68
+brewery_tile_1_lc_3_98->brewery_tile_1_lc_3_99
+brewery_spritelayout_1_anim->brewery_spriteset_2_0
+brewery_tile_1_lc_3_116->brewery_tile_1_lc_3_117
+brewery_tile_1_lc_3_98->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_148->brewery_tile_1_lc_3_149
+brewery_tile_1_lc_3_129->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_143->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_206->brewery_tile_1_lc_3_207
+brewery_tile_1_lc_3_77->brewery_tile_1_lc_3_78
+brewery_tile_1_lc_3_38->brewery_tile_1_lc_3_39
+brewery_tile_1_lc_3_163->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_203->brewery_tile_1_lc_3_204
+brewery_tile_1_lc_3_196->brewery_tile_1_lc_3_197
+brewery_tile_1_lc_3_3->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_64->brewery_tile_1_lc_3_65
+brewery_tile_1_lc_3_28->brewery_tile_1_lc_3_29
+brewery_spritelayout_3->spriteset_ground_tile_cobble_1
+brewery_tile_1_lc_3_221->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_211->brewery_tile_1_lc_3_212
+brewery_tile_1_lc_3_127->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_84->brewery_tile_1_lc_3_85
+brewery_industry_layout_3_graphics_switch->brewery_spritelayout_2
+brewery_tile_1_lc_3_214->brewery_tile_1_lc_3_215
+brewery_tile_1_lc_3_130->brewery_tile_1_lc_3_131
+brewery_tile_1_lc_3_52->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_5->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_195->brewery_tile_1_lc_3_196
+brewery_store_temp_vars->brewery_industry_construction_state_graphics_switch
+brewery_tile_1_lc_3_186->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_61->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_187->brewery_tile_1_lc_3_188
+brewery_industry_layout_5_graphics_switch->brewery_spritelayout_2
+brewery_tile_1_lc_3_152->brewery_tile_1_lc_3_153
+brewery_tile_1_lc_3_90->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_178->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_180->brewery_tile_1_lc_3_181
+brewery_spritelayout_2->brewery_spriteset_3_0
+brewery_tile_1_lc_3_212->brewery_tile_1_lc_3_213
+brewery_tile_1_lc_3_193->brewery_tile_1_lc_3_194
+brewery_tile_1_lc_3_55->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_72->brewery_tile_1_lc_3_73
+brewery_tile_1_lc_3_182->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_85->brewery_tile_1_lc_3_86
+brewery_tile_1_lc_3->brewery_tile_1_lc_3_0
+brewery_tile_1_lc_3_220->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_49->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_17->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_202->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_166->brewery_tile_1_lc_3_167
+brewery_tile_1_lc_3_184->brewery_tile_1_lc_3_185
+brewery_tile_1_lc_3_108->brewery_tile_1_lc_3_109
+brewery_tile_1_lc_3_68->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_105->brewery_tile_1_lc_3_106
+brewery_tile_1_lc_3_18->brewery_tile_1_lc_3_19
+brewery_tile_1_lc_3_99->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_73->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_102->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_91->brewery_tile_1_lc_3_92
+brewery_tile_1_lc_3_138->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_42->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_148->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_132->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_177->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_8->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_120->brewery_tile_1_lc_3_121
+brewery_tile_1_lc_3_50->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_97->brewery_tile_1_lc_3_225
+brewery_tile_1_lc_3_7->brewery_tile_1_lc_3_8
+}

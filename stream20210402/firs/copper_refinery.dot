@@ -1,0 +1,82 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+copper_refinery_produce_0 [fillcolor=green style="filled" label="<produce>\ncopper_refinery_produce_0"]
+copper_refinery_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_produce_calculation_0"]
+copper_refinery_produce_1 [fillcolor=green style="filled" label="<produce>\ncopper_refinery_produce_1"]
+copper_refinery_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_produce_calculation_1"]
+copper_refinery_produce_4 [fillcolor=green style="filled" label="<produce>\ncopper_refinery_produce_4"]
+copper_refinery_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_produce_calculation_4"]
+copper_refinery_produce_5 [fillcolor=green style="filled" label="<produce>\ncopper_refinery_produce_5"]
+copper_refinery_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_produce_calculation_5"]
+copper_refinery_produce_3 [fillcolor=green style="filled" label="<produce>\ncopper_refinery_produce_3"]
+copper_refinery_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_produce_calculation_3"]
+copper_refinery_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_produce_cargo_arrival"]
+copper_refinery_extra_text [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_extra_text"]
+copper_refinery_cargo_subtype_display_cargo_CORE_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_cargo_CORE_economy_4"]
+copper_refinery_cargo_subtype_display_cargo_RFPR_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_cargo_RFPR_economy_4"]
+copper_refinery_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_switch_cargo_economy_4"]
+copper_refinery_cargo_subtype_display_cargo_CORE_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_cargo_CORE_economy_3"]
+copper_refinery_cargo_subtype_display_cargo_RFPR_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_cargo_RFPR_economy_3"]
+copper_refinery_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_switch_cargo_economy_3"]
+copper_refinery_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display_switch_economy"]
+copper_refinery_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_cargo_subtype_display"]
+copper_refinery_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability_param"]
+copper_refinery_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_map_gen"]
+copper_refinery_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_available_game_mode"]
+copper_refinery_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability_0"]
+copper_refinery_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability_1"]
+copper_refinery_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability_4"]
+copper_refinery_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability_5"]
+copper_refinery_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability_3"]
+copper_refinery_check_availability [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_availability"]
+copper_refinery_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_min_distance_51"]
+copper_refinery_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_min_distance_39"]
+copper_refinery_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_min_distance_49"]
+copper_refinery_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_min_distance_74"]
+copper_refinery_min_distance_64 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_min_distance_64"]
+copper_refinery_min_distance_67 [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_min_distance_67"]
+copper_refinery_check_location [fillcolor=yellow style="filled" label="<switch>\ncopper_refinery_check_location"]
+copper_refinery [fillcolor=red style="filled" label="FEAT_INDUSTRIES <67>\ncopper_refinery"]
+copper_refinery_cargo_subtype_display_switch_cargo_economy_4->copper_refinery_cargo_subtype_display_cargo_CORE_economy_4
+copper_refinery_min_distance_67->copper_refinery_min_distance_64
+copper_refinery_cargo_subtype_display_switch_economy->copper_refinery_cargo_subtype_display_switch_cargo_economy_4
+copper_refinery_produce_calculation_4->copper_refinery_produce_4
+copper_refinery_cargo_subtype_display_switch_cargo_economy_4->copper_refinery_cargo_subtype_display_cargo_RFPR_economy_4
+copper_refinery_check_availability->copper_refinery_check_availability_1
+copper_refinery_produce_cargo_arrival->copper_refinery_produce_calculation_4
+copper_refinery_check_availability->copper_refinery_check_availability_0
+copper_refinery_produce_cargo_arrival->copper_refinery_produce_calculation_5
+copper_refinery_produce_cargo_arrival->copper_refinery_produce_calculation_1
+copper_refinery_cargo_subtype_display_switch_cargo_economy_3->copper_refinery_cargo_subtype_display_cargo_CORE_economy_3
+copper_refinery_produce_cargo_arrival->copper_refinery_produce_calculation_3
+copper_refinery_min_distance_74->copper_refinery_min_distance_49
+copper_refinery_check_availability->copper_refinery_check_availability_3
+copper_refinery->copper_refinery_check_availability
+copper_refinery_check_location->copper_refinery_min_distance_67
+copper_refinery->copper_refinery_check_location
+copper_refinery_min_distance_39->copper_refinery_min_distance_51
+copper_refinery_check_availability->copper_refinery_check_availability_4
+copper_refinery_check_availability_4->copper_refinery_available_game_mode
+copper_refinery_produce_calculation_5->copper_refinery_produce_5
+copper_refinery_cargo_subtype_display_switch_economy->copper_refinery_cargo_subtype_display_switch_cargo_economy_3
+copper_refinery_produce_cargo_arrival->copper_refinery_produce_calculation_0
+copper_refinery->copper_refinery_produce_cargo_arrival
+copper_refinery->copper_refinery_extra_text
+copper_refinery_available_game_mode->copper_refinery_check_map_gen
+copper_refinery_check_availability_3->copper_refinery_available_game_mode
+copper_refinery_cargo_subtype_display_switch_cargo_economy_3->copper_refinery_cargo_subtype_display_cargo_RFPR_economy_3
+copper_refinery_check_availability_1->copper_refinery_available_game_mode
+copper_refinery_produce_calculation_1->copper_refinery_produce_1
+copper_refinery->copper_refinery_cargo_subtype_display
+copper_refinery_cargo_subtype_display->copper_refinery_cargo_subtype_display_switch_economy
+copper_refinery_check_map_gen->copper_refinery_check_availability_param
+copper_refinery_check_availability->copper_refinery_check_availability_5
+copper_refinery_produce_calculation_0->copper_refinery_produce_0
+copper_refinery->switch_colour
+copper_refinery_produce_calculation_3->copper_refinery_produce_3
+copper_refinery_check_availability_5->copper_refinery_available_game_mode
+copper_refinery_min_distance_64->copper_refinery_min_distance_74
+copper_refinery_min_distance_49->copper_refinery_min_distance_39
+copper_refinery_check_availability_0->copper_refinery_available_game_mode
+}

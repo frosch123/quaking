@@ -1,0 +1,105 @@
+digraph {
+rankdir="BT"
+ss_tail_light_railcar_32px_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_railcar_32px_2_unflipped"]
+ss_tail_light_railcar_32px_2_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_railcar_32px_2_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_railcar_32px_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_railcar_32px_2"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+scooby_ss_doors_closed_livery_1_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_1_0_unflipped"]
+scooby_ss_doors_open_livery_1_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_1_0_unflipped"]
+scooby_ss_doors_closed_livery_2_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_2_0_unflipped"]
+scooby_ss_doors_open_livery_2_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_2_0_unflipped"]
+scooby_ss_doors_closed_livery_1_0_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_1_0_flipped"]
+scooby_ss_doors_open_livery_1_0_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_1_0_flipped"]
+scooby_ss_doors_closed_livery_2_0_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_2_0_flipped"]
+scooby_ss_doors_open_livery_2_0_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_2_0_flipped"]
+scooby_switch_graphics_engine_id_0 [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_engine_id_0"]
+scooby_switch_graphics_vehicle_layers_0 [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_vehicle_layers_0"]
+scooby_ss_doors_closed_livery_1_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_1_1_unflipped"]
+scooby_ss_doors_open_livery_1_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_1_1_unflipped"]
+scooby_ss_doors_closed_livery_2_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_2_1_unflipped"]
+scooby_ss_doors_open_livery_2_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_2_1_unflipped"]
+scooby_ss_doors_closed_livery_1_1_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_1_1_flipped"]
+scooby_ss_doors_open_livery_1_1_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_1_1_flipped"]
+scooby_ss_doors_closed_livery_2_1_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_2_1_flipped"]
+scooby_ss_doors_open_livery_2_1_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_2_1_flipped"]
+scooby_switch_graphics_engine_id_1 [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_engine_id_1"]
+scooby_switch_graphics_vehicle_layers_1 [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_vehicle_layers_1"]
+scooby_ss_doors_closed_livery_1_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_1_2_unflipped"]
+scooby_ss_doors_open_livery_1_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_1_2_unflipped"]
+scooby_ss_doors_closed_livery_2_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_2_2_unflipped"]
+scooby_ss_doors_open_livery_2_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_2_2_unflipped"]
+scooby_ss_doors_closed_livery_1_2_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_1_2_flipped"]
+scooby_ss_doors_open_livery_1_2_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_1_2_flipped"]
+scooby_ss_doors_closed_livery_2_2_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_closed_livery_2_2_flipped"]
+scooby_ss_doors_open_livery_2_2_flipped [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_doors_open_livery_2_2_flipped"]
+scooby_switch_graphics_engine_id_2 [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_engine_id_2"]
+scooby_switch_graphics_vehicle_layers_2 [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_vehicle_layers_2"]
+scooby_switch_graphics_position_in_consist_entry_point_MAIL [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_position_in_consist_entry_point_MAIL"]
+scooby_switch_graphics_position_in_consist_entry_point_DFLT [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_position_in_consist_entry_point_DFLT"]
+scooby_switch_graphics_vehicle_cargo [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_vehicle_cargo"]
+scooby_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics_vehicle"]
+scooby_ss_vehicle_purchase [fillcolor=green style="filled" label="<spriteset>\nscooby_ss_vehicle_purchase"]
+scooby_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_set_layers_register_more_sprites"]
+scooby_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_graphics"]
+scooby_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_cargo_capacity"]
+scooby_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_create_effect_default_unreversed"]
+scooby_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nscooby_switch_buy_menu_text_result"]
+scooby [fillcolor=red style="filled" label="<FEAT_TRAINS 3070>\nscooby"]
+scooby_switch_graphics_position_in_consist_entry_point_MAIL->scooby_switch_graphics_vehicle_layers_0
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_open_livery_2_1_flipped
+scooby_switch_graphics_vehicle_layers_0->scooby_switch_graphics_engine_id_0
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_open_livery_2_0_unflipped
+scooby_switch_graphics_position_in_consist_entry_point_DFLT->scooby_switch_graphics_vehicle_layers_2
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_open_livery_1_1_flipped
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_open_livery_1_0_flipped
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_open_livery_2_1_unflipped
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_closed_livery_1_1_unflipped
+scooby_switch_graphics_vehicle_layers_2->scooby_switch_graphics_engine_id_2
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_closed_livery_2_0_unflipped
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_open_livery_1_0_unflipped
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_open_livery_1_2_unflipped
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_closed_livery_2_2_unflipped
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_open_livery_1_1_unflipped
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_closed_livery_1_0_unflipped
+scooby_switch_cargo_capacity->switch_cargo_capacity
+switch_graphics_layer_tail_light_railcar_32px_2->ss_tail_light_railcar_32px_2_unflipped
+scooby_switch_graphics_position_in_consist_entry_point_DFLT->scooby_switch_graphics_vehicle_layers_0
+scooby->scooby_switch_cargo_capacity
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_open_livery_2_0_flipped
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_closed_livery_1_1_flipped
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_open_livery_1_2_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+scooby_switch_graphics_vehicle_layers_1->scooby_switch_graphics_engine_id_1
+scooby_switch_graphics->switch_graphics_layer_tail_light_railcar_32px_2
+scooby_switch_set_layers_register_more_sprites->scooby_switch_graphics_vehicle
+scooby_switch_graphics_vehicle_cargo->scooby_switch_graphics_position_in_consist_entry_point_MAIL
+switch_graphics_layer_tail_light_railcar_32px_2->ss_tail_light_railcar_32px_2_flipped
+scooby_switch_graphics_position_in_consist_entry_point_MAIL->scooby_switch_graphics_vehicle_layers_2
+scooby_switch_graphics_vehicle->scooby_switch_graphics_vehicle_cargo
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_closed_livery_2_2_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_graphics_layer_tail_light_railcar_32px_2->ss_tail_light_empty_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_closed_livery_1_2_unflipped
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_open_livery_2_2_flipped
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_open_livery_2_2_unflipped
+scooby->scooby_switch_graphics
+scooby_switch_graphics->scooby_switch_set_layers_register_more_sprites
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_closed_livery_2_1_flipped
+scooby_switch_graphics_engine_id_2->scooby_ss_doors_closed_livery_1_2_flipped
+scooby->scooby_ss_vehicle_purchase
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_closed_livery_2_0_flipped
+scooby_switch_graphics_engine_id_1->scooby_ss_doors_closed_livery_2_1_unflipped
+scooby_switch_graphics_vehicle_cargo->scooby_switch_graphics_position_in_consist_entry_point_DFLT
+scooby_switch_graphics_position_in_consist_entry_point_MAIL->scooby_switch_graphics_vehicle_layers_1
+scooby->scooby_switch_create_effect_default_unreversed
+scooby->scooby_switch_buy_menu_text_result
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+scooby_switch_graphics_engine_id_0->scooby_ss_doors_closed_livery_1_0_flipped
+scooby_switch_graphics_position_in_consist_entry_point_DFLT->scooby_switch_graphics_vehicle_layers_1
+}

@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_hst_32px_1_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_hst_32px_1_unflipped"]
+ss_tail_light_hst_32px_1_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_hst_32px_1_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_hst_32px_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_hst_32px_1"]
+blaze_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nblaze_ss_unreversed_unflipped_0"]
+blaze_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nblaze_ss_unreversed_flipped_0"]
+blaze_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nblaze_switch_graphics_unreversed"]
+blaze_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nblaze_ss_vehicle_purchase_0"]
+blaze_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nblaze_switch_set_layers_register_more_sprites"]
+blaze_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nblaze_switch_graphics"]
+blaze_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nblaze_switch_colour_mapping"]
+blaze_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nblaze_switch_create_effect_default_unreversed"]
+blaze_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nblaze_switch_buy_menu_text_result"]
+blaze [fillcolor=red style="filled" label="<FEAT_TRAINS 3330>\nblaze"]
+blaze_switch_graphics_unreversed->blaze_ss_unreversed_unflipped_0
+switch_graphics_layer_tail_light_hst_32px_1->ss_tail_light_empty_unflipped
+blaze->blaze_switch_create_effect_default_unreversed
+blaze->blaze_ss_vehicle_purchase_0
+blaze_switch_graphics->switch_graphics_layer_tail_light_hst_32px_1
+blaze->blaze_switch_colour_mapping
+switch_graphics_layer_tail_light_hst_32px_1->ss_tail_light_hst_32px_1_unflipped
+switch_graphics_layer_tail_light_hst_32px_1->ss_tail_light_hst_32px_1_flipped
+blaze_switch_set_layers_register_more_sprites->blaze_switch_graphics_unreversed
+blaze_switch_graphics->blaze_switch_set_layers_register_more_sprites
+blaze_switch_graphics_unreversed->blaze_ss_unreversed_flipped_0
+blaze->blaze_switch_graphics
+blaze->blaze_switch_buy_menu_text_result
+}

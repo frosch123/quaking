@@ -1,0 +1,93 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+fishing_harbour_produce_0 [fillcolor=green style="filled" label="<produce>\nfishing_harbour_produce_0"]
+fishing_harbour_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_produce_calculation_0"]
+fishing_harbour_produce_1 [fillcolor=green style="filled" label="<produce>\nfishing_harbour_produce_1"]
+fishing_harbour_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_produce_calculation_1"]
+fishing_harbour_produce_4 [fillcolor=green style="filled" label="<produce>\nfishing_harbour_produce_4"]
+fishing_harbour_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_produce_calculation_4"]
+fishing_harbour_produce_5 [fillcolor=green style="filled" label="<produce>\nfishing_harbour_produce_5"]
+fishing_harbour_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_produce_calculation_5"]
+fishing_harbour_produce_3 [fillcolor=green style="filled" label="<produce>\nfishing_harbour_produce_3"]
+fishing_harbour_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_produce_calculation_3"]
+fishing_harbour_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_produce_cargo_arrival"]
+fishing_harbour_extra_text [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_extra_text"]
+fishing_harbour_cargo_subtype_display_cargo_FISH_economy_0 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_cargo_FISH_economy_0"]
+fishing_harbour_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_switch_cargo_economy_0"]
+fishing_harbour_cargo_subtype_display_cargo_FISH_economy_1 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_cargo_FISH_economy_1"]
+fishing_harbour_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_switch_cargo_economy_1"]
+fishing_harbour_cargo_subtype_display_cargo_FISH_economy_4 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_cargo_FISH_economy_4"]
+fishing_harbour_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_switch_cargo_economy_4"]
+fishing_harbour_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display_switch_economy"]
+fishing_harbour_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_cargo_subtype_display"]
+fishing_harbour_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability_param"]
+fishing_harbour_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_map_gen"]
+fishing_harbour_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_available_game_mode"]
+fishing_harbour_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability_0"]
+fishing_harbour_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability_1"]
+fishing_harbour_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability_4"]
+fishing_harbour_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability_5"]
+fishing_harbour_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability_3"]
+fishing_harbour_check_availability [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_availability"]
+fishing_harbour_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_61"]
+fishing_harbour_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_51"]
+fishing_harbour_min_distance_32 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_32"]
+fishing_harbour_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_39"]
+fishing_harbour_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_52"]
+fishing_harbour_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_60"]
+fishing_harbour_min_distance_94 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_94"]
+fishing_harbour_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_58"]
+fishing_harbour_check_industry_max_distance_2 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_industry_max_distance_2"]
+fishing_harbour_max_distance_32 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_max_distance_32"]
+fishing_harbour_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_min_distance_31"]
+fishing_harbour_check_location [fillcolor=yellow style="filled" label="<switch>\nfishing_harbour_check_location"]
+fishing_harbour [fillcolor=red style="filled" label="FEAT_INDUSTRIES <31>\nfishing_harbour"]
+fishing_harbour_check_availability->fishing_harbour_check_availability_0
+fishing_harbour->switch_colour
+fishing_harbour_check_industry_max_distance_2->fishing_harbour_min_distance_58
+fishing_harbour_produce_calculation_4->fishing_harbour_produce_4
+fishing_harbour_check_availability_5->fishing_harbour_available_game_mode
+fishing_harbour_check_availability->fishing_harbour_check_availability_3
+fishing_harbour_produce_calculation_5->fishing_harbour_produce_5
+fishing_harbour_check_location->fishing_harbour_min_distance_31
+fishing_harbour_produce_cargo_arrival->fishing_harbour_produce_calculation_4
+fishing_harbour_check_availability->fishing_harbour_check_availability_4
+fishing_harbour_cargo_subtype_display->fishing_harbour_cargo_subtype_display_switch_economy
+fishing_harbour->fishing_harbour_cargo_subtype_display
+fishing_harbour_min_distance_32->fishing_harbour_min_distance_51
+fishing_harbour_check_availability->fishing_harbour_check_availability_1
+fishing_harbour_min_distance_51->fishing_harbour_min_distance_61
+fishing_harbour_check_availability_3->fishing_harbour_available_game_mode
+fishing_harbour_max_distance_32->fishing_harbour_min_distance_58
+fishing_harbour_min_distance_58->fishing_harbour_min_distance_94
+fishing_harbour_cargo_subtype_display_switch_cargo_economy_4->fishing_harbour_cargo_subtype_display_cargo_FISH_economy_4
+fishing_harbour_min_distance_52->fishing_harbour_min_distance_39
+fishing_harbour_cargo_subtype_display_switch_economy->fishing_harbour_cargo_subtype_display_switch_cargo_economy_1
+fishing_harbour_produce_cargo_arrival->fishing_harbour_produce_calculation_0
+fishing_harbour_produce_cargo_arrival->fishing_harbour_produce_calculation_1
+fishing_harbour->fishing_harbour_check_location
+fishing_harbour_min_distance_31->fishing_harbour_max_distance_32
+fishing_harbour_available_game_mode->fishing_harbour_check_map_gen
+fishing_harbour_min_distance_39->fishing_harbour_min_distance_32
+fishing_harbour_produce_cargo_arrival->fishing_harbour_produce_calculation_5
+fishing_harbour->fishing_harbour_extra_text
+fishing_harbour_min_distance_94->fishing_harbour_min_distance_60
+fishing_harbour_check_map_gen->fishing_harbour_check_availability_param
+fishing_harbour_check_availability_4->fishing_harbour_available_game_mode
+fishing_harbour_check_availability_0->fishing_harbour_available_game_mode
+fishing_harbour_max_distance_32->fishing_harbour_check_industry_max_distance_2
+fishing_harbour_check_availability_1->fishing_harbour_available_game_mode
+fishing_harbour_check_availability->fishing_harbour_check_availability_5
+fishing_harbour_cargo_subtype_display_switch_economy->fishing_harbour_cargo_subtype_display_switch_cargo_economy_0
+fishing_harbour_produce_cargo_arrival->fishing_harbour_produce_calculation_3
+fishing_harbour_produce_calculation_0->fishing_harbour_produce_0
+fishing_harbour->fishing_harbour_check_availability
+fishing_harbour_produce_calculation_1->fishing_harbour_produce_1
+fishing_harbour_cargo_subtype_display_switch_cargo_economy_1->fishing_harbour_cargo_subtype_display_cargo_FISH_economy_1
+fishing_harbour_produce_calculation_3->fishing_harbour_produce_3
+fishing_harbour->fishing_harbour_produce_cargo_arrival
+fishing_harbour_cargo_subtype_display_switch_cargo_economy_0->fishing_harbour_cargo_subtype_display_cargo_FISH_economy_0
+fishing_harbour_cargo_subtype_display_switch_economy->fishing_harbour_cargo_subtype_display_switch_cargo_economy_4
+fishing_harbour_min_distance_60->fishing_harbour_min_distance_52
+}

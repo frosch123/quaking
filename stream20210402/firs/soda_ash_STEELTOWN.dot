@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_soda_ash [fillcolor=green style="filled" label="<spriteset>\ncargoicon_soda_ash"]
+soda_ash_STEELTOWN [fillcolor=red style="filled" label="FEAT_CARGOS <36>\nsoda_ash_STEELTOWN"]
+soda_ash_STEELTOWN->cargoicon_soda_ash
+}

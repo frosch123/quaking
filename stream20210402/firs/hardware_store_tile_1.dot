@@ -1,0 +1,28 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_slab_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_slab_1"]
+hardware_store_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nhardware_store_spriteset_2_0"]
+hardware_store_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nhardware_store_spriteset_2_0_snow"]
+hardware_store_spritelayout [fillcolor=yellow style="filled" label="<spritelayout>\nhardware_store_spritelayout"]
+hardware_store_industry_layout_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nhardware_store_industry_layout_graphics_switch"]
+hardware_store_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nhardware_store_industry_construction_state_graphics_switch"]
+hardware_store_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nhardware_store_store_temp_vars"]
+hardware_store_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nhardware_store_switch_graphics"]
+hardware_store_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_tile_1_lc_1"]
+hardware_store_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_tile_1_lc_0"]
+hardware_store_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <218>\nhardware_store_tile_1"]
+hardware_store_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+hardware_store_spritelayout->hardware_store_spriteset_2_0_snow
+hardware_store_industry_layout_graphics_switch->hardware_store_spritelayout
+hardware_store_switch_graphics->hardware_store_store_temp_vars
+hardware_store_spritelayout->hardware_store_spriteset_2_0
+hardware_store_spritelayout->spriteset_ground_tile_slab_1
+hardware_store_tile_1_lc_0->hardware_store_tile_1_lc_1
+hardware_store_tile_1->hardware_store_switch_graphics
+hardware_store_tile_1->hardware_store_tile_1_lc_0
+spritelayout_default_construction_states->spriteset_default_construction_states
+hardware_store_store_temp_vars->hardware_store_industry_construction_state_graphics_switch
+hardware_store_industry_construction_state_graphics_switch->hardware_store_industry_layout_graphics_switch
+}

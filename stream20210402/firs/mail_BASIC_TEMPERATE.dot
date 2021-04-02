@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_mail [fillcolor=green style="filled" label="<spriteset>\ncargoicon_mail"]
+mail_BASIC_TEMPERATE [fillcolor=red style="filled" label="FEAT_CARGOS <2>\nmail_BASIC_TEMPERATE"]
+mail_BASIC_TEMPERATE->cargoicon_mail
+}

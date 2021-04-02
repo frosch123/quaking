@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_lumber [fillcolor=green style="filled" label="<spriteset>\ncargoicon_lumber"]
+lumber_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <9>\nlumber_BASIC_ARCTIC"]
+lumber_BASIC_ARCTIC->cargoicon_lumber
+}

@@ -1,0 +1,40 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+onslaught_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nonslaught_ss_unreversed_unflipped_0"]
+onslaught_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nonslaught_ss_unreversed_flipped_0"]
+onslaught_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_graphics_unreversed"]
+onslaught_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nonslaught_ss_reversed_unflipped_0"]
+onslaught_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nonslaught_ss_reversed_flipped_0"]
+onslaught_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_graphics_reversed"]
+onslaught_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nonslaught_switch_graphics_vehicle"]
+onslaught_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nonslaught_ss_vehicle_purchase_0"]
+onslaught_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_set_layers_register_more_sprites"]
+onslaught_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_graphics"]
+onslaught_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_colour_mapping"]
+onslaught_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_create_effect_default_unreversed"]
+onslaught_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_create_effect_default_reversed"]
+onslaught_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nonslaught_switch_create_effect_reversed_variants"]
+onslaught_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nonslaught_switch_buy_menu_text_result"]
+onslaught [fillcolor=red style="filled" label="<FEAT_TRAINS 4290>\nonslaught"]
+onslaught_switch_graphics_unreversed->onslaught_ss_unreversed_unflipped_0
+onslaught_switch_graphics_vehicle->onslaught_switch_graphics_reversed
+onslaught_switch_create_effect_reversed_variants->onslaught_switch_create_effect_default_unreversed
+onslaught->onslaught_switch_graphics
+onslaught->onslaught_switch_colour_mapping
+onslaught_switch_create_effect_reversed_variants->onslaught_switch_create_effect_default_reversed
+onslaught_switch_graphics->onslaught_switch_set_layers_register_more_sprites
+onslaught_switch_graphics_unreversed->onslaught_ss_unreversed_flipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+onslaught_switch_graphics->switch_graphics_layer_tail_light_empty
+onslaught_switch_graphics_reversed->onslaught_ss_reversed_flipped_0
+onslaught->onslaught_switch_create_effect_reversed_variants
+onslaught->onslaught_switch_buy_menu_text_result
+onslaught_switch_graphics_reversed->onslaught_ss_reversed_unflipped_0
+onslaught_switch_graphics_vehicle->onslaught_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+onslaught->onslaught_ss_vehicle_purchase_0
+onslaught_switch_set_layers_register_more_sprites->onslaught_switch_graphics_vehicle
+}

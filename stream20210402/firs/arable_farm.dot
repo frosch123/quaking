@@ -1,0 +1,92 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+arable_farm_extra_text [fillcolor=yellow style="filled" label="<switch>\narable_farm_extra_text"]
+arable_farm_cargo_subtype_display_cargo_FMSP_economy_4 [fillcolor=yellow style="filled" label="<switch>\narable_farm_cargo_subtype_display_cargo_FMSP_economy_4"]
+arable_farm_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\narable_farm_cargo_subtype_display_switch_cargo_economy_4"]
+arable_farm_cargo_subtype_display_cargo_FMSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\narable_farm_cargo_subtype_display_cargo_FMSP_economy_3"]
+arable_farm_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\narable_farm_cargo_subtype_display_switch_cargo_economy_3"]
+arable_farm_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\narable_farm_cargo_subtype_display_switch_economy"]
+arable_farm_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\narable_farm_cargo_subtype_display"]
+arable_farm_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\narable_farm_monthly_prod_change"]
+arable_farm_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\narable_farm_clear_incoming_cargo_waiting_0"]
+arable_farm_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\narable_farm_store_incoming_cargo_waiting_0"]
+arable_farm_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\narable_farm_clear_incoming_cargo_waiting_1"]
+arable_farm_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\narable_farm_store_incoming_cargo_waiting_1"]
+arable_farm_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\narable_farm_clear_incoming_cargo_waiting_4"]
+arable_farm_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\narable_farm_store_incoming_cargo_waiting_4"]
+arable_farm_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\narable_farm_clear_incoming_cargo_waiting_5"]
+arable_farm_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\narable_farm_store_incoming_cargo_waiting_5"]
+arable_farm_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\narable_farm_clear_incoming_cargo_waiting_3"]
+arable_farm_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\narable_farm_store_incoming_cargo_waiting_3"]
+arable_farm_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\narable_farm_produce_cargo_arrival"]
+arable_farm_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\narable_farm_production_256_economy_0"]
+arable_farm_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\narable_farm_production_256_economy_1"]
+arable_farm_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\narable_farm_production_256_economy_4"]
+arable_farm_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\narable_farm_production_256_economy_5"]
+arable_farm_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\narable_farm_production_256_economy_3"]
+arable_farm_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\narable_farm_produce_256_ticks_switch_economy"]
+arable_farm_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\narable_farm_produce_256_ticks"]
+arable_farm_check_availability_param [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability_param"]
+arable_farm_check_map_gen [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_map_gen"]
+arable_farm_available_game_mode [fillcolor=yellow style="filled" label="<switch>\narable_farm_available_game_mode"]
+arable_farm_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability_0"]
+arable_farm_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability_1"]
+arable_farm_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability_4"]
+arable_farm_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability_5"]
+arable_farm_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability_3"]
+arable_farm_check_availability [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_availability"]
+arable_farm_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\narable_farm_min_distance_56"]
+arable_farm_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\narable_farm_min_distance_34"]
+arable_farm_min_distance_26 [fillcolor=yellow style="filled" label="<switch>\narable_farm_min_distance_26"]
+arable_farm_cluster_arable_farm [fillcolor=yellow style="filled" label="<switch>\narable_farm_cluster_arable_farm"]
+arable_farm_check_location [fillcolor=yellow style="filled" label="<switch>\narable_farm_check_location"]
+arable_farm [fillcolor=red style="filled" label="FEAT_INDUSTRIES <26>\narable_farm"]
+arable_farm->arable_farm_check_availability
+arable_farm->switch_colour
+arable_farm_check_availability->arable_farm_check_availability_3
+arable_farm_check_availability->arable_farm_check_availability_4
+arable_farm->arable_farm_extra_text
+arable_farm_available_game_mode->arable_farm_check_map_gen
+arable_farm_produce_256_ticks->arable_farm_produce_256_ticks_switch_economy
+arable_farm_cargo_subtype_display->arable_farm_cargo_subtype_display_switch_economy
+arable_farm_check_availability->arable_farm_check_availability_5
+arable_farm_store_incoming_cargo_waiting_4->arable_farm_clear_incoming_cargo_waiting_4
+arable_farm_check_availability_0->arable_farm_available_game_mode
+arable_farm->arable_farm_produce_256_ticks
+arable_farm->arable_farm_cargo_subtype_display
+arable_farm_store_incoming_cargo_waiting_5->arable_farm_clear_incoming_cargo_waiting_5
+arable_farm_check_availability_3->arable_farm_available_game_mode
+arable_farm->arable_farm_monthly_prod_change
+arable_farm_check_location->arable_farm_cluster_arable_farm
+arable_farm_produce_cargo_arrival->arable_farm_store_incoming_cargo_waiting_5
+arable_farm_produce_256_ticks_switch_economy->arable_farm_production_256_economy_0
+arable_farm_min_distance_26->arable_farm_min_distance_34
+arable_farm_cargo_subtype_display_switch_cargo_economy_3->arable_farm_cargo_subtype_display_cargo_FMSP_economy_3
+arable_farm_check_map_gen->arable_farm_check_availability_param
+arable_farm_produce_cargo_arrival->arable_farm_store_incoming_cargo_waiting_4
+arable_farm_check_availability->arable_farm_check_availability_1
+arable_farm_produce_256_ticks_switch_economy->arable_farm_production_256_economy_3
+arable_farm->arable_farm_check_location
+arable_farm_produce_cargo_arrival->arable_farm_store_incoming_cargo_waiting_3
+arable_farm_produce_256_ticks_switch_economy->arable_farm_production_256_economy_1
+arable_farm_store_incoming_cargo_waiting_1->arable_farm_clear_incoming_cargo_waiting_1
+arable_farm_check_availability_4->arable_farm_available_game_mode
+arable_farm_check_availability_1->arable_farm_available_game_mode
+arable_farm_cargo_subtype_display_switch_cargo_economy_4->arable_farm_cargo_subtype_display_cargo_FMSP_economy_4
+arable_farm_min_distance_34->arable_farm_min_distance_56
+arable_farm_check_availability->arable_farm_check_availability_0
+arable_farm_produce_cargo_arrival->arable_farm_store_incoming_cargo_waiting_0
+arable_farm_cargo_subtype_display_switch_economy->arable_farm_cargo_subtype_display_switch_cargo_economy_4
+arable_farm_store_incoming_cargo_waiting_0->arable_farm_clear_incoming_cargo_waiting_0
+arable_farm_produce_256_ticks_switch_economy->arable_farm_production_256_economy_5
+arable_farm_cluster_arable_farm->arable_farm_min_distance_26
+arable_farm_store_incoming_cargo_waiting_3->arable_farm_clear_incoming_cargo_waiting_3
+arable_farm_cargo_subtype_display_switch_economy->arable_farm_cargo_subtype_display_switch_cargo_economy_3
+arable_farm->randomise_primary_production_on_build
+arable_farm_produce_cargo_arrival->arable_farm_store_incoming_cargo_waiting_1
+arable_farm_check_availability_5->arable_farm_available_game_mode
+arable_farm_produce_256_ticks_switch_economy->arable_farm_production_256_economy_4
+arable_farm->arable_farm_produce_cargo_arrival
+}

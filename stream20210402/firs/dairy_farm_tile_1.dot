@@ -1,0 +1,94 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+dairy_farm_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_2_0"]
+dairy_farm_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_2_0_snow"]
+dairy_farm_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_3_0"]
+dairy_farm_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_3_0_snow"]
+dairy_farm_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_4_0"]
+dairy_farm_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_4_0_snow"]
+dairy_farm_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_5_0"]
+dairy_farm_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_5_0_snow"]
+dairy_farm_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_6_0"]
+dairy_farm_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_6_0_snow"]
+dairy_farm_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_7_0"]
+dairy_farm_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\ndairy_farm_spriteset_7_0_snow"]
+dairy_farm_spritelayout_barn1 [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_barn1"]
+dairy_farm_spritelayout_silo [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_silo"]
+dairy_farm_spritelayout_barn2 [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_barn2"]
+dairy_farm_spritelayout_house [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_house"]
+dairy_farm_spritelayout_cows_bw [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_cows_bw"]
+dairy_farm_spritelayout_cows_brown [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_cows_brown"]
+dairy_farm_spritelayout_cows_bw_dirt [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_cows_bw_dirt"]
+dairy_farm_spritelayout_cows_brown_dirt [fillcolor=yellow style="filled" label="<spritelayout>\ndairy_farm_spritelayout_cows_brown_dirt"]
+dairy_farm_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_industry_layout_1_graphics_switch"]
+dairy_farm_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_industry_layout_2_graphics_switch"]
+dairy_farm_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_industry_layout_3_graphics_switch"]
+dairy_farm_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_industry_graphics_switch_layouts"]
+dairy_farm_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_industry_construction_state_graphics_switch"]
+dairy_farm_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_store_temp_vars"]
+dairy_farm_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_switch_graphics"]
+dairy_farm_tile_1_lc_5 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_tile_1_lc_5"]
+dairy_farm_tile_1_lc_4 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_tile_1_lc_4"]
+dairy_farm_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_tile_1_lc_3"]
+dairy_farm_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_tile_1_lc_2"]
+dairy_farm_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_tile_1_lc_1"]
+dairy_farm_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_tile_1_lc_0"]
+dairy_farm_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <180>\ndairy_farm_tile_1"]
+dairy_farm_tile_1_lc_1->dairy_farm_tile_1_lc_2
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_house
+dairy_farm_switch_graphics->dairy_farm_store_temp_vars
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_house
+dairy_farm_spritelayout_barn2->dairy_farm_spriteset_4_0
+dairy_farm_tile_1_lc_4->dairy_farm_tile_1_lc_5
+dairy_farm_spritelayout_cows_brown_dirt->dairy_farm_spriteset_7_0_snow
+dairy_farm_industry_construction_state_graphics_switch->dairy_farm_industry_graphics_switch_layouts
+dairy_farm_industry_graphics_switch_layouts->dairy_farm_industry_layout_1_graphics_switch
+dairy_farm_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_cows_brown_dirt
+dairy_farm_spritelayout_barn1->dairy_farm_spriteset_2_0
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_barn1
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_silo
+dairy_farm_spritelayout_barn2->dairy_farm_spriteset_4_0_snow
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_cows_bw
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_cows_brown_dirt
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_cows_bw_dirt
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_cows_bw
+dairy_farm_spritelayout_house->dairy_farm_spriteset_5_0
+dairy_farm_spritelayout_cows_brown_dirt->dairy_farm_spriteset_7_0
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_house
+dairy_farm_spritelayout_silo->dairy_farm_spriteset_3_0
+dairy_farm_tile_1->dairy_farm_switch_graphics
+dairy_farm_industry_graphics_switch_layouts->dairy_farm_industry_layout_2_graphics_switch
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_cows_brown
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_barn1
+dairy_farm_tile_1_lc_3->dairy_farm_tile_1_lc_4
+dairy_farm_spritelayout_cows_bw_dirt->dairy_farm_spriteset_6_0
+dairy_farm_spritelayout_cows_bw->dairy_farm_spriteset_6_0_snow
+dairy_farm_spritelayout_silo->dairy_farm_spriteset_3_0_snow
+dairy_farm_spritelayout_cows_bw->dairy_farm_spriteset_6_0
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_cows_bw_dirt
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_silo
+dairy_farm_spritelayout_cows_bw_dirt->dairy_farm_spriteset_6_0_snow
+dairy_farm_industry_graphics_switch_layouts->dairy_farm_industry_layout_3_graphics_switch
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_barn1
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_cows_brown_dirt
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_barn2
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_silo
+spritelayout_default_construction_states->spriteset_default_construction_states
+dairy_farm_spritelayout_cows_brown->dairy_farm_spriteset_7_0_snow
+dairy_farm_spritelayout_house->dairy_farm_spriteset_5_0_snow
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_cows_brown
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_barn2
+dairy_farm_spritelayout_cows_brown->dairy_farm_spriteset_7_0
+dairy_farm_spritelayout_barn1->dairy_farm_spriteset_2_0_snow
+dairy_farm_tile_1->dairy_farm_tile_1_lc_0
+dairy_farm_tile_1_lc_2->dairy_farm_tile_1_lc_3
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_cows_bw_dirt
+dairy_farm_tile_1_lc_0->dairy_farm_tile_1_lc_1
+dairy_farm_industry_layout_1_graphics_switch->dairy_farm_spritelayout_cows_brown
+dairy_farm_store_temp_vars->dairy_farm_industry_construction_state_graphics_switch
+dairy_farm_industry_layout_3_graphics_switch->dairy_farm_spritelayout_barn2
+dairy_farm_industry_layout_2_graphics_switch->dairy_farm_spritelayout_cows_bw
+}

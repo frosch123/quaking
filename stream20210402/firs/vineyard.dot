@@ -1,0 +1,96 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+vineyard_extra_text [fillcolor=yellow style="filled" label="<switch>\nvineyard_extra_text"]
+vineyard_cargo_subtype_display_cargo_FMSP_economy_4 [fillcolor=yellow style="filled" label="<switch>\nvineyard_cargo_subtype_display_cargo_FMSP_economy_4"]
+vineyard_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nvineyard_cargo_subtype_display_switch_cargo_economy_4"]
+vineyard_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nvineyard_cargo_subtype_display_switch_economy"]
+vineyard_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nvineyard_cargo_subtype_display"]
+vineyard_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nvineyard_monthly_prod_change"]
+vineyard_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nvineyard_clear_incoming_cargo_waiting_0"]
+vineyard_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nvineyard_store_incoming_cargo_waiting_0"]
+vineyard_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nvineyard_clear_incoming_cargo_waiting_1"]
+vineyard_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nvineyard_store_incoming_cargo_waiting_1"]
+vineyard_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nvineyard_clear_incoming_cargo_waiting_4"]
+vineyard_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nvineyard_store_incoming_cargo_waiting_4"]
+vineyard_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nvineyard_clear_incoming_cargo_waiting_5"]
+vineyard_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nvineyard_store_incoming_cargo_waiting_5"]
+vineyard_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nvineyard_clear_incoming_cargo_waiting_3"]
+vineyard_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nvineyard_store_incoming_cargo_waiting_3"]
+vineyard_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nvineyard_produce_cargo_arrival"]
+vineyard_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nvineyard_production_256_economy_0"]
+vineyard_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nvineyard_production_256_economy_1"]
+vineyard_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nvineyard_production_256_economy_4"]
+vineyard_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nvineyard_production_256_economy_5"]
+vineyard_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nvineyard_production_256_economy_3"]
+vineyard_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nvineyard_produce_256_ticks_switch_economy"]
+vineyard_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nvineyard_produce_256_ticks"]
+vineyard_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability_param"]
+vineyard_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_map_gen"]
+vineyard_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nvineyard_available_game_mode"]
+vineyard_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability_0"]
+vineyard_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability_1"]
+vineyard_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability_4"]
+vineyard_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability_5"]
+vineyard_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability_3"]
+vineyard_check_availability [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_availability"]
+vineyard_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_56"]
+vineyard_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_39"]
+vineyard_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_52"]
+vineyard_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_35"]
+vineyard_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_61"]
+vineyard_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_58"]
+vineyard_min_distance_68 [fillcolor=yellow style="filled" label="<switch>\nvineyard_min_distance_68"]
+vineyard_cluster_vineyard [fillcolor=yellow style="filled" label="<switch>\nvineyard_cluster_vineyard"]
+vineyard_check_location [fillcolor=yellow style="filled" label="<switch>\nvineyard_check_location"]
+vineyard [fillcolor=red style="filled" label="FEAT_INDUSTRIES <68>\nvineyard"]
+vineyard_check_availability->vineyard_check_availability_0
+vineyard_produce_256_ticks_switch_economy->vineyard_production_256_economy_1
+vineyard_min_distance_35->vineyard_min_distance_52
+vineyard_check_availability_1->vineyard_available_game_mode
+vineyard_produce_cargo_arrival->vineyard_store_incoming_cargo_waiting_0
+vineyard_check_availability->vineyard_check_availability_1
+vineyard_cargo_subtype_display_switch_cargo_economy_4->vineyard_cargo_subtype_display_cargo_FMSP_economy_4
+vineyard_store_incoming_cargo_waiting_5->vineyard_clear_incoming_cargo_waiting_5
+vineyard_produce_256_ticks_switch_economy->vineyard_production_256_economy_5
+vineyard->randomise_primary_production_on_build
+vineyard_check_availability->vineyard_check_availability_4
+vineyard->vineyard_check_location
+vineyard_store_incoming_cargo_waiting_4->vineyard_clear_incoming_cargo_waiting_4
+vineyard_check_availability_4->vineyard_available_game_mode
+vineyard_cargo_subtype_display->vineyard_cargo_subtype_display_switch_economy
+vineyard_store_incoming_cargo_waiting_0->vineyard_clear_incoming_cargo_waiting_0
+vineyard_produce_256_ticks_switch_economy->vineyard_production_256_economy_3
+vineyard_check_availability_3->vineyard_available_game_mode
+vineyard_produce_256_ticks->vineyard_produce_256_ticks_switch_economy
+vineyard_produce_256_ticks_switch_economy->vineyard_production_256_economy_0
+vineyard->switch_colour
+vineyard->vineyard_extra_text
+vineyard_check_map_gen->vineyard_check_availability_param
+vineyard_check_availability_5->vineyard_available_game_mode
+vineyard_min_distance_61->vineyard_min_distance_35
+vineyard_cargo_subtype_display_switch_economy->vineyard_cargo_subtype_display_switch_cargo_economy_4
+vineyard_produce_256_ticks_switch_economy->vineyard_production_256_economy_4
+vineyard_cluster_vineyard->vineyard_min_distance_68
+vineyard_check_availability->vineyard_check_availability_3
+vineyard_produce_cargo_arrival->vineyard_store_incoming_cargo_waiting_3
+vineyard->vineyard_monthly_prod_change
+vineyard_min_distance_52->vineyard_min_distance_39
+vineyard_check_location->vineyard_cluster_vineyard
+vineyard_min_distance_39->vineyard_min_distance_56
+vineyard->vineyard_check_availability
+vineyard_min_distance_68->vineyard_min_distance_58
+vineyard_store_incoming_cargo_waiting_1->vineyard_clear_incoming_cargo_waiting_1
+vineyard->vineyard_produce_256_ticks
+vineyard_store_incoming_cargo_waiting_3->vineyard_clear_incoming_cargo_waiting_3
+vineyard_check_availability->vineyard_check_availability_5
+vineyard_check_availability_0->vineyard_available_game_mode
+vineyard_produce_cargo_arrival->vineyard_store_incoming_cargo_waiting_5
+vineyard_produce_cargo_arrival->vineyard_store_incoming_cargo_waiting_4
+vineyard->vineyard_produce_cargo_arrival
+vineyard_produce_cargo_arrival->vineyard_store_incoming_cargo_waiting_1
+vineyard->vineyard_cargo_subtype_display
+vineyard_min_distance_58->vineyard_min_distance_61
+vineyard_available_game_mode->vineyard_check_map_gen
+}

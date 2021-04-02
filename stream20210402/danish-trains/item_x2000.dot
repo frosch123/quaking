@@ -1,0 +1,105 @@
+digraph {
+rankdir="BT"
+sw_cc_blue_white [fillcolor=yellow style="filled" label="<switch>\nsw_cc_blue_white"]
+spriteset_x2000_loco_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_loco_headlights"]
+spriteset_x2000_loco_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_loco_marker_lights"]
+spriteset_x2000_cab_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_cab_headlights"]
+spriteset_x2000_cab_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_cab_marker_lights"]
+spriteset_x2000_1_loco [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_loco"]
+spriteset_x2000_1_loco_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_loco_reversed"]
+spriteset_x2000_1_coach [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_coach"]
+spriteset_x2000_1_coach_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_coach_reversed"]
+spriteset_x2000_1_cafe [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_cafe"]
+spriteset_x2000_1_cafe_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_cafe_reversed"]
+spriteset_x2000_1_cab [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_cab"]
+spriteset_x2000_1_cab_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_1_cab_reversed"]
+spriteset_x2000_2_loco [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_loco"]
+spriteset_x2000_2_loco_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_loco_reversed"]
+spriteset_x2000_2_coach [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_coach"]
+spriteset_x2000_2_coach_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_coach_reversed"]
+spriteset_x2000_2_cafe [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_cafe"]
+spriteset_x2000_2_cafe_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_cafe_reversed"]
+spriteset_x2000_2_cab [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_cab"]
+spriteset_x2000_2_cab_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_x2000_2_cab_reversed"]
+sw_x2000_livery_loco [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_loco"]
+sw_x2000_livery_loco_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_loco_reversed"]
+sw_x2000_livery_coach [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_coach"]
+sw_x2000_livery_coach_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_coach_reversed"]
+sw_x2000_livery_cafe [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_cafe"]
+sw_x2000_livery_cafe_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_cafe_reversed"]
+sw_x2000_livery_cab [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_cab"]
+sw_x2000_livery_cab_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_livery_cab_reversed"]
+sw_x2000_loco_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_loco_with_headlights"]
+sw_x2000_loco_position [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_loco_position"]
+sw_x2000_loco_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_loco_with_marker_lights"]
+sw_x2000_loco_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_loco_reversed_position"]
+sw_x2000_cab_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_cab_with_headlights"]
+sw_x2000_cab_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_cab_reversed_position"]
+sw_x2000_cab_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_cab_with_marker_lights"]
+sw_x2000_cab_position [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_cab_position"]
+sw_x2000_reverser_0 [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_reverser_0"]
+sw_x2000_reverser_1_4 [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_reverser_1_4"]
+sw_x2000_reverser_2 [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_reverser_2"]
+sw_x2000_reverser_3 [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_reverser_3"]
+sw_x2000_reverser_5 [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_reverser_5"]
+sw_x2000_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_graphics"]
+sw_x2000_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_articulated_part"]
+sw_x2000_visual_effect_and_powered [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_visual_effect_and_powered"]
+sw_x2000_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_cargo_subtype_text"]
+sw_x2000_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_x2000_cargo_subtype"]
+item_x2000 [fillcolor=red style="filled" label="<FEAT_TRAINS 3>\nitem_x2000"]
+sw_x2000_livery_cafe_reversed->spriteset_x2000_2_cafe_reversed
+sw_x2000_cab_reversed_position->sw_x2000_cab_with_headlights
+sw_x2000_reverser_5->sw_x2000_cab_position
+sw_x2000_loco_reversed_position->sw_x2000_loco_with_marker_lights
+sw_x2000_livery_loco_reversed->spriteset_x2000_2_loco_reversed
+sw_x2000_loco_with_marker_lights->sw_x2000_livery_loco_reversed
+sw_x2000_graphics->sw_x2000_reverser_2
+sw_x2000_livery_cab_reversed->spriteset_x2000_1_cab_reversed
+sw_x2000_reverser_0->sw_x2000_loco_position
+sw_x2000_reverser_0->sw_x2000_cab_reversed_position
+sw_x2000_reverser_1_4->sw_x2000_livery_coach
+sw_x2000_livery_coach_reversed->spriteset_x2000_2_coach_reversed
+sw_x2000_loco_with_headlights->spriteset_x2000_loco_headlights
+sw_x2000_cab_position->sw_x2000_livery_cab
+item_x2000->sw_x2000_visual_effect_and_powered
+sw_x2000_loco_reversed_position->sw_x2000_livery_loco_reversed
+sw_x2000_cab_with_headlights->spriteset_x2000_cab_headlights
+sw_x2000_livery_loco->spriteset_x2000_2_loco
+sw_x2000_loco_position->sw_x2000_livery_loco
+sw_x2000_cab_position->sw_x2000_cab_with_marker_lights
+sw_x2000_livery_coach->spriteset_x2000_1_coach
+sw_x2000_reverser_5->sw_x2000_loco_reversed_position
+sw_x2000_reverser_2->sw_x2000_livery_coach
+sw_x2000_livery_cafe->spriteset_x2000_1_cafe
+item_x2000->sw_x2000_graphics
+sw_x2000_livery_coach->spriteset_x2000_2_coach
+item_x2000->sw_x2000_livery_loco
+sw_x2000_loco_with_headlights->sw_x2000_livery_loco
+sw_x2000_reverser_2->sw_x2000_livery_cafe_reversed
+sw_x2000_cab_reversed_position->sw_x2000_livery_cab_reversed
+sw_x2000_graphics->sw_x2000_reverser_0
+sw_x2000_livery_loco->spriteset_x2000_1_loco
+sw_x2000_reverser_1_4->sw_x2000_livery_coach_reversed
+sw_x2000_reverser_3->sw_x2000_livery_cafe
+sw_x2000_livery_coach_reversed->spriteset_x2000_1_coach_reversed
+item_x2000->sw_x2000_articulated_part
+sw_x2000_graphics->sw_x2000_reverser_1_4
+sw_x2000_graphics->sw_x2000_reverser_3
+sw_x2000_cab_with_marker_lights->spriteset_x2000_cab_marker_lights
+sw_x2000_graphics->sw_x2000_reverser_5
+sw_x2000_reverser_3->sw_x2000_livery_coach_reversed
+sw_x2000_livery_cafe->spriteset_x2000_2_cafe
+sw_x2000_livery_loco_reversed->spriteset_x2000_1_loco_reversed
+sw_x2000_livery_cab_reversed->spriteset_x2000_2_cab_reversed
+sw_x2000_cab_with_marker_lights->sw_x2000_livery_cab
+sw_x2000_loco_with_marker_lights->spriteset_x2000_loco_marker_lights
+item_x2000->sw_cc_blue_white
+sw_x2000_livery_cafe_reversed->spriteset_x2000_1_cafe_reversed
+sw_x2000_livery_cab->spriteset_x2000_2_cab
+sw_x2000_cargo_subtype->sw_x2000_cargo_subtype_text
+sw_x2000_livery_cab->spriteset_x2000_1_cab
+sw_x2000_loco_position->sw_x2000_loco_with_headlights
+item_x2000->sw_x2000_cargo_subtype
+sw_x2000_cab_with_headlights->sw_x2000_livery_cab_reversed
+}

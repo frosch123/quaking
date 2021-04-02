@@ -1,0 +1,90 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+iron_ore_mine_extra_text [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_extra_text"]
+iron_ore_mine_cargo_subtype_display_cargo_ENSP_economy_0 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cargo_subtype_display_cargo_ENSP_economy_0"]
+iron_ore_mine_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cargo_subtype_display_switch_cargo_economy_0"]
+iron_ore_mine_cargo_subtype_display_cargo_ENSP_economy_5 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cargo_subtype_display_cargo_ENSP_economy_5"]
+iron_ore_mine_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cargo_subtype_display_switch_cargo_economy_5"]
+iron_ore_mine_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cargo_subtype_display_switch_economy"]
+iron_ore_mine_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cargo_subtype_display"]
+iron_ore_mine_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_monthly_prod_change"]
+iron_ore_mine_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_clear_incoming_cargo_waiting_0"]
+iron_ore_mine_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_store_incoming_cargo_waiting_0"]
+iron_ore_mine_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_clear_incoming_cargo_waiting_1"]
+iron_ore_mine_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_store_incoming_cargo_waiting_1"]
+iron_ore_mine_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_clear_incoming_cargo_waiting_4"]
+iron_ore_mine_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_store_incoming_cargo_waiting_4"]
+iron_ore_mine_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_clear_incoming_cargo_waiting_5"]
+iron_ore_mine_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_store_incoming_cargo_waiting_5"]
+iron_ore_mine_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_clear_incoming_cargo_waiting_3"]
+iron_ore_mine_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_store_incoming_cargo_waiting_3"]
+iron_ore_mine_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_produce_cargo_arrival"]
+iron_ore_mine_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_production_256_economy_0"]
+iron_ore_mine_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_production_256_economy_1"]
+iron_ore_mine_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_production_256_economy_4"]
+iron_ore_mine_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_production_256_economy_5"]
+iron_ore_mine_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\niron_ore_mine_production_256_economy_3"]
+iron_ore_mine_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_produce_256_ticks_switch_economy"]
+iron_ore_mine_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_produce_256_ticks"]
+iron_ore_mine_check_availability_param [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability_param"]
+iron_ore_mine_check_map_gen [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_map_gen"]
+iron_ore_mine_available_game_mode [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_available_game_mode"]
+iron_ore_mine_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability_0"]
+iron_ore_mine_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability_1"]
+iron_ore_mine_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability_4"]
+iron_ore_mine_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability_5"]
+iron_ore_mine_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability_3"]
+iron_ore_mine_check_availability [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_availability"]
+iron_ore_mine_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_min_distance_7"]
+iron_ore_mine_min_distance_4 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_min_distance_4"]
+iron_ore_mine_cluster_iron_ore_mine [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_cluster_iron_ore_mine"]
+iron_ore_mine_check_location [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_check_location"]
+iron_ore_mine [fillcolor=red style="filled" label="FEAT_INDUSTRIES <4>\niron_ore_mine"]
+iron_ore_mine->iron_ore_mine_monthly_prod_change
+iron_ore_mine_produce_cargo_arrival->iron_ore_mine_store_incoming_cargo_waiting_4
+iron_ore_mine_check_availability->iron_ore_mine_check_availability_0
+iron_ore_mine->iron_ore_mine_produce_cargo_arrival
+iron_ore_mine_cargo_subtype_display_switch_cargo_economy_5->iron_ore_mine_cargo_subtype_display_cargo_ENSP_economy_5
+iron_ore_mine_cargo_subtype_display->iron_ore_mine_cargo_subtype_display_switch_economy
+iron_ore_mine_store_incoming_cargo_waiting_3->iron_ore_mine_clear_incoming_cargo_waiting_3
+iron_ore_mine_produce_256_ticks_switch_economy->iron_ore_mine_production_256_economy_1
+iron_ore_mine_check_availability_4->iron_ore_mine_available_game_mode
+iron_ore_mine_check_availability->iron_ore_mine_check_availability_4
+iron_ore_mine->iron_ore_mine_cargo_subtype_display
+iron_ore_mine->switch_colour
+iron_ore_mine_check_map_gen->iron_ore_mine_check_availability_param
+iron_ore_mine->iron_ore_mine_extra_text
+iron_ore_mine_min_distance_4->iron_ore_mine_min_distance_7
+iron_ore_mine_check_availability_3->iron_ore_mine_available_game_mode
+iron_ore_mine_check_availability->iron_ore_mine_check_availability_5
+iron_ore_mine->randomise_primary_production_on_build
+iron_ore_mine->iron_ore_mine_check_availability
+iron_ore_mine_available_game_mode->iron_ore_mine_check_map_gen
+iron_ore_mine_produce_256_ticks_switch_economy->iron_ore_mine_production_256_economy_5
+iron_ore_mine_cargo_subtype_display_switch_cargo_economy_0->iron_ore_mine_cargo_subtype_display_cargo_ENSP_economy_0
+iron_ore_mine_produce_cargo_arrival->iron_ore_mine_store_incoming_cargo_waiting_5
+iron_ore_mine_produce_256_ticks_switch_economy->iron_ore_mine_production_256_economy_3
+iron_ore_mine_check_availability->iron_ore_mine_check_availability_3
+iron_ore_mine_check_location->iron_ore_mine_cluster_iron_ore_mine
+iron_ore_mine_store_incoming_cargo_waiting_0->iron_ore_mine_clear_incoming_cargo_waiting_0
+iron_ore_mine_check_availability_5->iron_ore_mine_available_game_mode
+iron_ore_mine_produce_cargo_arrival->iron_ore_mine_store_incoming_cargo_waiting_3
+iron_ore_mine_check_availability->iron_ore_mine_check_availability_1
+iron_ore_mine_store_incoming_cargo_waiting_1->iron_ore_mine_clear_incoming_cargo_waiting_1
+iron_ore_mine_produce_cargo_arrival->iron_ore_mine_store_incoming_cargo_waiting_1
+iron_ore_mine_produce_cargo_arrival->iron_ore_mine_store_incoming_cargo_waiting_0
+iron_ore_mine->iron_ore_mine_produce_256_ticks
+iron_ore_mine_cluster_iron_ore_mine->iron_ore_mine_min_distance_4
+iron_ore_mine_produce_256_ticks->iron_ore_mine_produce_256_ticks_switch_economy
+iron_ore_mine_cargo_subtype_display_switch_economy->iron_ore_mine_cargo_subtype_display_switch_cargo_economy_5
+iron_ore_mine_check_availability_1->iron_ore_mine_available_game_mode
+iron_ore_mine_check_availability_0->iron_ore_mine_available_game_mode
+iron_ore_mine_store_incoming_cargo_waiting_4->iron_ore_mine_clear_incoming_cargo_waiting_4
+iron_ore_mine_produce_256_ticks_switch_economy->iron_ore_mine_production_256_economy_0
+iron_ore_mine_store_incoming_cargo_waiting_5->iron_ore_mine_clear_incoming_cargo_waiting_5
+iron_ore_mine_cargo_subtype_display_switch_economy->iron_ore_mine_cargo_subtype_display_switch_cargo_economy_0
+iron_ore_mine_produce_256_ticks_switch_economy->iron_ore_mine_production_256_economy_4
+iron_ore_mine->iron_ore_mine_check_location
+}

@@ -1,0 +1,198 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+quarry_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_1_0"]
+quarry_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_1_0_snow"]
+quarry_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_3_0"]
+quarry_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_3_0_snow"]
+quarry_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_4_0"]
+quarry_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_4_0_snow"]
+quarry_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_5_0"]
+quarry_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_5_0_snow"]
+quarry_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_6_0"]
+quarry_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_6_0_snow"]
+quarry_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_7_0"]
+quarry_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_7_0_snow"]
+quarry_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_8_0"]
+quarry_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_8_0_snow"]
+quarry_spriteset_9_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_9_0"]
+quarry_spriteset_9_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_9_0_snow"]
+quarry_spriteset_10_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_10_0"]
+quarry_spriteset_10_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_10_0_snow"]
+quarry_spriteset_11_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_11_0"]
+quarry_spriteset_11_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_11_0_snow"]
+quarry_spriteset_12_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_12_0"]
+quarry_spriteset_12_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_12_0_snow"]
+quarry_spriteset_13_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_13_0"]
+quarry_spriteset_13_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_13_0_snow"]
+quarry_spriteset_14_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_14_0"]
+quarry_spriteset_14_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_14_0_snow"]
+quarry_spriteset_15_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_15_0"]
+quarry_spriteset_15_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_15_0_snow"]
+quarry_spriteset_16_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_16_0"]
+quarry_spriteset_16_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_16_0_snow"]
+quarry_spriteset_17_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_17_0"]
+quarry_spriteset_17_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_17_0_snow"]
+quarry_spriteset_18_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_18_0"]
+quarry_spriteset_18_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_18_0_snow"]
+quarry_spriteset_19_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_19_0"]
+quarry_spriteset_19_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_19_0_snow"]
+quarry_spriteset_20_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_20_0"]
+quarry_spriteset_20_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_20_0_snow"]
+quarry_spriteset_21_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_21_0"]
+quarry_spriteset_21_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_21_0_snow"]
+quarry_spriteset_22_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_22_0"]
+quarry_spriteset_22_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_22_0_snow"]
+quarry_spriteset_23_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_23_0"]
+quarry_spriteset_23_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_23_0_snow"]
+quarry_spriteset_24_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_24_0"]
+quarry_spriteset_24_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_24_0_snow"]
+quarry_spriteset_25_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_25_0"]
+quarry_spriteset_25_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_25_0_snow"]
+quarry_spriteset_26_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_26_0"]
+quarry_spriteset_26_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_26_0_snow"]
+quarry_spriteset_27_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_27_0"]
+quarry_spriteset_27_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_27_0_snow"]
+quarry_spriteset_28_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_28_0"]
+quarry_spriteset_28_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_28_0_snow"]
+quarry_spriteset_29_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_29_0"]
+quarry_spriteset_29_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_29_0_snow"]
+quarry_spriteset_30_0 [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_30_0"]
+quarry_spriteset_30_0_snow [fillcolor=green style="filled" label="<spriteset>\nquarry_spriteset_30_0_snow"]
+quarry_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_1"]
+quarry_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_2"]
+quarry_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_4"]
+quarry_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_5"]
+quarry_spritelayout_6 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_6"]
+quarry_spritelayout_7 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_7"]
+quarry_spritelayout_8 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_8"]
+quarry_spritelayout_10 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_10"]
+quarry_spritelayout_11 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_11"]
+quarry_spritelayout_12 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_12"]
+quarry_spritelayout_19 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_19"]
+quarry_spritelayout_20 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_20"]
+quarry_spritelayout_22 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_22"]
+quarry_spritelayout_23 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_23"]
+quarry_spritelayout_24 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_24"]
+quarry_spritelayout_39 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_39"]
+quarry_spritelayout_40 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_40"]
+quarry_spritelayout_41 [fillcolor=yellow style="filled" label="<spritelayout>\nquarry_spritelayout_41"]
+quarry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nquarry_layout_1_graphics_switch"]
+quarry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nquarry_layout_2_graphics_switch"]
+quarry_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nquarry_industry_graphics_switch_layouts"]
+quarry_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nquarry_industry_construction_state_graphics_switch"]
+quarry_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nquarry_store_temp_vars"]
+quarry_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nquarry_switch_graphics"]
+quarry_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\nquarry_tile_1_lc_3"]
+quarry_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nquarry_tile_1_lc_2"]
+quarry_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nquarry_tile_1_lc_1"]
+quarry_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nquarry_tile_1_lc_0"]
+quarry_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <241>\nquarry_tile_1"]
+quarry_industry_construction_state_graphics_switch->quarry_industry_graphics_switch_layouts
+quarry_spritelayout_39->quarry_spriteset_25_0_snow
+quarry_spritelayout_23->quarry_spriteset_16_0
+quarry_spritelayout_39->quarry_spriteset_25_0
+quarry_layout_1_graphics_switch->quarry_spritelayout_12
+quarry_layout_2_graphics_switch->quarry_spritelayout_39
+quarry_spritelayout_22->quarry_spriteset_22_0
+quarry_spritelayout_20->quarry_spriteset_21_0
+quarry_layout_1_graphics_switch->quarry_spritelayout_24
+quarry_spritelayout_41->quarry_spriteset_30_0_snow
+quarry_layout_1_graphics_switch->quarry_spritelayout_23
+quarry_spritelayout_39->quarry_spriteset_28_0
+quarry_layout_2_graphics_switch->quarry_spritelayout_11
+quarry_spritelayout_10->quarry_spriteset_10_0
+quarry_layout_1_graphics_switch->quarry_spritelayout_2
+quarry_layout_1_graphics_switch->quarry_spritelayout_5
+quarry_layout_2_graphics_switch->quarry_spritelayout_12
+quarry_spritelayout_40->quarry_spriteset_29_0
+quarry_layout_1_graphics_switch->quarry_spritelayout_39
+quarry_spritelayout_23->quarry_spriteset_16_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_20
+quarry_spritelayout_2->quarry_spriteset_4_0
+quarry_layout_2_graphics_switch->quarry_spritelayout_2
+quarry_layout_1_graphics_switch->quarry_spritelayout_10
+quarry_layout_2_graphics_switch->quarry_spritelayout_23
+quarry_store_temp_vars->quarry_industry_construction_state_graphics_switch
+quarry_layout_2_graphics_switch->quarry_spritelayout_8
+quarry_spritelayout_5->quarry_spriteset_6_0
+quarry_spritelayout_6->quarry_spriteset_7_0_snow
+quarry_spritelayout_2->quarry_spriteset_20_0_snow
+quarry_spritelayout_1->quarry_spriteset_3_0_snow
+quarry_industry_graphics_switch_layouts->quarry_layout_2_graphics_switch
+quarry_spritelayout_40->quarry_spriteset_26_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_40
+quarry_spritelayout_24->quarry_spriteset_17_0_snow
+quarry_spritelayout_41->quarry_spriteset_27_0_snow
+quarry_spritelayout_5->quarry_spriteset_18_0
+quarry_spritelayout_22->quarry_spriteset_15_0
+quarry_layout_1_graphics_switch->quarry_spritelayout_40
+quarry_spritelayout_19->quarry_spriteset_13_0_snow
+quarry_spritelayout_5->quarry_spriteset_6_0_snow
+quarry_spritelayout_24->quarry_spriteset_24_0
+quarry_spritelayout_19->quarry_spriteset_13_0
+quarry_spritelayout_24->quarry_spriteset_24_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_10
+quarry_layout_1_graphics_switch->quarry_spritelayout_1
+quarry_spritelayout_10->quarry_spriteset_10_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_22
+quarry_spritelayout_20->quarry_spriteset_14_0_snow
+quarry_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+quarry_layout_1_graphics_switch->quarry_spritelayout_20
+quarry_layout_2_graphics_switch->quarry_spritelayout_1
+quarry_spritelayout_22->quarry_spriteset_15_0_snow
+quarry_spritelayout_4->quarry_spriteset_5_0_snow
+quarry_layout_1_graphics_switch->quarry_spritelayout_41
+quarry_spritelayout_8->quarry_spriteset_9_0
+quarry_spritelayout_23->quarry_spriteset_23_0
+quarry_industry_graphics_switch_layouts->quarry_layout_1_graphics_switch
+quarry_spritelayout_5->quarry_spriteset_18_0_snow
+quarry_spritelayout_7->quarry_spriteset_8_0_snow
+quarry_spritelayout_11->quarry_spriteset_11_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_5
+quarry_spritelayout_41->quarry_spriteset_27_0
+quarry_layout_1_graphics_switch->quarry_spritelayout_7
+quarry_spritelayout_5->quarry_spriteset_19_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_24
+quarry_layout_1_graphics_switch->quarry_spritelayout_8
+quarry_spritelayout_11->quarry_spriteset_11_0
+quarry_tile_1->quarry_switch_graphics
+quarry_spritelayout_12->quarry_spriteset_12_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_6
+quarry_spritelayout_6->quarry_spriteset_7_0
+quarry_spritelayout_8->quarry_spriteset_1_0
+quarry_spritelayout_5->quarry_spriteset_19_0
+quarry_tile_1_lc_0->quarry_tile_1_lc_1
+quarry_layout_2_graphics_switch->quarry_spritelayout_19
+quarry_spritelayout_24->quarry_spriteset_17_0
+quarry_layout_2_graphics_switch->quarry_spritelayout_4
+quarry_tile_1->quarry_tile_1_lc_0
+quarry_spritelayout_20->quarry_spriteset_14_0
+quarry_spritelayout_41->quarry_spriteset_30_0
+quarry_spritelayout_8->quarry_spriteset_9_0_snow
+spritelayout_default_construction_states->spriteset_default_construction_states
+quarry_layout_1_graphics_switch->quarry_spritelayout_6
+quarry_spritelayout_40->quarry_spriteset_29_0_snow
+quarry_layout_1_graphics_switch->quarry_spritelayout_4
+quarry_layout_1_graphics_switch->quarry_spritelayout_19
+quarry_spritelayout_7->quarry_spriteset_8_0
+quarry_spritelayout_4->quarry_spriteset_5_0
+quarry_spritelayout_2->quarry_spriteset_4_0_snow
+quarry_spritelayout_39->quarry_spriteset_28_0_snow
+quarry_spritelayout_2->quarry_spriteset_20_0
+quarry_spritelayout_22->quarry_spriteset_22_0_snow
+quarry_tile_1_lc_1->quarry_tile_1_lc_2
+quarry_spritelayout_8->quarry_spriteset_1_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_7
+quarry_spritelayout_40->quarry_spriteset_26_0
+quarry_spritelayout_20->quarry_spriteset_21_0_snow
+quarry_layout_1_graphics_switch->quarry_spritelayout_22
+quarry_spritelayout_1->quarry_spriteset_3_0
+quarry_spritelayout_12->quarry_spriteset_12_0
+quarry_switch_graphics->quarry_store_temp_vars
+quarry_layout_1_graphics_switch->quarry_spritelayout_11
+quarry_spritelayout_23->quarry_spriteset_23_0_snow
+quarry_layout_2_graphics_switch->quarry_spritelayout_41
+quarry_tile_1_lc_2->quarry_tile_1_lc_3
+}

@@ -1,0 +1,104 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+farm_extra_text [fillcolor=yellow style="filled" label="<switch>\nfarm_extra_text"]
+farm_cargo_subtype_display_cargo_FMSP_economy_5 [fillcolor=yellow style="filled" label="<switch>\nfarm_cargo_subtype_display_cargo_FMSP_economy_5"]
+farm_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nfarm_cargo_subtype_display_switch_cargo_economy_5"]
+farm_cargo_subtype_display_cargo_FMSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\nfarm_cargo_subtype_display_cargo_FMSP_economy_3"]
+farm_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nfarm_cargo_subtype_display_switch_cargo_economy_3"]
+farm_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nfarm_cargo_subtype_display_switch_economy"]
+farm_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nfarm_cargo_subtype_display"]
+farm_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nfarm_monthly_prod_change"]
+farm_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nfarm_clear_incoming_cargo_waiting_0"]
+farm_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nfarm_store_incoming_cargo_waiting_0"]
+farm_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nfarm_clear_incoming_cargo_waiting_1"]
+farm_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nfarm_store_incoming_cargo_waiting_1"]
+farm_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nfarm_clear_incoming_cargo_waiting_4"]
+farm_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nfarm_store_incoming_cargo_waiting_4"]
+farm_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nfarm_clear_incoming_cargo_waiting_5"]
+farm_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nfarm_store_incoming_cargo_waiting_5"]
+farm_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nfarm_clear_incoming_cargo_waiting_3"]
+farm_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nfarm_store_incoming_cargo_waiting_3"]
+farm_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nfarm_produce_cargo_arrival"]
+farm_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nfarm_production_256_economy_0"]
+farm_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nfarm_production_256_economy_1"]
+farm_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nfarm_production_256_economy_4"]
+farm_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nfarm_production_256_economy_5"]
+farm_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nfarm_production_256_economy_3"]
+farm_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nfarm_produce_256_ticks_switch_economy"]
+farm_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nfarm_produce_256_ticks"]
+farm_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability_param"]
+farm_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nfarm_check_map_gen"]
+farm_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nfarm_available_game_mode"]
+farm_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability_0"]
+farm_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability_1"]
+farm_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability_4"]
+farm_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability_5"]
+farm_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability_3"]
+farm_check_availability [fillcolor=yellow style="filled" label="<switch>\nfarm_check_availability"]
+farm_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_35"]
+farm_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_34"]
+farm_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_61"]
+farm_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_51"]
+farm_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_37"]
+farm_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_39"]
+farm_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_52"]
+farm_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_60"]
+farm_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_58"]
+farm_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nfarm_min_distance_29"]
+farm_check_location [fillcolor=yellow style="filled" label="<switch>\nfarm_check_location"]
+farm [fillcolor=red style="filled" label="FEAT_INDUSTRIES <29>\nfarm"]
+farm_min_distance_58->farm_min_distance_60
+farm_check_location->farm_min_distance_29
+farm_produce_256_ticks_switch_economy->farm_production_256_economy_0
+farm_cargo_subtype_display_switch_economy->farm_cargo_subtype_display_switch_cargo_economy_5
+farm->farm_check_availability
+farm_cargo_subtype_display->farm_cargo_subtype_display_switch_economy
+farm_check_availability_4->farm_available_game_mode
+farm->farm_cargo_subtype_display
+farm_check_availability->farm_check_availability_0
+farm_cargo_subtype_display_switch_economy->farm_cargo_subtype_display_switch_cargo_economy_3
+farm_store_incoming_cargo_waiting_5->farm_clear_incoming_cargo_waiting_5
+farm_produce_256_ticks_switch_economy->farm_production_256_economy_3
+farm_check_availability_3->farm_available_game_mode
+farm->switch_colour
+farm_produce_cargo_arrival->farm_store_incoming_cargo_waiting_3
+farm_store_incoming_cargo_waiting_3->farm_clear_incoming_cargo_waiting_3
+farm_cargo_subtype_display_switch_cargo_economy_3->farm_cargo_subtype_display_cargo_FMSP_economy_3
+farm_store_incoming_cargo_waiting_1->farm_clear_incoming_cargo_waiting_1
+farm_min_distance_34->farm_min_distance_35
+farm_check_availability_1->farm_available_game_mode
+farm_cargo_subtype_display_switch_cargo_economy_5->farm_cargo_subtype_display_cargo_FMSP_economy_5
+farm->farm_produce_cargo_arrival
+farm_check_availability_5->farm_available_game_mode
+farm_min_distance_39->farm_min_distance_37
+farm_produce_cargo_arrival->farm_store_incoming_cargo_waiting_5
+farm_check_availability->farm_check_availability_5
+farm_store_incoming_cargo_waiting_4->farm_clear_incoming_cargo_waiting_4
+farm_check_availability->farm_check_availability_1
+farm_produce_256_ticks->farm_produce_256_ticks_switch_economy
+farm_produce_cargo_arrival->farm_store_incoming_cargo_waiting_0
+farm->farm_produce_256_ticks
+farm_produce_cargo_arrival->farm_store_incoming_cargo_waiting_1
+farm_min_distance_60->farm_min_distance_52
+farm_min_distance_52->farm_min_distance_39
+farm->farm_check_location
+farm_produce_256_ticks_switch_economy->farm_production_256_economy_4
+farm_check_availability_0->farm_available_game_mode
+farm_check_map_gen->farm_check_availability_param
+farm_produce_cargo_arrival->farm_store_incoming_cargo_waiting_4
+farm_produce_256_ticks_switch_economy->farm_production_256_economy_5
+farm_min_distance_37->farm_min_distance_51
+farm->farm_extra_text
+farm->farm_monthly_prod_change
+farm_store_incoming_cargo_waiting_0->farm_clear_incoming_cargo_waiting_0
+farm_min_distance_61->farm_min_distance_34
+farm_check_availability->farm_check_availability_3
+farm_produce_256_ticks_switch_economy->farm_production_256_economy_1
+farm_min_distance_29->farm_min_distance_58
+farm_check_availability->farm_check_availability_4
+farm_min_distance_51->farm_min_distance_61
+farm->randomise_primary_production_on_build
+farm_available_game_mode->farm_check_map_gen
+}

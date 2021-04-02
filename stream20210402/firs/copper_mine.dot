@@ -1,0 +1,90 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+copper_mine_extra_text [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_extra_text"]
+copper_mine_cargo_subtype_display_cargo_ENSP_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cargo_subtype_display_cargo_ENSP_economy_4"]
+copper_mine_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cargo_subtype_display_switch_cargo_economy_4"]
+copper_mine_cargo_subtype_display_cargo_ENSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cargo_subtype_display_cargo_ENSP_economy_3"]
+copper_mine_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cargo_subtype_display_switch_cargo_economy_3"]
+copper_mine_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cargo_subtype_display_switch_economy"]
+copper_mine_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cargo_subtype_display"]
+copper_mine_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_monthly_prod_change"]
+copper_mine_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\ncopper_mine_clear_incoming_cargo_waiting_0"]
+copper_mine_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_store_incoming_cargo_waiting_0"]
+copper_mine_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\ncopper_mine_clear_incoming_cargo_waiting_1"]
+copper_mine_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_store_incoming_cargo_waiting_1"]
+copper_mine_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\ncopper_mine_clear_incoming_cargo_waiting_4"]
+copper_mine_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_store_incoming_cargo_waiting_4"]
+copper_mine_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\ncopper_mine_clear_incoming_cargo_waiting_5"]
+copper_mine_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_store_incoming_cargo_waiting_5"]
+copper_mine_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\ncopper_mine_clear_incoming_cargo_waiting_3"]
+copper_mine_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_store_incoming_cargo_waiting_3"]
+copper_mine_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_produce_cargo_arrival"]
+copper_mine_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\ncopper_mine_production_256_economy_0"]
+copper_mine_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\ncopper_mine_production_256_economy_1"]
+copper_mine_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\ncopper_mine_production_256_economy_4"]
+copper_mine_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\ncopper_mine_production_256_economy_5"]
+copper_mine_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\ncopper_mine_production_256_economy_3"]
+copper_mine_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_produce_256_ticks_switch_economy"]
+copper_mine_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_produce_256_ticks"]
+copper_mine_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability_param"]
+copper_mine_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_map_gen"]
+copper_mine_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_available_game_mode"]
+copper_mine_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability_0"]
+copper_mine_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability_1"]
+copper_mine_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability_4"]
+copper_mine_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability_5"]
+copper_mine_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability_3"]
+copper_mine_check_availability [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_availability"]
+copper_mine_min_distance_67 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_min_distance_67"]
+copper_mine_min_distance_64 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_min_distance_64"]
+copper_mine_cluster_copper_mine [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_cluster_copper_mine"]
+copper_mine_check_location [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_check_location"]
+copper_mine [fillcolor=red style="filled" label="FEAT_INDUSTRIES <64>\ncopper_mine"]
+copper_mine_check_map_gen->copper_mine_check_availability_param
+copper_mine_produce_256_ticks_switch_economy->copper_mine_production_256_economy_3
+copper_mine_store_incoming_cargo_waiting_3->copper_mine_clear_incoming_cargo_waiting_3
+copper_mine_store_incoming_cargo_waiting_5->copper_mine_clear_incoming_cargo_waiting_5
+copper_mine_check_availability->copper_mine_check_availability_4
+copper_mine_produce_cargo_arrival->copper_mine_store_incoming_cargo_waiting_1
+copper_mine_produce_256_ticks_switch_economy->copper_mine_production_256_economy_0
+copper_mine->copper_mine_produce_cargo_arrival
+copper_mine_produce_256_ticks_switch_economy->copper_mine_production_256_economy_4
+copper_mine_produce_cargo_arrival->copper_mine_store_incoming_cargo_waiting_4
+copper_mine_cargo_subtype_display_switch_cargo_economy_3->copper_mine_cargo_subtype_display_cargo_ENSP_economy_3
+copper_mine_cargo_subtype_display_switch_cargo_economy_4->copper_mine_cargo_subtype_display_cargo_ENSP_economy_4
+copper_mine->randomise_primary_production_on_build
+copper_mine_available_game_mode->copper_mine_check_map_gen
+copper_mine_cluster_copper_mine->copper_mine_min_distance_64
+copper_mine_produce_256_ticks_switch_economy->copper_mine_production_256_economy_1
+copper_mine_check_location->copper_mine_cluster_copper_mine
+copper_mine_min_distance_64->copper_mine_min_distance_67
+copper_mine_produce_256_ticks_switch_economy->copper_mine_production_256_economy_5
+copper_mine_cargo_subtype_display_switch_economy->copper_mine_cargo_subtype_display_switch_cargo_economy_4
+copper_mine_check_availability->copper_mine_check_availability_3
+copper_mine->copper_mine_cargo_subtype_display
+copper_mine_store_incoming_cargo_waiting_1->copper_mine_clear_incoming_cargo_waiting_1
+copper_mine->copper_mine_check_location
+copper_mine_check_availability->copper_mine_check_availability_5
+copper_mine_produce_cargo_arrival->copper_mine_store_incoming_cargo_waiting_5
+copper_mine_check_availability_4->copper_mine_available_game_mode
+copper_mine_check_availability_5->copper_mine_available_game_mode
+copper_mine->copper_mine_monthly_prod_change
+copper_mine->copper_mine_extra_text
+copper_mine->copper_mine_produce_256_ticks
+copper_mine_produce_cargo_arrival->copper_mine_store_incoming_cargo_waiting_0
+copper_mine_store_incoming_cargo_waiting_0->copper_mine_clear_incoming_cargo_waiting_0
+copper_mine_check_availability_1->copper_mine_available_game_mode
+copper_mine_check_availability->copper_mine_check_availability_0
+copper_mine->switch_colour
+copper_mine_produce_256_ticks->copper_mine_produce_256_ticks_switch_economy
+copper_mine_check_availability_0->copper_mine_available_game_mode
+copper_mine_check_availability->copper_mine_check_availability_1
+copper_mine_cargo_subtype_display->copper_mine_cargo_subtype_display_switch_economy
+copper_mine->copper_mine_check_availability
+copper_mine_check_availability_3->copper_mine_available_game_mode
+copper_mine_store_incoming_cargo_waiting_4->copper_mine_clear_incoming_cargo_waiting_4
+copper_mine_cargo_subtype_display_switch_economy->copper_mine_cargo_subtype_display_switch_cargo_economy_3
+copper_mine_produce_cargo_arrival->copper_mine_store_incoming_cargo_waiting_3
+}

@@ -1,0 +1,40 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+pikel_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\npikel_ss_unreversed_unflipped_0"]
+pikel_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\npikel_ss_unreversed_flipped_0"]
+pikel_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\npikel_switch_graphics_unreversed"]
+pikel_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\npikel_ss_reversed_unflipped_0"]
+pikel_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\npikel_ss_reversed_flipped_0"]
+pikel_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\npikel_switch_graphics_reversed"]
+pikel_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\npikel_switch_graphics_vehicle"]
+pikel_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\npikel_ss_vehicle_purchase_0"]
+pikel_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\npikel_switch_set_layers_register_more_sprites"]
+pikel_switch_graphics [fillcolor=yellow style="filled" label="<switch>\npikel_switch_graphics"]
+pikel_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\npikel_switch_colour_mapping"]
+pikel_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\npikel_switch_create_effect_default_unreversed"]
+pikel_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\npikel_switch_create_effect_default_reversed"]
+pikel_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\npikel_switch_create_effect_reversed_variants"]
+pikel_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\npikel_switch_buy_menu_text_result"]
+pikel [fillcolor=red style="filled" label="<FEAT_TRAINS 430>\npikel"]
+pikel_switch_graphics_reversed->pikel_ss_reversed_flipped_0
+pikel->pikel_switch_create_effect_reversed_variants
+pikel_switch_create_effect_reversed_variants->pikel_switch_create_effect_default_unreversed
+pikel->pikel_switch_graphics
+pikel->pikel_ss_vehicle_purchase_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+pikel_switch_graphics->pikel_switch_set_layers_register_more_sprites
+pikel->pikel_switch_buy_menu_text_result
+pikel_switch_graphics_vehicle->pikel_switch_graphics_reversed
+pikel_switch_graphics->switch_graphics_layer_tail_light_empty
+pikel_switch_set_layers_register_more_sprites->pikel_switch_graphics_vehicle
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+pikel_switch_create_effect_reversed_variants->pikel_switch_create_effect_default_reversed
+pikel_switch_graphics_reversed->pikel_ss_reversed_unflipped_0
+pikel_switch_graphics_unreversed->pikel_ss_unreversed_unflipped_0
+pikel_switch_graphics_vehicle->pikel_switch_graphics_unreversed
+pikel_switch_graphics_unreversed->pikel_ss_unreversed_flipped_0
+pikel->pikel_switch_colour_mapping
+}

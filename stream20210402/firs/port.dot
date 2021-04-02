@@ -1,0 +1,174 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+port_extra_text [fillcolor=yellow style="filled" label="<switch>\nport_extra_text"]
+port_cargo_subtype_display_cargo_GOOD_economy_0 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_GOOD_economy_0"]
+port_cargo_subtype_display_cargo_KAOL_economy_0 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_KAOL_economy_0"]
+port_cargo_subtype_display_cargo_FOOD_economy_0 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_FOOD_economy_0"]
+port_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_switch_cargo_economy_0"]
+port_cargo_subtype_display_cargo_PAPR_economy_1 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_PAPR_economy_1"]
+port_cargo_subtype_display_cargo_ZINC_economy_1 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_ZINC_economy_1"]
+port_cargo_subtype_display_cargo_FERT_economy_1 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_FERT_economy_1"]
+port_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_switch_cargo_economy_1"]
+port_cargo_subtype_display_cargo_COPR_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_COPR_economy_4"]
+port_cargo_subtype_display_cargo_JAVA_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_JAVA_economy_4"]
+port_cargo_subtype_display_cargo_WOOL_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_WOOL_economy_4"]
+port_cargo_subtype_display_cargo_BEER_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_BEER_economy_4"]
+port_cargo_subtype_display_cargo_RFPR_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_RFPR_economy_4"]
+port_cargo_subtype_display_cargo_FOOD_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_FOOD_economy_4"]
+port_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_switch_cargo_economy_4"]
+port_cargo_subtype_display_cargo_COPR_economy_3 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_COPR_economy_3"]
+port_cargo_subtype_display_cargo_FRUT_economy_3 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_FRUT_economy_3"]
+port_cargo_subtype_display_cargo_WDPR_economy_3 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_cargo_WDPR_economy_3"]
+port_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_switch_cargo_economy_3"]
+port_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display_switch_economy"]
+port_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nport_cargo_subtype_display"]
+port_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nport_monthly_prod_change"]
+port_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nport_clear_incoming_cargo_waiting_0"]
+port_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nport_store_incoming_cargo_waiting_0"]
+port_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nport_clear_incoming_cargo_waiting_1"]
+port_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nport_store_incoming_cargo_waiting_1"]
+port_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nport_clear_incoming_cargo_waiting_4"]
+port_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nport_store_incoming_cargo_waiting_4"]
+port_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nport_clear_incoming_cargo_waiting_5"]
+port_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nport_store_incoming_cargo_waiting_5"]
+port_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nport_clear_incoming_cargo_waiting_3"]
+port_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nport_store_incoming_cargo_waiting_3"]
+port_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nport_produce_cargo_arrival"]
+port_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nport_production_256_economy_0"]
+port_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nport_production_256_economy_1"]
+port_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nport_production_256_economy_4"]
+port_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nport_production_256_economy_5"]
+port_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nport_production_256_economy_3"]
+port_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nport_produce_256_ticks_switch_economy"]
+port_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nport_produce_256_ticks"]
+port_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nport_check_availability_param"]
+port_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nport_check_map_gen"]
+port_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nport_available_game_mode"]
+port_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nport_check_availability_0"]
+port_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nport_check_availability_1"]
+port_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nport_check_availability_4"]
+port_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nport_check_availability_5"]
+port_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nport_check_availability_3"]
+port_check_availability [fillcolor=yellow style="filled" label="<switch>\nport_check_availability"]
+port_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_57"]
+port_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_56"]
+port_min_distance_50 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_50"]
+port_min_distance_48 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_48"]
+port_min_distance_30 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_30"]
+port_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_31"]
+port_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_74"]
+port_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_14"]
+port_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_41"]
+port_min_distance_47 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_47"]
+port_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_36"]
+port_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_82"]
+port_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_9"]
+port_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_49"]
+port_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_69"]
+port_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_35"]
+port_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_34"]
+port_min_distance_68 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_68"]
+port_min_distance_72 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_72"]
+port_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_61"]
+port_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_37"]
+port_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_29"]
+port_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_22"]
+port_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_51"]
+port_min_distance_67 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_67"]
+port_min_distance_85 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_85"]
+port_min_distance_44 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_44"]
+port_min_distance_12 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_12"]
+port_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_60"]
+port_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nport_min_distance_39"]
+port_check_location [fillcolor=yellow style="filled" label="<switch>\nport_check_location"]
+port [fillcolor=red style="filled" label="FEAT_INDUSTRIES <39>\nport"]
+port_min_distance_67->port_min_distance_51
+port_cargo_subtype_display_switch_cargo_economy_1->port_cargo_subtype_display_cargo_ZINC_economy_1
+port_min_distance_56->port_min_distance_57
+port_produce_256_ticks->port_produce_256_ticks_switch_economy
+port_check_availability_3->port_available_game_mode
+port_check_availability->port_check_availability_3
+port->port_produce_256_ticks
+port->switch_colour
+port->randomise_primary_production_on_build
+port_produce_cargo_arrival->port_store_incoming_cargo_waiting_5
+port_cargo_subtype_display_switch_economy->port_cargo_subtype_display_switch_cargo_economy_1
+port_check_map_gen->port_check_availability_param
+port_min_distance_12->port_min_distance_44
+port_min_distance_72->port_min_distance_68
+port_check_availability_5->port_available_game_mode
+port_min_distance_68->port_min_distance_34
+port_cargo_subtype_display_switch_cargo_economy_4->port_cargo_subtype_display_cargo_COPR_economy_4
+port->port_produce_cargo_arrival
+port_min_distance_29->port_min_distance_37
+port_cargo_subtype_display_switch_economy->port_cargo_subtype_display_switch_cargo_economy_3
+port_min_distance_34->port_min_distance_35
+port_min_distance_35->port_min_distance_69
+port_min_distance_44->port_min_distance_85
+port_store_incoming_cargo_waiting_1->port_clear_incoming_cargo_waiting_1
+port_cargo_subtype_display_switch_economy->port_cargo_subtype_display_switch_cargo_economy_4
+port_min_distance_60->port_min_distance_12
+port_cargo_subtype_display_switch_cargo_economy_3->port_cargo_subtype_display_cargo_COPR_economy_3
+port_min_distance_69->port_min_distance_49
+port_cargo_subtype_display_switch_cargo_economy_4->port_cargo_subtype_display_cargo_RFPR_economy_4
+port_min_distance_61->port_min_distance_72
+port_store_incoming_cargo_waiting_4->port_clear_incoming_cargo_waiting_4
+port_min_distance_9->port_min_distance_82
+port_cargo_subtype_display_switch_cargo_economy_0->port_cargo_subtype_display_cargo_FOOD_economy_0
+port_check_availability_4->port_available_game_mode
+port_min_distance_31->port_min_distance_30
+port_cargo_subtype_display_switch_cargo_economy_0->port_cargo_subtype_display_cargo_KAOL_economy_0
+port->port_extra_text
+port_min_distance_48->port_min_distance_50
+port->port_monthly_prod_change
+port_min_distance_74->port_min_distance_31
+port_produce_cargo_arrival->port_store_incoming_cargo_waiting_0
+port_store_incoming_cargo_waiting_0->port_clear_incoming_cargo_waiting_0
+port_cargo_subtype_display_switch_cargo_economy_4->port_cargo_subtype_display_cargo_FOOD_economy_4
+port_check_availability->port_check_availability_1
+port_store_incoming_cargo_waiting_5->port_clear_incoming_cargo_waiting_5
+port_produce_256_ticks_switch_economy->port_production_256_economy_3
+port_produce_cargo_arrival->port_store_incoming_cargo_waiting_3
+port_min_distance_36->port_min_distance_47
+port_cargo_subtype_display_switch_cargo_economy_3->port_cargo_subtype_display_cargo_FRUT_economy_3
+port_check_availability->port_check_availability_4
+port_store_incoming_cargo_waiting_3->port_clear_incoming_cargo_waiting_3
+port_cargo_subtype_display_switch_cargo_economy_3->port_cargo_subtype_display_cargo_WDPR_economy_3
+port_cargo_subtype_display_switch_economy->port_cargo_subtype_display_switch_cargo_economy_0
+port_min_distance_37->port_min_distance_61
+port_cargo_subtype_display_switch_cargo_economy_0->port_cargo_subtype_display_cargo_GOOD_economy_0
+port_available_game_mode->port_check_map_gen
+port_check_availability->port_check_availability_0
+port_produce_256_ticks_switch_economy->port_production_256_economy_5
+port_cargo_subtype_display_switch_cargo_economy_4->port_cargo_subtype_display_cargo_BEER_economy_4
+port_min_distance_47->port_min_distance_41
+port_check_availability->port_check_availability_5
+port_cargo_subtype_display_switch_cargo_economy_4->port_cargo_subtype_display_cargo_WOOL_economy_4
+port_produce_256_ticks_switch_economy->port_production_256_economy_4
+port_check_availability_0->port_available_game_mode
+port_cargo_subtype_display->port_cargo_subtype_display_switch_economy
+port_min_distance_39->port_min_distance_60
+port_produce_256_ticks_switch_economy->port_production_256_economy_1
+port_min_distance_49->port_min_distance_9
+port_min_distance_30->port_min_distance_48
+port_cargo_subtype_display_switch_cargo_economy_4->port_cargo_subtype_display_cargo_JAVA_economy_4
+port_min_distance_50->port_min_distance_56
+port_min_distance_85->port_min_distance_67
+port_cargo_subtype_display_switch_cargo_economy_1->port_cargo_subtype_display_cargo_PAPR_economy_1
+port_produce_256_ticks_switch_economy->port_production_256_economy_0
+port_cargo_subtype_display_switch_cargo_economy_1->port_cargo_subtype_display_cargo_FERT_economy_1
+port_produce_cargo_arrival->port_store_incoming_cargo_waiting_4
+port->port_cargo_subtype_display
+port_min_distance_82->port_min_distance_36
+port->port_check_location
+port_produce_cargo_arrival->port_store_incoming_cargo_waiting_1
+port->port_check_availability
+port_min_distance_41->port_min_distance_14
+port_check_availability_1->port_available_game_mode
+port_min_distance_22->port_min_distance_29
+port_min_distance_14->port_min_distance_74
+port_check_location->port_min_distance_39
+port_min_distance_51->port_min_distance_22
+}

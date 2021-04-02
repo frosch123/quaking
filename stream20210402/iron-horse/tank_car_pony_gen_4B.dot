@@ -1,0 +1,78 @@
+digraph {
+rankdir="BT"
+ss_tail_light_24px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_24px_unflipped"]
+ss_tail_light_24px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_24px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_24px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_24px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+tank_car_pony_gen_4B_ss_0_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_0_unflipped"]
+tank_car_pony_gen_4B_ss_1_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_1_unflipped"]
+tank_car_pony_gen_4B_ss_2_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_2_unflipped"]
+tank_car_pony_gen_4B_ss_3_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_3_unflipped"]
+tank_car_pony_gen_4B_ss_4_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_4_unflipped"]
+tank_car_pony_gen_4B_ss_5_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_5_unflipped"]
+tank_car_pony_gen_4B_ss_6_unflipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_6_unflipped"]
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped"]
+tank_car_pony_gen_4B_ss_0_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_0_flipped"]
+tank_car_pony_gen_4B_ss_1_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_1_flipped"]
+tank_car_pony_gen_4B_ss_2_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_2_flipped"]
+tank_car_pony_gen_4B_ss_3_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_3_flipped"]
+tank_car_pony_gen_4B_ss_4_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_4_flipped"]
+tank_car_pony_gen_4B_ss_5_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_5_flipped"]
+tank_car_pony_gen_4B_ss_6_flipped [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_6_flipped"]
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_graphics_cargo_type_flipped"]
+tank_car_pony_gen_4B_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_graphics_vehicle"]
+tank_car_pony_gen_4B_ss_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_0"]
+tank_car_pony_gen_4B_ss_purchase_1 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_1"]
+tank_car_pony_gen_4B_ss_purchase_2 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_2"]
+tank_car_pony_gen_4B_ss_purchase_3 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_3"]
+tank_car_pony_gen_4B_ss_purchase_4 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_4"]
+tank_car_pony_gen_4B_ss_purchase_5 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_5"]
+tank_car_pony_gen_4B_ss_purchase_6 [fillcolor=green style="filled" label="<spriteset>\ntank_car_pony_gen_4B_ss_purchase_6"]
+tank_car_pony_gen_4B_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_set_layers_register_more_sprites"]
+tank_car_pony_gen_4B_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_graphics"]
+tank_car_pony_gen_4B_switch_graphics_purchase [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_graphics_purchase"]
+tank_car_pony_gen_4B_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\ntank_car_pony_gen_4B_switch_cargo_capacity"]
+tank_car_pony_gen_4B [fillcolor=red style="filled" label="<FEAT_TRAINS 960>\ntank_car_pony_gen_4B"]
+tank_car_pony_gen_4B->tank_car_pony_gen_4B_switch_cargo_capacity
+switch_graphics_layer_tail_light_24px->ss_tail_light_empty_unflipped
+tank_car_pony_gen_4B->tank_car_pony_gen_4B_switch_graphics_purchase
+tank_car_pony_gen_4B_switch_graphics->switch_graphics_layer_tail_light_24px
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_5_unflipped
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_1
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_4_flipped
+tank_car_pony_gen_4B_switch_cargo_capacity->switch_cargo_capacity
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_6_flipped
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_2_unflipped
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_0_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+switch_graphics_layer_tail_light_24px->ss_tail_light_24px_unflipped
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_2
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_2_flipped
+switch_graphics_layer_tail_light_24px->ss_tail_light_24px_flipped
+tank_car_pony_gen_4B_switch_set_layers_register_more_sprites->tank_car_pony_gen_4B_switch_graphics_vehicle
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_1_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_6
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_4_unflipped
+tank_car_pony_gen_4B_switch_graphics_vehicle->tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_4
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_3_flipped
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_6_unflipped
+tank_car_pony_gen_4B_switch_graphics->tank_car_pony_gen_4B_switch_set_layers_register_more_sprites
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_5
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_3_unflipped
+tank_car_pony_gen_4B_switch_graphics_vehicle->tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped
+tank_car_pony_gen_4B_switch_graphics_cargo_type_unflipped->tank_car_pony_gen_4B_ss_1_unflipped
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_5_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+tank_car_pony_gen_4B->tank_car_pony_gen_4B_switch_graphics
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_3
+tank_car_pony_gen_4B_switch_graphics_purchase->tank_car_pony_gen_4B_ss_purchase_0
+tank_car_pony_gen_4B_switch_graphics_cargo_type_flipped->tank_car_pony_gen_4B_ss_0_flipped
+}

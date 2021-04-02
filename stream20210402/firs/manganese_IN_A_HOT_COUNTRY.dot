@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_manganese [fillcolor=green style="filled" label="<spriteset>\ncargoicon_manganese"]
+manganese_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <20>\nmanganese_IN_A_HOT_COUNTRY"]
+manganese_IN_A_HOT_COUNTRY->cargoicon_manganese
+}

@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_coal_tar [fillcolor=green style="filled" label="<spriteset>\ncargoicon_coal_tar"]
+coal_tar_STEELTOWN [fillcolor=red style="filled" label="FEAT_CARGOS <14>\ncoal_tar_STEELTOWN"]
+coal_tar_STEELTOWN->cargoicon_coal_tar
+}

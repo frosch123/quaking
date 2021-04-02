@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_edible_oil [fillcolor=green style="filled" label="<spriteset>\ncargoicon_edible_oil"]
+edible_oil_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <13>\nedible_oil_IN_A_HOT_COUNTRY"]
+edible_oil_IN_A_HOT_COUNTRY->cargoicon_edible_oil
+}

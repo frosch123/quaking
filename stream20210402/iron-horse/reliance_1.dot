@@ -1,0 +1,24 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+reliance_1_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nreliance_1_ss_unreversed_unflipped_0"]
+reliance_1_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nreliance_1_ss_unreversed_flipped_0"]
+reliance_1_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nreliance_1_switch_graphics_unreversed"]
+reliance_1_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nreliance_1_ss_vehicle_purchase_0"]
+reliance_1_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nreliance_1_switch_set_layers_register_more_sprites"]
+reliance_1_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nreliance_1_switch_graphics"]
+reliance_1_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nreliance_1_switch_colour_mapping"]
+reliance_1 [fillcolor=red style="filled" label="<FEAT_TRAINS 4891>\nreliance_1"]
+reliance_1_switch_set_layers_register_more_sprites->reliance_1_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+reliance_1->reliance_1_switch_graphics
+reliance_1_switch_graphics_unreversed->reliance_1_ss_unreversed_unflipped_0
+reliance_1->reliance_1_switch_colour_mapping
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+reliance_1_switch_graphics->switch_graphics_layer_tail_light_empty
+reliance_1->reliance_1_ss_vehicle_purchase_0
+reliance_1_switch_graphics->reliance_1_switch_set_layers_register_more_sprites
+reliance_1_switch_graphics_unreversed->reliance_1_ss_unreversed_flipped_0
+}

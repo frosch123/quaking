@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+brewery_produce_0 [fillcolor=green style="filled" label="<produce>\nbrewery_produce_0"]
+brewery_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nbrewery_produce_calculation_0"]
+brewery_produce_1 [fillcolor=green style="filled" label="<produce>\nbrewery_produce_1"]
+brewery_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nbrewery_produce_calculation_1"]
+brewery_produce_4 [fillcolor=green style="filled" label="<produce>\nbrewery_produce_4"]
+brewery_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nbrewery_produce_calculation_4"]
+brewery_produce_5 [fillcolor=green style="filled" label="<produce>\nbrewery_produce_5"]
+brewery_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nbrewery_produce_calculation_5"]
+brewery_produce_3 [fillcolor=green style="filled" label="<produce>\nbrewery_produce_3"]
+brewery_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_produce_calculation_3"]
+brewery_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nbrewery_produce_cargo_arrival"]
+brewery_extra_text [fillcolor=yellow style="filled" label="<switch>\nbrewery_extra_text"]
+brewery_cargo_subtype_display_cargo_FRUT_economy_0 [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display_cargo_FRUT_economy_0"]
+brewery_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display_switch_cargo_economy_0"]
+brewery_cargo_subtype_display_cargo_FRUT_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display_cargo_FRUT_economy_3"]
+brewery_cargo_subtype_display_cargo_MAIZ_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display_cargo_MAIZ_economy_3"]
+brewery_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display_switch_cargo_economy_3"]
+brewery_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display_switch_economy"]
+brewery_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nbrewery_cargo_subtype_display"]
+brewery_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability_param"]
+brewery_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_map_gen"]
+brewery_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nbrewery_available_game_mode"]
+brewery_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability_0"]
+brewery_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability_1"]
+brewery_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability_4"]
+brewery_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability_5"]
+brewery_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability_3"]
+brewery_check_availability [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_availability"]
+brewery_min_distance_50 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_50"]
+brewery_min_distance_68 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_68"]
+brewery_min_distance_30 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_30"]
+brewery_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_61"]
+brewery_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_29"]
+brewery_min_distance_47 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_47"]
+brewery_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_39"]
+brewery_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_52"]
+brewery_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_58"]
+brewery_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\nbrewery_min_distance_35"]
+brewery_check_location [fillcolor=yellow style="filled" label="<switch>\nbrewery_check_location"]
+brewery [fillcolor=red style="filled" label="FEAT_INDUSTRIES <35>\nbrewery"]
+brewery->brewery_extra_text
+brewery_produce_cargo_arrival->brewery_produce_calculation_4
+brewery_check_availability->brewery_check_availability_1
+brewery_produce_cargo_arrival->brewery_produce_calculation_5
+brewery_cargo_subtype_display_switch_economy->brewery_cargo_subtype_display_switch_cargo_economy_0
+brewery_check_availability_3->brewery_available_game_mode
+brewery_min_distance_39->brewery_min_distance_47
+brewery_produce_cargo_arrival->brewery_produce_calculation_1
+brewery_check_location->brewery_min_distance_35
+brewery_check_availability_0->brewery_available_game_mode
+brewery->brewery_produce_cargo_arrival
+brewery_cargo_subtype_display_switch_economy->brewery_cargo_subtype_display_switch_cargo_economy_3
+brewery_check_availability->brewery_check_availability_4
+brewery->brewery_cargo_subtype_display
+brewery_produce_calculation_5->brewery_produce_5
+brewery_check_availability->brewery_check_availability_5
+brewery_min_distance_52->brewery_min_distance_39
+brewery_produce_calculation_4->brewery_produce_4
+brewery->brewery_check_location
+brewery_produce_cargo_arrival->brewery_produce_calculation_3
+brewery_min_distance_29->brewery_min_distance_61
+brewery_produce_calculation_1->brewery_produce_1
+brewery_check_availability_5->brewery_available_game_mode
+brewery_cargo_subtype_display_switch_cargo_economy_3->brewery_cargo_subtype_display_cargo_MAIZ_economy_3
+brewery_cargo_subtype_display->brewery_cargo_subtype_display_switch_economy
+brewery_min_distance_61->brewery_min_distance_30
+brewery_min_distance_30->brewery_min_distance_68
+brewery->brewery_check_availability
+brewery_produce_cargo_arrival->brewery_produce_calculation_0
+brewery_check_availability->brewery_check_availability_3
+brewery_min_distance_35->brewery_min_distance_58
+brewery_available_game_mode->brewery_check_map_gen
+brewery_min_distance_47->brewery_min_distance_29
+brewery_produce_calculation_0->brewery_produce_0
+brewery_check_availability_4->brewery_available_game_mode
+brewery_cargo_subtype_display_switch_cargo_economy_0->brewery_cargo_subtype_display_cargo_FRUT_economy_0
+brewery_cargo_subtype_display_switch_cargo_economy_3->brewery_cargo_subtype_display_cargo_FRUT_economy_3
+brewery_check_map_gen->brewery_check_availability_param
+brewery_min_distance_58->brewery_min_distance_52
+brewery->switch_colour
+brewery_check_availability_1->brewery_available_game_mode
+brewery_check_availability->brewery_check_availability_0
+brewery_min_distance_68->brewery_min_distance_50
+brewery_produce_calculation_3->brewery_produce_3
+}

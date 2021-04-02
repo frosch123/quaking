@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+lemon_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nlemon_articulated_cb_switch"]
+lemon_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nlemon_ss_unreversed_unflipped_0"]
+lemon_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nlemon_ss_unreversed_flipped_0"]
+lemon_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nlemon_switch_graphics_unreversed"]
+lemon_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nlemon_ss_vehicle_purchase_0"]
+lemon_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nlemon_switch_set_layers_register_more_sprites"]
+lemon_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nlemon_switch_graphics"]
+lemon_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nlemon_switch_colour_mapping"]
+lemon_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nlemon_switch_create_effect_default_unreversed"]
+lemon_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nlemon_switch_buy_menu_text_result"]
+lemon [fillcolor=red style="filled" label="<FEAT_TRAINS 270>\nlemon"]
+lemon_switch_graphics_unreversed->lemon_ss_unreversed_unflipped_0
+lemon_switch_set_layers_register_more_sprites->lemon_switch_graphics_unreversed
+lemon->lemon_switch_graphics
+lemon->lemon_switch_colour_mapping
+lemon_switch_graphics_unreversed->lemon_ss_unreversed_flipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+lemon->lemon_articulated_cb_switch
+lemon->lemon_switch_create_effect_default_unreversed
+lemon_switch_graphics->switch_graphics_layer_tail_light_empty
+lemon->lemon_switch_buy_menu_text_result
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+lemon->lemon_ss_vehicle_purchase_0
+lemon_switch_graphics->lemon_switch_set_layers_register_more_sprites
+}

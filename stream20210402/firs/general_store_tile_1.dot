@@ -1,0 +1,32 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_slab_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_slab_1"]
+general_store_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\ngeneral_store_spriteset_1_0"]
+general_store_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\ngeneral_store_spriteset_1_0_snow"]
+general_store_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\ngeneral_store_spriteset_2_0"]
+general_store_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\ngeneral_store_spriteset_2_0_snow"]
+general_store_spritelayout [fillcolor=yellow style="filled" label="<spritelayout>\ngeneral_store_spritelayout"]
+general_store_industry_layout_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_industry_layout_graphics_switch"]
+general_store_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_industry_construction_state_graphics_switch"]
+general_store_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_store_temp_vars"]
+general_store_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_switch_graphics"]
+general_store_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_tile_1_lc_1"]
+general_store_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_tile_1_lc_0"]
+general_store_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <219>\ngeneral_store_tile_1"]
+general_store_spritelayout->general_store_spriteset_1_0_snow
+general_store_spritelayout->general_store_spriteset_1_0
+general_store_tile_1->general_store_tile_1_lc_0
+general_store_switch_graphics->general_store_store_temp_vars
+general_store_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+general_store_spritelayout->spriteset_ground_tile_slab_1
+general_store_spritelayout->general_store_spriteset_2_0_snow
+general_store_industry_layout_graphics_switch->general_store_spritelayout
+general_store_tile_1_lc_0->general_store_tile_1_lc_1
+general_store_tile_1->general_store_switch_graphics
+general_store_industry_construction_state_graphics_switch->general_store_industry_layout_graphics_switch
+spritelayout_default_construction_states->spriteset_default_construction_states
+general_store_store_temp_vars->general_store_industry_construction_state_graphics_switch
+general_store_spritelayout->general_store_spriteset_2_0
+}

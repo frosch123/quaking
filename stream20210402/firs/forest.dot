@@ -1,0 +1,92 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+forest_extra_text [fillcolor=yellow style="filled" label="<switch>\nforest_extra_text"]
+forest_cargo_subtype_display_cargo_FMSP_economy_1 [fillcolor=yellow style="filled" label="<switch>\nforest_cargo_subtype_display_cargo_FMSP_economy_1"]
+forest_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nforest_cargo_subtype_display_switch_cargo_economy_1"]
+forest_cargo_subtype_display_cargo_FMSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\nforest_cargo_subtype_display_cargo_FMSP_economy_3"]
+forest_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nforest_cargo_subtype_display_switch_cargo_economy_3"]
+forest_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nforest_cargo_subtype_display_switch_economy"]
+forest_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nforest_cargo_subtype_display"]
+forest_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nforest_monthly_prod_change"]
+forest_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nforest_clear_incoming_cargo_waiting_0"]
+forest_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nforest_store_incoming_cargo_waiting_0"]
+forest_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nforest_clear_incoming_cargo_waiting_1"]
+forest_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nforest_store_incoming_cargo_waiting_1"]
+forest_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nforest_clear_incoming_cargo_waiting_4"]
+forest_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nforest_store_incoming_cargo_waiting_4"]
+forest_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nforest_clear_incoming_cargo_waiting_5"]
+forest_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nforest_store_incoming_cargo_waiting_5"]
+forest_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nforest_clear_incoming_cargo_waiting_3"]
+forest_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nforest_store_incoming_cargo_waiting_3"]
+forest_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nforest_produce_cargo_arrival"]
+forest_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nforest_production_256_economy_0"]
+forest_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nforest_production_256_economy_1"]
+forest_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nforest_production_256_economy_4"]
+forest_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nforest_production_256_economy_5"]
+forest_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nforest_production_256_economy_3"]
+forest_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nforest_produce_256_ticks_switch_economy"]
+forest_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nforest_produce_256_ticks"]
+forest_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability_param"]
+forest_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nforest_check_map_gen"]
+forest_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nforest_available_game_mode"]
+forest_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability_0"]
+forest_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability_1"]
+forest_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability_4"]
+forest_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability_5"]
+forest_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability_3"]
+forest_check_availability [fillcolor=yellow style="filled" label="<switch>\nforest_check_availability"]
+forest_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\nforest_min_distance_14"]
+forest_min_distance_12 [fillcolor=yellow style="filled" label="<switch>\nforest_min_distance_12"]
+forest_min_distance_11 [fillcolor=yellow style="filled" label="<switch>\nforest_min_distance_11"]
+forest_cluster_forest [fillcolor=yellow style="filled" label="<switch>\nforest_cluster_forest"]
+forest_check_location [fillcolor=yellow style="filled" label="<switch>\nforest_check_location"]
+forest [fillcolor=red style="filled" label="FEAT_INDUSTRIES <11>\nforest"]
+forest_produce_cargo_arrival->forest_store_incoming_cargo_waiting_4
+forest->forest_check_availability
+forest_produce_256_ticks_switch_economy->forest_production_256_economy_0
+forest_check_availability_0->forest_available_game_mode
+forest_min_distance_11->forest_min_distance_12
+forest_produce_256_ticks->forest_produce_256_ticks_switch_economy
+forest->forest_produce_cargo_arrival
+forest->forest_extra_text
+forest_cargo_subtype_display_switch_economy->forest_cargo_subtype_display_switch_cargo_economy_3
+forest->forest_monthly_prod_change
+forest_check_map_gen->forest_check_availability_param
+forest_cargo_subtype_display->forest_cargo_subtype_display_switch_economy
+forest_produce_cargo_arrival->forest_store_incoming_cargo_waiting_3
+forest_cluster_forest->forest_min_distance_11
+forest->forest_cargo_subtype_display
+forest_min_distance_12->forest_min_distance_14
+forest->forest_check_location
+forest_produce_256_ticks_switch_economy->forest_production_256_economy_5
+forest_produce_256_ticks_switch_economy->forest_production_256_economy_1
+forest_check_availability_4->forest_available_game_mode
+forest->switch_colour
+forest_store_incoming_cargo_waiting_1->forest_clear_incoming_cargo_waiting_1
+forest->randomise_primary_production_on_build
+forest_cargo_subtype_display_switch_economy->forest_cargo_subtype_display_switch_cargo_economy_1
+forest_store_incoming_cargo_waiting_0->forest_clear_incoming_cargo_waiting_0
+forest_produce_256_ticks_switch_economy->forest_production_256_economy_3
+forest_cargo_subtype_display_switch_cargo_economy_3->forest_cargo_subtype_display_cargo_FMSP_economy_3
+forest_store_incoming_cargo_waiting_3->forest_clear_incoming_cargo_waiting_3
+forest_cargo_subtype_display_switch_cargo_economy_1->forest_cargo_subtype_display_cargo_FMSP_economy_1
+forest->forest_produce_256_ticks
+forest_check_location->forest_cluster_forest
+forest_check_availability->forest_check_availability_4
+forest_check_availability_5->forest_available_game_mode
+forest_store_incoming_cargo_waiting_5->forest_clear_incoming_cargo_waiting_5
+forest_produce_cargo_arrival->forest_store_incoming_cargo_waiting_5
+forest_produce_256_ticks_switch_economy->forest_production_256_economy_4
+forest_produce_cargo_arrival->forest_store_incoming_cargo_waiting_1
+forest_available_game_mode->forest_check_map_gen
+forest_check_availability->forest_check_availability_5
+forest_store_incoming_cargo_waiting_4->forest_clear_incoming_cargo_waiting_4
+forest_check_availability_3->forest_available_game_mode
+forest_check_availability->forest_check_availability_0
+forest_check_availability_1->forest_available_game_mode
+forest_produce_cargo_arrival->forest_store_incoming_cargo_waiting_0
+forest_check_availability->forest_check_availability_1
+forest_check_availability->forest_check_availability_3
+}

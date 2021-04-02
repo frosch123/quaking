@@ -1,0 +1,92 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+stockyard_produce_0 [fillcolor=green style="filled" label="<produce>\nstockyard_produce_0"]
+stockyard_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nstockyard_produce_calculation_0"]
+stockyard_produce_1 [fillcolor=green style="filled" label="<produce>\nstockyard_produce_1"]
+stockyard_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nstockyard_produce_calculation_1"]
+stockyard_produce_4 [fillcolor=green style="filled" label="<produce>\nstockyard_produce_4"]
+stockyard_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nstockyard_produce_calculation_4"]
+stockyard_produce_5 [fillcolor=green style="filled" label="<produce>\nstockyard_produce_5"]
+stockyard_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nstockyard_produce_calculation_5"]
+stockyard_produce_3 [fillcolor=green style="filled" label="<produce>\nstockyard_produce_3"]
+stockyard_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nstockyard_produce_calculation_3"]
+stockyard_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nstockyard_produce_cargo_arrival"]
+stockyard_extra_text [fillcolor=yellow style="filled" label="<switch>\nstockyard_extra_text"]
+stockyard_cargo_subtype_display_cargo_LVST_economy_0 [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_cargo_LVST_economy_0"]
+stockyard_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_switch_cargo_economy_0"]
+stockyard_cargo_subtype_display_cargo_LVST_economy_4 [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_cargo_LVST_economy_4"]
+stockyard_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_switch_cargo_economy_4"]
+stockyard_cargo_subtype_display_cargo_LVST_economy_3 [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_cargo_LVST_economy_3"]
+stockyard_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_switch_cargo_economy_3"]
+stockyard_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display_switch_economy"]
+stockyard_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nstockyard_cargo_subtype_display"]
+stockyard_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability_param"]
+stockyard_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_map_gen"]
+stockyard_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nstockyard_available_game_mode"]
+stockyard_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability_0"]
+stockyard_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability_1"]
+stockyard_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability_4"]
+stockyard_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability_5"]
+stockyard_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability_3"]
+stockyard_check_availability [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_availability"]
+stockyard_min_distance_48 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_48"]
+stockyard_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_61"]
+stockyard_min_distance_47 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_47"]
+stockyard_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_29"]
+stockyard_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_51"]
+stockyard_min_distance_28 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_28"]
+stockyard_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_39"]
+stockyard_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_52"]
+stockyard_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_60"]
+stockyard_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_58"]
+stockyard_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\nstockyard_min_distance_37"]
+stockyard_check_location [fillcolor=yellow style="filled" label="<switch>\nstockyard_check_location"]
+stockyard [fillcolor=red style="filled" label="FEAT_INDUSTRIES <37>\nstockyard"]
+stockyard_min_distance_47->stockyard_min_distance_61
+stockyard_min_distance_58->stockyard_min_distance_60
+stockyard->stockyard_extra_text
+stockyard->stockyard_cargo_subtype_display
+stockyard_produce_cargo_arrival->stockyard_produce_calculation_1
+stockyard_cargo_subtype_display_switch_economy->stockyard_cargo_subtype_display_switch_cargo_economy_3
+stockyard_check_location->stockyard_min_distance_37
+stockyard->stockyard_produce_cargo_arrival
+stockyard_check_availability->stockyard_check_availability_1
+stockyard_produce_cargo_arrival->stockyard_produce_calculation_4
+stockyard_cargo_subtype_display_switch_cargo_economy_4->stockyard_cargo_subtype_display_cargo_LVST_economy_4
+stockyard_cargo_subtype_display_switch_economy->stockyard_cargo_subtype_display_switch_cargo_economy_4
+stockyard_check_availability_0->stockyard_available_game_mode
+stockyard_min_distance_29->stockyard_min_distance_47
+stockyard_produce_calculation_3->stockyard_produce_3
+stockyard_produce_calculation_1->stockyard_produce_1
+stockyard->stockyard_check_availability
+stockyard_produce_cargo_arrival->stockyard_produce_calculation_0
+stockyard_check_availability->stockyard_check_availability_3
+stockyard_produce_cargo_arrival->stockyard_produce_calculation_3
+stockyard_check_availability_4->stockyard_available_game_mode
+stockyard_check_map_gen->stockyard_check_availability_param
+stockyard_check_availability->stockyard_check_availability_5
+stockyard_min_distance_37->stockyard_min_distance_58
+stockyard_check_availability_5->stockyard_available_game_mode
+stockyard_min_distance_60->stockyard_min_distance_52
+stockyard_min_distance_52->stockyard_min_distance_39
+stockyard->switch_colour
+stockyard_min_distance_61->stockyard_min_distance_48
+stockyard_produce_calculation_0->stockyard_produce_0
+stockyard_cargo_subtype_display_switch_economy->stockyard_cargo_subtype_display_switch_cargo_economy_0
+stockyard_min_distance_28->stockyard_min_distance_51
+stockyard_available_game_mode->stockyard_check_map_gen
+stockyard_check_availability_3->stockyard_available_game_mode
+stockyard_check_availability_1->stockyard_available_game_mode
+stockyard_produce_cargo_arrival->stockyard_produce_calculation_5
+stockyard_cargo_subtype_display->stockyard_cargo_subtype_display_switch_economy
+stockyard_cargo_subtype_display_switch_cargo_economy_3->stockyard_cargo_subtype_display_cargo_LVST_economy_3
+stockyard_check_availability->stockyard_check_availability_0
+stockyard_cargo_subtype_display_switch_cargo_economy_0->stockyard_cargo_subtype_display_cargo_LVST_economy_0
+stockyard_produce_calculation_4->stockyard_produce_4
+stockyard_produce_calculation_5->stockyard_produce_5
+stockyard->stockyard_check_location
+stockyard_min_distance_51->stockyard_min_distance_29
+stockyard_check_availability->stockyard_check_availability_4
+stockyard_min_distance_39->stockyard_min_distance_28
+}

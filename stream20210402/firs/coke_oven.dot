@@ -1,0 +1,81 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+coke_oven_produce_0 [fillcolor=green style="filled" label="<produce>\ncoke_oven_produce_0"]
+coke_oven_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_produce_calculation_0"]
+coke_oven_produce_1 [fillcolor=green style="filled" label="<produce>\ncoke_oven_produce_1"]
+coke_oven_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_produce_calculation_1"]
+coke_oven_produce_4 [fillcolor=green style="filled" label="<produce>\ncoke_oven_produce_4"]
+coke_oven_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_produce_calculation_4"]
+coke_oven_produce_5 [fillcolor=green style="filled" label="<produce>\ncoke_oven_produce_5"]
+coke_oven_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_produce_calculation_5"]
+coke_oven_produce_3 [fillcolor=green style="filled" label="<produce>\ncoke_oven_produce_3"]
+coke_oven_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_produce_calculation_3"]
+coke_oven_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_produce_cargo_arrival"]
+coke_oven_extra_text [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_extra_text"]
+coke_oven_cargo_subtype_display_cargo_COAL_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_cargo_subtype_display_cargo_COAL_economy_5"]
+coke_oven_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_cargo_subtype_display_switch_cargo_economy_5"]
+coke_oven_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_cargo_subtype_display_switch_economy"]
+coke_oven_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_cargo_subtype_display"]
+coke_oven_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability_param"]
+coke_oven_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_map_gen"]
+coke_oven_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_available_game_mode"]
+coke_oven_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability_0"]
+coke_oven_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability_1"]
+coke_oven_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability_4"]
+coke_oven_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability_5"]
+coke_oven_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability_3"]
+coke_oven_check_availability [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_availability"]
+coke_oven_min_distance_70 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_70"]
+coke_oven_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_49"]
+coke_oven_min_distance_84 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_84"]
+coke_oven_min_distance_0 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_0"]
+coke_oven_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_14"]
+coke_oven_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_7"]
+coke_oven_check_industry_max_distance_2 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_industry_max_distance_2"]
+coke_oven_max_distance_7 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_max_distance_7"]
+coke_oven_min_distance_78 [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_min_distance_78"]
+coke_oven_check_location [fillcolor=yellow style="filled" label="<switch>\ncoke_oven_check_location"]
+coke_oven [fillcolor=red style="filled" label="FEAT_INDUSTRIES <78>\ncoke_oven"]
+coke_oven_check_availability->coke_oven_check_availability_0
+coke_oven_produce_cargo_arrival->coke_oven_produce_calculation_3
+coke_oven_check_availability->coke_oven_check_availability_5
+coke_oven_produce_calculation_5->coke_oven_produce_5
+coke_oven_min_distance_78->coke_oven_max_distance_7
+coke_oven_check_availability_5->coke_oven_available_game_mode
+coke_oven_check_availability_0->coke_oven_available_game_mode
+coke_oven_check_availability->coke_oven_check_availability_4
+coke_oven->coke_oven_produce_cargo_arrival
+coke_oven_check_availability->coke_oven_check_availability_1
+coke_oven_min_distance_7->coke_oven_min_distance_14
+coke_oven_produce_calculation_1->coke_oven_produce_1
+coke_oven_produce_cargo_arrival->coke_oven_produce_calculation_5
+coke_oven->coke_oven_check_location
+coke_oven_check_availability_4->coke_oven_available_game_mode
+coke_oven_cargo_subtype_display_switch_cargo_economy_5->coke_oven_cargo_subtype_display_cargo_COAL_economy_5
+coke_oven_produce_calculation_0->coke_oven_produce_0
+coke_oven->coke_oven_cargo_subtype_display
+coke_oven_max_distance_7->coke_oven_min_distance_7
+coke_oven_max_distance_7->coke_oven_check_industry_max_distance_2
+coke_oven_produce_cargo_arrival->coke_oven_produce_calculation_1
+coke_oven->switch_colour
+coke_oven_check_map_gen->coke_oven_check_availability_param
+coke_oven_produce_calculation_3->coke_oven_produce_3
+coke_oven_min_distance_0->coke_oven_min_distance_84
+coke_oven_check_availability_3->coke_oven_available_game_mode
+coke_oven_produce_cargo_arrival->coke_oven_produce_calculation_4
+coke_oven_min_distance_14->coke_oven_min_distance_0
+coke_oven->coke_oven_extra_text
+coke_oven_cargo_subtype_display_switch_economy->coke_oven_cargo_subtype_display_switch_cargo_economy_5
+coke_oven_available_game_mode->coke_oven_check_map_gen
+coke_oven_min_distance_49->coke_oven_min_distance_70
+coke_oven_check_availability->coke_oven_check_availability_3
+coke_oven_min_distance_84->coke_oven_min_distance_49
+coke_oven_check_industry_max_distance_2->coke_oven_min_distance_7
+coke_oven_check_location->coke_oven_min_distance_78
+coke_oven_produce_calculation_4->coke_oven_produce_4
+coke_oven_cargo_subtype_display->coke_oven_cargo_subtype_display_switch_economy
+coke_oven_check_availability_1->coke_oven_available_game_mode
+coke_oven_produce_cargo_arrival->coke_oven_produce_calculation_0
+coke_oven->coke_oven_check_availability
+}

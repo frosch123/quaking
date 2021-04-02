@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+soda_ash_mine_extra_text [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_extra_text"]
+soda_ash_mine_cargo_subtype_display_cargo_ENSP_economy_5 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_cargo_subtype_display_cargo_ENSP_economy_5"]
+soda_ash_mine_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_cargo_subtype_display_switch_cargo_economy_5"]
+soda_ash_mine_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_cargo_subtype_display_switch_economy"]
+soda_ash_mine_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_cargo_subtype_display"]
+soda_ash_mine_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_monthly_prod_change"]
+soda_ash_mine_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_clear_incoming_cargo_waiting_0"]
+soda_ash_mine_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_store_incoming_cargo_waiting_0"]
+soda_ash_mine_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_clear_incoming_cargo_waiting_1"]
+soda_ash_mine_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_store_incoming_cargo_waiting_1"]
+soda_ash_mine_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_clear_incoming_cargo_waiting_4"]
+soda_ash_mine_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_store_incoming_cargo_waiting_4"]
+soda_ash_mine_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_clear_incoming_cargo_waiting_5"]
+soda_ash_mine_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_store_incoming_cargo_waiting_5"]
+soda_ash_mine_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_clear_incoming_cargo_waiting_3"]
+soda_ash_mine_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_store_incoming_cargo_waiting_3"]
+soda_ash_mine_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_produce_cargo_arrival"]
+soda_ash_mine_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_production_256_economy_0"]
+soda_ash_mine_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_production_256_economy_1"]
+soda_ash_mine_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_production_256_economy_4"]
+soda_ash_mine_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_production_256_economy_5"]
+soda_ash_mine_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nsoda_ash_mine_production_256_economy_3"]
+soda_ash_mine_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_produce_256_ticks_switch_economy"]
+soda_ash_mine_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_produce_256_ticks"]
+soda_ash_mine_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability_param"]
+soda_ash_mine_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_map_gen"]
+soda_ash_mine_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_available_game_mode"]
+soda_ash_mine_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability_0"]
+soda_ash_mine_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability_1"]
+soda_ash_mine_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability_4"]
+soda_ash_mine_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability_5"]
+soda_ash_mine_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability_3"]
+soda_ash_mine_check_availability [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_availability"]
+soda_ash_mine_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_min_distance_22"]
+soda_ash_mine_min_distance_87 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_min_distance_87"]
+soda_ash_mine_min_distance_86 [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_min_distance_86"]
+soda_ash_mine_cluster_soda_ash_mine [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_cluster_soda_ash_mine"]
+soda_ash_mine_check_location [fillcolor=yellow style="filled" label="<switch>\nsoda_ash_mine_check_location"]
+soda_ash_mine [fillcolor=red style="filled" label="FEAT_INDUSTRIES <86>\nsoda_ash_mine"]
+soda_ash_mine_check_availability->soda_ash_mine_check_availability_5
+soda_ash_mine_produce_256_ticks_switch_economy->soda_ash_mine_production_256_economy_5
+soda_ash_mine_produce_256_ticks_switch_economy->soda_ash_mine_production_256_economy_3
+soda_ash_mine_check_availability_3->soda_ash_mine_available_game_mode
+soda_ash_mine_check_location->soda_ash_mine_cluster_soda_ash_mine
+soda_ash_mine->soda_ash_mine_check_location
+soda_ash_mine_check_availability->soda_ash_mine_check_availability_3
+soda_ash_mine_check_map_gen->soda_ash_mine_check_availability_param
+soda_ash_mine_cargo_subtype_display_switch_economy->soda_ash_mine_cargo_subtype_display_switch_cargo_economy_5
+soda_ash_mine_check_availability_0->soda_ash_mine_available_game_mode
+soda_ash_mine_store_incoming_cargo_waiting_0->soda_ash_mine_clear_incoming_cargo_waiting_0
+soda_ash_mine_check_availability_1->soda_ash_mine_available_game_mode
+soda_ash_mine_produce_cargo_arrival->soda_ash_mine_store_incoming_cargo_waiting_3
+soda_ash_mine_cargo_subtype_display->soda_ash_mine_cargo_subtype_display_switch_economy
+soda_ash_mine_check_availability_4->soda_ash_mine_available_game_mode
+soda_ash_mine_cargo_subtype_display_switch_cargo_economy_5->soda_ash_mine_cargo_subtype_display_cargo_ENSP_economy_5
+soda_ash_mine->soda_ash_mine_cargo_subtype_display
+soda_ash_mine_produce_cargo_arrival->soda_ash_mine_store_incoming_cargo_waiting_1
+soda_ash_mine->soda_ash_mine_check_availability
+soda_ash_mine->switch_colour
+soda_ash_mine->soda_ash_mine_produce_cargo_arrival
+soda_ash_mine_produce_256_ticks_switch_economy->soda_ash_mine_production_256_economy_4
+soda_ash_mine_produce_256_ticks->soda_ash_mine_produce_256_ticks_switch_economy
+soda_ash_mine_produce_cargo_arrival->soda_ash_mine_store_incoming_cargo_waiting_5
+soda_ash_mine_produce_cargo_arrival->soda_ash_mine_store_incoming_cargo_waiting_0
+soda_ash_mine_store_incoming_cargo_waiting_3->soda_ash_mine_clear_incoming_cargo_waiting_3
+soda_ash_mine->soda_ash_mine_produce_256_ticks
+soda_ash_mine_check_availability->soda_ash_mine_check_availability_1
+soda_ash_mine_produce_cargo_arrival->soda_ash_mine_store_incoming_cargo_waiting_4
+soda_ash_mine_store_incoming_cargo_waiting_1->soda_ash_mine_clear_incoming_cargo_waiting_1
+soda_ash_mine_produce_256_ticks_switch_economy->soda_ash_mine_production_256_economy_1
+soda_ash_mine_check_availability->soda_ash_mine_check_availability_0
+soda_ash_mine->soda_ash_mine_extra_text
+soda_ash_mine_check_availability_5->soda_ash_mine_available_game_mode
+soda_ash_mine_store_incoming_cargo_waiting_4->soda_ash_mine_clear_incoming_cargo_waiting_4
+soda_ash_mine_store_incoming_cargo_waiting_5->soda_ash_mine_clear_incoming_cargo_waiting_5
+soda_ash_mine_cluster_soda_ash_mine->soda_ash_mine_min_distance_86
+soda_ash_mine_min_distance_87->soda_ash_mine_min_distance_22
+soda_ash_mine->randomise_primary_production_on_build
+soda_ash_mine_check_availability->soda_ash_mine_check_availability_4
+soda_ash_mine_produce_256_ticks_switch_economy->soda_ash_mine_production_256_economy_0
+soda_ash_mine->soda_ash_mine_monthly_prod_change
+soda_ash_mine_available_game_mode->soda_ash_mine_check_map_gen
+soda_ash_mine_min_distance_86->soda_ash_mine_min_distance_87
+}

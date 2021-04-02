@@ -1,0 +1,50 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+oil_wells_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\noil_wells_spriteset_2_0"]
+oil_wells_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\noil_wells_spriteset_2_0_snow"]
+oil_wells_spritelayout_pump [fillcolor=yellow style="filled" label="<spritelayout>\noil_wells_spritelayout_pump"]
+oil_wells_spritelayout_building [fillcolor=yellow style="filled" label="<spritelayout>\noil_wells_spritelayout_building"]
+oil_wells_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\noil_wells_industry_layout_1_graphics_switch"]
+oil_wells_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\noil_wells_industry_layout_2_graphics_switch"]
+oil_wells_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\noil_wells_industry_layout_3_graphics_switch"]
+oil_wells_industry_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\noil_wells_industry_layout_4_graphics_switch"]
+oil_wells_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\noil_wells_industry_graphics_switch_layouts"]
+oil_wells_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\noil_wells_industry_construction_state_graphics_switch"]
+oil_wells_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\noil_wells_store_temp_vars"]
+oil_wells_switch_graphics [fillcolor=yellow style="filled" label="<switch>\noil_wells_switch_graphics"]
+oil_wells_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\noil_wells_tile_1_lc_1"]
+oil_wells_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\noil_wells_tile_1_lc_0"]
+oil_wells_tile_1_stop_anim [fillcolor=yellow style="filled" label="<switch>\noil_wells_tile_1_stop_anim"]
+oil_wells_tile_1_start_anim [fillcolor=yellow style="filled" label="<switch>\noil_wells_tile_1_start_anim"]
+oil_wells_tile_1_anim_control [fillcolor=yellow style="filled" label="<random_switch>\noil_wells_tile_1_anim_control"]
+oil_wells_tile_1_anim_next_frame [fillcolor=yellow style="filled" label="<switch>\noil_wells_tile_1_anim_next_frame"]
+oil_wells_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <215>\noil_wells_tile_1"]
+oil_wells_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+oil_wells_industry_graphics_switch_layouts->oil_wells_industry_layout_3_graphics_switch
+oil_wells_industry_construction_state_graphics_switch->oil_wells_industry_graphics_switch_layouts
+oil_wells_tile_1->oil_wells_switch_graphics
+oil_wells_tile_1_anim_control->oil_wells_tile_1_stop_anim
+oil_wells_industry_graphics_switch_layouts->oil_wells_industry_layout_2_graphics_switch
+oil_wells_industry_layout_2_graphics_switch->oil_wells_spritelayout_building
+oil_wells_industry_layout_3_graphics_switch->oil_wells_spritelayout_building
+oil_wells_industry_graphics_switch_layouts->oil_wells_industry_layout_4_graphics_switch
+oil_wells_industry_graphics_switch_layouts->oil_wells_industry_layout_1_graphics_switch
+oil_wells_tile_1_anim_control->oil_wells_tile_1_start_anim
+oil_wells_store_temp_vars->oil_wells_industry_construction_state_graphics_switch
+oil_wells_spritelayout_building->oil_wells_spriteset_2_0
+oil_wells_spritelayout_building->oil_wells_spriteset_2_0_snow
+oil_wells_tile_1_lc_0->oil_wells_tile_1_lc_1
+oil_wells_industry_layout_2_graphics_switch->oil_wells_spritelayout_pump
+oil_wells_switch_graphics->oil_wells_store_temp_vars
+oil_wells_industry_layout_3_graphics_switch->oil_wells_spritelayout_pump
+oil_wells_tile_1->oil_wells_tile_1_anim_control
+oil_wells_tile_1->oil_wells_tile_1_anim_next_frame
+oil_wells_industry_layout_1_graphics_switch->oil_wells_spritelayout_pump
+spritelayout_default_construction_states->spriteset_default_construction_states
+oil_wells_industry_layout_1_graphics_switch->oil_wells_spritelayout_building
+oil_wells_industry_layout_4_graphics_switch->oil_wells_spritelayout_building
+oil_wells_tile_1->oil_wells_tile_1_lc_0
+oil_wells_industry_layout_4_graphics_switch->oil_wells_spritelayout_pump
+}

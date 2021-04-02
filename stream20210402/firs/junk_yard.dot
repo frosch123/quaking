@@ -1,0 +1,44 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+junk_yard_min_distance_79 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_min_distance_79"]
+junk_yard_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_min_distance_7"]
+junk_yard_min_distance_25 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_min_distance_25"]
+junk_yard_check_location [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_location"]
+junk_yard_check_availability_param [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability_param"]
+junk_yard_check_map_gen [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_map_gen"]
+junk_yard_available_game_mode [fillcolor=yellow style="filled" label="<switch>\njunk_yard_available_game_mode"]
+junk_yard_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability_0"]
+junk_yard_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability_1"]
+junk_yard_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability_4"]
+junk_yard_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability_5"]
+junk_yard_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability_3"]
+junk_yard_check_availability [fillcolor=yellow style="filled" label="<switch>\njunk_yard_check_availability"]
+junk_yard_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\njunk_yard_production_256_economy_0"]
+junk_yard_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\njunk_yard_production_256_economy_5"]
+junk_yard_produce_switch_economy [fillcolor=yellow style="filled" label="<switch>\njunk_yard_produce_switch_economy"]
+junk_yard_produce [fillcolor=yellow style="filled" label="<switch>\njunk_yard_produce"]
+junk_yard [fillcolor=red style="filled" label="FEAT_INDUSTRIES <25>\njunk_yard"]
+junk_yard_check_availability->junk_yard_check_availability_1
+junk_yard->junk_yard_produce
+junk_yard_produce_switch_economy->junk_yard_production_256_economy_0
+junk_yard->junk_yard_check_availability
+junk_yard->junk_yard_check_location
+junk_yard_check_availability_4->junk_yard_available_game_mode
+junk_yard_check_availability->junk_yard_check_availability_0
+junk_yard_check_availability->junk_yard_check_availability_4
+junk_yard_check_map_gen->junk_yard_check_availability_param
+junk_yard_check_availability_3->junk_yard_available_game_mode
+junk_yard_check_availability->junk_yard_check_availability_5
+junk_yard_check_availability_0->junk_yard_available_game_mode
+junk_yard_available_game_mode->junk_yard_check_map_gen
+junk_yard_check_availability_5->junk_yard_available_game_mode
+junk_yard_check_availability_1->junk_yard_available_game_mode
+junk_yard_check_availability->junk_yard_check_availability_3
+junk_yard_produce->junk_yard_produce_switch_economy
+junk_yard_check_location->junk_yard_min_distance_25
+junk_yard_min_distance_25->junk_yard_min_distance_7
+junk_yard_min_distance_7->junk_yard_min_distance_79
+junk_yard_produce_switch_economy->junk_yard_production_256_economy_5
+junk_yard->switch_colour
+}

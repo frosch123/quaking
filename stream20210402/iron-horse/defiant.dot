@@ -1,0 +1,40 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+defiant_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\ndefiant_ss_unreversed_unflipped_0"]
+defiant_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\ndefiant_ss_unreversed_flipped_0"]
+defiant_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_graphics_unreversed"]
+defiant_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\ndefiant_ss_reversed_unflipped_0"]
+defiant_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\ndefiant_ss_reversed_flipped_0"]
+defiant_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_graphics_reversed"]
+defiant_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\ndefiant_switch_graphics_vehicle"]
+defiant_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ndefiant_ss_vehicle_purchase_0"]
+defiant_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_set_layers_register_more_sprites"]
+defiant_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_graphics"]
+defiant_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_colour_mapping"]
+defiant_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_create_effect_default_unreversed"]
+defiant_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_create_effect_default_reversed"]
+defiant_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\ndefiant_switch_create_effect_reversed_variants"]
+defiant_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\ndefiant_switch_buy_menu_text_result"]
+defiant [fillcolor=red style="filled" label="<FEAT_TRAINS 5070>\ndefiant"]
+defiant_switch_graphics_vehicle->defiant_switch_graphics_reversed
+defiant_switch_graphics_unreversed->defiant_ss_unreversed_unflipped_0
+defiant_switch_graphics_reversed->defiant_ss_reversed_unflipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+defiant->defiant_ss_vehicle_purchase_0
+defiant->defiant_switch_graphics
+defiant->defiant_switch_colour_mapping
+defiant_switch_create_effect_reversed_variants->defiant_switch_create_effect_default_reversed
+defiant->defiant_switch_create_effect_reversed_variants
+defiant->defiant_switch_buy_menu_text_result
+defiant_switch_graphics_vehicle->defiant_switch_graphics_unreversed
+defiant_switch_graphics_unreversed->defiant_ss_unreversed_flipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+defiant_switch_graphics->switch_graphics_layer_tail_light_empty
+defiant_switch_graphics->defiant_switch_set_layers_register_more_sprites
+defiant_switch_create_effect_reversed_variants->defiant_switch_create_effect_default_unreversed
+defiant_switch_set_layers_register_more_sprites->defiant_switch_graphics_vehicle
+defiant_switch_graphics_reversed->defiant_ss_reversed_flipped_0
+}

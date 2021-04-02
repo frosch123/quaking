@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+clay_pit_extra_text [fillcolor=yellow style="filled" label="<switch>\nclay_pit_extra_text"]
+clay_pit_cargo_subtype_display_cargo_ENSP_economy_0 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_cargo_subtype_display_cargo_ENSP_economy_0"]
+clay_pit_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_cargo_subtype_display_switch_cargo_economy_0"]
+clay_pit_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nclay_pit_cargo_subtype_display_switch_economy"]
+clay_pit_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nclay_pit_cargo_subtype_display"]
+clay_pit_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nclay_pit_monthly_prod_change"]
+clay_pit_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nclay_pit_clear_incoming_cargo_waiting_0"]
+clay_pit_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_store_incoming_cargo_waiting_0"]
+clay_pit_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nclay_pit_clear_incoming_cargo_waiting_1"]
+clay_pit_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_store_incoming_cargo_waiting_1"]
+clay_pit_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nclay_pit_clear_incoming_cargo_waiting_4"]
+clay_pit_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_store_incoming_cargo_waiting_4"]
+clay_pit_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nclay_pit_clear_incoming_cargo_waiting_5"]
+clay_pit_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_store_incoming_cargo_waiting_5"]
+clay_pit_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nclay_pit_clear_incoming_cargo_waiting_3"]
+clay_pit_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_store_incoming_cargo_waiting_3"]
+clay_pit_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nclay_pit_produce_cargo_arrival"]
+clay_pit_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nclay_pit_production_256_economy_0"]
+clay_pit_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nclay_pit_production_256_economy_1"]
+clay_pit_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nclay_pit_production_256_economy_4"]
+clay_pit_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nclay_pit_production_256_economy_5"]
+clay_pit_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nclay_pit_production_256_economy_3"]
+clay_pit_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nclay_pit_produce_256_ticks_switch_economy"]
+clay_pit_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nclay_pit_produce_256_ticks"]
+clay_pit_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability_param"]
+clay_pit_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_map_gen"]
+clay_pit_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nclay_pit_available_game_mode"]
+clay_pit_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability_0"]
+clay_pit_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability_1"]
+clay_pit_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability_4"]
+clay_pit_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability_5"]
+clay_pit_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability_3"]
+clay_pit_check_availability [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_availability"]
+clay_pit_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_min_distance_14"]
+clay_pit_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_min_distance_39"]
+clay_pit_min_distance_44 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_min_distance_44"]
+clay_pit_cluster_clay_pit [fillcolor=yellow style="filled" label="<switch>\nclay_pit_cluster_clay_pit"]
+clay_pit_check_location [fillcolor=yellow style="filled" label="<switch>\nclay_pit_check_location"]
+clay_pit [fillcolor=red style="filled" label="FEAT_INDUSTRIES <44>\nclay_pit"]
+clay_pit_check_availability_4->clay_pit_available_game_mode
+clay_pit->switch_colour
+clay_pit_available_game_mode->clay_pit_check_map_gen
+clay_pit->clay_pit_produce_cargo_arrival
+clay_pit_produce_256_ticks_switch_economy->clay_pit_production_256_economy_5
+clay_pit->clay_pit_check_availability
+clay_pit_produce_256_ticks_switch_economy->clay_pit_production_256_economy_3
+clay_pit_check_availability_3->clay_pit_available_game_mode
+clay_pit_cargo_subtype_display_switch_economy->clay_pit_cargo_subtype_display_switch_cargo_economy_0
+clay_pit_produce_cargo_arrival->clay_pit_store_incoming_cargo_waiting_4
+clay_pit->clay_pit_cargo_subtype_display
+clay_pit_cluster_clay_pit->clay_pit_min_distance_44
+clay_pit_produce_256_ticks_switch_economy->clay_pit_production_256_economy_4
+clay_pit_produce_cargo_arrival->clay_pit_store_incoming_cargo_waiting_5
+clay_pit_store_incoming_cargo_waiting_4->clay_pit_clear_incoming_cargo_waiting_4
+clay_pit_produce_cargo_arrival->clay_pit_store_incoming_cargo_waiting_0
+clay_pit_check_availability->clay_pit_check_availability_0
+clay_pit_check_availability->clay_pit_check_availability_4
+clay_pit_store_incoming_cargo_waiting_0->clay_pit_clear_incoming_cargo_waiting_0
+clay_pit->randomise_primary_production_on_build
+clay_pit_check_availability->clay_pit_check_availability_5
+clay_pit->clay_pit_extra_text
+clay_pit_check_availability_1->clay_pit_available_game_mode
+clay_pit_check_availability_0->clay_pit_available_game_mode
+clay_pit_produce_256_ticks->clay_pit_produce_256_ticks_switch_economy
+clay_pit->clay_pit_produce_256_ticks
+clay_pit_produce_256_ticks_switch_economy->clay_pit_production_256_economy_1
+clay_pit_produce_cargo_arrival->clay_pit_store_incoming_cargo_waiting_1
+clay_pit_check_availability->clay_pit_check_availability_1
+clay_pit_check_availability_5->clay_pit_available_game_mode
+clay_pit_check_location->clay_pit_cluster_clay_pit
+clay_pit_cargo_subtype_display->clay_pit_cargo_subtype_display_switch_economy
+clay_pit->clay_pit_monthly_prod_change
+clay_pit->clay_pit_check_location
+clay_pit_store_incoming_cargo_waiting_5->clay_pit_clear_incoming_cargo_waiting_5
+clay_pit_produce_256_ticks_switch_economy->clay_pit_production_256_economy_0
+clay_pit_cargo_subtype_display_switch_cargo_economy_0->clay_pit_cargo_subtype_display_cargo_ENSP_economy_0
+clay_pit_store_incoming_cargo_waiting_1->clay_pit_clear_incoming_cargo_waiting_1
+clay_pit_produce_cargo_arrival->clay_pit_store_incoming_cargo_waiting_3
+clay_pit_min_distance_44->clay_pit_min_distance_39
+clay_pit_check_availability->clay_pit_check_availability_3
+clay_pit_min_distance_39->clay_pit_min_distance_14
+clay_pit_store_incoming_cargo_waiting_3->clay_pit_clear_incoming_cargo_waiting_3
+clay_pit_check_map_gen->clay_pit_check_availability_param
+}

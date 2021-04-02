@@ -1,0 +1,44 @@
+digraph {
+rankdir="BT"
+ss_tail_light_24px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_24px_unflipped"]
+ss_tail_light_24px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_24px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_24px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_24px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+torpedo_car_pony_gen_5U_1_ss_first_unit [fillcolor=green style="filled" label="<spriteset>\ntorpedo_car_pony_gen_5U_1_ss_first_unit"]
+torpedo_car_pony_gen_5U_1_ss_last_unit [fillcolor=green style="filled" label="<spriteset>\ntorpedo_car_pony_gen_5U_1_ss_last_unit"]
+torpedo_car_pony_gen_5U_1_ss_middle_unit_empty [fillcolor=green style="filled" label="<spriteset>\ntorpedo_car_pony_gen_5U_1_ss_middle_unit_empty"]
+torpedo_car_pony_gen_5U_1_ss_middle_unit_loading [fillcolor=green style="filled" label="<spriteset>\ntorpedo_car_pony_gen_5U_1_ss_middle_unit_loading"]
+torpedo_car_pony_gen_5U_1_ss_middle_unit_loaded [fillcolor=green style="filled" label="<spriteset>\ntorpedo_car_pony_gen_5U_1_ss_middle_unit_loaded"]
+torpedo_car_pony_gen_5U_1_switch_graphics_percent_loaded [fillcolor=yellow style="filled" label="<switch>\ntorpedo_car_pony_gen_5U_1_switch_graphics_percent_loaded"]
+torpedo_car_pony_gen_5U_1_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\ntorpedo_car_pony_gen_5U_1_switch_graphics_vehicle"]
+torpedo_car_pony_gen_5U_1_ss_purchase [fillcolor=green style="filled" label="<spriteset>\ntorpedo_car_pony_gen_5U_1_ss_purchase"]
+torpedo_car_pony_gen_5U_1_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ntorpedo_car_pony_gen_5U_1_switch_set_layers_register_more_sprites"]
+torpedo_car_pony_gen_5U_1_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ntorpedo_car_pony_gen_5U_1_switch_graphics"]
+torpedo_car_pony_gen_5U_1_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\ntorpedo_car_pony_gen_5U_1_switch_cargo_capacity"]
+torpedo_car_pony_gen_5U_1 [fillcolor=red style="filled" label="<FEAT_TRAINS 4091>\ntorpedo_car_pony_gen_5U_1"]
+torpedo_car_pony_gen_5U_1_switch_cargo_capacity->switch_cargo_capacity
+switch_graphics_layer_tail_light_24px->ss_tail_light_empty_unflipped
+torpedo_car_pony_gen_5U_1_switch_graphics->switch_graphics_layer_tail_light_24px
+torpedo_car_pony_gen_5U_1_switch_graphics->torpedo_car_pony_gen_5U_1_switch_set_layers_register_more_sprites
+torpedo_car_pony_gen_5U_1_switch_set_layers_register_more_sprites->torpedo_car_pony_gen_5U_1_switch_graphics_vehicle
+torpedo_car_pony_gen_5U_1->torpedo_car_pony_gen_5U_1_switch_cargo_capacity
+torpedo_car_pony_gen_5U_1_switch_graphics_vehicle->torpedo_car_pony_gen_5U_1_ss_first_unit
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+torpedo_car_pony_gen_5U_1_switch_graphics_vehicle->torpedo_car_pony_gen_5U_1_switch_graphics_percent_loaded
+switch_graphics_layer_tail_light_24px->ss_tail_light_24px_unflipped
+torpedo_car_pony_gen_5U_1->torpedo_car_pony_gen_5U_1_switch_graphics
+switch_graphics_layer_tail_light_24px->ss_tail_light_24px_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+torpedo_car_pony_gen_5U_1_switch_graphics_vehicle->torpedo_car_pony_gen_5U_1_ss_last_unit
+torpedo_car_pony_gen_5U_1->torpedo_car_pony_gen_5U_1_ss_purchase
+torpedo_car_pony_gen_5U_1_switch_graphics_percent_loaded->torpedo_car_pony_gen_5U_1_ss_middle_unit_loading
+torpedo_car_pony_gen_5U_1_switch_graphics_percent_loaded->torpedo_car_pony_gen_5U_1_ss_middle_unit_empty
+torpedo_car_pony_gen_5U_1_switch_graphics_percent_loaded->torpedo_car_pony_gen_5U_1_ss_middle_unit_loaded
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+}

@@ -1,0 +1,95 @@
+digraph {
+rankdir="BT"
+sw_cc_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red"]
+spriteset_mf_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_headlights"]
+spriteset_mf_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_marker_lights"]
+spriteset_mf_1_mfa [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_1_mfa"]
+spriteset_mf_1_mfa_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_1_mfa_reversed"]
+spriteset_mf_1_ff [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_1_ff"]
+spriteset_mf_1_ff_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_1_ff_reversed"]
+spriteset_mf_1_mfb [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_1_mfb"]
+spriteset_mf_1_mfb_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_1_mfb_reversed"]
+spriteset_mf_2_mfa [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_2_mfa"]
+spriteset_mf_2_mfa_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_2_mfa_reversed"]
+spriteset_mf_2_ff [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_2_ff"]
+spriteset_mf_2_ff_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_2_ff_reversed"]
+spriteset_mf_2_mfb [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_2_mfb"]
+spriteset_mf_2_mfb_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_2_mfb_reversed"]
+spriteset_mf_3_mfa [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_3_mfa"]
+spriteset_mf_3_mfa_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_3_mfa_reversed"]
+spriteset_mf_3_ff [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_3_ff"]
+spriteset_mf_3_ff_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_3_ff_reversed"]
+spriteset_mf_3_mfb [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_3_mfb"]
+spriteset_mf_3_mfb_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mf_3_mfb_reversed"]
+sw_mf_livery_mfa [fillcolor=yellow style="filled" label="<switch>\nsw_mf_livery_mfa"]
+sw_mf_livery_mfa_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_mf_livery_mfa_reversed"]
+sw_mf_livery_ff [fillcolor=yellow style="filled" label="<switch>\nsw_mf_livery_ff"]
+sw_mf_livery_ff_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_mf_livery_ff_reversed"]
+sw_mf_livery_mfb [fillcolor=yellow style="filled" label="<switch>\nsw_mf_livery_mfb"]
+sw_mf_livery_mfb_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_mf_livery_mfb_reversed"]
+sw_mf_mfa_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfa_with_headlights"]
+sw_mf_mfa_position [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfa_position"]
+sw_mf_mfa_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfa_with_marker_lights"]
+sw_mf_mfa_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfa_reversed_position"]
+sw_mf_mfb_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfb_with_headlights"]
+sw_mf_mfb_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfb_reversed_position"]
+sw_mf_mfb_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfb_with_marker_lights"]
+sw_mf_mfb_position [fillcolor=yellow style="filled" label="<switch>\nsw_mf_mfb_position"]
+sw_mf_reverser_0 [fillcolor=yellow style="filled" label="<switch>\nsw_mf_reverser_0"]
+sw_mf_reverser_1 [fillcolor=yellow style="filled" label="<switch>\nsw_mf_reverser_1"]
+sw_mf_reverser_2 [fillcolor=yellow style="filled" label="<switch>\nsw_mf_reverser_2"]
+sw_mf_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_mf_graphics"]
+sw_mf_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_mf_articulated_part"]
+sw_mf_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_mf_cargo_subtype_text"]
+sw_mf_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_mf_cargo_subtype"]
+item_mf [fillcolor=red style="filled" label="<FEAT_TRAINS 1>\nitem_mf"]
+sw_mf_mfa_position->sw_mf_livery_mfa
+sw_mf_mfb_with_marker_lights->spriteset_mf_marker_lights
+sw_mf_livery_mfa->spriteset_mf_1_mfa
+item_mf->sw_mf_graphics
+sw_mf_livery_ff->spriteset_mf_3_ff
+sw_mf_mfa_with_marker_lights->sw_mf_livery_mfa_reversed
+sw_mf_livery_mfa->spriteset_mf_3_mfa
+sw_mf_reverser_0->sw_mf_mfa_position
+sw_mf_mfb_with_marker_lights->sw_mf_livery_mfb
+sw_mf_graphics->sw_mf_reverser_1
+item_mf->sw_mf_articulated_part
+sw_mf_mfa_position->sw_mf_mfa_with_headlights
+sw_mf_livery_ff->spriteset_mf_1_ff
+sw_mf_livery_ff->spriteset_mf_2_ff
+sw_mf_livery_mfa_reversed->spriteset_mf_2_mfa_reversed
+sw_mf_reverser_2->sw_mf_mfb_position
+sw_mf_reverser_1->sw_mf_livery_ff
+sw_mf_mfb_reversed_position->sw_mf_livery_mfb_reversed
+sw_mf_livery_mfb_reversed->spriteset_mf_1_mfb_reversed
+sw_mf_livery_mfa_reversed->spriteset_mf_3_mfa_reversed
+sw_mf_mfb_reversed_position->sw_mf_mfb_with_headlights
+sw_mf_mfb_with_headlights->spriteset_mf_headlights
+sw_mf_mfb_position->sw_mf_livery_mfb
+sw_mf_mfb_position->sw_mf_mfb_with_marker_lights
+sw_mf_reverser_0->sw_mf_mfb_reversed_position
+sw_mf_livery_mfb_reversed->spriteset_mf_2_mfb_reversed
+sw_mf_mfa_reversed_position->sw_mf_mfa_with_marker_lights
+sw_mf_livery_mfb->spriteset_mf_1_mfb
+sw_mf_mfb_with_headlights->sw_mf_livery_mfb_reversed
+sw_mf_mfa_with_headlights->sw_mf_livery_mfa
+sw_mf_livery_ff_reversed->spriteset_mf_2_ff_reversed
+sw_mf_mfa_reversed_position->sw_mf_livery_mfa_reversed
+sw_mf_livery_mfb_reversed->spriteset_mf_3_mfb_reversed
+sw_mf_livery_mfb->spriteset_mf_3_mfb
+sw_mf_reverser_2->sw_mf_mfa_reversed_position
+sw_mf_livery_mfa->spriteset_mf_2_mfa
+sw_mf_graphics->sw_mf_reverser_0
+item_mf->sw_mf_cargo_subtype
+sw_mf_mfa_with_marker_lights->spriteset_mf_marker_lights
+sw_mf_livery_ff_reversed->spriteset_mf_1_ff_reversed
+sw_mf_mfa_with_headlights->spriteset_mf_headlights
+sw_mf_cargo_subtype->sw_mf_cargo_subtype_text
+sw_mf_livery_mfa_reversed->spriteset_mf_1_mfa_reversed
+sw_mf_reverser_1->sw_mf_livery_ff_reversed
+sw_mf_livery_mfb->spriteset_mf_2_mfb
+item_mf->sw_cc_red
+sw_mf_graphics->sw_mf_reverser_2
+sw_mf_livery_ff_reversed->spriteset_mf_3_ff_reversed
+item_mf->sw_mf_livery_mfa
+}

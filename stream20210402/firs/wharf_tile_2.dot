@@ -1,0 +1,360 @@
+digraph {
+rankdir="BT"
+wharf_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_1_0"]
+wharf_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_1_0_snow"]
+wharf_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_2_0"]
+wharf_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_2_0_snow"]
+wharf_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_3_0"]
+wharf_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_3_0_snow"]
+wharf_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_4_0"]
+wharf_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_4_0_snow"]
+wharf_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_5_0"]
+wharf_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_5_0_snow"]
+wharf_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_6_0"]
+wharf_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_6_0_snow"]
+wharf_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_7_0"]
+wharf_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_7_0_snow"]
+wharf_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_8_0"]
+wharf_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_8_0_snow"]
+wharf_spriteset_9_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_9_0"]
+wharf_spriteset_9_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_9_0_snow"]
+wharf_spriteset_10_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_10_0"]
+wharf_spriteset_10_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_10_0_snow"]
+wharf_spriteset_11_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_11_0"]
+wharf_spriteset_11_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_11_0_snow"]
+wharf_spriteset_12_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_12_0"]
+wharf_spriteset_12_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_12_0_snow"]
+wharf_spriteset_13_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_13_0"]
+wharf_spriteset_13_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_13_0_snow"]
+wharf_spriteset_14_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_14_0"]
+wharf_spriteset_14_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_14_0_snow"]
+wharf_spriteset_15_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_15_0"]
+wharf_spriteset_15_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_15_0_snow"]
+wharf_spriteset_16_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_16_0"]
+wharf_spriteset_16_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_16_0_snow"]
+wharf_spriteset_17_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_17_0"]
+wharf_spriteset_17_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_17_0_snow"]
+wharf_spriteset_18_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_18_0"]
+wharf_spriteset_18_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_18_0_snow"]
+wharf_spriteset_19_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_19_0"]
+wharf_spriteset_19_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_19_0_snow"]
+wharf_spriteset_20_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_20_0"]
+wharf_spriteset_20_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_20_0_snow"]
+wharf_spriteset_21_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_21_0"]
+wharf_spriteset_21_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_21_0_snow"]
+wharf_spriteset_22_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_22_0"]
+wharf_spriteset_22_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_22_0_snow"]
+wharf_spriteset_23_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_23_0"]
+wharf_spriteset_23_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_23_0_snow"]
+wharf_spriteset_24_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_24_0"]
+wharf_spriteset_24_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_24_0_snow"]
+wharf_spriteset_25_0 [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_25_0"]
+wharf_spriteset_25_0_snow [fillcolor=green style="filled" label="<spriteset>\nwharf_spriteset_25_0_snow"]
+wharf_spritelayout_crane_rails_nw_se [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_crane_rails_nw_se"]
+wharf_spritelayout_crane_rails_ne_sw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_crane_rails_ne_sw"]
+wharf_spritelayout_11 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_11"]
+wharf_spritelayout_water_barge_sw_ne [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_barge_sw_ne"]
+wharf_spritelayout_water_barge_ne_sw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_barge_ne_sw"]
+wharf_spritelayout_water_barge_se_nw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_barge_se_nw"]
+wharf_spritelayout_water_barge_nw_se [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_barge_nw_se"]
+wharf_spritelayout_water_empty [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_empty"]
+wharf_spritelayout_water_coaster_ne_sw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_coaster_ne_sw"]
+wharf_spritelayout_water_coaster_nw_se [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_coaster_nw_se"]
+wharf_spritelayout_water_coaster_se_nw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_coaster_se_nw"]
+wharf_spritelayout_water_coaster_sw_ne [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_water_coaster_sw_ne"]
+wharf_spritelayout_cone_silo [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_cone_silo"]
+wharf_spritelayout_crane_nw_se [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_crane_nw_se"]
+wharf_spritelayout_crane_sw_ne [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_crane_sw_ne"]
+wharf_spritelayout_crane_ne_sw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_crane_ne_sw"]
+wharf_spritelayout_crane_se_nw [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_crane_se_nw"]
+wharf_spritelayout_jetty_empty [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_jetty_empty"]
+wharf_spritelayout_coast_tanks1 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks1"]
+wharf_spritelayout_coast_tanks2 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks2"]
+wharf_spritelayout_coast_tanks3 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks3"]
+wharf_spritelayout_coast_tanks4 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks4"]
+wharf_spritelayout_coast_tanks5 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks5"]
+wharf_spritelayout_coast_tanks6 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks6"]
+wharf_spritelayout_coast_tanks7 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks7"]
+wharf_spritelayout_coast_tanks8 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_tanks8"]
+wharf_spritelayout_coast_warehouse1 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse1"]
+wharf_spritelayout_coast_warehouse2 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse2"]
+wharf_spritelayout_coast_warehouse3 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse3"]
+wharf_spritelayout_coast_warehouse4 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse4"]
+wharf_spritelayout_coast_warehouse5 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse5"]
+wharf_spritelayout_coast_warehouse6 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse6"]
+wharf_spritelayout_coast_warehouse7 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse7"]
+wharf_spritelayout_coast_warehouse8 [fillcolor=yellow style="filled" label="<spritelayout>\nwharf_spritelayout_coast_warehouse8"]
+wharf_spritelayout_coast_tanks [fillcolor=yellow style="filled" label="<switch>\nwharf_spritelayout_coast_tanks"]
+wharf_spritelayout_coast_warehouse [fillcolor=yellow style="filled" label="<switch>\nwharf_spritelayout_coast_warehouse"]
+wharf_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nwharf_industry_layout_1_graphics_switch"]
+wharf_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nwharf_industry_layout_2_graphics_switch"]
+wharf_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nwharf_industry_layout_3_graphics_switch"]
+wharf_industry_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nwharf_industry_layout_4_graphics_switch"]
+wharf_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nwharf_industry_graphics_switch_layouts"]
+wharf_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nwharf_store_temp_vars"]
+wharf_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nwharf_switch_graphics"]
+wharf_tile_2_lc_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_tile_2_lc_1"]
+wharf_tile_2_lc_0 [fillcolor=yellow style="filled" label="<switch>\nwharf_tile_2_lc_0"]
+wharf_tile_2 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <132>\nwharf_tile_2"]
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_13_0_snow
+wharf_spritelayout_crane_nw_se->wharf_spriteset_5_0
+wharf_spritelayout_coast_tanks6->wharf_spriteset_4_0_snow
+wharf_spritelayout_jetty_empty->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks8->wharf_spriteset_1_0_snow
+wharf_spritelayout_crane_se_nw->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse7->wharf_spriteset_8_0
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_2_0
+wharf_spritelayout_coast_tanks4->wharf_spriteset_1_0
+wharf_tile_2->wharf_switch_graphics
+wharf_spritelayout_coast_warehouse7->wharf_spriteset_13_0
+wharf_spritelayout_coast_tanks2->wharf_spriteset_9_0
+wharf_spritelayout_coast_tanks6->wharf_spriteset_1_0
+wharf_spritelayout_crane_nw_se->wharf_spriteset_4_0_snow
+wharf_spritelayout_water_coaster_se_nw->wharf_spriteset_24_0
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_cone_silo
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_crane_rails_nw_se
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_1_0
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_coast_tanks
+wharf_spritelayout_coast_tanks6->wharf_spriteset_7_0_snow
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_4_0
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_tanks1->wharf_spriteset_10_0_snow
+wharf_tile_2->wharf_tile_2_lc_0
+wharf_spritelayout_11->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks7
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_7_0_snow
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_5_0
+wharf_spritelayout_jetty_empty->wharf_spriteset_5_0
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_water_barge_ne_sw
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_coast_tanks
+wharf_spritelayout_coast_tanks3->wharf_spriteset_10_0
+wharf_spritelayout_coast_tanks6->wharf_spriteset_10_0
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_crane_ne_sw
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_water_empty
+wharf_spritelayout_jetty_empty->wharf_spriteset_5_0_snow
+wharf_spritelayout_crane_se_nw->wharf_spriteset_16_0_snow
+wharf_spritelayout_coast_tanks7->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse8
+wharf_spritelayout_coast_warehouse1->wharf_spriteset_13_0
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_crane_rails_ne_sw
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_crane_rails_ne_sw
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_1_0
+wharf_spritelayout_water_coaster_nw_se->wharf_spriteset_23_0_snow
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_jetty_empty
+wharf_spritelayout_coast_tanks7->wharf_spriteset_10_0_snow
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_8_0
+wharf_spritelayout_cone_silo->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_6_0
+wharf_spritelayout_cone_silo->wharf_spriteset_4_0
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse1
+wharf_spritelayout_coast_tanks1->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_13_0
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_13_0_snow
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks8
+wharf_spritelayout_cone_silo->wharf_spriteset_5_0
+wharf_spritelayout_coast_warehouse2->wharf_spriteset_9_0
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_17_0
+wharf_industry_graphics_switch_layouts->wharf_industry_layout_1_graphics_switch
+wharf_spritelayout_coast_tanks3->wharf_spriteset_5_0
+wharf_spritelayout_coast_tanks1->wharf_spriteset_10_0
+wharf_spritelayout_coast_tanks5->wharf_spriteset_6_0_snow
+wharf_spritelayout_water_coaster_ne_sw->wharf_spriteset_22_0_snow
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_14_0_snow
+wharf_spritelayout_coast_tanks5->wharf_spriteset_10_0
+wharf_spritelayout_cone_silo->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks3->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_tanks8->wharf_spriteset_9_0
+wharf_spritelayout_11->wharf_spriteset_1_0
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_coast_warehouse
+wharf_spritelayout_water_barge_sw_ne->wharf_spriteset_18_0
+wharf_spritelayout_cone_silo->wharf_spriteset_1_0
+wharf_spritelayout_water_barge_sw_ne->wharf_spriteset_18_0_snow
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_coast_warehouse
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_5_0
+wharf_spritelayout_coast_tanks5->wharf_spriteset_7_0_snow
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_11
+wharf_spritelayout_coast_tanks6->wharf_spriteset_4_0
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_1_0
+wharf_spritelayout_coast_tanks3->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_5_0
+wharf_spritelayout_coast_tanks8->wharf_spriteset_10_0_snow
+wharf_spritelayout_coast_tanks6->wharf_spriteset_7_0
+wharf_spritelayout_coast_tanks4->wharf_spriteset_5_0_snow
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_5_0
+wharf_spritelayout_crane_nw_se->wharf_spriteset_15_0
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_7_0
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_6_0
+wharf_industry_graphics_switch_layouts->wharf_industry_layout_2_graphics_switch
+wharf_spritelayout_coast_tanks4->wharf_spriteset_1_0_snow
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_5_0_snow
+wharf_spritelayout_water_barge_nw_se->wharf_spriteset_21_0
+wharf_spritelayout_crane_se_nw->wharf_spriteset_4_0
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_4_0
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_6_0_snow
+wharf_spritelayout_coast_tanks4->wharf_spriteset_10_0
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks4
+wharf_spritelayout_coast_warehouse1->wharf_spriteset_13_0_snow
+wharf_spritelayout_coast_tanks1->wharf_spriteset_1_0
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_1_0_snow
+wharf_spritelayout_crane_nw_se->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_tanks8->wharf_spriteset_9_0_snow
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_crane_se_nw
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks6
+wharf_spritelayout_crane_se_nw->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse4
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_1_0
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_crane_nw_se
+wharf_spritelayout_crane_se_nw->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_1_0_snow
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks5->wharf_spriteset_1_0_snow
+wharf_spritelayout_11->wharf_spriteset_11_0_snow
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_7_0_snow
+wharf_store_temp_vars->wharf_industry_graphics_switch_layouts
+wharf_spritelayout_cone_silo->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_tanks2->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse7->wharf_spriteset_8_0_snow
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse6
+wharf_spritelayout_coast_warehouse7->wharf_spriteset_1_0_snow
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_crane_sw_ne
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse7
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_17_0_snow
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_water_coaster_ne_sw
+wharf_spritelayout_water_coaster_sw_ne->wharf_spriteset_25_0_snow
+wharf_spritelayout_crane_nw_se->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_4_0_snow
+wharf_spritelayout_water_coaster_ne_sw->wharf_spriteset_22_0
+wharf_spritelayout_coast_tanks5->wharf_spriteset_6_0
+wharf_spritelayout_water_barge_nw_se->wharf_spriteset_21_0_snow
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_jetty_empty
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_14_0
+wharf_spritelayout_coast_tanks6->wharf_spriteset_10_0_snow
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_water_coaster_nw_se
+wharf_spritelayout_coast_tanks5->wharf_spriteset_7_0
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_water_coaster_sw_ne
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_5_0
+wharf_spritelayout_water_barge_se_nw->wharf_spriteset_20_0_snow
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_9_0
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_tanks7->wharf_spriteset_8_0
+wharf_spritelayout_coast_warehouse7->wharf_spriteset_1_0
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_warehouse1->wharf_spriteset_1_0
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_2_0_snow
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_water_barge_se_nw
+wharf_spritelayout_water_barge_ne_sw->wharf_spriteset_19_0
+wharf_spritelayout_coast_warehouse2->wharf_spriteset_13_0
+wharf_spritelayout_cone_silo->wharf_spriteset_12_0_snow
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_1_0
+wharf_spritelayout_coast_tanks7->wharf_spriteset_10_0
+wharf_spritelayout_coast_tanks5->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_7_0
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_4_0
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_4_0
+wharf_spritelayout_coast_tanks7->wharf_spriteset_1_0_snow
+wharf_spritelayout_jetty_empty->wharf_spriteset_1_0_snow
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_1_0_snow
+wharf_switch_graphics->wharf_store_temp_vars
+wharf_spritelayout_11->wharf_spriteset_4_0
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_water_barge_nw_se
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_13_0
+wharf_spritelayout_water_coaster_se_nw->wharf_spriteset_24_0_snow
+wharf_spritelayout_coast_tanks3->wharf_spriteset_4_0
+wharf_spritelayout_crane_nw_se->wharf_spriteset_1_0
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks2
+wharf_spritelayout_coast_tanks3->wharf_spriteset_1_0
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_3_0
+wharf_spritelayout_crane_nw_se->wharf_spriteset_4_0
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_jetty_empty
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_13_0
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_9_0_snow
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse5
+wharf_spritelayout_coast_tanks4->wharf_spriteset_10_0_snow
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_13_0_snow
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks8->wharf_spriteset_8_0_snow
+wharf_industry_graphics_switch_layouts->wharf_industry_layout_4_graphics_switch
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_water_empty
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_8_0_snow
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_1_0
+wharf_spritelayout_coast_warehouse5->wharf_spriteset_6_0_snow
+wharf_spritelayout_coast_tanks2->wharf_spriteset_9_0_snow
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_13_0_snow
+wharf_spritelayout_coast_warehouse2->wharf_spriteset_9_0_snow
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_water_barge_sw_ne
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_coast_tanks
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_warehouse7->wharf_spriteset_13_0_snow
+wharf_spritelayout_coast_tanks8->wharf_spriteset_1_0
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_5_0_snow
+wharf_spritelayout_water_coaster_nw_se->wharf_spriteset_23_0
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse2
+wharf_spritelayout_coast_warehouse2->wharf_spriteset_1_0
+wharf_spritelayout_water_barge_se_nw->wharf_spriteset_20_0
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_water_empty
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_1_0
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_5_0
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_water_coaster_se_nw
+wharf_spritelayout_coast_warehouse6->wharf_spriteset_13_0
+wharf_spritelayout_water_barge_ne_sw->wharf_spriteset_19_0_snow
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_coast_warehouse
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_5_0_snow
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_coast_warehouse
+wharf_spritelayout_11->wharf_spriteset_11_0
+wharf_industry_graphics_switch_layouts->wharf_industry_layout_3_graphics_switch
+wharf_spritelayout_coast_warehouse4->wharf_spriteset_1_0_snow
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_coast_tanks
+wharf_tile_2_lc_0->wharf_tile_2_lc_1
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_5_0_snow
+wharf_spritelayout_coast_tanks3->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_warehouse3->wharf_spriteset_13_0_snow
+wharf_spritelayout_coast_warehouse2->wharf_spriteset_1_0_snow
+wharf_spritelayout_water_coaster_sw_ne->wharf_spriteset_25_0
+wharf_spritelayout_coast_warehouse8->wharf_spriteset_13_0
+wharf_spritelayout_coast_tanks3->wharf_spriteset_10_0_snow
+wharf_spritelayout_coast_tanks2->wharf_spriteset_10_0_snow
+wharf_industry_layout_3_graphics_switch->wharf_spritelayout_11
+wharf_spritelayout_coast_tanks7->wharf_spriteset_8_0_snow
+wharf_spritelayout_coast_warehouse2->wharf_spriteset_13_0_snow
+wharf_spritelayout_coast_tanks4->wharf_spriteset_6_0
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_water_empty
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks5
+wharf_spritelayout_coast_warehouse1->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_tanks4->wharf_spriteset_5_0
+wharf_spritelayout_coast_tanks4->wharf_spriteset_6_0_snow
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks1
+wharf_spritelayout_crane_rails_nw_se->wharf_spriteset_4_0_snow
+wharf_spritelayout_cone_silo->wharf_spriteset_12_0
+wharf_spritelayout_11->wharf_spriteset_1_0_snow
+wharf_spritelayout_coast_tanks2->wharf_spriteset_1_0_snow
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_cone_silo
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_jetty_empty
+wharf_spritelayout_coast_warehouse->wharf_spritelayout_coast_warehouse3
+wharf_spritelayout_coast_tanks2->wharf_spriteset_10_0
+wharf_spritelayout_jetty_empty->wharf_spriteset_1_0
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_cone_silo
+wharf_spritelayout_crane_se_nw->wharf_spriteset_5_0
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_cone_silo
+wharf_spritelayout_coast_tanks6->wharf_spriteset_1_0_snow
+wharf_spritelayout_jetty_empty->wharf_spriteset_4_0
+wharf_spritelayout_crane_rails_ne_sw->wharf_spriteset_3_0_snow
+wharf_spritelayout_crane_se_nw->wharf_spriteset_4_0_snow
+wharf_spritelayout_coast_tanks->wharf_spritelayout_coast_tanks3
+wharf_spritelayout_crane_se_nw->wharf_spriteset_16_0
+wharf_spritelayout_coast_tanks8->wharf_spriteset_8_0
+wharf_industry_layout_4_graphics_switch->wharf_spritelayout_crane_rails_nw_se
+wharf_spritelayout_coast_tanks5->wharf_spriteset_10_0_snow
+wharf_spritelayout_crane_nw_se->wharf_spriteset_15_0_snow
+wharf_spritelayout_crane_ne_sw->wharf_spriteset_4_0
+wharf_industry_layout_1_graphics_switch->wharf_spritelayout_11
+wharf_spritelayout_coast_tanks8->wharf_spriteset_10_0
+wharf_industry_layout_2_graphics_switch->wharf_spritelayout_11
+wharf_spritelayout_crane_sw_ne->wharf_spriteset_4_0
+}

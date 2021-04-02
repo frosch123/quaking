@@ -1,0 +1,40 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+power_plant_produce_cargo_arrival_economy_1 [fillcolor=green style="filled" label="<produce>\npower_plant_produce_cargo_arrival_economy_1"]
+power_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability_param"]
+power_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_map_gen"]
+power_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\npower_plant_available_game_mode"]
+power_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability_0"]
+power_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability_1"]
+power_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability_4"]
+power_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability_5"]
+power_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability_3"]
+power_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_availability"]
+power_plant_min_distance_0 [fillcolor=yellow style="filled" label="<switch>\npower_plant_min_distance_0"]
+power_plant_min_distance_5 [fillcolor=yellow style="filled" label="<switch>\npower_plant_min_distance_5"]
+power_plant_min_distance_66 [fillcolor=yellow style="filled" label="<switch>\npower_plant_min_distance_66"]
+power_plant_check_location [fillcolor=yellow style="filled" label="<switch>\npower_plant_check_location"]
+power_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <66>\npower_plant"]
+power_plant->randomise_primary_production_on_build
+power_plant_check_availability_0->power_plant_available_game_mode
+power_plant_check_map_gen->power_plant_check_availability_param
+power_plant->power_plant_produce_cargo_arrival_economy_1
+power_plant_check_availability_1->power_plant_available_game_mode
+power_plant_check_location->power_plant_min_distance_66
+power_plant_check_availability->power_plant_check_availability_0
+power_plant->switch_colour
+power_plant_min_distance_66->power_plant_min_distance_5
+power_plant_check_availability->power_plant_check_availability_5
+power_plant_check_availability_4->power_plant_available_game_mode
+power_plant_check_availability_3->power_plant_available_game_mode
+power_plant_min_distance_5->power_plant_min_distance_0
+power_plant->power_plant_check_availability
+power_plant_check_availability_5->power_plant_available_game_mode
+power_plant_check_availability->power_plant_check_availability_4
+power_plant_check_availability->power_plant_check_availability_3
+power_plant->power_plant_check_location
+power_plant_available_game_mode->power_plant_check_map_gen
+power_plant_check_availability->power_plant_check_availability_1
+}

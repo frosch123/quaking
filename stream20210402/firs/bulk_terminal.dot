@@ -1,0 +1,142 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+bulk_terminal_extra_text [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_extra_text"]
+bulk_terminal_cargo_subtype_display_cargo_FOOD_economy_5 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_cargo_FOOD_economy_5"]
+bulk_terminal_cargo_subtype_display_cargo_POTA_economy_5 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_cargo_POTA_economy_5"]
+bulk_terminal_cargo_subtype_display_cargo_CHLO_economy_5 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_cargo_CHLO_economy_5"]
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_switch_cargo_economy_5"]
+bulk_terminal_cargo_subtype_display_cargo_MNO2_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_cargo_MNO2_economy_3"]
+bulk_terminal_cargo_subtype_display_cargo_PHOS_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_cargo_PHOS_economy_3"]
+bulk_terminal_cargo_subtype_display_cargo_BDMT_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_cargo_BDMT_economy_3"]
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_switch_cargo_economy_3"]
+bulk_terminal_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display_switch_economy"]
+bulk_terminal_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_cargo_subtype_display"]
+bulk_terminal_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_monthly_prod_change"]
+bulk_terminal_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_clear_incoming_cargo_waiting_0"]
+bulk_terminal_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_store_incoming_cargo_waiting_0"]
+bulk_terminal_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_clear_incoming_cargo_waiting_1"]
+bulk_terminal_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_store_incoming_cargo_waiting_1"]
+bulk_terminal_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_clear_incoming_cargo_waiting_4"]
+bulk_terminal_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_store_incoming_cargo_waiting_4"]
+bulk_terminal_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_clear_incoming_cargo_waiting_5"]
+bulk_terminal_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_store_incoming_cargo_waiting_5"]
+bulk_terminal_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_clear_incoming_cargo_waiting_3"]
+bulk_terminal_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_store_incoming_cargo_waiting_3"]
+bulk_terminal_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_produce_cargo_arrival"]
+bulk_terminal_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_production_256_economy_0"]
+bulk_terminal_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_production_256_economy_1"]
+bulk_terminal_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_production_256_economy_4"]
+bulk_terminal_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_production_256_economy_5"]
+bulk_terminal_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nbulk_terminal_production_256_economy_3"]
+bulk_terminal_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_produce_256_ticks_switch_economy"]
+bulk_terminal_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_produce_256_ticks"]
+bulk_terminal_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability_param"]
+bulk_terminal_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_map_gen"]
+bulk_terminal_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_available_game_mode"]
+bulk_terminal_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability_0"]
+bulk_terminal_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability_1"]
+bulk_terminal_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability_4"]
+bulk_terminal_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability_5"]
+bulk_terminal_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability_3"]
+bulk_terminal_check_availability [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_availability"]
+bulk_terminal_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_56"]
+bulk_terminal_min_distance_75 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_75"]
+bulk_terminal_min_distance_77 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_77"]
+bulk_terminal_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_31"]
+bulk_terminal_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_41"]
+bulk_terminal_min_distance_70 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_70"]
+bulk_terminal_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_36"]
+bulk_terminal_min_distance_73 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_73"]
+bulk_terminal_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_43"]
+bulk_terminal_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_82"]
+bulk_terminal_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_9"]
+bulk_terminal_min_distance_76 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_76"]
+bulk_terminal_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_34"]
+bulk_terminal_min_distance_81 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_81"]
+bulk_terminal_min_distance_79 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_79"]
+bulk_terminal_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_37"]
+bulk_terminal_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_29"]
+bulk_terminal_min_distance_87 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_87"]
+bulk_terminal_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_22"]
+bulk_terminal_min_distance_67 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_67"]
+bulk_terminal_min_distance_85 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_85"]
+bulk_terminal_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_39"]
+bulk_terminal_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_52"]
+bulk_terminal_min_distance_88 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_88"]
+bulk_terminal_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_min_distance_51"]
+bulk_terminal_check_location [fillcolor=yellow style="filled" label="<switch>\nbulk_terminal_check_location"]
+bulk_terminal [fillcolor=red style="filled" label="FEAT_INDUSTRIES <51>\nbulk_terminal"]
+bulk_terminal_check_map_gen->bulk_terminal_check_availability_param
+bulk_terminal_min_distance_39->bulk_terminal_min_distance_85
+bulk_terminal->bulk_terminal_extra_text
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_5->bulk_terminal_cargo_subtype_display_cargo_FOOD_economy_5
+bulk_terminal->switch_colour
+bulk_terminal->bulk_terminal_cargo_subtype_display
+bulk_terminal_produce_cargo_arrival->bulk_terminal_store_incoming_cargo_waiting_1
+bulk_terminal_min_distance_31->bulk_terminal_min_distance_77
+bulk_terminal_min_distance_9->bulk_terminal_min_distance_82
+bulk_terminal_check_availability_1->bulk_terminal_available_game_mode
+bulk_terminal_min_distance_70->bulk_terminal_min_distance_41
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_3->bulk_terminal_cargo_subtype_display_cargo_MNO2_economy_3
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_3->bulk_terminal_cargo_subtype_display_cargo_BDMT_economy_3
+bulk_terminal_cargo_subtype_display->bulk_terminal_cargo_subtype_display_switch_economy
+bulk_terminal_cargo_subtype_display_switch_economy->bulk_terminal_cargo_subtype_display_switch_cargo_economy_3
+bulk_terminal_min_distance_29->bulk_terminal_min_distance_37
+bulk_terminal_check_availability->bulk_terminal_check_availability_5
+bulk_terminal_cargo_subtype_display_switch_economy->bulk_terminal_cargo_subtype_display_switch_cargo_economy_5
+bulk_terminal_produce_256_ticks->bulk_terminal_produce_256_ticks_switch_economy
+bulk_terminal_min_distance_85->bulk_terminal_min_distance_67
+bulk_terminal_check_availability_3->bulk_terminal_available_game_mode
+bulk_terminal_check_availability->bulk_terminal_check_availability_0
+bulk_terminal_produce_256_ticks_switch_economy->bulk_terminal_production_256_economy_0
+bulk_terminal_min_distance_79->bulk_terminal_min_distance_81
+bulk_terminal_min_distance_51->bulk_terminal_min_distance_88
+bulk_terminal->bulk_terminal_monthly_prod_change
+bulk_terminal->bulk_terminal_check_location
+bulk_terminal_check_availability_5->bulk_terminal_available_game_mode
+bulk_terminal_min_distance_36->bulk_terminal_min_distance_70
+bulk_terminal_store_incoming_cargo_waiting_3->bulk_terminal_clear_incoming_cargo_waiting_3
+bulk_terminal_check_availability->bulk_terminal_check_availability_3
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_5->bulk_terminal_cargo_subtype_display_cargo_CHLO_economy_5
+bulk_terminal_produce_256_ticks_switch_economy->bulk_terminal_production_256_economy_1
+bulk_terminal_store_incoming_cargo_waiting_5->bulk_terminal_clear_incoming_cargo_waiting_5
+bulk_terminal_check_availability->bulk_terminal_check_availability_1
+bulk_terminal_min_distance_34->bulk_terminal_min_distance_76
+bulk_terminal_min_distance_43->bulk_terminal_min_distance_73
+bulk_terminal_min_distance_75->bulk_terminal_min_distance_56
+bulk_terminal_check_availability_0->bulk_terminal_available_game_mode
+bulk_terminal_min_distance_82->bulk_terminal_min_distance_43
+bulk_terminal_min_distance_73->bulk_terminal_min_distance_36
+bulk_terminal_min_distance_37->bulk_terminal_min_distance_79
+bulk_terminal->randomise_primary_production_on_build
+bulk_terminal_produce_cargo_arrival->bulk_terminal_store_incoming_cargo_waiting_5
+bulk_terminal_produce_256_ticks_switch_economy->bulk_terminal_production_256_economy_5
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_3->bulk_terminal_cargo_subtype_display_cargo_PHOS_economy_3
+bulk_terminal_produce_cargo_arrival->bulk_terminal_store_incoming_cargo_waiting_0
+bulk_terminal_check_availability_4->bulk_terminal_available_game_mode
+bulk_terminal_produce_cargo_arrival->bulk_terminal_store_incoming_cargo_waiting_3
+bulk_terminal_min_distance_77->bulk_terminal_min_distance_75
+bulk_terminal_min_distance_88->bulk_terminal_min_distance_52
+bulk_terminal_store_incoming_cargo_waiting_0->bulk_terminal_clear_incoming_cargo_waiting_0
+bulk_terminal_min_distance_87->bulk_terminal_min_distance_29
+bulk_terminal_produce_cargo_arrival->bulk_terminal_store_incoming_cargo_waiting_4
+bulk_terminal_available_game_mode->bulk_terminal_check_map_gen
+bulk_terminal_check_availability->bulk_terminal_check_availability_4
+bulk_terminal_produce_256_ticks_switch_economy->bulk_terminal_production_256_economy_4
+bulk_terminal_min_distance_76->bulk_terminal_min_distance_9
+bulk_terminal_min_distance_41->bulk_terminal_min_distance_31
+bulk_terminal_min_distance_67->bulk_terminal_min_distance_22
+bulk_terminal->bulk_terminal_produce_cargo_arrival
+bulk_terminal_min_distance_81->bulk_terminal_min_distance_34
+bulk_terminal->bulk_terminal_check_availability
+bulk_terminal_store_incoming_cargo_waiting_4->bulk_terminal_clear_incoming_cargo_waiting_4
+bulk_terminal_check_location->bulk_terminal_min_distance_51
+bulk_terminal->bulk_terminal_produce_256_ticks
+bulk_terminal_min_distance_22->bulk_terminal_min_distance_87
+bulk_terminal_cargo_subtype_display_switch_cargo_economy_5->bulk_terminal_cargo_subtype_display_cargo_POTA_economy_5
+bulk_terminal_store_incoming_cargo_waiting_1->bulk_terminal_clear_incoming_cargo_waiting_1
+bulk_terminal_min_distance_52->bulk_terminal_min_distance_39
+bulk_terminal_produce_256_ticks_switch_economy->bulk_terminal_production_256_economy_3
+}

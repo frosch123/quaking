@@ -1,0 +1,61 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+ranch_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_2_0"]
+ranch_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_2_0_snow"]
+ranch_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_3_0"]
+ranch_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_3_0_snow"]
+ranch_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_4_0"]
+ranch_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_4_0_snow"]
+ranch_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_5_0"]
+ranch_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_5_0_snow"]
+ranch_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_6_0"]
+ranch_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nranch_spriteset_6_0_snow"]
+ranch_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nranch_spritelayout_1"]
+ranch_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nranch_spritelayout_2"]
+ranch_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nranch_spritelayout_3"]
+ranch_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nranch_spritelayout_4"]
+ranch_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nranch_spritelayout_5"]
+ranch_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nranch_industry_layout_1_graphics_switch"]
+ranch_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nranch_industry_layout_2_graphics_switch"]
+ranch_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nranch_industry_graphics_switch_layouts"]
+ranch_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nranch_industry_construction_state_graphics_switch"]
+ranch_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nranch_store_temp_vars"]
+ranch_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nranch_switch_graphics"]
+ranch_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nranch_tile_1_lc_2"]
+ranch_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nranch_tile_1_lc_1"]
+ranch_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nranch_tile_1_lc_0"]
+ranch_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <173>\nranch_tile_1"]
+ranch_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+ranch_spritelayout_4->ranch_spriteset_5_0_snow
+ranch_spritelayout_1->ranch_spriteset_2_0_snow
+ranch_industry_layout_1_graphics_switch->ranch_spritelayout_5
+ranch_tile_1_lc_0->ranch_tile_1_lc_1
+ranch_industry_layout_1_graphics_switch->ranch_spritelayout_2
+ranch_tile_1_lc_1->ranch_tile_1_lc_2
+ranch_industry_graphics_switch_layouts->ranch_industry_layout_1_graphics_switch
+ranch_industry_layout_2_graphics_switch->ranch_spritelayout_4
+ranch_industry_layout_1_graphics_switch->ranch_spritelayout_1
+ranch_spritelayout_1->ranch_spriteset_2_0
+ranch_switch_graphics->ranch_store_temp_vars
+ranch_industry_layout_2_graphics_switch->ranch_spritelayout_2
+ranch_spritelayout_2->ranch_spriteset_3_0
+ranch_industry_layout_2_graphics_switch->ranch_spritelayout_5
+ranch_spritelayout_5->ranch_spriteset_6_0
+ranch_store_temp_vars->ranch_industry_construction_state_graphics_switch
+ranch_industry_layout_1_graphics_switch->ranch_spritelayout_4
+ranch_industry_layout_1_graphics_switch->ranch_spritelayout_3
+ranch_industry_construction_state_graphics_switch->ranch_industry_graphics_switch_layouts
+ranch_spritelayout_2->ranch_spriteset_3_0_snow
+ranch_industry_graphics_switch_layouts->ranch_industry_layout_2_graphics_switch
+ranch_spritelayout_5->ranch_spriteset_6_0_snow
+ranch_spritelayout_3->ranch_spriteset_4_0_snow
+spritelayout_default_construction_states->spriteset_default_construction_states
+ranch_spritelayout_3->ranch_spriteset_4_0
+ranch_industry_layout_2_graphics_switch->ranch_spritelayout_3
+ranch_tile_1->ranch_switch_graphics
+ranch_tile_1->ranch_tile_1_lc_0
+ranch_industry_layout_2_graphics_switch->ranch_spritelayout_1
+ranch_spritelayout_4->ranch_spriteset_5_0
+}

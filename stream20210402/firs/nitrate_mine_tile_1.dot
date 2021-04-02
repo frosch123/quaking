@@ -1,0 +1,89 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+nitrate_mine_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_1_0"]
+nitrate_mine_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_1_0_snow"]
+nitrate_mine_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_2_0"]
+nitrate_mine_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_2_0_snow"]
+nitrate_mine_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_3_0"]
+nitrate_mine_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_3_0_snow"]
+nitrate_mine_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_4_0"]
+nitrate_mine_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_4_0_snow"]
+nitrate_mine_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_5_0"]
+nitrate_mine_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_5_0_snow"]
+nitrate_mine_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_6_0"]
+nitrate_mine_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_6_0_snow"]
+nitrate_mine_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_7_0"]
+nitrate_mine_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_7_0_snow"]
+nitrate_mine_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_8_0"]
+nitrate_mine_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_8_0_snow"]
+nitrate_mine_spriteset_9_0 [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_9_0"]
+nitrate_mine_spriteset_9_0_snow [fillcolor=green style="filled" label="<spriteset>\nnitrate_mine_spriteset_9_0_snow"]
+nitrate_mine_spritelayout_chimney [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_chimney"]
+nitrate_mine_spritelayout_large_shed [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_large_shed"]
+nitrate_mine_spritelayout_conveyors [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_conveyors"]
+nitrate_mine_spritelayout_processor [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_processor"]
+nitrate_mine_spritelayout_raised_tanks [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_raised_tanks"]
+nitrate_mine_spritelayout_raised_shed [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_raised_shed"]
+nitrate_mine_spritelayout_machinery [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_machinery"]
+nitrate_mine_spritelayout_hut [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_hut"]
+nitrate_mine_spritelayout_empty [fillcolor=yellow style="filled" label="<spritelayout>\nnitrate_mine_spritelayout_empty"]
+nitrate_mine_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_industry_layout_1_graphics_switch"]
+nitrate_mine_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_industry_layout_2_graphics_switch"]
+nitrate_mine_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_industry_graphics_switch_layouts"]
+nitrate_mine_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_industry_construction_state_graphics_switch"]
+nitrate_mine_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_store_temp_vars"]
+nitrate_mine_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_switch_graphics"]
+nitrate_mine_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_tile_1_lc_2"]
+nitrate_mine_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_tile_1_lc_1"]
+nitrate_mine_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nnitrate_mine_tile_1_lc_0"]
+nitrate_mine_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <230>\nnitrate_mine_tile_1"]
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_chimney
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_raised_tanks
+nitrate_mine_spritelayout_conveyors->nitrate_mine_spriteset_3_0
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_conveyors
+nitrate_mine_spritelayout_large_shed->nitrate_mine_spriteset_2_0
+nitrate_mine_spritelayout_hut->nitrate_mine_spriteset_8_0
+nitrate_mine_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_processor
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_empty
+nitrate_mine_spritelayout_large_shed->nitrate_mine_spriteset_2_0_snow
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_conveyors
+nitrate_mine_industry_graphics_switch_layouts->nitrate_mine_industry_layout_1_graphics_switch
+nitrate_mine_spritelayout_chimney->nitrate_mine_spriteset_1_0_snow
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_large_shed
+nitrate_mine_spritelayout_raised_shed->nitrate_mine_spriteset_6_0_snow
+nitrate_mine_spritelayout_empty->nitrate_mine_spriteset_9_0_snow
+nitrate_mine_spritelayout_machinery->nitrate_mine_spriteset_7_0
+nitrate_mine_tile_1->nitrate_mine_switch_graphics
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_hut
+nitrate_mine_spritelayout_processor->nitrate_mine_spriteset_4_0_snow
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_machinery
+nitrate_mine_tile_1->nitrate_mine_tile_1_lc_0
+nitrate_mine_spritelayout_empty->nitrate_mine_spriteset_9_0
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_machinery
+nitrate_mine_spritelayout_raised_tanks->nitrate_mine_spriteset_5_0_snow
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_hut
+nitrate_mine_spritelayout_hut->nitrate_mine_spriteset_8_0_snow
+nitrate_mine_store_temp_vars->nitrate_mine_industry_construction_state_graphics_switch
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_large_shed
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_processor
+nitrate_mine_industry_construction_state_graphics_switch->nitrate_mine_industry_graphics_switch_layouts
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_raised_shed
+nitrate_mine_spritelayout_processor->nitrate_mine_spriteset_4_0
+nitrate_mine_industry_graphics_switch_layouts->nitrate_mine_industry_layout_2_graphics_switch
+nitrate_mine_switch_graphics->nitrate_mine_store_temp_vars
+nitrate_mine_tile_1_lc_0->nitrate_mine_tile_1_lc_1
+nitrate_mine_tile_1_lc_1->nitrate_mine_tile_1_lc_2
+nitrate_mine_spritelayout_chimney->nitrate_mine_spriteset_1_0
+nitrate_mine_spritelayout_raised_shed->nitrate_mine_spriteset_6_0
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_empty
+spritelayout_default_construction_states->spriteset_default_construction_states
+nitrate_mine_spritelayout_conveyors->nitrate_mine_spriteset_3_0_snow
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_raised_tanks
+nitrate_mine_spritelayout_raised_tanks->nitrate_mine_spriteset_5_0
+nitrate_mine_spritelayout_machinery->nitrate_mine_spriteset_7_0_snow
+nitrate_mine_industry_layout_2_graphics_switch->nitrate_mine_spritelayout_chimney
+nitrate_mine_industry_layout_1_graphics_switch->nitrate_mine_spritelayout_raised_shed
+}

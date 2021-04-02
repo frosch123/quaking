@@ -1,0 +1,86 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+pyrite_mine_extra_text [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_extra_text"]
+pyrite_mine_cargo_subtype_display_cargo_ENSP_economy_1 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_cargo_subtype_display_cargo_ENSP_economy_1"]
+pyrite_mine_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_cargo_subtype_display_switch_cargo_economy_1"]
+pyrite_mine_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_cargo_subtype_display_switch_economy"]
+pyrite_mine_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_cargo_subtype_display"]
+pyrite_mine_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_monthly_prod_change"]
+pyrite_mine_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\npyrite_mine_clear_incoming_cargo_waiting_0"]
+pyrite_mine_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_store_incoming_cargo_waiting_0"]
+pyrite_mine_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\npyrite_mine_clear_incoming_cargo_waiting_1"]
+pyrite_mine_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_store_incoming_cargo_waiting_1"]
+pyrite_mine_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\npyrite_mine_clear_incoming_cargo_waiting_4"]
+pyrite_mine_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_store_incoming_cargo_waiting_4"]
+pyrite_mine_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\npyrite_mine_clear_incoming_cargo_waiting_5"]
+pyrite_mine_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_store_incoming_cargo_waiting_5"]
+pyrite_mine_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\npyrite_mine_clear_incoming_cargo_waiting_3"]
+pyrite_mine_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_store_incoming_cargo_waiting_3"]
+pyrite_mine_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_produce_cargo_arrival"]
+pyrite_mine_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\npyrite_mine_production_256_economy_0"]
+pyrite_mine_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\npyrite_mine_production_256_economy_1"]
+pyrite_mine_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\npyrite_mine_production_256_economy_4"]
+pyrite_mine_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\npyrite_mine_production_256_economy_5"]
+pyrite_mine_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\npyrite_mine_production_256_economy_3"]
+pyrite_mine_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_produce_256_ticks_switch_economy"]
+pyrite_mine_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_produce_256_ticks"]
+pyrite_mine_check_availability_param [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability_param"]
+pyrite_mine_check_map_gen [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_map_gen"]
+pyrite_mine_available_game_mode [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_available_game_mode"]
+pyrite_mine_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability_0"]
+pyrite_mine_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability_1"]
+pyrite_mine_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability_4"]
+pyrite_mine_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability_5"]
+pyrite_mine_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability_3"]
+pyrite_mine_check_availability [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_availability"]
+pyrite_mine_min_distance_72 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_min_distance_72"]
+pyrite_mine_min_distance_71 [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_min_distance_71"]
+pyrite_mine_cluster_pyrite_mine [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_cluster_pyrite_mine"]
+pyrite_mine_check_location [fillcolor=yellow style="filled" label="<switch>\npyrite_mine_check_location"]
+pyrite_mine [fillcolor=red style="filled" label="FEAT_INDUSTRIES <71>\npyrite_mine"]
+pyrite_mine_store_incoming_cargo_waiting_3->pyrite_mine_clear_incoming_cargo_waiting_3
+pyrite_mine_check_availability_0->pyrite_mine_available_game_mode
+pyrite_mine->pyrite_mine_check_availability
+pyrite_mine_produce_256_ticks_switch_economy->pyrite_mine_production_256_economy_4
+pyrite_mine_check_map_gen->pyrite_mine_check_availability_param
+pyrite_mine_produce_cargo_arrival->pyrite_mine_store_incoming_cargo_waiting_4
+pyrite_mine_produce_256_ticks_switch_economy->pyrite_mine_production_256_economy_0
+pyrite_mine_store_incoming_cargo_waiting_5->pyrite_mine_clear_incoming_cargo_waiting_5
+pyrite_mine->pyrite_mine_monthly_prod_change
+pyrite_mine_check_availability_1->pyrite_mine_available_game_mode
+pyrite_mine_check_location->pyrite_mine_cluster_pyrite_mine
+pyrite_mine_cargo_subtype_display_switch_economy->pyrite_mine_cargo_subtype_display_switch_cargo_economy_1
+pyrite_mine->pyrite_mine_check_location
+pyrite_mine->pyrite_mine_extra_text
+pyrite_mine_store_incoming_cargo_waiting_1->pyrite_mine_clear_incoming_cargo_waiting_1
+pyrite_mine_store_incoming_cargo_waiting_4->pyrite_mine_clear_incoming_cargo_waiting_4
+pyrite_mine_check_availability->pyrite_mine_check_availability_3
+pyrite_mine_check_availability->pyrite_mine_check_availability_0
+pyrite_mine_produce_256_ticks->pyrite_mine_produce_256_ticks_switch_economy
+pyrite_mine->pyrite_mine_cargo_subtype_display
+pyrite_mine_cargo_subtype_display->pyrite_mine_cargo_subtype_display_switch_economy
+pyrite_mine_available_game_mode->pyrite_mine_check_map_gen
+pyrite_mine_produce_256_ticks_switch_economy->pyrite_mine_production_256_economy_5
+pyrite_mine_check_availability->pyrite_mine_check_availability_5
+pyrite_mine_produce_256_ticks_switch_economy->pyrite_mine_production_256_economy_3
+pyrite_mine->randomise_primary_production_on_build
+pyrite_mine_produce_256_ticks_switch_economy->pyrite_mine_production_256_economy_1
+pyrite_mine_produce_cargo_arrival->pyrite_mine_store_incoming_cargo_waiting_3
+pyrite_mine_cluster_pyrite_mine->pyrite_mine_min_distance_71
+pyrite_mine->pyrite_mine_produce_256_ticks
+pyrite_mine_produce_cargo_arrival->pyrite_mine_store_incoming_cargo_waiting_5
+pyrite_mine_store_incoming_cargo_waiting_0->pyrite_mine_clear_incoming_cargo_waiting_0
+pyrite_mine_check_availability->pyrite_mine_check_availability_1
+pyrite_mine_check_availability_3->pyrite_mine_available_game_mode
+pyrite_mine_check_availability->pyrite_mine_check_availability_4
+pyrite_mine_produce_cargo_arrival->pyrite_mine_store_incoming_cargo_waiting_1
+pyrite_mine_check_availability_4->pyrite_mine_available_game_mode
+pyrite_mine->switch_colour
+pyrite_mine_cargo_subtype_display_switch_cargo_economy_1->pyrite_mine_cargo_subtype_display_cargo_ENSP_economy_1
+pyrite_mine_produce_cargo_arrival->pyrite_mine_store_incoming_cargo_waiting_0
+pyrite_mine_min_distance_71->pyrite_mine_min_distance_72
+pyrite_mine->pyrite_mine_produce_cargo_arrival
+pyrite_mine_check_availability_5->pyrite_mine_available_game_mode
+}

@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_quicklime [fillcolor=green style="filled" label="<spriteset>\ncargoicon_quicklime"]
+quicklime_STEELTOWN [fillcolor=red style="filled" label="FEAT_CARGOS <30>\nquicklime_STEELTOWN"]
+quicklime_STEELTOWN->cargoicon_quicklime
+}

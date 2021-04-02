@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+thunderer_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nthunderer_articulated_cb_switch"]
+thunderer_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nthunderer_ss_unreversed_unflipped_0"]
+thunderer_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nthunderer_ss_unreversed_flipped_0"]
+thunderer_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nthunderer_switch_graphics_unreversed"]
+thunderer_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nthunderer_ss_vehicle_purchase_0"]
+thunderer_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nthunderer_switch_set_layers_register_more_sprites"]
+thunderer_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nthunderer_switch_graphics"]
+thunderer_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nthunderer_switch_colour_mapping"]
+thunderer_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nthunderer_switch_create_effect_default_unreversed"]
+thunderer_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nthunderer_switch_buy_menu_text_result"]
+thunderer [fillcolor=red style="filled" label="<FEAT_TRAINS 4830>\nthunderer"]
+thunderer->thunderer_switch_colour_mapping
+thunderer->thunderer_switch_create_effect_default_unreversed
+thunderer_switch_graphics_unreversed->thunderer_ss_unreversed_unflipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+thunderer->thunderer_switch_graphics
+thunderer->thunderer_switch_buy_menu_text_result
+thunderer->thunderer_ss_vehicle_purchase_0
+thunderer_switch_set_layers_register_more_sprites->thunderer_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+thunderer->thunderer_articulated_cb_switch
+thunderer_switch_graphics->thunderer_switch_set_layers_register_more_sprites
+thunderer_switch_graphics->switch_graphics_layer_tail_light_empty
+thunderer_switch_graphics_unreversed->thunderer_ss_unreversed_flipped_0
+}

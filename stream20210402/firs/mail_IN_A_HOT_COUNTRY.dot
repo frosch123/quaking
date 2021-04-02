@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_mail [fillcolor=green style="filled" label="<spriteset>\ncargoicon_mail"]
+mail_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <2>\nmail_IN_A_HOT_COUNTRY"]
+mail_IN_A_HOT_COUNTRY->cargoicon_mail
+}

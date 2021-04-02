@@ -1,0 +1,84 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+lumber_yard_produce_0 [fillcolor=green style="filled" label="<produce>\nlumber_yard_produce_0"]
+lumber_yard_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_produce_calculation_0"]
+lumber_yard_produce_1 [fillcolor=green style="filled" label="<produce>\nlumber_yard_produce_1"]
+lumber_yard_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_produce_calculation_1"]
+lumber_yard_produce_4 [fillcolor=green style="filled" label="<produce>\nlumber_yard_produce_4"]
+lumber_yard_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_produce_calculation_4"]
+lumber_yard_produce_5 [fillcolor=green style="filled" label="<produce>\nlumber_yard_produce_5"]
+lumber_yard_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_produce_calculation_5"]
+lumber_yard_produce_3 [fillcolor=green style="filled" label="<produce>\nlumber_yard_produce_3"]
+lumber_yard_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_produce_calculation_3"]
+lumber_yard_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_produce_cargo_arrival"]
+lumber_yard_extra_text [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_extra_text"]
+lumber_yard_cargo_subtype_display_cargo_WDPR_economy_3 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_cargo_subtype_display_cargo_WDPR_economy_3"]
+lumber_yard_cargo_subtype_display_cargo_RFPR_economy_3 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_cargo_subtype_display_cargo_RFPR_economy_3"]
+lumber_yard_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_cargo_subtype_display_switch_cargo_economy_3"]
+lumber_yard_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_cargo_subtype_display_switch_economy"]
+lumber_yard_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_cargo_subtype_display"]
+lumber_yard_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability_param"]
+lumber_yard_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_map_gen"]
+lumber_yard_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_available_game_mode"]
+lumber_yard_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability_0"]
+lumber_yard_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability_1"]
+lumber_yard_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability_4"]
+lumber_yard_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability_5"]
+lumber_yard_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability_3"]
+lumber_yard_check_availability [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_availability"]
+lumber_yard_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_57"]
+lumber_yard_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_69"]
+lumber_yard_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_49"]
+lumber_yard_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_74"]
+lumber_yard_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_51"]
+lumber_yard_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_39"]
+lumber_yard_min_distance_12 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_12"]
+lumber_yard_min_distance_63 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_63"]
+lumber_yard_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_82"]
+lumber_yard_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_min_distance_41"]
+lumber_yard_check_location [fillcolor=yellow style="filled" label="<switch>\nlumber_yard_check_location"]
+lumber_yard [fillcolor=red style="filled" label="FEAT_INDUSTRIES <41>\nlumber_yard"]
+lumber_yard_check_availability_1->lumber_yard_available_game_mode
+lumber_yard_min_distance_82->lumber_yard_min_distance_63
+lumber_yard_check_availability_0->lumber_yard_available_game_mode
+lumber_yard_check_availability->lumber_yard_check_availability_1
+lumber_yard_min_distance_12->lumber_yard_min_distance_39
+lumber_yard_available_game_mode->lumber_yard_check_map_gen
+lumber_yard_produce_calculation_3->lumber_yard_produce_3
+lumber_yard_produce_cargo_arrival->lumber_yard_produce_calculation_5
+lumber_yard_min_distance_49->lumber_yard_min_distance_69
+lumber_yard_check_availability->lumber_yard_check_availability_4
+lumber_yard_produce_cargo_arrival->lumber_yard_produce_calculation_0
+lumber_yard_min_distance_63->lumber_yard_min_distance_12
+lumber_yard_cargo_subtype_display_switch_cargo_economy_3->lumber_yard_cargo_subtype_display_cargo_RFPR_economy_3
+lumber_yard_check_availability_5->lumber_yard_available_game_mode
+lumber_yard->lumber_yard_check_location
+lumber_yard_produce_cargo_arrival->lumber_yard_produce_calculation_3
+lumber_yard_check_map_gen->lumber_yard_check_availability_param
+lumber_yard_check_availability->lumber_yard_check_availability_0
+lumber_yard_check_availability_3->lumber_yard_available_game_mode
+lumber_yard_produce_calculation_4->lumber_yard_produce_4
+lumber_yard_min_distance_74->lumber_yard_min_distance_49
+lumber_yard->lumber_yard_produce_cargo_arrival
+lumber_yard_produce_calculation_0->lumber_yard_produce_0
+lumber_yard_check_availability->lumber_yard_check_availability_5
+lumber_yard_produce_calculation_1->lumber_yard_produce_1
+lumber_yard_check_availability->lumber_yard_check_availability_3
+lumber_yard->lumber_yard_cargo_subtype_display
+lumber_yard_produce_cargo_arrival->lumber_yard_produce_calculation_4
+lumber_yard_cargo_subtype_display->lumber_yard_cargo_subtype_display_switch_economy
+lumber_yard->switch_colour
+lumber_yard_check_location->lumber_yard_min_distance_41
+lumber_yard_cargo_subtype_display_switch_cargo_economy_3->lumber_yard_cargo_subtype_display_cargo_WDPR_economy_3
+lumber_yard_min_distance_51->lumber_yard_min_distance_74
+lumber_yard->lumber_yard_check_availability
+lumber_yard_produce_calculation_5->lumber_yard_produce_5
+lumber_yard_produce_cargo_arrival->lumber_yard_produce_calculation_1
+lumber_yard_check_availability_4->lumber_yard_available_game_mode
+lumber_yard->lumber_yard_extra_text
+lumber_yard_cargo_subtype_display_switch_economy->lumber_yard_cargo_subtype_display_switch_cargo_economy_3
+lumber_yard_min_distance_41->lumber_yard_min_distance_82
+lumber_yard_min_distance_69->lumber_yard_min_distance_57
+lumber_yard_min_distance_39->lumber_yard_min_distance_51
+}

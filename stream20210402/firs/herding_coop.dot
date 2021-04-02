@@ -1,0 +1,94 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+herding_coop_extra_text [fillcolor=yellow style="filled" label="<switch>\nherding_coop_extra_text"]
+herding_coop_cargo_subtype_display_cargo_FMSP_economy_1 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_cargo_subtype_display_cargo_FMSP_economy_1"]
+herding_coop_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_cargo_subtype_display_switch_cargo_economy_1"]
+herding_coop_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nherding_coop_cargo_subtype_display_switch_economy"]
+herding_coop_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nherding_coop_cargo_subtype_display"]
+herding_coop_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nherding_coop_monthly_prod_change"]
+herding_coop_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nherding_coop_clear_incoming_cargo_waiting_0"]
+herding_coop_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_store_incoming_cargo_waiting_0"]
+herding_coop_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nherding_coop_clear_incoming_cargo_waiting_1"]
+herding_coop_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_store_incoming_cargo_waiting_1"]
+herding_coop_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nherding_coop_clear_incoming_cargo_waiting_4"]
+herding_coop_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_store_incoming_cargo_waiting_4"]
+herding_coop_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nherding_coop_clear_incoming_cargo_waiting_5"]
+herding_coop_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_store_incoming_cargo_waiting_5"]
+herding_coop_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nherding_coop_clear_incoming_cargo_waiting_3"]
+herding_coop_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_store_incoming_cargo_waiting_3"]
+herding_coop_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nherding_coop_produce_cargo_arrival"]
+herding_coop_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nherding_coop_production_256_economy_0"]
+herding_coop_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nherding_coop_production_256_economy_1"]
+herding_coop_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nherding_coop_production_256_economy_4"]
+herding_coop_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nherding_coop_production_256_economy_5"]
+herding_coop_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nherding_coop_production_256_economy_3"]
+herding_coop_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nherding_coop_produce_256_ticks_switch_economy"]
+herding_coop_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nherding_coop_produce_256_ticks"]
+herding_coop_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability_param"]
+herding_coop_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_map_gen"]
+herding_coop_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nherding_coop_available_game_mode"]
+herding_coop_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability_0"]
+herding_coop_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability_1"]
+herding_coop_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability_4"]
+herding_coop_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability_5"]
+herding_coop_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability_3"]
+herding_coop_check_availability [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_availability"]
+herding_coop_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_51"]
+herding_coop_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_39"]
+herding_coop_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_52"]
+herding_coop_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_60"]
+herding_coop_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_61"]
+herding_coop_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_58"]
+herding_coop_min_distance_85 [fillcolor=yellow style="filled" label="<switch>\nherding_coop_min_distance_85"]
+herding_coop_check_location [fillcolor=yellow style="filled" label="<switch>\nherding_coop_check_location"]
+herding_coop [fillcolor=red style="filled" label="FEAT_INDUSTRIES <85>\nherding_coop"]
+herding_coop_cargo_subtype_display->herding_coop_cargo_subtype_display_switch_economy
+herding_coop->herding_coop_cargo_subtype_display
+herding_coop_produce_cargo_arrival->herding_coop_store_incoming_cargo_waiting_3
+herding_coop_produce_cargo_arrival->herding_coop_store_incoming_cargo_waiting_1
+herding_coop_produce_256_ticks->herding_coop_produce_256_ticks_switch_economy
+herding_coop_check_availability_1->herding_coop_available_game_mode
+herding_coop->herding_coop_check_location
+herding_coop_check_availability->herding_coop_check_availability_5
+herding_coop_check_availability_4->herding_coop_available_game_mode
+herding_coop_check_location->herding_coop_min_distance_85
+herding_coop_min_distance_39->herding_coop_min_distance_51
+herding_coop_cargo_subtype_display_switch_economy->herding_coop_cargo_subtype_display_switch_cargo_economy_1
+herding_coop_produce_cargo_arrival->herding_coop_store_incoming_cargo_waiting_4
+herding_coop_min_distance_52->herding_coop_min_distance_39
+herding_coop_min_distance_61->herding_coop_min_distance_60
+herding_coop->herding_coop_extra_text
+herding_coop_cargo_subtype_display_switch_cargo_economy_1->herding_coop_cargo_subtype_display_cargo_FMSP_economy_1
+herding_coop_store_incoming_cargo_waiting_1->herding_coop_clear_incoming_cargo_waiting_1
+herding_coop_check_availability->herding_coop_check_availability_4
+herding_coop->randomise_primary_production_on_build
+herding_coop_min_distance_85->herding_coop_min_distance_58
+herding_coop_store_incoming_cargo_waiting_0->herding_coop_clear_incoming_cargo_waiting_0
+herding_coop_available_game_mode->herding_coop_check_map_gen
+herding_coop_produce_256_ticks_switch_economy->herding_coop_production_256_economy_0
+herding_coop_store_incoming_cargo_waiting_3->herding_coop_clear_incoming_cargo_waiting_3
+herding_coop->switch_colour
+herding_coop_check_availability_5->herding_coop_available_game_mode
+herding_coop_produce_256_ticks_switch_economy->herding_coop_production_256_economy_3
+herding_coop_min_distance_58->herding_coop_min_distance_61
+herding_coop_store_incoming_cargo_waiting_4->herding_coop_clear_incoming_cargo_waiting_4
+herding_coop_check_availability->herding_coop_check_availability_3
+herding_coop_produce_cargo_arrival->herding_coop_store_incoming_cargo_waiting_0
+herding_coop_check_availability_0->herding_coop_available_game_mode
+herding_coop_check_availability->herding_coop_check_availability_1
+herding_coop->herding_coop_produce_256_ticks
+herding_coop_store_incoming_cargo_waiting_5->herding_coop_clear_incoming_cargo_waiting_5
+herding_coop_check_availability_3->herding_coop_available_game_mode
+herding_coop_produce_256_ticks_switch_economy->herding_coop_production_256_economy_1
+herding_coop_check_availability->herding_coop_check_availability_0
+herding_coop_check_map_gen->herding_coop_check_availability_param
+herding_coop->herding_coop_check_availability
+herding_coop_min_distance_60->herding_coop_min_distance_52
+herding_coop_produce_cargo_arrival->herding_coop_store_incoming_cargo_waiting_5
+herding_coop->herding_coop_monthly_prod_change
+herding_coop->herding_coop_produce_cargo_arrival
+herding_coop_produce_256_ticks_switch_economy->herding_coop_production_256_economy_5
+herding_coop_produce_256_ticks_switch_economy->herding_coop_production_256_economy_4
+}

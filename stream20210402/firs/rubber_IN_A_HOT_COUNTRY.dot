@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_rubber [fillcolor=green style="filled" label="<spriteset>\ncargoicon_rubber"]
+rubber_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <25>\nrubber_IN_A_HOT_COUNTRY"]
+rubber_IN_A_HOT_COUNTRY->cargoicon_rubber
+}

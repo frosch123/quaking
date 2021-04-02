@@ -1,0 +1,82 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+supply_yard_produce_0 [fillcolor=green style="filled" label="<produce>\nsupply_yard_produce_0"]
+supply_yard_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_produce_calculation_0"]
+supply_yard_produce_1 [fillcolor=green style="filled" label="<produce>\nsupply_yard_produce_1"]
+supply_yard_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_produce_calculation_1"]
+supply_yard_produce_4 [fillcolor=green style="filled" label="<produce>\nsupply_yard_produce_4"]
+supply_yard_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_produce_calculation_4"]
+supply_yard_produce_5 [fillcolor=green style="filled" label="<produce>\nsupply_yard_produce_5"]
+supply_yard_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_produce_calculation_5"]
+supply_yard_produce_3 [fillcolor=green style="filled" label="<produce>\nsupply_yard_produce_3"]
+supply_yard_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_produce_calculation_3"]
+supply_yard_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_produce_cargo_arrival"]
+supply_yard_extra_text [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_extra_text"]
+supply_yard_cargo_subtype_display_cargo_BDMT_economy_3 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_cargo_subtype_display_cargo_BDMT_economy_3"]
+supply_yard_cargo_subtype_display_cargo_PETR_economy_3 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_cargo_subtype_display_cargo_PETR_economy_3"]
+supply_yard_cargo_subtype_display_cargo_GOOD_economy_3 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_cargo_subtype_display_cargo_GOOD_economy_3"]
+supply_yard_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_cargo_subtype_display_switch_cargo_economy_3"]
+supply_yard_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_cargo_subtype_display_switch_economy"]
+supply_yard_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_cargo_subtype_display"]
+supply_yard_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability_param"]
+supply_yard_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_map_gen"]
+supply_yard_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_available_game_mode"]
+supply_yard_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability_0"]
+supply_yard_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability_1"]
+supply_yard_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability_4"]
+supply_yard_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability_5"]
+supply_yard_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability_3"]
+supply_yard_check_availability [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_availability"]
+supply_yard_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_22"]
+supply_yard_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_39"]
+supply_yard_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_43"]
+supply_yard_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_74"]
+supply_yard_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_14"]
+supply_yard_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_41"]
+supply_yard_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_9"]
+supply_yard_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_min_distance_69"]
+supply_yard_check_location [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_check_location"]
+supply_yard [fillcolor=red style="filled" label="FEAT_INDUSTRIES <69>\nsupply_yard"]
+supply_yard_check_availability_1->supply_yard_available_game_mode
+supply_yard->supply_yard_produce_cargo_arrival
+supply_yard_produce_cargo_arrival->supply_yard_produce_calculation_5
+supply_yard_produce_cargo_arrival->supply_yard_produce_calculation_4
+supply_yard_check_map_gen->supply_yard_check_availability_param
+supply_yard_min_distance_39->supply_yard_min_distance_22
+supply_yard->supply_yard_check_location
+supply_yard_min_distance_43->supply_yard_min_distance_39
+supply_yard_check_availability_5->supply_yard_available_game_mode
+supply_yard_check_availability_4->supply_yard_available_game_mode
+supply_yard_min_distance_74->supply_yard_min_distance_43
+supply_yard_cargo_subtype_display_switch_cargo_economy_3->supply_yard_cargo_subtype_display_cargo_PETR_economy_3
+supply_yard_produce_calculation_1->supply_yard_produce_1
+supply_yard_min_distance_9->supply_yard_min_distance_41
+supply_yard_min_distance_69->supply_yard_min_distance_9
+supply_yard->supply_yard_check_availability
+supply_yard->supply_yard_extra_text
+supply_yard_check_availability->supply_yard_check_availability_1
+supply_yard->supply_yard_cargo_subtype_display
+supply_yard_produce_cargo_arrival->supply_yard_produce_calculation_1
+supply_yard_produce_cargo_arrival->supply_yard_produce_calculation_0
+supply_yard_min_distance_14->supply_yard_min_distance_74
+supply_yard_available_game_mode->supply_yard_check_map_gen
+supply_yard_produce_calculation_3->supply_yard_produce_3
+supply_yard_min_distance_41->supply_yard_min_distance_14
+supply_yard_check_availability_0->supply_yard_available_game_mode
+supply_yard_produce_calculation_4->supply_yard_produce_4
+supply_yard_check_availability->supply_yard_check_availability_4
+supply_yard_cargo_subtype_display_switch_cargo_economy_3->supply_yard_cargo_subtype_display_cargo_BDMT_economy_3
+supply_yard_check_availability->supply_yard_check_availability_5
+supply_yard_produce_calculation_0->supply_yard_produce_0
+supply_yard_check_availability->supply_yard_check_availability_0
+supply_yard_cargo_subtype_display_switch_cargo_economy_3->supply_yard_cargo_subtype_display_cargo_GOOD_economy_3
+supply_yard_cargo_subtype_display_switch_economy->supply_yard_cargo_subtype_display_switch_cargo_economy_3
+supply_yard->switch_colour
+supply_yard_cargo_subtype_display->supply_yard_cargo_subtype_display_switch_economy
+supply_yard_check_availability->supply_yard_check_availability_3
+supply_yard_check_availability_3->supply_yard_available_game_mode
+supply_yard_produce_cargo_arrival->supply_yard_produce_calculation_3
+supply_yard_check_location->supply_yard_min_distance_69
+supply_yard_produce_calculation_5->supply_yard_produce_5
+}

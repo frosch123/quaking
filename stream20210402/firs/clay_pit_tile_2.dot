@@ -1,0 +1,202 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+clay_pit_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_1_0"]
+clay_pit_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_1_0_snow"]
+clay_pit_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_3_0"]
+clay_pit_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_3_0_snow"]
+clay_pit_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_4_0"]
+clay_pit_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_4_0_snow"]
+clay_pit_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_5_0"]
+clay_pit_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_5_0_snow"]
+clay_pit_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_6_0"]
+clay_pit_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_6_0_snow"]
+clay_pit_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_7_0"]
+clay_pit_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_7_0_snow"]
+clay_pit_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_8_0"]
+clay_pit_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_8_0_snow"]
+clay_pit_spriteset_9_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_9_0"]
+clay_pit_spriteset_9_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_9_0_snow"]
+clay_pit_spriteset_10_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_10_0"]
+clay_pit_spriteset_10_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_10_0_snow"]
+clay_pit_spriteset_11_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_11_0"]
+clay_pit_spriteset_11_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_11_0_snow"]
+clay_pit_spriteset_12_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_12_0"]
+clay_pit_spriteset_12_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_12_0_snow"]
+clay_pit_spriteset_13_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_13_0"]
+clay_pit_spriteset_13_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_13_0_snow"]
+clay_pit_spriteset_14_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_14_0"]
+clay_pit_spriteset_14_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_14_0_snow"]
+clay_pit_spriteset_15_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_15_0"]
+clay_pit_spriteset_15_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_15_0_snow"]
+clay_pit_spriteset_16_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_16_0"]
+clay_pit_spriteset_16_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_16_0_snow"]
+clay_pit_spriteset_17_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_17_0"]
+clay_pit_spriteset_17_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_17_0_snow"]
+clay_pit_spriteset_18_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_18_0"]
+clay_pit_spriteset_18_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_18_0_snow"]
+clay_pit_spriteset_19_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_19_0"]
+clay_pit_spriteset_19_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_19_0_snow"]
+clay_pit_spriteset_20_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_20_0"]
+clay_pit_spriteset_20_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_20_0_snow"]
+clay_pit_spriteset_21_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_21_0"]
+clay_pit_spriteset_21_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_21_0_snow"]
+clay_pit_spriteset_22_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_22_0"]
+clay_pit_spriteset_22_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_22_0_snow"]
+clay_pit_spriteset_23_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_23_0"]
+clay_pit_spriteset_23_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_23_0_snow"]
+clay_pit_spriteset_24_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_24_0"]
+clay_pit_spriteset_24_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_24_0_snow"]
+clay_pit_spriteset_25_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_25_0"]
+clay_pit_spriteset_25_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_25_0_snow"]
+clay_pit_spriteset_26_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_26_0"]
+clay_pit_spriteset_26_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_26_0_snow"]
+clay_pit_spriteset_27_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_27_0"]
+clay_pit_spriteset_27_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_27_0_snow"]
+clay_pit_spriteset_28_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_28_0"]
+clay_pit_spriteset_28_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_28_0_snow"]
+clay_pit_spriteset_29_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_29_0"]
+clay_pit_spriteset_29_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_29_0_snow"]
+clay_pit_spriteset_30_0 [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_30_0"]
+clay_pit_spriteset_30_0_snow [fillcolor=green style="filled" label="<spriteset>\nclay_pit_spriteset_30_0_snow"]
+clay_pit_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_1"]
+clay_pit_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_2"]
+clay_pit_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_4"]
+clay_pit_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_5"]
+clay_pit_spritelayout_6 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_6"]
+clay_pit_spritelayout_7 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_7"]
+clay_pit_spritelayout_8 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_8"]
+clay_pit_spritelayout_10 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_10"]
+clay_pit_spritelayout_11 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_11"]
+clay_pit_spritelayout_12 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_12"]
+clay_pit_spritelayout_19 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_19"]
+clay_pit_spritelayout_20 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_20"]
+clay_pit_spritelayout_22 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_22"]
+clay_pit_spritelayout_23 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_23"]
+clay_pit_spritelayout_24 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_24"]
+clay_pit_spritelayout_39 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_39"]
+clay_pit_spritelayout_40 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_40"]
+clay_pit_spritelayout_41 [fillcolor=yellow style="filled" label="<spritelayout>\nclay_pit_spritelayout_41"]
+clay_pit_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nclay_pit_layout_1_graphics_switch"]
+clay_pit_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nclay_pit_layout_2_graphics_switch"]
+clay_pit_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nclay_pit_industry_graphics_switch_layouts"]
+clay_pit_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nclay_pit_industry_construction_state_graphics_switch"]
+clay_pit_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nclay_pit_store_temp_vars"]
+clay_pit_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nclay_pit_switch_graphics"]
+clay_pit_tile_2_lc_4 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_tile_2_lc_4"]
+clay_pit_tile_2_lc_3 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_tile_2_lc_3"]
+clay_pit_tile_2_lc_2 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_tile_2_lc_2"]
+clay_pit_tile_2_lc_1 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_tile_2_lc_1"]
+clay_pit_tile_2_lc_0 [fillcolor=yellow style="filled" label="<switch>\nclay_pit_tile_2_lc_0"]
+clay_pit_tile_2_anim_control [fillcolor=yellow style="filled" label="<switch>\nclay_pit_tile_2_anim_control"]
+clay_pit_tile_2 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <240>\nclay_pit_tile_2"]
+clay_pit_spritelayout_23->clay_pit_spriteset_23_0_snow
+clay_pit_spritelayout_2->clay_pit_spriteset_20_0
+clay_pit_spritelayout_10->clay_pit_spriteset_10_0_snow
+clay_pit_industry_construction_state_graphics_switch->clay_pit_industry_graphics_switch_layouts
+clay_pit_spritelayout_8->clay_pit_spriteset_9_0_snow
+clay_pit_spritelayout_20->clay_pit_spriteset_21_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_41
+clay_pit_spritelayout_19->clay_pit_spriteset_13_0_snow
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_1
+clay_pit_spritelayout_5->clay_pit_spriteset_18_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_5
+clay_pit_spritelayout_5->clay_pit_spriteset_6_0_snow
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_8
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_40
+clay_pit_spritelayout_22->clay_pit_spriteset_15_0
+clay_pit_spritelayout_20->clay_pit_spriteset_14_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_4
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_40
+clay_pit_spritelayout_11->clay_pit_spriteset_11_0
+clay_pit_tile_2_lc_3->clay_pit_tile_2_lc_4
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_12
+clay_pit_industry_graphics_switch_layouts->clay_pit_layout_2_graphics_switch
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_19
+clay_pit_spritelayout_39->clay_pit_spriteset_25_0_snow
+clay_pit_spritelayout_39->clay_pit_spriteset_25_0
+clay_pit_spritelayout_5->clay_pit_spriteset_6_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_10
+clay_pit_spritelayout_12->clay_pit_spriteset_12_0_snow
+clay_pit_spritelayout_4->clay_pit_spriteset_5_0_snow
+clay_pit_tile_2->clay_pit_tile_2_anim_control
+clay_pit_spritelayout_20->clay_pit_spriteset_21_0_snow
+clay_pit_spritelayout_2->clay_pit_spriteset_4_0
+clay_pit_spritelayout_1->clay_pit_spriteset_3_0
+clay_pit_spritelayout_5->clay_pit_spriteset_19_0_snow
+clay_pit_spritelayout_7->clay_pit_spriteset_8_0
+clay_pit_spritelayout_22->clay_pit_spriteset_22_0
+clay_pit_spritelayout_5->clay_pit_spriteset_18_0_snow
+clay_pit_spritelayout_8->clay_pit_spriteset_1_0
+clay_pit_spritelayout_6->clay_pit_spriteset_7_0_snow
+clay_pit_spritelayout_19->clay_pit_spriteset_13_0
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_22
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_6
+clay_pit_spritelayout_23->clay_pit_spriteset_16_0_snow
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_22
+clay_pit_spritelayout_20->clay_pit_spriteset_14_0_snow
+clay_pit_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_24
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_23
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_11
+clay_pit_spritelayout_22->clay_pit_spriteset_22_0_snow
+clay_pit_spritelayout_11->clay_pit_spriteset_11_0_snow
+clay_pit_tile_2_lc_2->clay_pit_tile_2_lc_3
+clay_pit_tile_2_lc_1->clay_pit_tile_2_lc_2
+clay_pit_spritelayout_24->clay_pit_spriteset_24_0
+clay_pit_spritelayout_23->clay_pit_spriteset_23_0
+clay_pit_spritelayout_41->clay_pit_spriteset_27_0_snow
+clay_pit_tile_2->clay_pit_tile_2_lc_0
+clay_pit_switch_graphics->clay_pit_store_temp_vars
+clay_pit_tile_2_lc_0->clay_pit_tile_2_lc_1
+clay_pit_spritelayout_39->clay_pit_spriteset_28_0_snow
+clay_pit_spritelayout_6->clay_pit_spriteset_7_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_20
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_7
+clay_pit_spritelayout_23->clay_pit_spriteset_16_0
+clay_pit_spritelayout_40->clay_pit_spriteset_29_0_snow
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_2
+clay_pit_spritelayout_7->clay_pit_spriteset_8_0_snow
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_1
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_41
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_4
+clay_pit_spritelayout_39->clay_pit_spriteset_28_0
+clay_pit_spritelayout_22->clay_pit_spriteset_15_0_snow
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_12
+clay_pit_spritelayout_24->clay_pit_spriteset_17_0
+clay_pit_spritelayout_10->clay_pit_spriteset_10_0
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_39
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_5
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_20
+clay_pit_spritelayout_2->clay_pit_spriteset_4_0_snow
+clay_pit_spritelayout_8->clay_pit_spriteset_1_0_snow
+clay_pit_spritelayout_41->clay_pit_spriteset_30_0
+clay_pit_spritelayout_1->clay_pit_spriteset_3_0_snow
+clay_pit_spritelayout_41->clay_pit_spriteset_27_0
+clay_pit_spritelayout_5->clay_pit_spriteset_19_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_23
+clay_pit_spritelayout_40->clay_pit_spriteset_26_0_snow
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_24
+clay_pit_store_temp_vars->clay_pit_industry_construction_state_graphics_switch
+clay_pit_spritelayout_41->clay_pit_spriteset_30_0_snow
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_2
+clay_pit_industry_graphics_switch_layouts->clay_pit_layout_1_graphics_switch
+clay_pit_spritelayout_4->clay_pit_spriteset_5_0
+clay_pit_spritelayout_24->clay_pit_spriteset_17_0_snow
+spritelayout_default_construction_states->spriteset_default_construction_states
+clay_pit_spritelayout_8->clay_pit_spriteset_9_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_7
+clay_pit_tile_2->clay_pit_switch_graphics
+clay_pit_spritelayout_2->clay_pit_spriteset_20_0_snow
+clay_pit_spritelayout_40->clay_pit_spriteset_29_0
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_8
+clay_pit_spritelayout_24->clay_pit_spriteset_24_0_snow
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_6
+clay_pit_layout_1_graphics_switch->clay_pit_spritelayout_39
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_19
+clay_pit_spritelayout_40->clay_pit_spriteset_26_0
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_11
+clay_pit_layout_2_graphics_switch->clay_pit_spritelayout_10
+clay_pit_spritelayout_12->clay_pit_spriteset_12_0
+}

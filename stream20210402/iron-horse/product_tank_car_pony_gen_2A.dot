@@ -1,0 +1,36 @@
+digraph {
+rankdir="BT"
+ss_tail_light_16px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_16px_unflipped"]
+ss_tail_light_16px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_16px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_16px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_16px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+product_tank_car_pony_gen_2A_ss_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nproduct_tank_car_pony_gen_2A_ss_0_unflipped"]
+product_tank_car_pony_gen_2A_ss_0_flipped [fillcolor=green style="filled" label="<spriteset>\nproduct_tank_car_pony_gen_2A_ss_0_flipped"]
+product_tank_car_pony_gen_2A_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\nproduct_tank_car_pony_gen_2A_switch_graphics_vehicle"]
+product_tank_car_pony_gen_2A_ss_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nproduct_tank_car_pony_gen_2A_ss_purchase_0"]
+product_tank_car_pony_gen_2A_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nproduct_tank_car_pony_gen_2A_switch_set_layers_register_more_sprites"]
+product_tank_car_pony_gen_2A_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nproduct_tank_car_pony_gen_2A_switch_graphics"]
+product_tank_car_pony_gen_2A_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nproduct_tank_car_pony_gen_2A_switch_cargo_capacity"]
+product_tank_car_pony_gen_2A [fillcolor=red style="filled" label="<FEAT_TRAINS 2860>\nproduct_tank_car_pony_gen_2A"]
+product_tank_car_pony_gen_2A_switch_graphics_vehicle->product_tank_car_pony_gen_2A_ss_0_unflipped
+product_tank_car_pony_gen_2A_switch_graphics_vehicle->product_tank_car_pony_gen_2A_ss_0_flipped
+product_tank_car_pony_gen_2A_switch_cargo_capacity->switch_cargo_capacity
+product_tank_car_pony_gen_2A_switch_graphics->product_tank_car_pony_gen_2A_switch_set_layers_register_more_sprites
+switch_graphics_layer_tail_light_16px->ss_tail_light_16px_flipped
+product_tank_car_pony_gen_2A_switch_graphics->switch_graphics_layer_tail_light_16px
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+product_tank_car_pony_gen_2A_switch_set_layers_register_more_sprites->product_tank_car_pony_gen_2A_switch_graphics_vehicle
+product_tank_car_pony_gen_2A->product_tank_car_pony_gen_2A_switch_cargo_capacity
+switch_graphics_layer_tail_light_16px->ss_tail_light_empty_unflipped
+product_tank_car_pony_gen_2A->product_tank_car_pony_gen_2A_ss_purchase_0
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+switch_graphics_layer_tail_light_16px->ss_tail_light_16px_unflipped
+product_tank_car_pony_gen_2A->product_tank_car_pony_gen_2A_switch_graphics
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+}

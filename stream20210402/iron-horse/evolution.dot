@@ -1,0 +1,62 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+evolution_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_unreversed_unflipped_0"]
+evolution_ss_unreversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_unreversed_unflipped_1"]
+evolution_switch_graphics_livery_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_livery_unreversed_unflipped"]
+evolution_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_unreversed_flipped_0"]
+evolution_ss_unreversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_unreversed_flipped_1"]
+evolution_switch_graphics_livery_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_livery_unreversed_flipped"]
+evolution_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_unreversed"]
+evolution_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_reversed_unflipped_0"]
+evolution_ss_reversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_reversed_unflipped_1"]
+evolution_switch_graphics_livery_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_livery_reversed_unflipped"]
+evolution_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_reversed_flipped_0"]
+evolution_ss_reversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_reversed_flipped_1"]
+evolution_switch_graphics_livery_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_livery_reversed_flipped"]
+evolution_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_reversed"]
+evolution_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nevolution_switch_graphics_vehicle"]
+evolution_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_vehicle_purchase_0"]
+evolution_ss_vehicle_purchase_1 [fillcolor=green style="filled" label="<spriteset>\nevolution_ss_vehicle_purchase_1"]
+evolution_switch_graphics_purchase_livery [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics_purchase_livery"]
+evolution_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_set_layers_register_more_sprites"]
+evolution_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_graphics"]
+evolution_switch_colour_mapping_check_2cc [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_colour_mapping_check_2cc"]
+evolution_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_colour_mapping"]
+evolution_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_create_effect_default_unreversed"]
+evolution_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_create_effect_default_reversed"]
+evolution_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nevolution_switch_create_effect_reversed_variants"]
+evolution_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nevolution_switch_buy_menu_text_result"]
+evolution [fillcolor=red style="filled" label="<FEAT_TRAINS 4970>\nevolution"]
+evolution->evolution_switch_buy_menu_text_result
+evolution_switch_graphics_unreversed->evolution_switch_graphics_livery_unreversed_unflipped
+evolution_switch_graphics_vehicle->evolution_switch_graphics_reversed
+evolution->evolution_switch_graphics
+evolution_switch_set_layers_register_more_sprites->evolution_switch_graphics_vehicle
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+evolution_switch_graphics_livery_reversed_unflipped->evolution_ss_reversed_unflipped_0
+evolution_switch_graphics_livery_unreversed_flipped->evolution_ss_unreversed_flipped_0
+evolution_switch_graphics_purchase_livery->evolution_ss_vehicle_purchase_0
+evolution_switch_graphics_reversed->evolution_switch_graphics_livery_reversed_flipped
+evolution_switch_graphics_unreversed->evolution_switch_graphics_livery_unreversed_flipped
+evolution->evolution_switch_create_effect_reversed_variants
+evolution_switch_graphics_reversed->evolution_switch_graphics_livery_reversed_unflipped
+evolution_switch_graphics_vehicle->evolution_switch_graphics_unreversed
+evolution_switch_graphics_livery_unreversed_unflipped->evolution_ss_unreversed_unflipped_0
+evolution_switch_create_effect_reversed_variants->evolution_switch_create_effect_default_unreversed
+evolution_switch_graphics_livery_reversed_flipped->evolution_ss_reversed_flipped_1
+evolution_switch_graphics->switch_graphics_layer_tail_light_empty
+evolution_switch_colour_mapping->evolution_switch_colour_mapping_check_2cc
+evolution_switch_graphics_purchase_livery->evolution_ss_vehicle_purchase_1
+evolution_switch_graphics_livery_unreversed_unflipped->evolution_ss_unreversed_unflipped_1
+evolution_switch_create_effect_reversed_variants->evolution_switch_create_effect_default_reversed
+evolution_switch_graphics->evolution_switch_set_layers_register_more_sprites
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+evolution_switch_graphics_livery_unreversed_flipped->evolution_ss_unreversed_flipped_1
+evolution->evolution_switch_graphics_purchase_livery
+evolution_switch_graphics_livery_reversed_flipped->evolution_ss_reversed_flipped_0
+evolution_switch_graphics_livery_reversed_unflipped->evolution_ss_reversed_unflipped_1
+evolution->evolution_switch_colour_mapping
+}

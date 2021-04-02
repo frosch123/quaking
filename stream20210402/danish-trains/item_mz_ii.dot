@@ -1,0 +1,23 @@
+digraph {
+rankdir="BT"
+sw_cc_red_cream [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red_cream"]
+spriteset_mz_ii_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_mz_ii_1"]
+spriteset_mz_ii_2 [fillcolor=green style="filled" label="<spriteset>\nspriteset_mz_ii_2"]
+spriteset_mz_ii_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mz_ii_headlights"]
+sw_mz_ii_livery [fillcolor=yellow style="filled" label="<switch>\nsw_mz_ii_livery"]
+sw_mz_ii_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mz_ii_with_headlights"]
+sw_mz_ii_position [fillcolor=yellow style="filled" label="<switch>\nsw_mz_ii_position"]
+sw_mz_ii_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_mz_ii_cargo_subtype_text"]
+sw_mz_ii_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_mz_ii_cargo_subtype"]
+item_mz_ii [fillcolor=red style="filled" label="<FEAT_TRAINS 7>\nitem_mz_ii"]
+sw_mz_ii_cargo_subtype->sw_mz_ii_cargo_subtype_text
+item_mz_ii->sw_mz_ii_cargo_subtype
+sw_mz_ii_position->sw_mz_ii_with_headlights
+item_mz_ii->sw_cc_red_cream
+sw_mz_ii_with_headlights->sw_mz_ii_livery
+sw_mz_ii_position->sw_mz_ii_livery
+item_mz_ii->sw_mz_ii_position
+sw_mz_ii_with_headlights->spriteset_mz_ii_headlights
+sw_mz_ii_livery->spriteset_mz_ii_2
+sw_mz_ii_livery->spriteset_mz_ii_1
+}

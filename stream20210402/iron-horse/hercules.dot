@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+hercules_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nhercules_articulated_cb_switch"]
+hercules_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nhercules_ss_unreversed_unflipped_0"]
+hercules_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nhercules_ss_unreversed_flipped_0"]
+hercules_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nhercules_switch_graphics_unreversed"]
+hercules_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nhercules_ss_vehicle_purchase_0"]
+hercules_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nhercules_switch_set_layers_register_more_sprites"]
+hercules_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nhercules_switch_graphics"]
+hercules_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nhercules_switch_colour_mapping"]
+hercules_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nhercules_switch_create_effect_default_unreversed"]
+hercules_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nhercules_switch_buy_menu_text_result"]
+hercules [fillcolor=red style="filled" label="<FEAT_TRAINS 380>\nhercules"]
+hercules_switch_graphics->switch_graphics_layer_tail_light_empty
+hercules_switch_graphics->hercules_switch_set_layers_register_more_sprites
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+hercules_switch_set_layers_register_more_sprites->hercules_switch_graphics_unreversed
+hercules_switch_graphics_unreversed->hercules_ss_unreversed_flipped_0
+hercules->hercules_ss_vehicle_purchase_0
+hercules->hercules_switch_create_effect_default_unreversed
+hercules->hercules_articulated_cb_switch
+hercules->hercules_switch_colour_mapping
+hercules->hercules_switch_buy_menu_text_result
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+hercules->hercules_switch_graphics
+hercules_switch_graphics_unreversed->hercules_ss_unreversed_unflipped_0
+}

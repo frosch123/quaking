@@ -1,0 +1,70 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+general_store_produce_cargo_arrival_economy_0 [fillcolor=green style="filled" label="<produce>\ngeneral_store_produce_cargo_arrival_economy_0"]
+general_store_produce_cargo_arrival_economy_1 [fillcolor=green style="filled" label="<produce>\ngeneral_store_produce_cargo_arrival_economy_1"]
+general_store_produce_cargo_arrival_economy_4 [fillcolor=green style="filled" label="<produce>\ngeneral_store_produce_cargo_arrival_economy_4"]
+general_store_produce_cargo_arrival_economy_5 [fillcolor=green style="filled" label="<produce>\ngeneral_store_produce_cargo_arrival_economy_5"]
+general_store_produce_cargo_arrival_economy_3 [fillcolor=green style="filled" label="<produce>\ngeneral_store_produce_cargo_arrival_economy_3"]
+general_store_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability_param"]
+general_store_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_map_gen"]
+general_store_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_available_game_mode"]
+general_store_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability_0"]
+general_store_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability_1"]
+general_store_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability_4"]
+general_store_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability_5"]
+general_store_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability_3"]
+general_store_check_availability [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_availability"]
+general_store_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_35"]
+general_store_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_34"]
+general_store_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_14"]
+general_store_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_31"]
+general_store_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_56"]
+general_store_min_distance_68 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_68"]
+general_store_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_39"]
+general_store_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_22"]
+general_store_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_37"]
+general_store_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_29"]
+general_store_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_36"]
+general_store_min_distance_85 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_85"]
+general_store_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_9"]
+general_store_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_min_distance_61"]
+general_store_check_location [fillcolor=yellow style="filled" label="<switch>\ngeneral_store_check_location"]
+general_store [fillcolor=red style="filled" label="FEAT_INDUSTRIES <61>\ngeneral_store"]
+general_store_min_distance_37->general_store_min_distance_22
+general_store_min_distance_36->general_store_min_distance_29
+general_store_check_availability->general_store_check_availability_3
+general_store_min_distance_85->general_store_min_distance_36
+general_store->general_store_produce_cargo_arrival_economy_1
+general_store_check_location->general_store_min_distance_61
+general_store_check_availability_0->general_store_available_game_mode
+general_store_check_availability->general_store_check_availability_0
+general_store_min_distance_68->general_store_min_distance_56
+general_store->general_store_produce_cargo_arrival_economy_5
+general_store_check_availability->general_store_check_availability_1
+general_store_check_availability->general_store_check_availability_5
+general_store_available_game_mode->general_store_check_map_gen
+general_store_min_distance_29->general_store_min_distance_37
+general_store_min_distance_14->general_store_min_distance_34
+general_store->general_store_produce_cargo_arrival_economy_0
+general_store_check_map_gen->general_store_check_availability_param
+general_store_check_availability_1->general_store_available_game_mode
+general_store->general_store_check_location
+general_store->switch_colour
+general_store->general_store_produce_cargo_arrival_economy_3
+general_store_check_availability->general_store_check_availability_4
+general_store_check_availability_5->general_store_available_game_mode
+general_store_min_distance_22->general_store_min_distance_39
+general_store_min_distance_31->general_store_min_distance_14
+general_store->general_store_produce_cargo_arrival_economy_4
+general_store->general_store_check_availability
+general_store_min_distance_9->general_store_min_distance_85
+general_store_min_distance_39->general_store_min_distance_68
+general_store_check_availability_4->general_store_available_game_mode
+general_store_min_distance_56->general_store_min_distance_31
+general_store_check_availability_3->general_store_available_game_mode
+general_store->randomise_primary_production_on_build
+general_store_min_distance_61->general_store_min_distance_9
+general_store_min_distance_34->general_store_min_distance_35
+}

@@ -1,0 +1,72 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+lime_kiln_produce_0 [fillcolor=green style="filled" label="<produce>\nlime_kiln_produce_0"]
+lime_kiln_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_produce_calculation_0"]
+lime_kiln_produce_1 [fillcolor=green style="filled" label="<produce>\nlime_kiln_produce_1"]
+lime_kiln_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_produce_calculation_1"]
+lime_kiln_produce_4 [fillcolor=green style="filled" label="<produce>\nlime_kiln_produce_4"]
+lime_kiln_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_produce_calculation_4"]
+lime_kiln_produce_5 [fillcolor=green style="filled" label="<produce>\nlime_kiln_produce_5"]
+lime_kiln_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_produce_calculation_5"]
+lime_kiln_produce_3 [fillcolor=green style="filled" label="<produce>\nlime_kiln_produce_3"]
+lime_kiln_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_produce_calculation_3"]
+lime_kiln_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_produce_cargo_arrival"]
+lime_kiln_extra_text [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_extra_text"]
+lime_kiln_cargo_subtype_display_cargo_LIME_economy_5 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_cargo_subtype_display_cargo_LIME_economy_5"]
+lime_kiln_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_cargo_subtype_display_switch_cargo_economy_5"]
+lime_kiln_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_cargo_subtype_display_switch_economy"]
+lime_kiln_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_cargo_subtype_display"]
+lime_kiln_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability_param"]
+lime_kiln_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_map_gen"]
+lime_kiln_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_available_game_mode"]
+lime_kiln_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability_0"]
+lime_kiln_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability_1"]
+lime_kiln_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability_4"]
+lime_kiln_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability_5"]
+lime_kiln_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability_3"]
+lime_kiln_check_availability [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_availability"]
+lime_kiln_min_distance_77 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_min_distance_77"]
+lime_kiln_min_distance_10 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_min_distance_10"]
+lime_kiln_min_distance_79 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_min_distance_79"]
+lime_kiln_min_distance_54 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_min_distance_54"]
+lime_kiln_min_distance_1 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_min_distance_1"]
+lime_kiln_check_location [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_check_location"]
+lime_kiln [fillcolor=red style="filled" label="FEAT_INDUSTRIES <1>\nlime_kiln"]
+lime_kiln_check_availability_3->lime_kiln_available_game_mode
+lime_kiln_check_location->lime_kiln_min_distance_1
+lime_kiln_min_distance_54->lime_kiln_min_distance_79
+lime_kiln_cargo_subtype_display_switch_cargo_economy_5->lime_kiln_cargo_subtype_display_cargo_LIME_economy_5
+lime_kiln_min_distance_10->lime_kiln_min_distance_77
+lime_kiln_cargo_subtype_display->lime_kiln_cargo_subtype_display_switch_economy
+lime_kiln_cargo_subtype_display_switch_economy->lime_kiln_cargo_subtype_display_switch_cargo_economy_5
+lime_kiln_check_availability->lime_kiln_check_availability_1
+lime_kiln_check_availability->lime_kiln_check_availability_4
+lime_kiln_produce_cargo_arrival->lime_kiln_produce_calculation_0
+lime_kiln_produce_cargo_arrival->lime_kiln_produce_calculation_5
+lime_kiln_available_game_mode->lime_kiln_check_map_gen
+lime_kiln_produce_calculation_4->lime_kiln_produce_4
+lime_kiln_produce_cargo_arrival->lime_kiln_produce_calculation_4
+lime_kiln->lime_kiln_extra_text
+lime_kiln_produce_cargo_arrival->lime_kiln_produce_calculation_3
+lime_kiln->lime_kiln_produce_cargo_arrival
+lime_kiln_produce_calculation_0->lime_kiln_produce_0
+lime_kiln->lime_kiln_cargo_subtype_display
+lime_kiln_check_map_gen->lime_kiln_check_availability_param
+lime_kiln->lime_kiln_check_location
+lime_kiln_produce_calculation_1->lime_kiln_produce_1
+lime_kiln_check_availability->lime_kiln_check_availability_3
+lime_kiln_check_availability_4->lime_kiln_available_game_mode
+lime_kiln->switch_colour
+lime_kiln_produce_calculation_3->lime_kiln_produce_3
+lime_kiln_produce_calculation_5->lime_kiln_produce_5
+lime_kiln->lime_kiln_check_availability
+lime_kiln_check_availability_5->lime_kiln_available_game_mode
+lime_kiln_produce_cargo_arrival->lime_kiln_produce_calculation_1
+lime_kiln_check_availability_1->lime_kiln_available_game_mode
+lime_kiln_check_availability->lime_kiln_check_availability_5
+lime_kiln_min_distance_1->lime_kiln_min_distance_54
+lime_kiln_min_distance_79->lime_kiln_min_distance_10
+lime_kiln_check_availability->lime_kiln_check_availability_0
+lime_kiln_check_availability_0->lime_kiln_available_game_mode
+}

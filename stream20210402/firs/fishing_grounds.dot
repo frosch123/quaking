@@ -1,0 +1,52 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+fishing_grounds_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nfishing_grounds_production_256_economy_0"]
+fishing_grounds_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nfishing_grounds_production_256_economy_1"]
+fishing_grounds_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nfishing_grounds_production_256_economy_4"]
+fishing_grounds_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nfishing_grounds_production_256_economy_5"]
+fishing_grounds_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nfishing_grounds_production_256_economy_3"]
+fishing_grounds_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_produce_256_ticks"]
+fishing_grounds_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability_param"]
+fishing_grounds_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_map_gen"]
+fishing_grounds_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_available_game_mode"]
+fishing_grounds_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability_0"]
+fishing_grounds_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability_1"]
+fishing_grounds_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability_4"]
+fishing_grounds_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability_5"]
+fishing_grounds_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability_3"]
+fishing_grounds_check_availability [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_availability"]
+fishing_grounds_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_min_distance_31"]
+fishing_grounds_coast_distance [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_coast_distance"]
+fishing_grounds_min_distance_32 [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_min_distance_32"]
+fishing_grounds_cluster_fishing_grounds [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_cluster_fishing_grounds"]
+fishing_grounds_check_location [fillcolor=yellow style="filled" label="<switch>\nfishing_grounds_check_location"]
+fishing_grounds [fillcolor=red style="filled" label="FEAT_INDUSTRIES <32>\nfishing_grounds"]
+fishing_grounds_check_availability_4->fishing_grounds_available_game_mode
+fishing_grounds_check_location->fishing_grounds_cluster_fishing_grounds
+fishing_grounds_produce_256_ticks->fishing_grounds_production_256_economy_3
+fishing_grounds_check_availability->fishing_grounds_check_availability_5
+fishing_grounds_check_availability->fishing_grounds_check_availability_4
+fishing_grounds_available_game_mode->fishing_grounds_check_map_gen
+fishing_grounds_cluster_fishing_grounds->fishing_grounds_min_distance_32
+fishing_grounds_produce_256_ticks->fishing_grounds_production_256_economy_4
+fishing_grounds_check_availability->fishing_grounds_check_availability_0
+fishing_grounds->fishing_grounds_check_location
+fishing_grounds->switch_colour
+fishing_grounds->fishing_grounds_check_availability
+fishing_grounds_check_availability_1->fishing_grounds_available_game_mode
+fishing_grounds->fishing_grounds_produce_256_ticks
+fishing_grounds_min_distance_32->fishing_grounds_coast_distance
+fishing_grounds_produce_256_ticks->fishing_grounds_production_256_economy_1
+fishing_grounds_check_map_gen->fishing_grounds_check_availability_param
+fishing_grounds_check_availability_3->fishing_grounds_available_game_mode
+fishing_grounds->randomise_primary_production_on_build
+fishing_grounds_check_availability->fishing_grounds_check_availability_1
+fishing_grounds_coast_distance->fishing_grounds_min_distance_31
+fishing_grounds_produce_256_ticks->fishing_grounds_production_256_economy_0
+fishing_grounds_check_availability_0->fishing_grounds_available_game_mode
+fishing_grounds_check_availability_5->fishing_grounds_available_game_mode
+fishing_grounds_check_availability->fishing_grounds_check_availability_3
+fishing_grounds_produce_256_ticks->fishing_grounds_production_256_economy_5
+}

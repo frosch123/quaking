@@ -1,0 +1,115 @@
+digraph {
+rankdir="BT"
+sw_cc_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red"]
+spriteset_er_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_headlights"]
+spriteset_er_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_marker_lights"]
+spriteset_er_1_er20xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_er20xx"]
+spriteset_er_1_er20xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_er20xx_reversed"]
+spriteset_er_1_fr22xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_fr22xx"]
+spriteset_er_1_fr22xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_fr22xx_reversed"]
+spriteset_er_1_fr23xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_fr23xx"]
+spriteset_er_1_fr23xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_fr23xx_reversed"]
+spriteset_er_1_er21xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_er21xx"]
+spriteset_er_1_er21xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_1_er21xx_reversed"]
+spriteset_er_2_er20xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_er20xx"]
+spriteset_er_2_er20xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_er20xx_reversed"]
+spriteset_er_2_fr22xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_fr22xx"]
+spriteset_er_2_fr22xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_fr22xx_reversed"]
+spriteset_er_2_fr23xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_fr23xx"]
+spriteset_er_2_fr23xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_fr23xx_reversed"]
+spriteset_er_2_er21xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_er21xx"]
+spriteset_er_2_er21xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_2_er21xx_reversed"]
+spriteset_er_3_er20xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_er20xx"]
+spriteset_er_3_er20xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_er20xx_reversed"]
+spriteset_er_3_fr22xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_fr22xx"]
+spriteset_er_3_fr22xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_fr22xx_reversed"]
+spriteset_er_3_fr23xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_fr23xx"]
+spriteset_er_3_fr23xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_fr23xx_reversed"]
+spriteset_er_3_er21xx [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_er21xx"]
+spriteset_er_3_er21xx_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_er_3_er21xx_reversed"]
+sw_er_livery_er20xx [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_er20xx"]
+sw_er_livery_er20xx_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_er20xx_reversed"]
+sw_er_livery_fr22xx [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_fr22xx"]
+sw_er_livery_fr22xx_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_fr22xx_reversed"]
+sw_er_livery_fr23xx [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_fr23xx"]
+sw_er_livery_fr23xx_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_fr23xx_reversed"]
+sw_er_livery_er21xx [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_er21xx"]
+sw_er_livery_er21xx_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_er_livery_er21xx_reversed"]
+sw_er_er20xx_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_er_er20xx_with_headlights"]
+sw_er_er20xx_position [fillcolor=yellow style="filled" label="<switch>\nsw_er_er20xx_position"]
+sw_er_er20xx_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_er_er20xx_with_marker_lights"]
+sw_er_er20xx_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_er_er20xx_reversed_position"]
+sw_er_er21xx_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_er_er21xx_with_headlights"]
+sw_er_er21xx_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_er_er21xx_reversed_position"]
+sw_er_er21xx_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_er_er21xx_with_marker_lights"]
+sw_er_er21xx_position [fillcolor=yellow style="filled" label="<switch>\nsw_er_er21xx_position"]
+sw_er_reverser_0 [fillcolor=yellow style="filled" label="<switch>\nsw_er_reverser_0"]
+sw_er_reverser_1 [fillcolor=yellow style="filled" label="<switch>\nsw_er_reverser_1"]
+sw_er_reverser_2 [fillcolor=yellow style="filled" label="<switch>\nsw_er_reverser_2"]
+sw_er_reverser_3 [fillcolor=yellow style="filled" label="<switch>\nsw_er_reverser_3"]
+sw_er_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_er_graphics"]
+sw_er_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_er_articulated_part"]
+sw_er_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_er_cargo_subtype_text"]
+sw_er_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_er_cargo_subtype"]
+sw_er_visual_effect_and_powered [fillcolor=yellow style="filled" label="<switch>\nsw_er_visual_effect_and_powered"]
+item_er [fillcolor=red style="filled" label="<FEAT_TRAINS 2>\nitem_er"]
+sw_er_livery_fr23xx->spriteset_er_3_fr23xx
+sw_er_graphics->sw_er_reverser_3
+sw_er_livery_er21xx->spriteset_er_2_er21xx
+sw_er_er20xx_position->sw_er_livery_er20xx
+item_er->sw_er_visual_effect_and_powered
+sw_er_er20xx_reversed_position->sw_er_er20xx_with_marker_lights
+sw_er_livery_er21xx_reversed->spriteset_er_2_er21xx_reversed
+sw_er_er21xx_position->sw_er_livery_er21xx
+item_er->sw_cc_red
+sw_er_cargo_subtype->sw_er_cargo_subtype_text
+sw_er_livery_er21xx_reversed->spriteset_er_3_er21xx_reversed
+sw_er_livery_fr23xx->spriteset_er_1_fr23xx
+sw_er_er21xx_reversed_position->sw_er_livery_er21xx_reversed
+sw_er_livery_er21xx->spriteset_er_3_er21xx
+sw_er_livery_fr22xx_reversed->spriteset_er_1_fr22xx_reversed
+sw_er_livery_fr22xx_reversed->spriteset_er_2_fr22xx_reversed
+sw_er_reverser_3->sw_er_er21xx_position
+sw_er_er21xx_with_marker_lights->spriteset_er_marker_lights
+sw_er_er20xx_position->sw_er_er20xx_with_headlights
+sw_er_livery_er21xx_reversed->spriteset_er_1_er21xx_reversed
+sw_er_er21xx_position->sw_er_er21xx_with_marker_lights
+sw_er_livery_er20xx_reversed->spriteset_er_2_er20xx_reversed
+sw_er_livery_fr23xx->spriteset_er_2_fr23xx
+sw_er_er21xx_with_headlights->sw_er_livery_er21xx_reversed
+sw_er_graphics->sw_er_reverser_2
+sw_er_livery_er20xx->spriteset_er_1_er20xx
+sw_er_er20xx_reversed_position->sw_er_livery_er20xx_reversed
+sw_er_graphics->sw_er_reverser_1
+sw_er_reverser_0->sw_er_er21xx_reversed_position
+sw_er_reverser_1->sw_er_livery_fr23xx_reversed
+sw_er_er20xx_with_marker_lights->spriteset_er_marker_lights
+sw_er_er20xx_with_headlights->sw_er_livery_er20xx
+sw_er_er20xx_with_headlights->spriteset_er_headlights
+sw_er_reverser_2->sw_er_livery_fr22xx_reversed
+sw_er_livery_fr22xx->spriteset_er_1_fr22xx
+sw_er_livery_er21xx->spriteset_er_1_er21xx
+sw_er_livery_er20xx->spriteset_er_3_er20xx
+sw_er_reverser_1->sw_er_livery_fr22xx
+sw_er_er21xx_reversed_position->sw_er_er21xx_with_headlights
+sw_er_reverser_0->sw_er_er20xx_position
+sw_er_livery_fr22xx_reversed->spriteset_er_3_fr22xx_reversed
+sw_er_er21xx_with_headlights->spriteset_er_headlights
+sw_er_livery_fr22xx->spriteset_er_2_fr22xx
+sw_er_reverser_2->sw_er_livery_fr23xx
+item_er->sw_er_articulated_part
+item_er->sw_er_cargo_subtype
+sw_er_livery_fr23xx_reversed->spriteset_er_2_fr23xx_reversed
+sw_er_er20xx_with_marker_lights->sw_er_livery_er20xx_reversed
+sw_er_livery_er20xx_reversed->spriteset_er_3_er20xx_reversed
+sw_er_graphics->sw_er_reverser_0
+sw_er_livery_er20xx->spriteset_er_2_er20xx
+sw_er_reverser_3->sw_er_er20xx_reversed_position
+sw_er_er21xx_with_marker_lights->sw_er_livery_er21xx
+sw_er_livery_fr22xx->spriteset_er_3_fr22xx
+item_er->sw_er_livery_er20xx
+sw_er_livery_fr23xx_reversed->spriteset_er_3_fr23xx_reversed
+item_er->sw_er_graphics
+sw_er_livery_er20xx_reversed->spriteset_er_1_er20xx_reversed
+sw_er_livery_fr23xx_reversed->spriteset_er_1_fr23xx_reversed
+}

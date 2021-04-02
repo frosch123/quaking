@@ -1,0 +1,79 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+slag_grinding_plant_produce_0 [fillcolor=green style="filled" label="<produce>\nslag_grinding_plant_produce_0"]
+slag_grinding_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_produce_calculation_0"]
+slag_grinding_plant_produce_1 [fillcolor=green style="filled" label="<produce>\nslag_grinding_plant_produce_1"]
+slag_grinding_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_produce_calculation_1"]
+slag_grinding_plant_produce_4 [fillcolor=green style="filled" label="<produce>\nslag_grinding_plant_produce_4"]
+slag_grinding_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_produce_calculation_4"]
+slag_grinding_plant_produce_5 [fillcolor=green style="filled" label="<produce>\nslag_grinding_plant_produce_5"]
+slag_grinding_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_produce_calculation_5"]
+slag_grinding_plant_produce_3 [fillcolor=green style="filled" label="<produce>\nslag_grinding_plant_produce_3"]
+slag_grinding_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_produce_calculation_3"]
+slag_grinding_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_produce_cargo_arrival"]
+slag_grinding_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_extra_text"]
+slag_grinding_plant_cargo_subtype_display_cargo_SLAG_economy_5 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_cargo_subtype_display_cargo_SLAG_economy_5"]
+slag_grinding_plant_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_cargo_subtype_display_switch_cargo_economy_5"]
+slag_grinding_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_cargo_subtype_display_switch_economy"]
+slag_grinding_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_cargo_subtype_display"]
+slag_grinding_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability_param"]
+slag_grinding_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_map_gen"]
+slag_grinding_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_available_game_mode"]
+slag_grinding_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability_0"]
+slag_grinding_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability_1"]
+slag_grinding_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability_4"]
+slag_grinding_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability_5"]
+slag_grinding_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability_3"]
+slag_grinding_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_availability"]
+slag_grinding_plant_min_distance_63 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_min_distance_63"]
+slag_grinding_plant_min_distance_77 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_min_distance_77"]
+slag_grinding_plant_min_distance_79 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_min_distance_79"]
+slag_grinding_plant_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_min_distance_82"]
+slag_grinding_plant_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_min_distance_7"]
+slag_grinding_plant_check_industry_max_distance_2 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_industry_max_distance_2"]
+slag_grinding_plant_max_distance_7 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_max_distance_7"]
+slag_grinding_plant_min_distance_80 [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_min_distance_80"]
+slag_grinding_plant_check_location [fillcolor=yellow style="filled" label="<switch>\nslag_grinding_plant_check_location"]
+slag_grinding_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <80>\nslag_grinding_plant"]
+slag_grinding_plant_min_distance_79->slag_grinding_plant_min_distance_77
+slag_grinding_plant_check_availability_3->slag_grinding_plant_available_game_mode
+slag_grinding_plant_produce_cargo_arrival->slag_grinding_plant_produce_calculation_4
+slag_grinding_plant_check_availability_4->slag_grinding_plant_available_game_mode
+slag_grinding_plant_max_distance_7->slag_grinding_plant_check_industry_max_distance_2
+slag_grinding_plant_check_availability->slag_grinding_plant_check_availability_4
+slag_grinding_plant->switch_colour
+slag_grinding_plant_produce_calculation_1->slag_grinding_plant_produce_1
+slag_grinding_plant_cargo_subtype_display->slag_grinding_plant_cargo_subtype_display_switch_economy
+slag_grinding_plant_check_availability_1->slag_grinding_plant_available_game_mode
+slag_grinding_plant_check_location->slag_grinding_plant_min_distance_80
+slag_grinding_plant_produce_cargo_arrival->slag_grinding_plant_produce_calculation_3
+slag_grinding_plant_min_distance_80->slag_grinding_plant_max_distance_7
+slag_grinding_plant_available_game_mode->slag_grinding_plant_check_map_gen
+slag_grinding_plant_cargo_subtype_display_switch_economy->slag_grinding_plant_cargo_subtype_display_switch_cargo_economy_5
+slag_grinding_plant->slag_grinding_plant_check_availability
+slag_grinding_plant->slag_grinding_plant_cargo_subtype_display
+slag_grinding_plant_produce_cargo_arrival->slag_grinding_plant_produce_calculation_1
+slag_grinding_plant_check_availability->slag_grinding_plant_check_availability_0
+slag_grinding_plant_check_availability_0->slag_grinding_plant_available_game_mode
+slag_grinding_plant_check_availability_5->slag_grinding_plant_available_game_mode
+slag_grinding_plant_min_distance_82->slag_grinding_plant_min_distance_79
+slag_grinding_plant_max_distance_7->slag_grinding_plant_min_distance_7
+slag_grinding_plant->slag_grinding_plant_extra_text
+slag_grinding_plant->slag_grinding_plant_produce_cargo_arrival
+slag_grinding_plant_check_availability->slag_grinding_plant_check_availability_3
+slag_grinding_plant_min_distance_7->slag_grinding_plant_min_distance_82
+slag_grinding_plant->slag_grinding_plant_check_location
+slag_grinding_plant_check_availability->slag_grinding_plant_check_availability_1
+slag_grinding_plant_min_distance_77->slag_grinding_plant_min_distance_63
+slag_grinding_plant_produce_calculation_5->slag_grinding_plant_produce_5
+slag_grinding_plant_check_industry_max_distance_2->slag_grinding_plant_min_distance_7
+slag_grinding_plant_check_availability->slag_grinding_plant_check_availability_5
+slag_grinding_plant_produce_cargo_arrival->slag_grinding_plant_produce_calculation_5
+slag_grinding_plant_produce_cargo_arrival->slag_grinding_plant_produce_calculation_0
+slag_grinding_plant_cargo_subtype_display_switch_cargo_economy_5->slag_grinding_plant_cargo_subtype_display_cargo_SLAG_economy_5
+slag_grinding_plant_produce_calculation_0->slag_grinding_plant_produce_0
+slag_grinding_plant_check_map_gen->slag_grinding_plant_check_availability_param
+slag_grinding_plant_produce_calculation_4->slag_grinding_plant_produce_4
+slag_grinding_plant_produce_calculation_3->slag_grinding_plant_produce_3
+}

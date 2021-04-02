@@ -1,0 +1,38 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+vehicle_distributor_produce_cargo_arrival_economy_5 [fillcolor=green style="filled" label="<produce>\nvehicle_distributor_produce_cargo_arrival_economy_5"]
+vehicle_distributor_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability_param"]
+vehicle_distributor_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_map_gen"]
+vehicle_distributor_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_available_game_mode"]
+vehicle_distributor_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability_0"]
+vehicle_distributor_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability_1"]
+vehicle_distributor_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability_4"]
+vehicle_distributor_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability_5"]
+vehicle_distributor_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability_3"]
+vehicle_distributor_check_availability [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_availability"]
+vehicle_distributor_min_distance_62 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_min_distance_62"]
+vehicle_distributor_min_distance_33 [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_min_distance_33"]
+vehicle_distributor_check_location [fillcolor=yellow style="filled" label="<switch>\nvehicle_distributor_check_location"]
+vehicle_distributor [fillcolor=red style="filled" label="FEAT_INDUSTRIES <33>\nvehicle_distributor"]
+vehicle_distributor_check_availability_3->vehicle_distributor_available_game_mode
+vehicle_distributor->switch_colour
+vehicle_distributor->vehicle_distributor_produce_cargo_arrival_economy_5
+vehicle_distributor_check_availability->vehicle_distributor_check_availability_5
+vehicle_distributor_available_game_mode->vehicle_distributor_check_map_gen
+vehicle_distributor->randomise_primary_production_on_build
+vehicle_distributor->vehicle_distributor_check_location
+vehicle_distributor_check_availability_1->vehicle_distributor_available_game_mode
+vehicle_distributor_check_availability_5->vehicle_distributor_available_game_mode
+vehicle_distributor_check_availability_0->vehicle_distributor_available_game_mode
+vehicle_distributor->vehicle_distributor_check_availability
+vehicle_distributor_min_distance_33->vehicle_distributor_min_distance_62
+vehicle_distributor_check_availability->vehicle_distributor_check_availability_4
+vehicle_distributor_check_availability_4->vehicle_distributor_available_game_mode
+vehicle_distributor_check_availability->vehicle_distributor_check_availability_3
+vehicle_distributor_check_map_gen->vehicle_distributor_check_availability_param
+vehicle_distributor_check_location->vehicle_distributor_min_distance_33
+vehicle_distributor_check_availability->vehicle_distributor_check_availability_0
+vehicle_distributor_check_availability->vehicle_distributor_check_availability_1
+}

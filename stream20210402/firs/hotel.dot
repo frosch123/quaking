@@ -1,0 +1,68 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+hotel_produce_cargo_arrival_economy_0 [fillcolor=green style="filled" label="<produce>\nhotel_produce_cargo_arrival_economy_0"]
+hotel_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nhotel_production_256_economy_0"]
+hotel_produce_cargo_arrival_economy_1 [fillcolor=green style="filled" label="<produce>\nhotel_produce_cargo_arrival_economy_1"]
+hotel_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nhotel_production_256_economy_1"]
+hotel_produce_cargo_arrival_economy_4 [fillcolor=green style="filled" label="<produce>\nhotel_produce_cargo_arrival_economy_4"]
+hotel_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nhotel_production_256_economy_4"]
+hotel_produce_cargo_arrival_economy_3 [fillcolor=green style="filled" label="<produce>\nhotel_produce_cargo_arrival_economy_3"]
+hotel_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nhotel_production_256_economy_3"]
+hotel_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability_param"]
+hotel_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nhotel_check_map_gen"]
+hotel_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nhotel_available_game_mode"]
+hotel_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability_0"]
+hotel_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability_1"]
+hotel_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability_4"]
+hotel_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability_5"]
+hotel_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability_3"]
+hotel_check_availability [fillcolor=yellow style="filled" label="<switch>\nhotel_check_availability"]
+hotel_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_35"]
+hotel_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_34"]
+hotel_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_31"]
+hotel_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_56"]
+hotel_min_distance_68 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_68"]
+hotel_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_37"]
+hotel_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_29"]
+hotel_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_36"]
+hotel_min_distance_85 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_85"]
+hotel_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nhotel_min_distance_58"]
+hotel_check_location [fillcolor=yellow style="filled" label="<switch>\nhotel_check_location"]
+hotel [fillcolor=red style="filled" label="FEAT_INDUSTRIES <58>\nhotel"]
+hotel_check_availability->hotel_check_availability_1
+hotel->hotel_check_location
+hotel_available_game_mode->hotel_check_map_gen
+hotel_check_availability->hotel_check_availability_5
+hotel_check_availability->hotel_check_availability_4
+hotel_min_distance_85->hotel_min_distance_36
+hotel_min_distance_31->hotel_min_distance_34
+hotel->hotel_produce_cargo_arrival_economy_4
+hotel_check_availability_3->hotel_available_game_mode
+hotel_check_availability_4->hotel_available_game_mode
+hotel->hotel_production_256_economy_1
+hotel->hotel_production_256_economy_0
+hotel->hotel_produce_cargo_arrival_economy_1
+hotel_check_location->hotel_min_distance_58
+hotel->hotel_production_256_economy_4
+hotel->hotel_produce_cargo_arrival_economy_3
+hotel->hotel_produce_cargo_arrival_economy_0
+hotel_check_map_gen->hotel_check_availability_param
+hotel_check_availability->hotel_check_availability_0
+hotel_check_availability_1->hotel_available_game_mode
+hotel_min_distance_29->hotel_min_distance_37
+hotel->hotel_check_availability
+hotel_check_availability_0->hotel_available_game_mode
+hotel_check_availability_5->hotel_available_game_mode
+hotel->hotel_production_256_economy_3
+hotel_check_availability->hotel_check_availability_3
+hotel_min_distance_68->hotel_min_distance_56
+hotel_min_distance_56->hotel_min_distance_31
+hotel_min_distance_34->hotel_min_distance_35
+hotel_min_distance_36->hotel_min_distance_29
+hotel_min_distance_37->hotel_min_distance_68
+hotel->switch_colour
+hotel_min_distance_58->hotel_min_distance_85
+hotel->randomise_primary_production_on_build
+}

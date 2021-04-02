@@ -1,0 +1,107 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+chemical_plant_produce_0 [fillcolor=green style="filled" label="<produce>\nchemical_plant_produce_0"]
+chemical_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_produce_calculation_0"]
+chemical_plant_produce_1 [fillcolor=green style="filled" label="<produce>\nchemical_plant_produce_1"]
+chemical_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_produce_calculation_1"]
+chemical_plant_produce_4 [fillcolor=green style="filled" label="<produce>\nchemical_plant_produce_4"]
+chemical_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_produce_calculation_4"]
+chemical_plant_produce_5 [fillcolor=green style="filled" label="<produce>\nchemical_plant_produce_5"]
+chemical_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_produce_calculation_5"]
+chemical_plant_produce_3 [fillcolor=green style="filled" label="<produce>\nchemical_plant_produce_3"]
+chemical_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_produce_calculation_3"]
+chemical_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_produce_cargo_arrival"]
+chemical_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_extra_text"]
+chemical_plant_cargo_subtype_display_cargo_SULP_economy_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_cargo_SULP_economy_1"]
+chemical_plant_cargo_subtype_display_cargo_PHOS_economy_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_cargo_PHOS_economy_1"]
+chemical_plant_cargo_subtype_display_cargo_NH3__economy_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_cargo_NH3__economy_1"]
+chemical_plant_cargo_subtype_display_cargo_POTA_economy_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_cargo_POTA_economy_1"]
+chemical_plant_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_switch_cargo_economy_1"]
+chemical_plant_cargo_subtype_display_cargo_OIL__economy_4 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_cargo_OIL__economy_4"]
+chemical_plant_cargo_subtype_display_cargo_NITR_economy_4 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_cargo_NITR_economy_4"]
+chemical_plant_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_switch_cargo_economy_4"]
+chemical_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display_switch_economy"]
+chemical_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_cargo_subtype_display"]
+chemical_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability_param"]
+chemical_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_map_gen"]
+chemical_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_available_game_mode"]
+chemical_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability_0"]
+chemical_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability_1"]
+chemical_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability_4"]
+chemical_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability_5"]
+chemical_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability_3"]
+chemical_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_availability"]
+chemical_plant_min_distance_76 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_76"]
+chemical_plant_min_distance_15 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_15"]
+chemical_plant_min_distance_78 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_78"]
+chemical_plant_min_distance_65 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_65"]
+chemical_plant_min_distance_72 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_72"]
+chemical_plant_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_41"]
+chemical_plant_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_22"]
+chemical_plant_min_distance_67 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_67"]
+chemical_plant_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_39"]
+chemical_plant_min_distance_16 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_16"]
+chemical_plant_min_distance_73 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_73"]
+chemical_plant_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_82"]
+chemical_plant_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_9"]
+chemical_plant_check_industry_max_distance_2 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_industry_max_distance_2"]
+chemical_plant_max_distance_39 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_max_distance_39"]
+chemical_plant_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_min_distance_49"]
+chemical_plant_check_location [fillcolor=yellow style="filled" label="<switch>\nchemical_plant_check_location"]
+chemical_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <49>\nchemical_plant"]
+chemical_plant_check_availability_1->chemical_plant_available_game_mode
+chemical_plant_min_distance_16->chemical_plant_min_distance_39
+chemical_plant_check_map_gen->chemical_plant_check_availability_param
+chemical_plant_min_distance_41->chemical_plant_min_distance_72
+chemical_plant_min_distance_9->chemical_plant_min_distance_82
+chemical_plant_produce_calculation_4->chemical_plant_produce_4
+chemical_plant_check_availability_5->chemical_plant_available_game_mode
+chemical_plant_check_availability->chemical_plant_check_availability_1
+chemical_plant_cargo_subtype_display_switch_cargo_economy_1->chemical_plant_cargo_subtype_display_cargo_NH3__economy_1
+chemical_plant->chemical_plant_cargo_subtype_display
+chemical_plant_cargo_subtype_display->chemical_plant_cargo_subtype_display_switch_economy
+chemical_plant_produce_calculation_3->chemical_plant_produce_3
+chemical_plant_check_availability_3->chemical_plant_available_game_mode
+chemical_plant_check_availability->chemical_plant_check_availability_3
+chemical_plant_min_distance_49->chemical_plant_max_distance_39
+chemical_plant_min_distance_78->chemical_plant_min_distance_15
+chemical_plant_min_distance_22->chemical_plant_min_distance_41
+chemical_plant_produce_calculation_1->chemical_plant_produce_1
+chemical_plant_cargo_subtype_display_switch_economy->chemical_plant_cargo_subtype_display_switch_cargo_economy_1
+chemical_plant->chemical_plant_check_availability
+chemical_plant_check_availability->chemical_plant_check_availability_0
+chemical_plant_min_distance_73->chemical_plant_min_distance_16
+chemical_plant_min_distance_39->chemical_plant_min_distance_67
+chemical_plant_check_industry_max_distance_2->chemical_plant_min_distance_9
+chemical_plant_check_availability_0->chemical_plant_available_game_mode
+chemical_plant_min_distance_72->chemical_plant_min_distance_65
+chemical_plant_cargo_subtype_display_switch_cargo_economy_4->chemical_plant_cargo_subtype_display_cargo_OIL__economy_4
+chemical_plant_cargo_subtype_display_switch_cargo_economy_4->chemical_plant_cargo_subtype_display_cargo_NITR_economy_4
+chemical_plant_min_distance_15->chemical_plant_min_distance_76
+chemical_plant_min_distance_82->chemical_plant_min_distance_73
+chemical_plant_cargo_subtype_display_switch_cargo_economy_1->chemical_plant_cargo_subtype_display_cargo_POTA_economy_1
+chemical_plant_check_availability->chemical_plant_check_availability_5
+chemical_plant_min_distance_67->chemical_plant_min_distance_22
+chemical_plant_produce_cargo_arrival->chemical_plant_produce_calculation_1
+chemical_plant_produce_calculation_5->chemical_plant_produce_5
+chemical_plant_max_distance_39->chemical_plant_check_industry_max_distance_2
+chemical_plant->chemical_plant_extra_text
+chemical_plant_min_distance_65->chemical_plant_min_distance_78
+chemical_plant_available_game_mode->chemical_plant_check_map_gen
+chemical_plant->chemical_plant_check_location
+chemical_plant_cargo_subtype_display_switch_cargo_economy_1->chemical_plant_cargo_subtype_display_cargo_SULP_economy_1
+chemical_plant->switch_colour
+chemical_plant_produce_calculation_0->chemical_plant_produce_0
+chemical_plant_max_distance_39->chemical_plant_min_distance_9
+chemical_plant_cargo_subtype_display_switch_cargo_economy_1->chemical_plant_cargo_subtype_display_cargo_PHOS_economy_1
+chemical_plant_produce_cargo_arrival->chemical_plant_produce_calculation_3
+chemical_plant_produce_cargo_arrival->chemical_plant_produce_calculation_4
+chemical_plant_cargo_subtype_display_switch_economy->chemical_plant_cargo_subtype_display_switch_cargo_economy_4
+chemical_plant_check_availability->chemical_plant_check_availability_4
+chemical_plant_check_location->chemical_plant_min_distance_49
+chemical_plant->chemical_plant_produce_cargo_arrival
+chemical_plant_produce_cargo_arrival->chemical_plant_produce_calculation_5
+chemical_plant_produce_cargo_arrival->chemical_plant_produce_calculation_0
+chemical_plant_check_availability_4->chemical_plant_available_game_mode
+}

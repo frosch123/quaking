@@ -1,0 +1,702 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+hotel_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nhotel_spritelayout_1"]
+hotel_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nhotel_spritelayout_2"]
+hotel_industry_layout_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nhotel_industry_layout_graphics_switch"]
+hotel_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nhotel_industry_construction_state_graphics_switch"]
+hotel_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nhotel_store_temp_vars"]
+hotel_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nhotel_switch_graphics"]
+hotel_tile_1_lc_2_225 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_225"]
+hotel_tile_1_lc_2_224 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_224"]
+hotel_tile_1_lc_2_223 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_223"]
+hotel_tile_1_lc_2_222 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_222"]
+hotel_tile_1_lc_2_221 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_221"]
+hotel_tile_1_lc_2_220 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_220"]
+hotel_tile_1_lc_2_219 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_219"]
+hotel_tile_1_lc_2_218 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_218"]
+hotel_tile_1_lc_2_217 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_217"]
+hotel_tile_1_lc_2_216 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_216"]
+hotel_tile_1_lc_2_215 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_215"]
+hotel_tile_1_lc_2_214 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_214"]
+hotel_tile_1_lc_2_213 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_213"]
+hotel_tile_1_lc_2_212 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_212"]
+hotel_tile_1_lc_2_211 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_211"]
+hotel_tile_1_lc_2_210 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_210"]
+hotel_tile_1_lc_2_209 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_209"]
+hotel_tile_1_lc_2_208 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_208"]
+hotel_tile_1_lc_2_207 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_207"]
+hotel_tile_1_lc_2_206 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_206"]
+hotel_tile_1_lc_2_205 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_205"]
+hotel_tile_1_lc_2_204 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_204"]
+hotel_tile_1_lc_2_203 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_203"]
+hotel_tile_1_lc_2_202 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_202"]
+hotel_tile_1_lc_2_201 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_201"]
+hotel_tile_1_lc_2_200 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_200"]
+hotel_tile_1_lc_2_199 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_199"]
+hotel_tile_1_lc_2_198 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_198"]
+hotel_tile_1_lc_2_197 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_197"]
+hotel_tile_1_lc_2_196 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_196"]
+hotel_tile_1_lc_2_195 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_195"]
+hotel_tile_1_lc_2_194 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_194"]
+hotel_tile_1_lc_2_193 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_193"]
+hotel_tile_1_lc_2_192 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_192"]
+hotel_tile_1_lc_2_191 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_191"]
+hotel_tile_1_lc_2_190 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_190"]
+hotel_tile_1_lc_2_189 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_189"]
+hotel_tile_1_lc_2_188 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_188"]
+hotel_tile_1_lc_2_187 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_187"]
+hotel_tile_1_lc_2_186 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_186"]
+hotel_tile_1_lc_2_185 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_185"]
+hotel_tile_1_lc_2_184 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_184"]
+hotel_tile_1_lc_2_183 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_183"]
+hotel_tile_1_lc_2_182 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_182"]
+hotel_tile_1_lc_2_181 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_181"]
+hotel_tile_1_lc_2_180 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_180"]
+hotel_tile_1_lc_2_179 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_179"]
+hotel_tile_1_lc_2_178 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_178"]
+hotel_tile_1_lc_2_177 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_177"]
+hotel_tile_1_lc_2_176 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_176"]
+hotel_tile_1_lc_2_175 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_175"]
+hotel_tile_1_lc_2_174 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_174"]
+hotel_tile_1_lc_2_173 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_173"]
+hotel_tile_1_lc_2_172 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_172"]
+hotel_tile_1_lc_2_171 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_171"]
+hotel_tile_1_lc_2_170 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_170"]
+hotel_tile_1_lc_2_169 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_169"]
+hotel_tile_1_lc_2_168 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_168"]
+hotel_tile_1_lc_2_167 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_167"]
+hotel_tile_1_lc_2_166 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_166"]
+hotel_tile_1_lc_2_165 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_165"]
+hotel_tile_1_lc_2_164 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_164"]
+hotel_tile_1_lc_2_163 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_163"]
+hotel_tile_1_lc_2_162 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_162"]
+hotel_tile_1_lc_2_161 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_161"]
+hotel_tile_1_lc_2_160 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_160"]
+hotel_tile_1_lc_2_159 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_159"]
+hotel_tile_1_lc_2_158 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_158"]
+hotel_tile_1_lc_2_157 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_157"]
+hotel_tile_1_lc_2_156 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_156"]
+hotel_tile_1_lc_2_155 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_155"]
+hotel_tile_1_lc_2_154 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_154"]
+hotel_tile_1_lc_2_153 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_153"]
+hotel_tile_1_lc_2_152 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_152"]
+hotel_tile_1_lc_2_151 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_151"]
+hotel_tile_1_lc_2_150 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_150"]
+hotel_tile_1_lc_2_149 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_149"]
+hotel_tile_1_lc_2_148 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_148"]
+hotel_tile_1_lc_2_147 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_147"]
+hotel_tile_1_lc_2_146 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_146"]
+hotel_tile_1_lc_2_145 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_145"]
+hotel_tile_1_lc_2_144 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_144"]
+hotel_tile_1_lc_2_143 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_143"]
+hotel_tile_1_lc_2_142 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_142"]
+hotel_tile_1_lc_2_141 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_141"]
+hotel_tile_1_lc_2_140 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_140"]
+hotel_tile_1_lc_2_139 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_139"]
+hotel_tile_1_lc_2_138 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_138"]
+hotel_tile_1_lc_2_137 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_137"]
+hotel_tile_1_lc_2_136 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_136"]
+hotel_tile_1_lc_2_135 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_135"]
+hotel_tile_1_lc_2_134 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_134"]
+hotel_tile_1_lc_2_133 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_133"]
+hotel_tile_1_lc_2_132 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_132"]
+hotel_tile_1_lc_2_131 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_131"]
+hotel_tile_1_lc_2_130 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_130"]
+hotel_tile_1_lc_2_129 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_129"]
+hotel_tile_1_lc_2_128 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_128"]
+hotel_tile_1_lc_2_127 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_127"]
+hotel_tile_1_lc_2_126 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_126"]
+hotel_tile_1_lc_2_125 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_125"]
+hotel_tile_1_lc_2_124 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_124"]
+hotel_tile_1_lc_2_123 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_123"]
+hotel_tile_1_lc_2_122 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_122"]
+hotel_tile_1_lc_2_121 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_121"]
+hotel_tile_1_lc_2_120 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_120"]
+hotel_tile_1_lc_2_119 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_119"]
+hotel_tile_1_lc_2_118 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_118"]
+hotel_tile_1_lc_2_117 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_117"]
+hotel_tile_1_lc_2_116 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_116"]
+hotel_tile_1_lc_2_115 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_115"]
+hotel_tile_1_lc_2_114 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_114"]
+hotel_tile_1_lc_2_113 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_113"]
+hotel_tile_1_lc_2_112 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_112"]
+hotel_tile_1_lc_2_111 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_111"]
+hotel_tile_1_lc_2_110 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_110"]
+hotel_tile_1_lc_2_109 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_109"]
+hotel_tile_1_lc_2_108 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_108"]
+hotel_tile_1_lc_2_107 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_107"]
+hotel_tile_1_lc_2_106 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_106"]
+hotel_tile_1_lc_2_105 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_105"]
+hotel_tile_1_lc_2_104 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_104"]
+hotel_tile_1_lc_2_103 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_103"]
+hotel_tile_1_lc_2_102 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_102"]
+hotel_tile_1_lc_2_101 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_101"]
+hotel_tile_1_lc_2_100 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_100"]
+hotel_tile_1_lc_2_99 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_99"]
+hotel_tile_1_lc_2_98 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_98"]
+hotel_tile_1_lc_2_97 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_97"]
+hotel_tile_1_lc_2_96 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_96"]
+hotel_tile_1_lc_2_95 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_95"]
+hotel_tile_1_lc_2_94 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_94"]
+hotel_tile_1_lc_2_93 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_93"]
+hotel_tile_1_lc_2_92 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_92"]
+hotel_tile_1_lc_2_91 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_91"]
+hotel_tile_1_lc_2_90 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_90"]
+hotel_tile_1_lc_2_89 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_89"]
+hotel_tile_1_lc_2_88 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_88"]
+hotel_tile_1_lc_2_87 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_87"]
+hotel_tile_1_lc_2_86 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_86"]
+hotel_tile_1_lc_2_85 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_85"]
+hotel_tile_1_lc_2_84 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_84"]
+hotel_tile_1_lc_2_83 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_83"]
+hotel_tile_1_lc_2_82 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_82"]
+hotel_tile_1_lc_2_81 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_81"]
+hotel_tile_1_lc_2_80 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_80"]
+hotel_tile_1_lc_2_79 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_79"]
+hotel_tile_1_lc_2_78 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_78"]
+hotel_tile_1_lc_2_77 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_77"]
+hotel_tile_1_lc_2_76 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_76"]
+hotel_tile_1_lc_2_75 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_75"]
+hotel_tile_1_lc_2_74 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_74"]
+hotel_tile_1_lc_2_73 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_73"]
+hotel_tile_1_lc_2_72 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_72"]
+hotel_tile_1_lc_2_71 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_71"]
+hotel_tile_1_lc_2_70 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_70"]
+hotel_tile_1_lc_2_69 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_69"]
+hotel_tile_1_lc_2_68 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_68"]
+hotel_tile_1_lc_2_67 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_67"]
+hotel_tile_1_lc_2_66 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_66"]
+hotel_tile_1_lc_2_65 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_65"]
+hotel_tile_1_lc_2_64 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_64"]
+hotel_tile_1_lc_2_63 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_63"]
+hotel_tile_1_lc_2_62 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_62"]
+hotel_tile_1_lc_2_61 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_61"]
+hotel_tile_1_lc_2_60 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_60"]
+hotel_tile_1_lc_2_59 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_59"]
+hotel_tile_1_lc_2_58 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_58"]
+hotel_tile_1_lc_2_57 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_57"]
+hotel_tile_1_lc_2_56 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_56"]
+hotel_tile_1_lc_2_55 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_55"]
+hotel_tile_1_lc_2_54 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_54"]
+hotel_tile_1_lc_2_53 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_53"]
+hotel_tile_1_lc_2_52 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_52"]
+hotel_tile_1_lc_2_51 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_51"]
+hotel_tile_1_lc_2_50 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_50"]
+hotel_tile_1_lc_2_49 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_49"]
+hotel_tile_1_lc_2_48 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_48"]
+hotel_tile_1_lc_2_47 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_47"]
+hotel_tile_1_lc_2_46 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_46"]
+hotel_tile_1_lc_2_45 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_45"]
+hotel_tile_1_lc_2_44 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_44"]
+hotel_tile_1_lc_2_43 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_43"]
+hotel_tile_1_lc_2_42 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_42"]
+hotel_tile_1_lc_2_41 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_41"]
+hotel_tile_1_lc_2_40 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_40"]
+hotel_tile_1_lc_2_39 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_39"]
+hotel_tile_1_lc_2_38 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_38"]
+hotel_tile_1_lc_2_37 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_37"]
+hotel_tile_1_lc_2_36 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_36"]
+hotel_tile_1_lc_2_35 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_35"]
+hotel_tile_1_lc_2_34 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_34"]
+hotel_tile_1_lc_2_33 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_33"]
+hotel_tile_1_lc_2_32 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_32"]
+hotel_tile_1_lc_2_31 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_31"]
+hotel_tile_1_lc_2_30 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_30"]
+hotel_tile_1_lc_2_29 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_29"]
+hotel_tile_1_lc_2_28 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_28"]
+hotel_tile_1_lc_2_27 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_27"]
+hotel_tile_1_lc_2_26 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_26"]
+hotel_tile_1_lc_2_25 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_25"]
+hotel_tile_1_lc_2_24 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_24"]
+hotel_tile_1_lc_2_23 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_23"]
+hotel_tile_1_lc_2_22 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_22"]
+hotel_tile_1_lc_2_21 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_21"]
+hotel_tile_1_lc_2_20 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_20"]
+hotel_tile_1_lc_2_19 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_19"]
+hotel_tile_1_lc_2_18 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_18"]
+hotel_tile_1_lc_2_17 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_17"]
+hotel_tile_1_lc_2_16 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_16"]
+hotel_tile_1_lc_2_15 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_15"]
+hotel_tile_1_lc_2_14 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_14"]
+hotel_tile_1_lc_2_13 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_13"]
+hotel_tile_1_lc_2_12 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_12"]
+hotel_tile_1_lc_2_11 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_11"]
+hotel_tile_1_lc_2_10 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_10"]
+hotel_tile_1_lc_2_9 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_9"]
+hotel_tile_1_lc_2_8 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_8"]
+hotel_tile_1_lc_2_7 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_7"]
+hotel_tile_1_lc_2_6 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_6"]
+hotel_tile_1_lc_2_5 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_5"]
+hotel_tile_1_lc_2_4 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_4"]
+hotel_tile_1_lc_2_3 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_3"]
+hotel_tile_1_lc_2_2 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_2"]
+hotel_tile_1_lc_2_1 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_1"]
+hotel_tile_1_lc_2_0 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2_0"]
+hotel_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_2"]
+hotel_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_1"]
+hotel_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nhotel_tile_1_lc_0"]
+hotel_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <217>\nhotel_tile_1"]
+hotel_tile_1_lc_2_14->hotel_tile_1_lc_2_15
+hotel_tile_1_lc_2_113->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_148->hotel_tile_1_lc_2_149
+hotel_tile_1_lc_2_35->hotel_tile_1_lc_2_36
+hotel_tile_1_lc_2_206->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_143->hotel_tile_1_lc_2_144
+hotel_tile_1_lc_2_14->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_4->hotel_tile_1_lc_2_5
+hotel_tile_1_lc_2_138->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_191->hotel_tile_1_lc_2_192
+hotel_tile_1_lc_2_103->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_133->hotel_tile_1_lc_2_134
+hotel_tile_1_lc_2_88->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_31->hotel_tile_1_lc_2_32
+hotel_tile_1_lc_2_73->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_0->hotel_tile_1_lc_2_1
+hotel_tile_1_lc_2_102->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_92->hotel_tile_1_lc_2_93
+hotel_tile_1_lc_2_111->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_133->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_103->hotel_tile_1_lc_2_104
+hotel_tile_1_lc_2_202->hotel_tile_1_lc_2_203
+hotel_tile_1_lc_2_140->hotel_tile_1_lc_2_141
+hotel_tile_1_lc_2_73->hotel_tile_1_lc_2_74
+hotel_tile_1_lc_2_64->hotel_tile_1_lc_2_65
+hotel_tile_1_lc_2_108->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_214->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_99->hotel_tile_1_lc_2_100
+hotel_tile_1_lc_2_67->hotel_tile_1_lc_2_68
+hotel_tile_1_lc_2_216->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_207->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_219->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_192->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_218->hotel_tile_1_lc_2_219
+hotel_tile_1_lc_2_185->hotel_tile_1_lc_2_186
+hotel_tile_1_lc_2_3->hotel_tile_1_lc_2_4
+hotel_tile_1_lc_2_174->hotel_tile_1_lc_2_175
+hotel_tile_1_lc_2_99->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_49->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_128->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_115->hotel_tile_1_lc_2_116
+hotel_tile_1_lc_2_101->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_60->hotel_tile_1_lc_2_61
+hotel_tile_1_lc_2_91->hotel_tile_1_lc_2_92
+hotel_tile_1_lc_2_94->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_209->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_90->hotel_tile_1_lc_2_91
+hotel_tile_1_lc_2_196->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_168->hotel_tile_1_lc_2_169
+hotel_tile_1_lc_2_149->hotel_tile_1_lc_2_150
+hotel_tile_1_lc_2_72->hotel_tile_1_lc_2_73
+hotel_tile_1_lc_2_109->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_192->hotel_tile_1_lc_2_193
+hotel_tile_1_lc_2_96->hotel_tile_1_lc_2_97
+hotel_tile_1_lc_2_182->hotel_tile_1_lc_2_183
+hotel_tile_1_lc_2_36->hotel_tile_1_lc_2_37
+hotel_tile_1_lc_2_29->hotel_tile_1_lc_2_30
+hotel_tile_1_lc_2_213->hotel_tile_1_lc_2_225
+hotel_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+hotel_tile_1_lc_2_129->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_202->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_197->hotel_tile_1_lc_2_198
+hotel_tile_1_lc_2_179->hotel_tile_1_lc_2_180
+hotel_tile_1_lc_2_4->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_203->hotel_tile_1_lc_2_204
+hotel_tile_1_lc_2_71->hotel_tile_1_lc_2_72
+hotel_tile_1_lc_2_56->hotel_tile_1_lc_2_57
+hotel_tile_1_lc_2_74->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_130->hotel_tile_1_lc_2_131
+hotel_tile_1_lc_2_220->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_6->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_201->hotel_tile_1_lc_2_202
+hotel_tile_1_lc_2_101->hotel_tile_1_lc_2_102
+hotel_tile_1_lc_2_82->hotel_tile_1_lc_2_83
+hotel_tile_1_lc_2_86->hotel_tile_1_lc_2_87
+hotel_tile_1_lc_2_22->hotel_tile_1_lc_2_23
+hotel_tile_1_lc_2_41->hotel_tile_1_lc_2_42
+hotel_tile_1_lc_2_118->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_34->hotel_tile_1_lc_2_35
+hotel_tile_1_lc_2_144->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_66->hotel_tile_1_lc_2_67
+hotel_tile_1_lc_2_69->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_222->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_75->hotel_tile_1_lc_2_76
+hotel_tile_1_lc_2_117->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_59->hotel_tile_1_lc_2_60
+hotel_tile_1_lc_2_57->hotel_tile_1_lc_2_58
+hotel_tile_1_lc_2_120->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_200->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_171->hotel_tile_1_lc_2_172
+hotel_tile_1_lc_2_144->hotel_tile_1_lc_2_145
+hotel_tile_1_lc_2_212->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_0->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_184->hotel_tile_1_lc_2_225
+hotel_tile_1->hotel_tile_1_lc_0
+hotel_tile_1_lc_2_191->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_45->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_184->hotel_tile_1_lc_2_185
+hotel_industry_construction_state_graphics_switch->hotel_industry_layout_graphics_switch
+hotel_tile_1_lc_2_147->hotel_tile_1_lc_2_148
+hotel_tile_1_lc_2_126->hotel_tile_1_lc_2_127
+hotel_tile_1_lc_2_124->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_26->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_32->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_152->hotel_tile_1_lc_2_153
+hotel_tile_1_lc_2_180->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_173->hotel_tile_1_lc_2_174
+hotel_tile_1_lc_2_78->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_54->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_37->hotel_tile_1_lc_2_38
+hotel_tile_1_lc_2_44->hotel_tile_1_lc_2_45
+hotel_tile_1_lc_1->hotel_tile_1_lc_2
+hotel_tile_1_lc_2_61->hotel_tile_1_lc_2_62
+hotel_tile_1_lc_2_167->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_83->hotel_tile_1_lc_2_84
+hotel_tile_1_lc_2_75->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_204->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_105->hotel_tile_1_lc_2_106
+hotel_tile_1_lc_2_211->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_121->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_170->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_163->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_214->hotel_tile_1_lc_2_215
+hotel_tile_1_lc_2_22->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_155->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_178->hotel_tile_1_lc_2_179
+hotel_tile_1_lc_2_61->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_210->hotel_tile_1_lc_2_211
+hotel_tile_1_lc_2_166->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_177->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_76->hotel_tile_1_lc_2_77
+hotel_tile_1_lc_2_50->hotel_tile_1_lc_2_51
+hotel_tile_1_lc_2_57->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_51->hotel_tile_1_lc_2_52
+hotel_tile_1_lc_2_54->hotel_tile_1_lc_2_55
+hotel_store_temp_vars->hotel_industry_construction_state_graphics_switch
+hotel_tile_1_lc_2_177->hotel_tile_1_lc_2_178
+hotel_tile_1_lc_2_137->hotel_tile_1_lc_2_138
+hotel_tile_1_lc_2_26->hotel_tile_1_lc_2_27
+hotel_tile_1_lc_2_124->hotel_tile_1_lc_2_125
+hotel_tile_1_lc_2_193->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_79->hotel_tile_1_lc_2_80
+hotel_tile_1_lc_2_198->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_146->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_134->hotel_tile_1_lc_2_135
+hotel_tile_1_lc_2_195->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_100->hotel_tile_1_lc_2_101
+hotel_tile_1_lc_2_157->hotel_tile_1_lc_2_158
+hotel_tile_1_lc_2_122->hotel_tile_1_lc_2_123
+hotel_tile_1_lc_2_145->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_8->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_38->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_116->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_164->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_122->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_159->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_152->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_187->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_205->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_87->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_157->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_145->hotel_tile_1_lc_2_146
+hotel_tile_1_lc_2_115->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_104->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_30->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_142->hotel_tile_1_lc_2_143
+hotel_tile_1_lc_2_82->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_168->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_6->hotel_tile_1_lc_2_7
+hotel_tile_1_lc_2_63->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_156->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_179->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_7->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_141->hotel_tile_1_lc_2_142
+hotel_tile_1_lc_2_211->hotel_tile_1_lc_2_212
+hotel_tile_1_lc_2_88->hotel_tile_1_lc_2_89
+hotel_tile_1_lc_2_167->hotel_tile_1_lc_2_168
+hotel_tile_1_lc_2_205->hotel_tile_1_lc_2_206
+hotel_tile_1_lc_2_154->hotel_tile_1_lc_2_155
+hotel_tile_1_lc_2_203->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_147->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_1->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_28->hotel_tile_1_lc_2_29
+hotel_tile_1_lc_2_27->hotel_tile_1_lc_2_28
+hotel_tile_1_lc_2_24->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_164->hotel_tile_1_lc_2_165
+hotel_tile_1_lc_2_11->hotel_tile_1_lc_2_12
+hotel_tile_1_lc_2_106->hotel_tile_1_lc_2_107
+hotel_tile_1_lc_2_19->hotel_tile_1_lc_2_20
+hotel_tile_1_lc_2_159->hotel_tile_1_lc_2_160
+hotel_tile_1_lc_2_18->hotel_tile_1_lc_2_19
+hotel_tile_1_lc_2_160->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_186->hotel_tile_1_lc_2_187
+hotel_tile_1_lc_2_222->hotel_tile_1_lc_2_223
+hotel_tile_1_lc_2_52->hotel_tile_1_lc_2_53
+hotel_tile_1_lc_2_217->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_175->hotel_tile_1_lc_2_176
+hotel_tile_1_lc_2_132->hotel_tile_1_lc_2_133
+hotel_tile_1_lc_2_91->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_45->hotel_tile_1_lc_2_46
+hotel_tile_1_lc_2_46->hotel_tile_1_lc_2_47
+hotel_tile_1_lc_2_153->hotel_tile_1_lc_2_225
+hotel_industry_layout_graphics_switch->hotel_spritelayout_2
+hotel_tile_1_lc_2->hotel_tile_1_lc_2_0
+hotel_tile_1_lc_2_123->hotel_tile_1_lc_2_124
+hotel_tile_1_lc_2_44->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_104->hotel_tile_1_lc_2_105
+hotel_tile_1_lc_2_39->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_136->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_87->hotel_tile_1_lc_2_88
+hotel_tile_1_lc_2_86->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_223->hotel_tile_1_lc_2_224
+hotel_tile_1_lc_2_62->hotel_tile_1_lc_2_63
+hotel_tile_1_lc_2_174->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_15->hotel_tile_1_lc_2_16
+hotel_tile_1_lc_2_116->hotel_tile_1_lc_2_117
+hotel_tile_1_lc_2_188->hotel_tile_1_lc_2_189
+hotel_tile_1_lc_2_40->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_36->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_10->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_25->hotel_tile_1_lc_2_26
+hotel_tile_1_lc_2_17->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_190->hotel_tile_1_lc_2_191
+hotel_tile_1_lc_2_125->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_162->hotel_tile_1_lc_2_163
+hotel_tile_1_lc_2_93->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_18->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_8->hotel_tile_1_lc_2_9
+hotel_tile_1_lc_2_213->hotel_tile_1_lc_2_214
+hotel_tile_1_lc_2_19->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_130->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_138->hotel_tile_1_lc_2_139
+hotel_tile_1_lc_2_80->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_150->hotel_tile_1_lc_2_151
+hotel_tile_1_lc_2_33->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_5->hotel_tile_1_lc_2_6
+hotel_tile_1_lc_2_102->hotel_tile_1_lc_2_103
+hotel_tile_1_lc_2_67->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_34->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_149->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_156->hotel_tile_1_lc_2_157
+hotel_tile_1_lc_2_196->hotel_tile_1_lc_2_197
+hotel_tile_1_lc_2_41->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_94->hotel_tile_1_lc_2_95
+hotel_tile_1_lc_2_158->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_166->hotel_tile_1_lc_2_167
+hotel_tile_1_lc_2_114->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_169->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_95->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_0->hotel_tile_1_lc_1
+hotel_tile_1_lc_2_224->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_107->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_65->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_7->hotel_tile_1_lc_2_8
+hotel_tile_1_lc_2_217->hotel_tile_1_lc_2_218
+hotel_tile_1_lc_2_219->hotel_tile_1_lc_2_220
+hotel_tile_1_lc_2_220->hotel_tile_1_lc_2_221
+hotel_tile_1_lc_2_194->hotel_tile_1_lc_2_195
+hotel_tile_1_lc_2_9->hotel_tile_1_lc_2_10
+hotel_switch_graphics->hotel_store_temp_vars
+hotel_tile_1_lc_2_9->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_188->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_175->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_121->hotel_tile_1_lc_2_122
+hotel_tile_1_lc_2_169->hotel_tile_1_lc_2_170
+hotel_tile_1_lc_2_181->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_32->hotel_tile_1_lc_2_33
+hotel_tile_1_lc_2_52->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_150->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_16->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_28->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_78->hotel_tile_1_lc_2_79
+hotel_tile_1_lc_2_43->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_183->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_118->hotel_tile_1_lc_2_119
+hotel_tile_1_lc_2_160->hotel_tile_1_lc_2_161
+hotel_tile_1_lc_2_110->hotel_tile_1_lc_2_111
+hotel_tile_1_lc_2_201->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_110->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_153->hotel_tile_1_lc_2_154
+hotel_tile_1_lc_2_154->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_131->hotel_tile_1_lc_2_132
+hotel_tile_1_lc_2_183->hotel_tile_1_lc_2_184
+hotel_tile_1_lc_2_95->hotel_tile_1_lc_2_96
+hotel_tile_1_lc_2_189->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_29->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_77->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_172->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_17->hotel_tile_1_lc_2_18
+hotel_tile_1_lc_2_89->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_70->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_136->hotel_tile_1_lc_2_137
+hotel_tile_1_lc_2_81->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_199->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_139->hotel_tile_1_lc_2_140
+hotel_tile_1_lc_2_176->hotel_tile_1_lc_2_177
+hotel_tile_1_lc_2_176->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_97->hotel_tile_1_lc_2_98
+hotel_tile_1_lc_2_84->hotel_tile_1_lc_2_85
+hotel_tile_1_lc_2_21->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_129->hotel_tile_1_lc_2_130
+hotel_tile_1_lc_2_135->hotel_tile_1_lc_2_136
+hotel_tile_1_lc_2_112->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_215->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_40->hotel_tile_1_lc_2_41
+hotel_tile_1_lc_2_181->hotel_tile_1_lc_2_182
+hotel_tile_1_lc_2_33->hotel_tile_1_lc_2_34
+hotel_tile_1_lc_2_76->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_30->hotel_tile_1_lc_2_31
+hotel_tile_1_lc_2_39->hotel_tile_1_lc_2_40
+hotel_tile_1_lc_2_66->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_162->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_173->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_172->hotel_tile_1_lc_2_173
+hotel_tile_1_lc_2_113->hotel_tile_1_lc_2_114
+hotel_tile_1_lc_2_38->hotel_tile_1_lc_2_39
+hotel_tile_1_lc_2_111->hotel_tile_1_lc_2_112
+hotel_tile_1_lc_2_80->hotel_tile_1_lc_2_81
+hotel_tile_1_lc_2_92->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_127->hotel_tile_1_lc_2_128
+hotel_tile_1_lc_2_193->hotel_tile_1_lc_2_194
+hotel_tile_1_lc_2_12->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_24->hotel_tile_1_lc_2_25
+hotel_tile_1_lc_2_69->hotel_tile_1_lc_2_70
+hotel_tile_1_lc_2_132->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_13->hotel_tile_1_lc_2_14
+hotel_tile_1_lc_2_83->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_65->hotel_tile_1_lc_2_66
+hotel_industry_layout_graphics_switch->hotel_spritelayout_1
+hotel_tile_1_lc_2_79->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_25->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_106->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_143->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_107->hotel_tile_1_lc_2_108
+hotel_tile_1_lc_2_51->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_48->hotel_tile_1_lc_2_49
+hotel_tile_1_lc_2_134->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_187->hotel_tile_1_lc_2_188
+hotel_tile_1_lc_2_93->hotel_tile_1_lc_2_94
+hotel_tile_1_lc_2_98->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_68->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_142->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_23->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_56->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_16->hotel_tile_1_lc_2_17
+hotel_tile_1_lc_2_46->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_186->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_53->hotel_tile_1_lc_2_54
+hotel_tile_1_lc_2_2->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_84->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_128->hotel_tile_1_lc_2_129
+hotel_tile_1_lc_2_72->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_112->hotel_tile_1_lc_2_113
+hotel_tile_1_lc_2_171->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_197->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_3->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_100->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_42->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_208->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_42->hotel_tile_1_lc_2_43
+hotel_tile_1_lc_2_194->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_119->hotel_tile_1_lc_2_120
+hotel_tile_1_lc_2_206->hotel_tile_1_lc_2_207
+hotel_tile_1_lc_2_85->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_58->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_2->hotel_tile_1_lc_2_3
+hotel_tile_1_lc_2_126->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_221->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_114->hotel_tile_1_lc_2_115
+hotel_tile_1_lc_2_81->hotel_tile_1_lc_2_82
+hotel_tile_1_lc_2_161->hotel_tile_1_lc_2_162
+hotel_tile_1_lc_2_209->hotel_tile_1_lc_2_210
+hotel_tile_1_lc_2_55->hotel_tile_1_lc_2_56
+hotel_tile_1_lc_2_47->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_20->hotel_tile_1_lc_2_21
+hotel_tile_1_lc_2_13->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_200->hotel_tile_1_lc_2_201
+hotel_tile_1_lc_2_139->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_199->hotel_tile_1_lc_2_200
+hotel_tile_1_lc_2_27->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_37->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_71->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_20->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_210->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_165->hotel_tile_1_lc_2_166
+spritelayout_default_construction_states->spriteset_default_construction_states
+hotel_tile_1_lc_2_15->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_1->hotel_tile_1_lc_2_2
+hotel_tile_1_lc_2_170->hotel_tile_1_lc_2_171
+hotel_tile_1_lc_2_190->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_185->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_158->hotel_tile_1_lc_2_159
+hotel_tile_1_lc_2_198->hotel_tile_1_lc_2_199
+hotel_tile_1_lc_2_58->hotel_tile_1_lc_2_59
+hotel_tile_1_lc_2_120->hotel_tile_1_lc_2_121
+hotel_tile_1_lc_2_218->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_125->hotel_tile_1_lc_2_126
+hotel_tile_1_lc_2_195->hotel_tile_1_lc_2_196
+hotel_tile_1_lc_2_85->hotel_tile_1_lc_2_86
+hotel_tile_1_lc_2_48->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_146->hotel_tile_1_lc_2_147
+hotel_tile_1_lc_2_178->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_31->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_137->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_60->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_23->hotel_tile_1_lc_2_24
+hotel_tile_1_lc_2_208->hotel_tile_1_lc_2_209
+hotel_tile_1_lc_2_49->hotel_tile_1_lc_2_50
+hotel_tile_1_lc_2_117->hotel_tile_1_lc_2_118
+hotel_tile_1_lc_2_161->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_21->hotel_tile_1_lc_2_22
+hotel_tile_1_lc_2_62->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_89->hotel_tile_1_lc_2_90
+hotel_tile_1_lc_2_141->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_215->hotel_tile_1_lc_2_216
+hotel_tile_1_lc_2_53->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_35->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_90->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_11->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_212->hotel_tile_1_lc_2_213
+hotel_tile_1_lc_2_204->hotel_tile_1_lc_2_205
+hotel_tile_1_lc_2_223->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_10->hotel_tile_1_lc_2_11
+hotel_tile_1_lc_2_165->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_119->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_135->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_151->hotel_tile_1_lc_2_152
+hotel_tile_1_lc_2_68->hotel_tile_1_lc_2_69
+hotel_tile_1_lc_2_123->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_163->hotel_tile_1_lc_2_164
+hotel_tile_1_lc_2_140->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_5->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_12->hotel_tile_1_lc_2_13
+hotel_tile_1_lc_2_131->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_151->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_127->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_96->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_216->hotel_tile_1_lc_2_217
+hotel_tile_1_lc_2_189->hotel_tile_1_lc_2_190
+hotel_tile_1_lc_2_63->hotel_tile_1_lc_2_64
+hotel_tile_1_lc_2_64->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_108->hotel_tile_1_lc_2_109
+hotel_tile_1_lc_2_182->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_50->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_180->hotel_tile_1_lc_2_181
+hotel_tile_1_lc_2_77->hotel_tile_1_lc_2_78
+hotel_tile_1_lc_2_207->hotel_tile_1_lc_2_208
+hotel_tile_1_lc_2_221->hotel_tile_1_lc_2_222
+hotel_tile_1_lc_2_155->hotel_tile_1_lc_2_156
+hotel_tile_1_lc_2_98->hotel_tile_1_lc_2_99
+hotel_tile_1_lc_2_148->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_105->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_43->hotel_tile_1_lc_2_44
+hotel_tile_1_lc_2_109->hotel_tile_1_lc_2_110
+hotel_tile_1_lc_2_74->hotel_tile_1_lc_2_75
+hotel_tile_1_lc_2_55->hotel_tile_1_lc_2_225
+hotel_tile_1->hotel_switch_graphics
+hotel_tile_1_lc_2_47->hotel_tile_1_lc_2_48
+hotel_tile_1_lc_2_70->hotel_tile_1_lc_2_71
+hotel_tile_1_lc_2_97->hotel_tile_1_lc_2_225
+hotel_tile_1_lc_2_59->hotel_tile_1_lc_2_225
+}

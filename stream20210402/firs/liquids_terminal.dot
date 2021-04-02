@@ -1,0 +1,106 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+liquids_terminal_extra_text [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_extra_text"]
+liquids_terminal_cargo_subtype_display_cargo_EOIL_economy_3 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_cargo_subtype_display_cargo_EOIL_economy_3"]
+liquids_terminal_cargo_subtype_display_cargo_OIL__economy_3 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_cargo_subtype_display_cargo_OIL__economy_3"]
+liquids_terminal_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_cargo_subtype_display_switch_cargo_economy_3"]
+liquids_terminal_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_cargo_subtype_display_switch_economy"]
+liquids_terminal_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_cargo_subtype_display"]
+liquids_terminal_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_monthly_prod_change"]
+liquids_terminal_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_clear_incoming_cargo_waiting_0"]
+liquids_terminal_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_store_incoming_cargo_waiting_0"]
+liquids_terminal_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_clear_incoming_cargo_waiting_1"]
+liquids_terminal_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_store_incoming_cargo_waiting_1"]
+liquids_terminal_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_clear_incoming_cargo_waiting_4"]
+liquids_terminal_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_store_incoming_cargo_waiting_4"]
+liquids_terminal_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_clear_incoming_cargo_waiting_5"]
+liquids_terminal_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_store_incoming_cargo_waiting_5"]
+liquids_terminal_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_clear_incoming_cargo_waiting_3"]
+liquids_terminal_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_store_incoming_cargo_waiting_3"]
+liquids_terminal_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_produce_cargo_arrival"]
+liquids_terminal_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_production_256_economy_0"]
+liquids_terminal_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_production_256_economy_1"]
+liquids_terminal_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_production_256_economy_4"]
+liquids_terminal_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_production_256_economy_5"]
+liquids_terminal_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nliquids_terminal_production_256_economy_3"]
+liquids_terminal_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_produce_256_ticks_switch_economy"]
+liquids_terminal_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_produce_256_ticks"]
+liquids_terminal_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability_param"]
+liquids_terminal_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_map_gen"]
+liquids_terminal_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_available_game_mode"]
+liquids_terminal_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability_0"]
+liquids_terminal_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability_1"]
+liquids_terminal_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability_4"]
+liquids_terminal_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability_5"]
+liquids_terminal_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability_3"]
+liquids_terminal_check_availability [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_availability"]
+liquids_terminal_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_69"]
+liquids_terminal_min_distance_15 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_15"]
+liquids_terminal_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_56"]
+liquids_terminal_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_41"]
+liquids_terminal_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_22"]
+liquids_terminal_min_distance_67 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_67"]
+liquids_terminal_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_39"]
+liquids_terminal_min_distance_16 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_16"]
+liquids_terminal_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_43"]
+liquids_terminal_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_60"]
+liquids_terminal_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_9"]
+liquids_terminal_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_min_distance_74"]
+liquids_terminal_check_location [fillcolor=yellow style="filled" label="<switch>\nliquids_terminal_check_location"]
+liquids_terminal [fillcolor=red style="filled" label="FEAT_INDUSTRIES <74>\nliquids_terminal"]
+liquids_terminal_check_availability->liquids_terminal_check_availability_1
+liquids_terminal_produce_256_ticks->liquids_terminal_produce_256_ticks_switch_economy
+liquids_terminal->liquids_terminal_produce_cargo_arrival
+liquids_terminal_produce_cargo_arrival->liquids_terminal_store_incoming_cargo_waiting_5
+liquids_terminal_check_availability->liquids_terminal_check_availability_5
+liquids_terminal->liquids_terminal_check_availability
+liquids_terminal_store_incoming_cargo_waiting_0->liquids_terminal_clear_incoming_cargo_waiting_0
+liquids_terminal_produce_cargo_arrival->liquids_terminal_store_incoming_cargo_waiting_0
+liquids_terminal_produce_cargo_arrival->liquids_terminal_store_incoming_cargo_waiting_4
+liquids_terminal->liquids_terminal_check_location
+liquids_terminal_min_distance_15->liquids_terminal_min_distance_69
+liquids_terminal_cargo_subtype_display->liquids_terminal_cargo_subtype_display_switch_economy
+liquids_terminal_check_map_gen->liquids_terminal_check_availability_param
+liquids_terminal_store_incoming_cargo_waiting_4->liquids_terminal_clear_incoming_cargo_waiting_4
+liquids_terminal_produce_cargo_arrival->liquids_terminal_store_incoming_cargo_waiting_1
+liquids_terminal_check_availability_1->liquids_terminal_available_game_mode
+liquids_terminal_min_distance_41->liquids_terminal_min_distance_56
+liquids_terminal_min_distance_43->liquids_terminal_min_distance_16
+liquids_terminal->switch_colour
+liquids_terminal_min_distance_74->liquids_terminal_min_distance_9
+liquids_terminal_min_distance_67->liquids_terminal_min_distance_22
+liquids_terminal_check_availability_5->liquids_terminal_available_game_mode
+liquids_terminal_produce_256_ticks_switch_economy->liquids_terminal_production_256_economy_5
+liquids_terminal_store_incoming_cargo_waiting_1->liquids_terminal_clear_incoming_cargo_waiting_1
+liquids_terminal_min_distance_39->liquids_terminal_min_distance_67
+liquids_terminal_produce_256_ticks_switch_economy->liquids_terminal_production_256_economy_1
+liquids_terminal_check_availability->liquids_terminal_check_availability_0
+liquids_terminal_cargo_subtype_display_switch_cargo_economy_3->liquids_terminal_cargo_subtype_display_cargo_OIL__economy_3
+liquids_terminal_cargo_subtype_display_switch_cargo_economy_3->liquids_terminal_cargo_subtype_display_cargo_EOIL_economy_3
+liquids_terminal_min_distance_9->liquids_terminal_min_distance_60
+liquids_terminal_cargo_subtype_display_switch_economy->liquids_terminal_cargo_subtype_display_switch_cargo_economy_3
+liquids_terminal_min_distance_22->liquids_terminal_min_distance_41
+liquids_terminal_store_incoming_cargo_waiting_5->liquids_terminal_clear_incoming_cargo_waiting_5
+liquids_terminal_produce_256_ticks_switch_economy->liquids_terminal_production_256_economy_0
+liquids_terminal_check_location->liquids_terminal_min_distance_74
+liquids_terminal_produce_256_ticks_switch_economy->liquids_terminal_production_256_economy_4
+liquids_terminal_check_availability_0->liquids_terminal_available_game_mode
+liquids_terminal->liquids_terminal_monthly_prod_change
+liquids_terminal_produce_256_ticks_switch_economy->liquids_terminal_production_256_economy_3
+liquids_terminal_check_availability->liquids_terminal_check_availability_3
+liquids_terminal_check_availability->liquids_terminal_check_availability_4
+liquids_terminal->liquids_terminal_produce_256_ticks
+liquids_terminal->liquids_terminal_extra_text
+liquids_terminal->randomise_primary_production_on_build
+liquids_terminal_check_availability_3->liquids_terminal_available_game_mode
+liquids_terminal_min_distance_16->liquids_terminal_min_distance_39
+liquids_terminal_min_distance_60->liquids_terminal_min_distance_43
+liquids_terminal_min_distance_56->liquids_terminal_min_distance_15
+liquids_terminal_available_game_mode->liquids_terminal_check_map_gen
+liquids_terminal_check_availability_4->liquids_terminal_available_game_mode
+liquids_terminal->liquids_terminal_cargo_subtype_display
+liquids_terminal_store_incoming_cargo_waiting_3->liquids_terminal_clear_incoming_cargo_waiting_3
+liquids_terminal_produce_cargo_arrival->liquids_terminal_store_incoming_cargo_waiting_3
+}

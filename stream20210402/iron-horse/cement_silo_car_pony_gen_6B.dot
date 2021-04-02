@@ -1,0 +1,36 @@
+digraph {
+rankdir="BT"
+ss_tail_light_24px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_24px_unflipped"]
+ss_tail_light_24px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_24px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_24px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_24px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+cement_silo_car_pony_gen_6B_ss_0_unflipped [fillcolor=green style="filled" label="<spriteset>\ncement_silo_car_pony_gen_6B_ss_0_unflipped"]
+cement_silo_car_pony_gen_6B_ss_0_flipped [fillcolor=green style="filled" label="<spriteset>\ncement_silo_car_pony_gen_6B_ss_0_flipped"]
+cement_silo_car_pony_gen_6B_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\ncement_silo_car_pony_gen_6B_switch_graphics_vehicle"]
+cement_silo_car_pony_gen_6B_ss_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ncement_silo_car_pony_gen_6B_ss_purchase_0"]
+cement_silo_car_pony_gen_6B_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ncement_silo_car_pony_gen_6B_switch_set_layers_register_more_sprites"]
+cement_silo_car_pony_gen_6B_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ncement_silo_car_pony_gen_6B_switch_graphics"]
+cement_silo_car_pony_gen_6B_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\ncement_silo_car_pony_gen_6B_switch_cargo_capacity"]
+cement_silo_car_pony_gen_6B [fillcolor=red style="filled" label="<FEAT_TRAINS 2070>\ncement_silo_car_pony_gen_6B"]
+cement_silo_car_pony_gen_6B->cement_silo_car_pony_gen_6B_ss_purchase_0
+cement_silo_car_pony_gen_6B_switch_cargo_capacity->switch_cargo_capacity
+switch_graphics_layer_tail_light_24px->ss_tail_light_empty_unflipped
+cement_silo_car_pony_gen_6B->cement_silo_car_pony_gen_6B_switch_graphics
+cement_silo_car_pony_gen_6B_switch_set_layers_register_more_sprites->cement_silo_car_pony_gen_6B_switch_graphics_vehicle
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+cement_silo_car_pony_gen_6B_switch_graphics->switch_graphics_layer_tail_light_24px
+switch_graphics_layer_tail_light_24px->ss_tail_light_24px_unflipped
+switch_graphics_layer_tail_light_24px->ss_tail_light_24px_flipped
+cement_silo_car_pony_gen_6B_switch_graphics_vehicle->cement_silo_car_pony_gen_6B_ss_0_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+cement_silo_car_pony_gen_6B_switch_graphics->cement_silo_car_pony_gen_6B_switch_set_layers_register_more_sprites
+cement_silo_car_pony_gen_6B_switch_graphics_vehicle->cement_silo_car_pony_gen_6B_ss_0_flipped
+cement_silo_car_pony_gen_6B->cement_silo_car_pony_gen_6B_switch_cargo_capacity
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+}

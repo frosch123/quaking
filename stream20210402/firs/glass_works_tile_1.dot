@@ -1,0 +1,83 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_cobble_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_cobble_1"]
+glass_works_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_1_0"]
+glass_works_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_1_0_snow"]
+glass_works_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_2_0"]
+glass_works_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_2_0_snow"]
+glass_works_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_3_0"]
+glass_works_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_3_0_snow"]
+glass_works_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_4_0"]
+glass_works_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_4_0_snow"]
+glass_works_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_5_0"]
+glass_works_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_5_0_snow"]
+glass_works_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_6_0"]
+glass_works_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_6_0_snow"]
+glass_works_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_7_0"]
+glass_works_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_7_0_snow"]
+glass_works_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_8_0"]
+glass_works_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nglass_works_spriteset_8_0_snow"]
+glass_works_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nglass_works_spritelayout_1"]
+glass_works_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nglass_works_spritelayout_2"]
+glass_works_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nglass_works_spritelayout_3"]
+glass_works_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nglass_works_spritelayout_4"]
+glass_works_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nglass_works_industry_layout_1_graphics_switch"]
+glass_works_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nglass_works_industry_layout_2_graphics_switch"]
+glass_works_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nglass_works_industry_layout_3_graphics_switch"]
+glass_works_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nglass_works_industry_graphics_switch_layouts"]
+glass_works_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nglass_works_industry_construction_state_graphics_switch"]
+glass_works_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nglass_works_store_temp_vars"]
+glass_works_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nglass_works_switch_graphics"]
+glass_works_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nglass_works_tile_1_lc_2"]
+glass_works_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nglass_works_tile_1_lc_1"]
+glass_works_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nglass_works_tile_1_lc_0"]
+glass_works_tile_1_anim_control [fillcolor=yellow style="filled" label="<switch>\nglass_works_tile_1_anim_control"]
+glass_works_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <178>\nglass_works_tile_1"]
+glass_works_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+glass_works_spritelayout_2->glass_works_spriteset_6_0
+glass_works_industry_graphics_switch_layouts->glass_works_industry_layout_1_graphics_switch
+glass_works_industry_layout_3_graphics_switch->glass_works_spritelayout_2
+glass_works_tile_1_lc_1->glass_works_tile_1_lc_2
+glass_works_tile_1_lc_0->glass_works_tile_1_lc_1
+glass_works_tile_1->glass_works_tile_1_anim_control
+glass_works_industry_layout_1_graphics_switch->glass_works_spritelayout_2
+glass_works_spritelayout_2->glass_works_spriteset_2_0_snow
+glass_works_industry_layout_2_graphics_switch->glass_works_spritelayout_2
+glass_works_spritelayout_3->glass_works_spriteset_3_0_snow
+glass_works_spritelayout_4->glass_works_spriteset_4_0_snow
+glass_works_spritelayout_1->glass_works_spriteset_1_0
+glass_works_industry_layout_1_graphics_switch->glass_works_spritelayout_4
+glass_works_spritelayout_4->glass_works_spriteset_4_0
+glass_works_spritelayout_2->spriteset_ground_tile_cobble_1
+glass_works_switch_graphics->glass_works_store_temp_vars
+glass_works_industry_layout_2_graphics_switch->glass_works_spritelayout_1
+glass_works_spritelayout_3->spriteset_ground_tile_cobble_1
+glass_works_tile_1->glass_works_switch_graphics
+glass_works_spritelayout_3->glass_works_spriteset_3_0
+glass_works_industry_layout_1_graphics_switch->glass_works_spritelayout_1
+glass_works_industry_graphics_switch_layouts->glass_works_industry_layout_3_graphics_switch
+glass_works_industry_layout_2_graphics_switch->glass_works_spritelayout_3
+glass_works_spritelayout_2->glass_works_spriteset_2_0
+glass_works_spritelayout_1->glass_works_spriteset_5_0
+glass_works_industry_graphics_switch_layouts->glass_works_industry_layout_2_graphics_switch
+glass_works_industry_layout_1_graphics_switch->glass_works_spritelayout_3
+glass_works_spritelayout_1->glass_works_spriteset_5_0_snow
+glass_works_industry_construction_state_graphics_switch->glass_works_industry_graphics_switch_layouts
+glass_works_industry_layout_3_graphics_switch->glass_works_spritelayout_4
+glass_works_spritelayout_3->glass_works_spriteset_7_0
+glass_works_tile_1->glass_works_tile_1_lc_0
+glass_works_spritelayout_2->glass_works_spriteset_8_0_snow
+glass_works_spritelayout_4->spriteset_ground_tile_cobble_1
+spritelayout_default_construction_states->spriteset_default_construction_states
+glass_works_industry_layout_3_graphics_switch->glass_works_spritelayout_1
+glass_works_spritelayout_2->glass_works_spriteset_8_0
+glass_works_store_temp_vars->glass_works_industry_construction_state_graphics_switch
+glass_works_spritelayout_2->glass_works_spriteset_6_0_snow
+glass_works_spritelayout_3->glass_works_spriteset_7_0_snow
+glass_works_industry_layout_2_graphics_switch->glass_works_spritelayout_4
+glass_works_industry_layout_3_graphics_switch->glass_works_spritelayout_3
+glass_works_spritelayout_1->spriteset_ground_tile_cobble_1
+glass_works_spritelayout_1->glass_works_spriteset_1_0_snow
+}

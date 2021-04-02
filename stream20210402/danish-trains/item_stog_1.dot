@@ -1,0 +1,67 @@
+digraph {
+rankdir="BT"
+sw_cc_red_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red_red"]
+spriteset_stog_1_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_headlights"]
+spriteset_stog_1_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_marker_lights"]
+spriteset_stog_1_mm [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_mm"]
+spriteset_stog_1_mm_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_mm_reversed"]
+spriteset_stog_1_fs [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_fs"]
+spriteset_stog_1_fs_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_fs_reversed"]
+spriteset_stog_1_fm [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_fm"]
+spriteset_stog_1_fm_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_stog_1_fm_reversed"]
+sw_stog_1_mm_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_mm_with_headlights"]
+sw_stog_1_mm_position [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_mm_position"]
+sw_stog_1_mm_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_mm_with_marker_lights"]
+sw_stog_1_mm_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_mm_reversed_position"]
+sw_stog_1_fs_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_fs_with_headlights"]
+sw_stog_1_fs_position [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_fs_position"]
+sw_stog_1_fs_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_fs_with_marker_lights"]
+sw_stog_1_fs_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_fs_reversed_position"]
+sw_stog_1_reverser_0a [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_reverser_0a"]
+sw_stog_1_reverser_1a [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_reverser_1a"]
+sw_stog_1_reverser_1b [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_reverser_1b"]
+sw_stog_1_reverser_2b [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_reverser_2b"]
+sw_stog_1_graphics_a [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_graphics_a"]
+sw_stog_1_graphics_b [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_graphics_b"]
+sw_stog_1_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_graphics"]
+sw_stog_1_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_articulated_part"]
+sw_stog_1_visual_effect_and_powered [fillcolor=yellow style="filled" label="<switch>\nsw_stog_1_visual_effect_and_powered"]
+item_stog_1 [fillcolor=red style="filled" label="<FEAT_TRAINS 13>\nitem_stog_1"]
+sw_stog_1_reverser_2b->spriteset_stog_1_fm_reversed
+sw_stog_1_fs_with_marker_lights->spriteset_stog_1_marker_lights
+sw_stog_1_graphics_b->sw_stog_1_mm_position
+item_stog_1->sw_cc_red_red
+sw_stog_1_reverser_1a->sw_stog_1_fs_reversed_position
+sw_stog_1_mm_position->spriteset_stog_1_mm
+sw_stog_1_reverser_1b->spriteset_stog_1_fm
+sw_stog_1_fs_with_marker_lights->spriteset_stog_1_fs_reversed
+sw_stog_1_mm_with_headlights->spriteset_stog_1_mm
+item_stog_1->spriteset_stog_1_mm
+sw_stog_1_graphics_b->sw_stog_1_reverser_1b
+sw_stog_1_reverser_0a->sw_stog_1_fs_position
+sw_stog_1_reverser_1a->sw_stog_1_mm_reversed_position
+sw_stog_1_reverser_1b->spriteset_stog_1_fm_reversed
+sw_stog_1_graphics_a->sw_stog_1_reverser_0a
+sw_stog_1_reverser_2b->spriteset_stog_1_fm
+sw_stog_1_fs_reversed_position->sw_stog_1_fs_with_marker_lights
+sw_stog_1_reverser_0a->sw_stog_1_mm_position
+sw_stog_1_graphics_b->sw_stog_1_mm_reversed_position
+item_stog_1->sw_stog_1_graphics
+item_stog_1->sw_stog_1_visual_effect_and_powered
+sw_stog_1_mm_reversed_position->spriteset_stog_1_mm_reversed
+sw_stog_1_fs_position->sw_stog_1_fs_with_headlights
+item_stog_1->sw_stog_1_articulated_part
+sw_stog_1_fs_with_headlights->spriteset_stog_1_headlights
+sw_stog_1_graphics_a->sw_stog_1_reverser_1a
+sw_stog_1_mm_with_marker_lights->spriteset_stog_1_marker_lights
+sw_stog_1_mm_reversed_position->sw_stog_1_mm_with_marker_lights
+sw_stog_1_mm_with_headlights->spriteset_stog_1_headlights
+sw_stog_1_fs_with_headlights->spriteset_stog_1_fs
+sw_stog_1_mm_with_marker_lights->spriteset_stog_1_mm_reversed
+sw_stog_1_graphics->sw_stog_1_graphics_a
+sw_stog_1_graphics->sw_stog_1_graphics_b
+sw_stog_1_graphics_b->sw_stog_1_reverser_2b
+sw_stog_1_fs_reversed_position->spriteset_stog_1_fs_reversed
+sw_stog_1_mm_position->sw_stog_1_mm_with_headlights
+sw_stog_1_fs_position->spriteset_stog_1_fs
+}

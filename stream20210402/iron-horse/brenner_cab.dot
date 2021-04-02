@@ -1,0 +1,44 @@
+digraph {
+rankdir="BT"
+ss_tail_light_very_high_speed_32px_2_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_very_high_speed_32px_2_unflipped"]
+ss_tail_light_very_high_speed_32px_2_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_very_high_speed_32px_2_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_very_high_speed_32px_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_very_high_speed_32px_2"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+brenner_cab_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nbrenner_cab_ss_unreversed_unflipped_0"]
+brenner_cab_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nbrenner_cab_ss_unreversed_flipped_0"]
+brenner_cab_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_graphics_unreversed"]
+brenner_cab_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nbrenner_cab_ss_vehicle_purchase_0"]
+brenner_cab_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_set_layers_register_more_sprites"]
+brenner_cab_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_graphics"]
+brenner_cab_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_colour_mapping"]
+brenner_cab_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_cargo_capacity"]
+brenner_cab_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_create_effect_default_unreversed"]
+brenner_cab_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_buy_menu_text_result"]
+brenner_cab_switch_buy_menu_text [fillcolor=yellow style="filled" label="<switch>\nbrenner_cab_switch_buy_menu_text"]
+brenner_cab [fillcolor=red style="filled" label="<FEAT_TRAINS 130>\nbrenner_cab"]
+brenner_cab_switch_graphics_unreversed->brenner_cab_ss_unreversed_unflipped_0
+brenner_cab_switch_cargo_capacity->switch_cargo_capacity
+switch_graphics_layer_tail_light_very_high_speed_32px_2->ss_tail_light_very_high_speed_32px_2_flipped
+switch_graphics_layer_tail_light_very_high_speed_32px_2->ss_tail_light_very_high_speed_32px_2_unflipped
+brenner_cab->brenner_cab_switch_cargo_capacity
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+switch_graphics_layer_tail_light_very_high_speed_32px_2->ss_tail_light_empty_unflipped
+brenner_cab_switch_set_layers_register_more_sprites->brenner_cab_switch_graphics_unreversed
+brenner_cab->brenner_cab_switch_colour_mapping
+brenner_cab_switch_graphics_unreversed->brenner_cab_ss_unreversed_flipped_0
+brenner_cab_switch_graphics->switch_graphics_layer_tail_light_very_high_speed_32px_2
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+brenner_cab->brenner_cab_switch_graphics
+brenner_cab->brenner_cab_switch_buy_menu_text
+brenner_cab->brenner_cab_switch_create_effect_default_unreversed
+brenner_cab_switch_buy_menu_text->brenner_cab_switch_buy_menu_text_result
+brenner_cab_switch_graphics->brenner_cab_switch_set_layers_register_more_sprites
+brenner_cab->brenner_cab_ss_vehicle_purchase_0
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+}

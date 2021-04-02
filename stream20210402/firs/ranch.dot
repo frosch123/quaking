@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+ranch_extra_text [fillcolor=yellow style="filled" label="<switch>\nranch_extra_text"]
+ranch_cargo_subtype_display_cargo_FMSP_economy_4 [fillcolor=yellow style="filled" label="<switch>\nranch_cargo_subtype_display_cargo_FMSP_economy_4"]
+ranch_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nranch_cargo_subtype_display_switch_cargo_economy_4"]
+ranch_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nranch_cargo_subtype_display_switch_economy"]
+ranch_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nranch_cargo_subtype_display"]
+ranch_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nranch_monthly_prod_change"]
+ranch_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nranch_clear_incoming_cargo_waiting_0"]
+ranch_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nranch_store_incoming_cargo_waiting_0"]
+ranch_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nranch_clear_incoming_cargo_waiting_1"]
+ranch_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nranch_store_incoming_cargo_waiting_1"]
+ranch_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nranch_clear_incoming_cargo_waiting_4"]
+ranch_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nranch_store_incoming_cargo_waiting_4"]
+ranch_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nranch_clear_incoming_cargo_waiting_5"]
+ranch_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nranch_store_incoming_cargo_waiting_5"]
+ranch_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nranch_clear_incoming_cargo_waiting_3"]
+ranch_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nranch_store_incoming_cargo_waiting_3"]
+ranch_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nranch_produce_cargo_arrival"]
+ranch_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nranch_production_256_economy_0"]
+ranch_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nranch_production_256_economy_1"]
+ranch_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nranch_production_256_economy_4"]
+ranch_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nranch_production_256_economy_5"]
+ranch_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nranch_production_256_economy_3"]
+ranch_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nranch_produce_256_ticks_switch_economy"]
+ranch_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nranch_produce_256_ticks"]
+ranch_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability_param"]
+ranch_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nranch_check_map_gen"]
+ranch_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nranch_available_game_mode"]
+ranch_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability_0"]
+ranch_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability_1"]
+ranch_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability_4"]
+ranch_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability_5"]
+ranch_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability_3"]
+ranch_check_availability [fillcolor=yellow style="filled" label="<switch>\nranch_check_availability"]
+ranch_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\nranch_min_distance_37"]
+ranch_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nranch_min_distance_39"]
+ranch_min_distance_48 [fillcolor=yellow style="filled" label="<switch>\nranch_min_distance_48"]
+ranch_cluster_ranch [fillcolor=yellow style="filled" label="<switch>\nranch_cluster_ranch"]
+ranch_check_location [fillcolor=yellow style="filled" label="<switch>\nranch_check_location"]
+ranch [fillcolor=red style="filled" label="FEAT_INDUSTRIES <48>\nranch"]
+ranch_check_availability_3->ranch_available_game_mode
+ranch_produce_256_ticks_switch_economy->ranch_production_256_economy_1
+ranch_check_availability_4->ranch_available_game_mode
+ranch_check_availability->ranch_check_availability_3
+ranch_check_availability_5->ranch_available_game_mode
+ranch_min_distance_48->ranch_min_distance_39
+ranch_check_availability->ranch_check_availability_4
+ranch->ranch_check_location
+ranch_produce_cargo_arrival->ranch_store_incoming_cargo_waiting_0
+ranch_check_availability->ranch_check_availability_0
+ranch_check_availability_0->ranch_available_game_mode
+ranch_store_incoming_cargo_waiting_4->ranch_clear_incoming_cargo_waiting_4
+ranch->switch_colour
+ranch_check_map_gen->ranch_check_availability_param
+ranch->ranch_monthly_prod_change
+ranch_produce_cargo_arrival->ranch_store_incoming_cargo_waiting_5
+ranch_min_distance_39->ranch_min_distance_37
+ranch_check_availability->ranch_check_availability_5
+ranch_store_incoming_cargo_waiting_3->ranch_clear_incoming_cargo_waiting_3
+ranch->randomise_primary_production_on_build
+ranch_produce_cargo_arrival->ranch_store_incoming_cargo_waiting_4
+ranch->ranch_produce_256_ticks
+ranch_store_incoming_cargo_waiting_5->ranch_clear_incoming_cargo_waiting_5
+ranch_check_location->ranch_cluster_ranch
+ranch->ranch_check_availability
+ranch_produce_256_ticks_switch_economy->ranch_production_256_economy_4
+ranch_produce_cargo_arrival->ranch_store_incoming_cargo_waiting_3
+ranch_available_game_mode->ranch_check_map_gen
+ranch_produce_256_ticks_switch_economy->ranch_production_256_economy_3
+ranch_cargo_subtype_display_switch_economy->ranch_cargo_subtype_display_switch_cargo_economy_4
+ranch_produce_256_ticks->ranch_produce_256_ticks_switch_economy
+ranch_store_incoming_cargo_waiting_0->ranch_clear_incoming_cargo_waiting_0
+ranch_produce_cargo_arrival->ranch_store_incoming_cargo_waiting_1
+ranch->ranch_produce_cargo_arrival
+ranch->ranch_extra_text
+ranch_cluster_ranch->ranch_min_distance_48
+ranch->ranch_cargo_subtype_display
+ranch_check_availability_1->ranch_available_game_mode
+ranch_cargo_subtype_display->ranch_cargo_subtype_display_switch_economy
+ranch_check_availability->ranch_check_availability_1
+ranch_cargo_subtype_display_switch_cargo_economy_4->ranch_cargo_subtype_display_cargo_FMSP_economy_4
+ranch_produce_256_ticks_switch_economy->ranch_production_256_economy_5
+ranch_store_incoming_cargo_waiting_1->ranch_clear_incoming_cargo_waiting_1
+ranch_produce_256_ticks_switch_economy->ranch_production_256_economy_0
+}

@@ -1,0 +1,26 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+esk_1_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nesk_1_ss_unreversed_unflipped_0"]
+esk_1_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nesk_1_ss_unreversed_flipped_0"]
+esk_1_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nesk_1_switch_graphics_unreversed"]
+esk_1_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nesk_1_ss_vehicle_purchase_0"]
+esk_1_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nesk_1_switch_set_layers_register_more_sprites"]
+esk_1_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nesk_1_switch_graphics"]
+esk_1_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nesk_1_switch_colour_mapping"]
+esk_1_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nesk_1_switch_create_effect_default_unreversed"]
+esk_1 [fillcolor=red style="filled" label="<FEAT_TRAINS 4051>\nesk_1"]
+esk_1_switch_graphics_unreversed->esk_1_ss_unreversed_unflipped_0
+esk_1->esk_1_ss_vehicle_purchase_0
+esk_1->esk_1_switch_create_effect_default_unreversed
+esk_1->esk_1_switch_colour_mapping
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+esk_1_switch_graphics_unreversed->esk_1_ss_unreversed_flipped_0
+esk_1_switch_graphics->switch_graphics_layer_tail_light_empty
+esk_1_switch_graphics->esk_1_switch_set_layers_register_more_sprites
+esk_1->esk_1_switch_graphics
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+esk_1_switch_set_layers_register_more_sprites->esk_1_switch_graphics_unreversed
+}

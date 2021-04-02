@@ -1,0 +1,48 @@
+digraph {
+rankdir="BT"
+ss_tail_light_32px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_32px_unflipped"]
+ss_tail_light_32px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_32px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_32px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_32px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+cryo_tank_car_pony_gen_4C_ss_0_unflipped [fillcolor=green style="filled" label="<spriteset>\ncryo_tank_car_pony_gen_4C_ss_0_unflipped"]
+cryo_tank_car_pony_gen_4C_ss_1_unflipped [fillcolor=green style="filled" label="<spriteset>\ncryo_tank_car_pony_gen_4C_ss_1_unflipped"]
+cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_unflipped [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_unflipped"]
+cryo_tank_car_pony_gen_4C_ss_0_flipped [fillcolor=green style="filled" label="<spriteset>\ncryo_tank_car_pony_gen_4C_ss_0_flipped"]
+cryo_tank_car_pony_gen_4C_ss_1_flipped [fillcolor=green style="filled" label="<spriteset>\ncryo_tank_car_pony_gen_4C_ss_1_flipped"]
+cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_flipped [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_flipped"]
+cryo_tank_car_pony_gen_4C_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_graphics_vehicle"]
+cryo_tank_car_pony_gen_4C_ss_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ncryo_tank_car_pony_gen_4C_ss_purchase_0"]
+cryo_tank_car_pony_gen_4C_ss_purchase_1 [fillcolor=green style="filled" label="<spriteset>\ncryo_tank_car_pony_gen_4C_ss_purchase_1"]
+cryo_tank_car_pony_gen_4C_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_set_layers_register_more_sprites"]
+cryo_tank_car_pony_gen_4C_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_graphics"]
+cryo_tank_car_pony_gen_4C_switch_graphics_purchase [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_graphics_purchase"]
+cryo_tank_car_pony_gen_4C_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\ncryo_tank_car_pony_gen_4C_switch_cargo_capacity"]
+cryo_tank_car_pony_gen_4C [fillcolor=red style="filled" label="<FEAT_TRAINS 60>\ncryo_tank_car_pony_gen_4C"]
+cryo_tank_car_pony_gen_4C_switch_graphics_vehicle->cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_unflipped
+cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_flipped->cryo_tank_car_pony_gen_4C_ss_0_flipped
+cryo_tank_car_pony_gen_4C_switch_graphics->switch_graphics_layer_tail_light_32px
+cryo_tank_car_pony_gen_4C_switch_graphics_vehicle->cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_flipped
+cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_unflipped->cryo_tank_car_pony_gen_4C_ss_0_unflipped
+cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_flipped->cryo_tank_car_pony_gen_4C_ss_1_flipped
+cryo_tank_car_pony_gen_4C_switch_graphics_purchase->cryo_tank_car_pony_gen_4C_ss_purchase_0
+switch_graphics_layer_tail_light_32px->ss_tail_light_32px_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+switch_graphics_layer_tail_light_32px->ss_tail_light_empty_unflipped
+cryo_tank_car_pony_gen_4C_switch_graphics->cryo_tank_car_pony_gen_4C_switch_set_layers_register_more_sprites
+cryo_tank_car_pony_gen_4C->cryo_tank_car_pony_gen_4C_switch_graphics
+cryo_tank_car_pony_gen_4C_switch_graphics_purchase->cryo_tank_car_pony_gen_4C_ss_purchase_1
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+cryo_tank_car_pony_gen_4C_switch_cargo_capacity->switch_cargo_capacity
+cryo_tank_car_pony_gen_4C->cryo_tank_car_pony_gen_4C_switch_graphics_purchase
+cryo_tank_car_pony_gen_4C_switch_set_layers_register_more_sprites->cryo_tank_car_pony_gen_4C_switch_graphics_vehicle
+cryo_tank_car_pony_gen_4C_switch_graphics_cargo_type_unflipped->cryo_tank_car_pony_gen_4C_ss_1_unflipped
+switch_graphics_layer_tail_light_32px->ss_tail_light_32px_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+cryo_tank_car_pony_gen_4C->cryo_tank_car_pony_gen_4C_switch_cargo_capacity
+}

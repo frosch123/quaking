@@ -1,0 +1,29 @@
+digraph {
+rankdir="BT"
+sw_cc_red_cream [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red_cream"]
+sw_cc_dark_blue_yellow [fillcolor=yellow style="filled" label="<switch>\nsw_cc_dark_blue_yellow"]
+spriteset_my_ii_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_my_ii_1"]
+spriteset_my_ii_2 [fillcolor=green style="filled" label="<spriteset>\nspriteset_my_ii_2"]
+spriteset_my_ii_3 [fillcolor=green style="filled" label="<spriteset>\nspriteset_my_ii_3"]
+spriteset_my_ii_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_my_ii_headlights"]
+sw_my_ii_livery [fillcolor=yellow style="filled" label="<switch>\nsw_my_ii_livery"]
+sw_my_ii_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_my_ii_with_headlights"]
+sw_my_ii_position [fillcolor=yellow style="filled" label="<switch>\nsw_my_ii_position"]
+sw_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nsw_colour_mapping"]
+sw_my_ii_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_my_ii_cargo_subtype_text"]
+sw_my_ii_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_my_ii_cargo_subtype"]
+item_my_ii [fillcolor=red style="filled" label="<FEAT_TRAINS 8>\nitem_my_ii"]
+sw_colour_mapping->sw_cc_red_cream
+item_my_ii->sw_colour_mapping
+sw_my_ii_position->sw_my_ii_livery
+sw_colour_mapping->sw_cc_dark_blue_yellow
+sw_my_ii_with_headlights->sw_my_ii_livery
+sw_my_ii_cargo_subtype->sw_my_ii_cargo_subtype_text
+sw_my_ii_livery->spriteset_my_ii_2
+sw_my_ii_livery->spriteset_my_ii_1
+sw_my_ii_livery->spriteset_my_ii_3
+item_my_ii->sw_my_ii_cargo_subtype
+sw_my_ii_with_headlights->spriteset_my_ii_headlights
+item_my_ii->sw_my_ii_position
+sw_my_ii_position->sw_my_ii_with_headlights
+}

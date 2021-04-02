@@ -1,0 +1,40 @@
+digraph {
+rankdir="BT"
+ss_tail_light_32px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_32px_unflipped"]
+ss_tail_light_32px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_32px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_32px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_32px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+sliding_wall_car_pony_gen_4C_ss_doors_closed_unflipped [fillcolor=green style="filled" label="<spriteset>\nsliding_wall_car_pony_gen_4C_ss_doors_closed_unflipped"]
+sliding_wall_car_pony_gen_4C_ss_doors_open_unflipped [fillcolor=green style="filled" label="<spriteset>\nsliding_wall_car_pony_gen_4C_ss_doors_open_unflipped"]
+sliding_wall_car_pony_gen_4C_ss_doors_closed_flipped [fillcolor=green style="filled" label="<spriteset>\nsliding_wall_car_pony_gen_4C_ss_doors_closed_flipped"]
+sliding_wall_car_pony_gen_4C_ss_doors_open_flipped [fillcolor=green style="filled" label="<spriteset>\nsliding_wall_car_pony_gen_4C_ss_doors_open_flipped"]
+sliding_wall_car_pony_gen_4C_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\nsliding_wall_car_pony_gen_4C_switch_graphics_vehicle"]
+sliding_wall_car_pony_gen_4C_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nsliding_wall_car_pony_gen_4C_switch_set_layers_register_more_sprites"]
+sliding_wall_car_pony_gen_4C_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nsliding_wall_car_pony_gen_4C_switch_graphics"]
+sliding_wall_car_pony_gen_4C_ss_purchase [fillcolor=green style="filled" label="<spriteset>\nsliding_wall_car_pony_gen_4C_ss_purchase"]
+sliding_wall_car_pony_gen_4C_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nsliding_wall_car_pony_gen_4C_switch_cargo_capacity"]
+sliding_wall_car_pony_gen_4C [fillcolor=red style="filled" label="<FEAT_TRAINS 1790>\nsliding_wall_car_pony_gen_4C"]
+sliding_wall_car_pony_gen_4C_switch_graphics_vehicle->sliding_wall_car_pony_gen_4C_ss_doors_closed_flipped
+sliding_wall_car_pony_gen_4C_switch_graphics->sliding_wall_car_pony_gen_4C_switch_set_layers_register_more_sprites
+sliding_wall_car_pony_gen_4C_switch_graphics_vehicle->sliding_wall_car_pony_gen_4C_ss_doors_closed_unflipped
+switch_graphics_layer_tail_light_32px->ss_tail_light_32px_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+switch_graphics_layer_tail_light_32px->ss_tail_light_empty_unflipped
+sliding_wall_car_pony_gen_4C_switch_graphics->switch_graphics_layer_tail_light_32px
+sliding_wall_car_pony_gen_4C_switch_set_layers_register_more_sprites->sliding_wall_car_pony_gen_4C_switch_graphics_vehicle
+sliding_wall_car_pony_gen_4C_switch_graphics_vehicle->sliding_wall_car_pony_gen_4C_ss_doors_open_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+sliding_wall_car_pony_gen_4C->sliding_wall_car_pony_gen_4C_ss_purchase
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+sliding_wall_car_pony_gen_4C_switch_cargo_capacity->switch_cargo_capacity
+sliding_wall_car_pony_gen_4C_switch_graphics_vehicle->sliding_wall_car_pony_gen_4C_ss_doors_open_unflipped
+sliding_wall_car_pony_gen_4C->sliding_wall_car_pony_gen_4C_switch_graphics
+sliding_wall_car_pony_gen_4C->sliding_wall_car_pony_gen_4C_switch_cargo_capacity
+switch_graphics_layer_tail_light_32px->ss_tail_light_32px_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+}

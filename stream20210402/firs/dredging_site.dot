@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+dredging_site_extra_text [fillcolor=yellow style="filled" label="<switch>\ndredging_site_extra_text"]
+dredging_site_cargo_subtype_display_cargo_ENSP_economy_0 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_cargo_subtype_display_cargo_ENSP_economy_0"]
+dredging_site_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_cargo_subtype_display_switch_cargo_economy_0"]
+dredging_site_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ndredging_site_cargo_subtype_display_switch_economy"]
+dredging_site_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ndredging_site_cargo_subtype_display"]
+dredging_site_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\ndredging_site_monthly_prod_change"]
+dredging_site_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\ndredging_site_clear_incoming_cargo_waiting_0"]
+dredging_site_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_store_incoming_cargo_waiting_0"]
+dredging_site_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\ndredging_site_clear_incoming_cargo_waiting_1"]
+dredging_site_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_store_incoming_cargo_waiting_1"]
+dredging_site_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\ndredging_site_clear_incoming_cargo_waiting_4"]
+dredging_site_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_store_incoming_cargo_waiting_4"]
+dredging_site_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\ndredging_site_clear_incoming_cargo_waiting_5"]
+dredging_site_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_store_incoming_cargo_waiting_5"]
+dredging_site_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\ndredging_site_clear_incoming_cargo_waiting_3"]
+dredging_site_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_store_incoming_cargo_waiting_3"]
+dredging_site_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ndredging_site_produce_cargo_arrival"]
+dredging_site_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\ndredging_site_production_256_economy_0"]
+dredging_site_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\ndredging_site_production_256_economy_1"]
+dredging_site_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\ndredging_site_production_256_economy_4"]
+dredging_site_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\ndredging_site_production_256_economy_5"]
+dredging_site_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\ndredging_site_production_256_economy_3"]
+dredging_site_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\ndredging_site_produce_256_ticks_switch_economy"]
+dredging_site_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\ndredging_site_produce_256_ticks"]
+dredging_site_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability_param"]
+dredging_site_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_map_gen"]
+dredging_site_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ndredging_site_available_game_mode"]
+dredging_site_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability_0"]
+dredging_site_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability_1"]
+dredging_site_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability_4"]
+dredging_site_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability_5"]
+dredging_site_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability_3"]
+dredging_site_check_availability [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_availability"]
+dredging_site_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_min_distance_22"]
+dredging_site_min_distance_81 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_min_distance_81"]
+dredging_site_coast_distance [fillcolor=yellow style="filled" label="<switch>\ndredging_site_coast_distance"]
+dredging_site_min_distance_20 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_min_distance_20"]
+dredging_site_check_location [fillcolor=yellow style="filled" label="<switch>\ndredging_site_check_location"]
+dredging_site [fillcolor=red style="filled" label="FEAT_INDUSTRIES <20>\ndredging_site"]
+dredging_site_produce_cargo_arrival->dredging_site_store_incoming_cargo_waiting_5
+dredging_site_min_distance_20->dredging_site_coast_distance
+dredging_site_check_availability_3->dredging_site_available_game_mode
+dredging_site_store_incoming_cargo_waiting_0->dredging_site_clear_incoming_cargo_waiting_0
+dredging_site->randomise_primary_production_on_build
+dredging_site_produce_256_ticks_switch_economy->dredging_site_production_256_economy_0
+dredging_site_cargo_subtype_display_switch_cargo_economy_0->dredging_site_cargo_subtype_display_cargo_ENSP_economy_0
+dredging_site->dredging_site_produce_256_ticks
+dredging_site_check_availability->dredging_site_check_availability_5
+dredging_site_min_distance_81->dredging_site_min_distance_22
+dredging_site_produce_256_ticks->dredging_site_produce_256_ticks_switch_economy
+dredging_site_cargo_subtype_display_switch_economy->dredging_site_cargo_subtype_display_switch_cargo_economy_0
+dredging_site_check_map_gen->dredging_site_check_availability_param
+dredging_site_produce_256_ticks_switch_economy->dredging_site_production_256_economy_4
+dredging_site_store_incoming_cargo_waiting_4->dredging_site_clear_incoming_cargo_waiting_4
+dredging_site_check_availability_1->dredging_site_available_game_mode
+dredging_site->dredging_site_check_location
+dredging_site_store_incoming_cargo_waiting_5->dredging_site_clear_incoming_cargo_waiting_5
+dredging_site->dredging_site_monthly_prod_change
+dredging_site_check_availability->dredging_site_check_availability_1
+dredging_site_check_availability_0->dredging_site_available_game_mode
+dredging_site_produce_cargo_arrival->dredging_site_store_incoming_cargo_waiting_4
+dredging_site_check_availability->dredging_site_check_availability_3
+dredging_site_check_availability_4->dredging_site_available_game_mode
+dredging_site_store_incoming_cargo_waiting_1->dredging_site_clear_incoming_cargo_waiting_1
+dredging_site_store_incoming_cargo_waiting_3->dredging_site_clear_incoming_cargo_waiting_3
+dredging_site->dredging_site_extra_text
+dredging_site_coast_distance->dredging_site_min_distance_81
+dredging_site_produce_256_ticks_switch_economy->dredging_site_production_256_economy_3
+dredging_site_check_availability->dredging_site_check_availability_0
+dredging_site_check_availability->dredging_site_check_availability_4
+dredging_site->dredging_site_cargo_subtype_display
+dredging_site->switch_colour
+dredging_site_produce_256_ticks_switch_economy->dredging_site_production_256_economy_5
+dredging_site->dredging_site_produce_cargo_arrival
+dredging_site_available_game_mode->dredging_site_check_map_gen
+dredging_site_check_location->dredging_site_min_distance_20
+dredging_site_produce_cargo_arrival->dredging_site_store_incoming_cargo_waiting_0
+dredging_site_produce_256_ticks_switch_economy->dredging_site_production_256_economy_1
+dredging_site_cargo_subtype_display->dredging_site_cargo_subtype_display_switch_economy
+dredging_site_produce_cargo_arrival->dredging_site_store_incoming_cargo_waiting_3
+dredging_site->dredging_site_check_availability
+dredging_site_check_availability_5->dredging_site_available_game_mode
+dredging_site_produce_cargo_arrival->dredging_site_store_incoming_cargo_waiting_1
+}

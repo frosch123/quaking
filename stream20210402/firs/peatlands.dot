@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+peatlands_extra_text [fillcolor=yellow style="filled" label="<switch>\npeatlands_extra_text"]
+peatlands_cargo_subtype_display_cargo_ENSP_economy_1 [fillcolor=yellow style="filled" label="<switch>\npeatlands_cargo_subtype_display_cargo_ENSP_economy_1"]
+peatlands_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\npeatlands_cargo_subtype_display_switch_cargo_economy_1"]
+peatlands_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\npeatlands_cargo_subtype_display_switch_economy"]
+peatlands_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\npeatlands_cargo_subtype_display"]
+peatlands_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\npeatlands_monthly_prod_change"]
+peatlands_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\npeatlands_clear_incoming_cargo_waiting_0"]
+peatlands_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\npeatlands_store_incoming_cargo_waiting_0"]
+peatlands_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\npeatlands_clear_incoming_cargo_waiting_1"]
+peatlands_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\npeatlands_store_incoming_cargo_waiting_1"]
+peatlands_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\npeatlands_clear_incoming_cargo_waiting_4"]
+peatlands_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\npeatlands_store_incoming_cargo_waiting_4"]
+peatlands_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\npeatlands_clear_incoming_cargo_waiting_5"]
+peatlands_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\npeatlands_store_incoming_cargo_waiting_5"]
+peatlands_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\npeatlands_clear_incoming_cargo_waiting_3"]
+peatlands_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\npeatlands_store_incoming_cargo_waiting_3"]
+peatlands_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\npeatlands_produce_cargo_arrival"]
+peatlands_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\npeatlands_production_256_economy_0"]
+peatlands_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\npeatlands_production_256_economy_1"]
+peatlands_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\npeatlands_production_256_economy_4"]
+peatlands_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\npeatlands_production_256_economy_5"]
+peatlands_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\npeatlands_production_256_economy_3"]
+peatlands_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\npeatlands_produce_256_ticks_switch_economy"]
+peatlands_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\npeatlands_produce_256_ticks"]
+peatlands_check_availability_param [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability_param"]
+peatlands_check_map_gen [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_map_gen"]
+peatlands_available_game_mode [fillcolor=yellow style="filled" label="<switch>\npeatlands_available_game_mode"]
+peatlands_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability_0"]
+peatlands_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability_1"]
+peatlands_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability_4"]
+peatlands_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability_5"]
+peatlands_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability_3"]
+peatlands_check_availability [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_availability"]
+peatlands_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\npeatlands_min_distance_82"]
+peatlands_min_distance_66 [fillcolor=yellow style="filled" label="<switch>\npeatlands_min_distance_66"]
+peatlands_min_distance_5 [fillcolor=yellow style="filled" label="<switch>\npeatlands_min_distance_5"]
+peatlands_cluster_peatlands [fillcolor=yellow style="filled" label="<switch>\npeatlands_cluster_peatlands"]
+peatlands_check_location [fillcolor=yellow style="filled" label="<switch>\npeatlands_check_location"]
+peatlands [fillcolor=red style="filled" label="FEAT_INDUSTRIES <5>\npeatlands"]
+peatlands->peatlands_produce_cargo_arrival
+peatlands_store_incoming_cargo_waiting_3->peatlands_clear_incoming_cargo_waiting_3
+peatlands_available_game_mode->peatlands_check_map_gen
+peatlands_produce_cargo_arrival->peatlands_store_incoming_cargo_waiting_4
+peatlands->switch_colour
+peatlands->peatlands_produce_256_ticks
+peatlands_produce_256_ticks_switch_economy->peatlands_production_256_economy_1
+peatlands_produce_256_ticks->peatlands_produce_256_ticks_switch_economy
+peatlands_produce_256_ticks_switch_economy->peatlands_production_256_economy_3
+peatlands->peatlands_extra_text
+peatlands->randomise_primary_production_on_build
+peatlands_min_distance_66->peatlands_min_distance_82
+peatlands_produce_cargo_arrival->peatlands_store_incoming_cargo_waiting_5
+peatlands_store_incoming_cargo_waiting_1->peatlands_clear_incoming_cargo_waiting_1
+peatlands_min_distance_5->peatlands_min_distance_66
+peatlands_check_availability->peatlands_check_availability_1
+peatlands->peatlands_check_location
+peatlands_check_availability_1->peatlands_available_game_mode
+peatlands_cargo_subtype_display_switch_cargo_economy_1->peatlands_cargo_subtype_display_cargo_ENSP_economy_1
+peatlands_check_availability_0->peatlands_available_game_mode
+peatlands_produce_256_ticks_switch_economy->peatlands_production_256_economy_5
+peatlands_check_map_gen->peatlands_check_availability_param
+peatlands_cargo_subtype_display_switch_economy->peatlands_cargo_subtype_display_switch_cargo_economy_1
+peatlands->peatlands_cargo_subtype_display
+peatlands_check_availability_4->peatlands_available_game_mode
+peatlands_cluster_peatlands->peatlands_min_distance_5
+peatlands_cargo_subtype_display->peatlands_cargo_subtype_display_switch_economy
+peatlands_produce_cargo_arrival->peatlands_store_incoming_cargo_waiting_0
+peatlands_store_incoming_cargo_waiting_4->peatlands_clear_incoming_cargo_waiting_4
+peatlands_check_availability->peatlands_check_availability_0
+peatlands_check_availability_3->peatlands_available_game_mode
+peatlands->peatlands_monthly_prod_change
+peatlands->peatlands_check_availability
+peatlands_check_location->peatlands_cluster_peatlands
+peatlands_store_incoming_cargo_waiting_5->peatlands_clear_incoming_cargo_waiting_5
+peatlands_check_availability_5->peatlands_available_game_mode
+peatlands_produce_256_ticks_switch_economy->peatlands_production_256_economy_0
+peatlands_produce_cargo_arrival->peatlands_store_incoming_cargo_waiting_1
+peatlands_produce_cargo_arrival->peatlands_store_incoming_cargo_waiting_3
+peatlands_store_incoming_cargo_waiting_0->peatlands_clear_incoming_cargo_waiting_0
+peatlands_check_availability->peatlands_check_availability_3
+peatlands_check_availability->peatlands_check_availability_5
+peatlands_produce_256_ticks_switch_economy->peatlands_production_256_economy_4
+peatlands_check_availability->peatlands_check_availability_4
+}

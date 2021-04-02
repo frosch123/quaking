@@ -1,0 +1,86 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+peatlands_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_1_0"]
+peatlands_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_1_0_snow"]
+peatlands_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_2_0"]
+peatlands_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_2_0_snow"]
+peatlands_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_3_0"]
+peatlands_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_3_0_snow"]
+peatlands_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_4_0"]
+peatlands_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_4_0_snow"]
+peatlands_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_5_0"]
+peatlands_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_5_0_snow"]
+peatlands_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_6_0"]
+peatlands_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\npeatlands_spriteset_6_0_snow"]
+peatlands_spritelayout_bare_ground [fillcolor=yellow style="filled" label="<spritelayout>\npeatlands_spritelayout_bare_ground"]
+peatlands_spritelayout_tractor [fillcolor=yellow style="filled" label="<spritelayout>\npeatlands_spritelayout_tractor"]
+peatlands_spritelayout_harvester [fillcolor=yellow style="filled" label="<spritelayout>\npeatlands_spritelayout_harvester"]
+peatlands_spritelayout_nissen_hut [fillcolor=yellow style="filled" label="<spritelayout>\npeatlands_spritelayout_nissen_hut"]
+peatlands_spritelayout_crane [fillcolor=yellow style="filled" label="<spritelayout>\npeatlands_spritelayout_crane"]
+peatlands_spritelayout_peat_pile [fillcolor=yellow style="filled" label="<spritelayout>\npeatlands_spritelayout_peat_pile"]
+peatlands_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\npeatlands_layout_1_graphics_switch"]
+peatlands_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\npeatlands_layout_2_graphics_switch"]
+peatlands_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\npeatlands_layout_3_graphics_switch"]
+peatlands_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\npeatlands_layout_4_graphics_switch"]
+peatlands_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\npeatlands_industry_graphics_switch_layouts"]
+peatlands_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\npeatlands_industry_construction_state_graphics_switch"]
+peatlands_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\npeatlands_store_temp_vars"]
+peatlands_switch_graphics [fillcolor=yellow style="filled" label="<switch>\npeatlands_switch_graphics"]
+peatlands_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\npeatlands_tile_1_lc_3"]
+peatlands_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\npeatlands_tile_1_lc_2"]
+peatlands_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\npeatlands_tile_1_lc_1"]
+peatlands_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\npeatlands_tile_1_lc_0"]
+peatlands_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <147>\npeatlands_tile_1"]
+peatlands_layout_1_graphics_switch->peatlands_spritelayout_peat_pile
+peatlands_spritelayout_nissen_hut->peatlands_spriteset_1_0_snow
+peatlands_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+peatlands_layout_3_graphics_switch->peatlands_spritelayout_crane
+peatlands_layout_2_graphics_switch->peatlands_spritelayout_harvester
+peatlands_layout_3_graphics_switch->peatlands_spritelayout_tractor
+peatlands_layout_1_graphics_switch->peatlands_spritelayout_harvester
+peatlands_tile_1->peatlands_tile_1_lc_0
+peatlands_layout_3_graphics_switch->peatlands_spritelayout_bare_ground
+peatlands_tile_1_lc_0->peatlands_tile_1_lc_1
+peatlands_layout_3_graphics_switch->peatlands_spritelayout_harvester
+peatlands_layout_1_graphics_switch->peatlands_spritelayout_bare_ground
+peatlands_spritelayout_harvester->peatlands_spriteset_3_0
+peatlands_layout_4_graphics_switch->peatlands_spritelayout_crane
+peatlands_spritelayout_peat_pile->peatlands_spriteset_6_0
+peatlands_spritelayout_harvester->peatlands_spriteset_3_0_snow
+peatlands_industry_graphics_switch_layouts->peatlands_layout_2_graphics_switch
+peatlands_layout_1_graphics_switch->peatlands_spritelayout_tractor
+peatlands_layout_4_graphics_switch->peatlands_spritelayout_nissen_hut
+peatlands_layout_2_graphics_switch->peatlands_spritelayout_peat_pile
+peatlands_tile_1->peatlands_switch_graphics
+peatlands_spritelayout_crane->peatlands_spriteset_5_0
+peatlands_layout_1_graphics_switch->peatlands_spritelayout_crane
+peatlands_layout_4_graphics_switch->peatlands_spritelayout_harvester
+peatlands_layout_2_graphics_switch->peatlands_spritelayout_tractor
+peatlands_store_temp_vars->peatlands_industry_construction_state_graphics_switch
+peatlands_spritelayout_crane->peatlands_spriteset_4_0
+peatlands_industry_graphics_switch_layouts->peatlands_layout_3_graphics_switch
+peatlands_tile_1_lc_2->peatlands_tile_1_lc_3
+peatlands_tile_1_lc_1->peatlands_tile_1_lc_2
+peatlands_spritelayout_peat_pile->peatlands_spriteset_6_0_snow
+peatlands_spritelayout_crane->peatlands_spriteset_5_0_snow
+peatlands_layout_3_graphics_switch->peatlands_spritelayout_peat_pile
+peatlands_industry_graphics_switch_layouts->peatlands_layout_4_graphics_switch
+peatlands_layout_4_graphics_switch->peatlands_spritelayout_peat_pile
+peatlands_layout_3_graphics_switch->peatlands_spritelayout_nissen_hut
+peatlands_industry_construction_state_graphics_switch->peatlands_industry_graphics_switch_layouts
+peatlands_industry_graphics_switch_layouts->peatlands_layout_1_graphics_switch
+peatlands_switch_graphics->peatlands_store_temp_vars
+peatlands_layout_2_graphics_switch->peatlands_spritelayout_bare_ground
+peatlands_spritelayout_tractor->peatlands_spriteset_2_0
+peatlands_layout_1_graphics_switch->peatlands_spritelayout_nissen_hut
+peatlands_spritelayout_crane->peatlands_spriteset_4_0_snow
+peatlands_spritelayout_tractor->peatlands_spriteset_2_0_snow
+peatlands_layout_2_graphics_switch->peatlands_spritelayout_crane
+spritelayout_default_construction_states->spriteset_default_construction_states
+peatlands_spritelayout_nissen_hut->peatlands_spriteset_1_0
+peatlands_layout_4_graphics_switch->peatlands_spritelayout_bare_ground
+peatlands_layout_2_graphics_switch->peatlands_spritelayout_nissen_hut
+peatlands_layout_4_graphics_switch->peatlands_spritelayout_tractor
+}

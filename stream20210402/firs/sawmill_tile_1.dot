@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+sawmill_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nsawmill_spritelayout_1"]
+sawmill_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nsawmill_spritelayout_2"]
+sawmill_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nsawmill_spritelayout_3"]
+sawmill_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nsawmill_spritelayout_4"]
+sawmill_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nsawmill_spritelayout_5"]
+sawmill_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nsawmill_industry_layout_1_graphics_switch"]
+sawmill_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nsawmill_industry_construction_state_graphics_switch"]
+sawmill_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nsawmill_store_temp_vars"]
+sawmill_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nsawmill_switch_graphics"]
+sawmill_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nsawmill_tile_1_lc_1"]
+sawmill_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nsawmill_tile_1_lc_0"]
+sawmill_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <234>\nsawmill_tile_1"]
+sawmill_industry_construction_state_graphics_switch->sawmill_industry_layout_1_graphics_switch
+sawmill_tile_1->sawmill_tile_1_lc_0
+sawmill_industry_layout_1_graphics_switch->sawmill_spritelayout_5
+sawmill_industry_layout_1_graphics_switch->sawmill_spritelayout_2
+sawmill_tile_1->sawmill_switch_graphics
+sawmill_industry_layout_1_graphics_switch->sawmill_spritelayout_1
+sawmill_industry_layout_1_graphics_switch->sawmill_spritelayout_3
+sawmill_store_temp_vars->sawmill_industry_construction_state_graphics_switch
+sawmill_industry_layout_1_graphics_switch->sawmill_spritelayout_4
+sawmill_switch_graphics->sawmill_store_temp_vars
+spritelayout_default_construction_states->spriteset_default_construction_states
+sawmill_tile_1_lc_0->sawmill_tile_1_lc_1
+sawmill_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+}

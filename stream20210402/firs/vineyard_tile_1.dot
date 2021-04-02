@@ -1,0 +1,92 @@
+digraph {
+rankdir="BT"
+vineyard_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nvineyard_spriteset_1_0"]
+vineyard_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nvineyard_spriteset_1_0_snow"]
+vineyard_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nvineyard_spriteset_2_0"]
+vineyard_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nvineyard_spriteset_2_0_snow"]
+vineyard_house_spritelayout [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_house_spritelayout"]
+vineyard_shed_spritelayout [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_shed_spritelayout"]
+vineyard_slope_aware_ground_with_trees0 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees0"]
+vineyard_slope_aware_ground_with_trees1 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees1"]
+vineyard_slope_aware_ground_with_trees2 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees2"]
+vineyard_slope_aware_ground_with_trees3 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees3"]
+vineyard_slope_aware_ground_with_trees4 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees4"]
+vineyard_slope_aware_ground_with_trees5 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees5"]
+vineyard_slope_aware_ground_with_trees6 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees6"]
+vineyard_slope_aware_ground_with_trees7 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees7"]
+vineyard_slope_aware_ground_with_trees8 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees8"]
+vineyard_slope_aware_ground_with_trees9 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees9"]
+vineyard_slope_aware_ground_with_trees10 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees10"]
+vineyard_slope_aware_ground_with_trees11 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees11"]
+vineyard_slope_aware_ground_with_trees12 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees12"]
+vineyard_slope_aware_ground_with_trees13 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees13"]
+vineyard_slope_aware_ground_with_trees14 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees14"]
+vineyard_slope_aware_ground_with_trees23 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees23"]
+vineyard_slope_aware_ground_with_trees27 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees27"]
+vineyard_slope_aware_ground_with_trees29 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees29"]
+vineyard_slope_aware_ground_with_trees30 [fillcolor=yellow style="filled" label="<spritelayout>\nvineyard_slope_aware_ground_with_trees30"]
+vineyard_slope_aware_ground_with_trees [fillcolor=yellow style="filled" label="<switch>\nvineyard_slope_aware_ground_with_trees"]
+vineyard_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nvineyard_layout_1_graphics_switch"]
+vineyard_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nvineyard_layout_2_graphics_switch"]
+vineyard_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nvineyard_layout_3_graphics_switch"]
+vineyard_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nvineyard_layout_4_graphics_switch"]
+vineyard_layout_5_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nvineyard_layout_5_graphics_switch"]
+vineyard_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nvineyard_industry_graphics_switch_layouts"]
+vineyard_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nvineyard_store_temp_vars"]
+vineyard_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nvineyard_switch_graphics"]
+vineyard_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\nvineyard_tile_1_lc_3"]
+vineyard_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nvineyard_tile_1_lc_2"]
+vineyard_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nvineyard_tile_1_lc_1"]
+vineyard_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nvineyard_tile_1_lc_0"]
+vineyard_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <243>\nvineyard_tile_1"]
+vineyard_industry_graphics_switch_layouts->vineyard_layout_5_graphics_switch
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees23
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees2
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees9
+vineyard_industry_graphics_switch_layouts->vineyard_layout_2_graphics_switch
+vineyard_tile_1_lc_1->vineyard_tile_1_lc_2
+vineyard_tile_1->vineyard_switch_graphics
+vineyard_layout_4_graphics_switch->vineyard_slope_aware_ground_with_trees
+vineyard_layout_4_graphics_switch->vineyard_house_spritelayout
+vineyard_switch_graphics->vineyard_store_temp_vars
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees10
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees0
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees30
+vineyard_layout_3_graphics_switch->vineyard_shed_spritelayout
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees7
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees27
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees12
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees29
+vineyard_layout_1_graphics_switch->vineyard_shed_spritelayout
+vineyard_store_temp_vars->vineyard_industry_graphics_switch_layouts
+vineyard_industry_graphics_switch_layouts->vineyard_layout_1_graphics_switch
+vineyard_layout_5_graphics_switch->vineyard_slope_aware_ground_with_trees
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees6
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees5
+vineyard_house_spritelayout->vineyard_spriteset_1_0_snow
+vineyard_industry_graphics_switch_layouts->vineyard_layout_4_graphics_switch
+vineyard_layout_5_graphics_switch->vineyard_shed_spritelayout
+vineyard_layout_3_graphics_switch->vineyard_house_spritelayout
+vineyard_layout_4_graphics_switch->vineyard_shed_spritelayout
+vineyard_layout_2_graphics_switch->vineyard_shed_spritelayout
+vineyard_tile_1_lc_2->vineyard_tile_1_lc_3
+vineyard_layout_5_graphics_switch->vineyard_house_spritelayout
+vineyard_layout_1_graphics_switch->vineyard_slope_aware_ground_with_trees
+vineyard_layout_3_graphics_switch->vineyard_slope_aware_ground_with_trees
+vineyard_industry_graphics_switch_layouts->vineyard_layout_3_graphics_switch
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees14
+vineyard_shed_spritelayout->vineyard_spriteset_2_0_snow
+vineyard_layout_2_graphics_switch->vineyard_house_spritelayout
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees13
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees8
+vineyard_layout_1_graphics_switch->vineyard_house_spritelayout
+vineyard_house_spritelayout->vineyard_spriteset_1_0
+vineyard_layout_2_graphics_switch->vineyard_slope_aware_ground_with_trees
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees1
+vineyard_tile_1_lc_0->vineyard_tile_1_lc_1
+vineyard_shed_spritelayout->vineyard_spriteset_2_0
+vineyard_tile_1->vineyard_tile_1_lc_0
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees3
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees4
+vineyard_slope_aware_ground_with_trees->vineyard_slope_aware_ground_with_trees11
+}

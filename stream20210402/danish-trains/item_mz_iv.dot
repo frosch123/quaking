@@ -1,0 +1,15 @@
+digraph {
+rankdir="BT"
+sw_cc_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red"]
+spriteset_mz_iv [fillcolor=green style="filled" label="<spriteset>\nspriteset_mz_iv"]
+spriteset_mz_iv_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mz_iv_headlights"]
+sw_mz_iv_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mz_iv_with_headlights"]
+sw_mz_iv_position [fillcolor=yellow style="filled" label="<switch>\nsw_mz_iv_position"]
+item_mz_iv [fillcolor=red style="filled" label="<FEAT_TRAINS 0>\nitem_mz_iv"]
+item_mz_iv->sw_mz_iv_position
+sw_mz_iv_with_headlights->spriteset_mz_iv_headlights
+item_mz_iv->sw_cc_red
+sw_mz_iv_with_headlights->spriteset_mz_iv
+sw_mz_iv_position->sw_mz_iv_with_headlights
+sw_mz_iv_position->spriteset_mz_iv
+}

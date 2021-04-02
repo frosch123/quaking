@@ -1,0 +1,80 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+assembly_plant_produce_0 [fillcolor=green style="filled" label="<produce>\nassembly_plant_produce_0"]
+assembly_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_produce_calculation_0"]
+assembly_plant_produce_1 [fillcolor=green style="filled" label="<produce>\nassembly_plant_produce_1"]
+assembly_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_produce_calculation_1"]
+assembly_plant_produce_4 [fillcolor=green style="filled" label="<produce>\nassembly_plant_produce_4"]
+assembly_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_produce_calculation_4"]
+assembly_plant_produce_5 [fillcolor=green style="filled" label="<produce>\nassembly_plant_produce_5"]
+assembly_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_produce_calculation_5"]
+assembly_plant_produce_3 [fillcolor=green style="filled" label="<produce>\nassembly_plant_produce_3"]
+assembly_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_produce_calculation_3"]
+assembly_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_produce_cargo_arrival"]
+assembly_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_extra_text"]
+assembly_plant_cargo_subtype_display_cargo_VPTS_economy_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display_cargo_VPTS_economy_5"]
+assembly_plant_cargo_subtype_display_cargo_VBOD_economy_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display_cargo_VBOD_economy_5"]
+assembly_plant_cargo_subtype_display_cargo_VENG_economy_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display_cargo_VENG_economy_5"]
+assembly_plant_cargo_subtype_display_cargo_TYRE_economy_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display_cargo_TYRE_economy_5"]
+assembly_plant_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display_switch_cargo_economy_5"]
+assembly_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display_switch_economy"]
+assembly_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_cargo_subtype_display"]
+assembly_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability_param"]
+assembly_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_map_gen"]
+assembly_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_available_game_mode"]
+assembly_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability_0"]
+assembly_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability_1"]
+assembly_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability_4"]
+assembly_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability_5"]
+assembly_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability_3"]
+assembly_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_availability"]
+assembly_plant_min_distance_70 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_min_distance_70"]
+assembly_plant_min_distance_33 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_min_distance_33"]
+assembly_plant_min_distance_81 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_min_distance_81"]
+assembly_plant_min_distance_88 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_min_distance_88"]
+assembly_plant_min_distance_96 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_min_distance_96"]
+assembly_plant_min_distance_62 [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_min_distance_62"]
+assembly_plant_check_location [fillcolor=yellow style="filled" label="<switch>\nassembly_plant_check_location"]
+assembly_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <62>\nassembly_plant"]
+assembly_plant_produce_cargo_arrival->assembly_plant_produce_calculation_0
+assembly_plant_cargo_subtype_display_switch_cargo_economy_5->assembly_plant_cargo_subtype_display_cargo_VBOD_economy_5
+assembly_plant_check_availability->assembly_plant_check_availability_5
+assembly_plant_check_availability->assembly_plant_check_availability_0
+assembly_plant_check_availability_5->assembly_plant_available_game_mode
+assembly_plant_produce_cargo_arrival->assembly_plant_produce_calculation_5
+assembly_plant_check_availability_4->assembly_plant_available_game_mode
+assembly_plant_check_availability_0->assembly_plant_available_game_mode
+assembly_plant_produce_cargo_arrival->assembly_plant_produce_calculation_1
+assembly_plant_check_availability->assembly_plant_check_availability_4
+assembly_plant_cargo_subtype_display->assembly_plant_cargo_subtype_display_switch_economy
+assembly_plant_check_availability_3->assembly_plant_available_game_mode
+assembly_plant_produce_cargo_arrival->assembly_plant_produce_calculation_3
+assembly_plant_min_distance_88->assembly_plant_min_distance_81
+assembly_plant_cargo_subtype_display_switch_cargo_economy_5->assembly_plant_cargo_subtype_display_cargo_TYRE_economy_5
+assembly_plant->assembly_plant_check_availability
+assembly_plant_check_availability->assembly_plant_check_availability_3
+assembly_plant_cargo_subtype_display_switch_cargo_economy_5->assembly_plant_cargo_subtype_display_cargo_VPTS_economy_5
+assembly_plant_check_map_gen->assembly_plant_check_availability_param
+assembly_plant_check_availability_1->assembly_plant_available_game_mode
+assembly_plant_cargo_subtype_display_switch_economy->assembly_plant_cargo_subtype_display_switch_cargo_economy_5
+assembly_plant->assembly_plant_cargo_subtype_display
+assembly_plant->assembly_plant_check_location
+assembly_plant_available_game_mode->assembly_plant_check_map_gen
+assembly_plant_cargo_subtype_display_switch_cargo_economy_5->assembly_plant_cargo_subtype_display_cargo_VENG_economy_5
+assembly_plant_produce_calculation_3->assembly_plant_produce_3
+assembly_plant_check_location->assembly_plant_min_distance_62
+assembly_plant_produce_calculation_4->assembly_plant_produce_4
+assembly_plant_min_distance_33->assembly_plant_min_distance_70
+assembly_plant_min_distance_96->assembly_plant_min_distance_88
+assembly_plant_produce_calculation_1->assembly_plant_produce_1
+assembly_plant_produce_cargo_arrival->assembly_plant_produce_calculation_4
+assembly_plant_min_distance_81->assembly_plant_min_distance_33
+assembly_plant->assembly_plant_produce_cargo_arrival
+assembly_plant_min_distance_62->assembly_plant_min_distance_96
+assembly_plant_check_availability->assembly_plant_check_availability_1
+assembly_plant->switch_colour
+assembly_plant_produce_calculation_5->assembly_plant_produce_5
+assembly_plant_produce_calculation_0->assembly_plant_produce_0
+assembly_plant->assembly_plant_extra_text
+}

@@ -1,0 +1,24 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+haar_1_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nhaar_1_ss_unreversed_unflipped_0"]
+haar_1_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nhaar_1_ss_unreversed_flipped_0"]
+haar_1_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nhaar_1_switch_graphics_unreversed"]
+haar_1_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nhaar_1_ss_vehicle_purchase_0"]
+haar_1_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nhaar_1_switch_set_layers_register_more_sprites"]
+haar_1_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nhaar_1_switch_graphics"]
+haar_1_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nhaar_1_switch_colour_mapping"]
+haar_1 [fillcolor=red style="filled" label="<FEAT_TRAINS 1881>\nhaar_1"]
+haar_1_switch_graphics_unreversed->haar_1_ss_unreversed_unflipped_0
+haar_1->haar_1_ss_vehicle_purchase_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+haar_1->haar_1_switch_graphics
+haar_1_switch_graphics_unreversed->haar_1_ss_unreversed_flipped_0
+haar_1->haar_1_switch_colour_mapping
+haar_1_switch_set_layers_register_more_sprites->haar_1_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+haar_1_switch_graphics->haar_1_switch_set_layers_register_more_sprites
+haar_1_switch_graphics->switch_graphics_layer_tail_light_empty
+}

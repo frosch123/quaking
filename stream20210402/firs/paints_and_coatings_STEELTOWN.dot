@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_paints_and_coatings [fillcolor=green style="filled" label="<spriteset>\ncargoicon_paints_and_coatings"]
+paints_and_coatings_STEELTOWN [fillcolor=red style="filled" label="FEAT_CARGOS <26>\npaints_and_coatings_STEELTOWN"]
+paints_and_coatings_STEELTOWN->cargoicon_paints_and_coatings
+}

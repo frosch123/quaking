@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_milk [fillcolor=green style="filled" label="<spriteset>\ncargoicon_milk"]
+milk_BASIC_TEMPERATE [fillcolor=red style="filled" label="FEAT_CARGOS <14>\nmilk_BASIC_TEMPERATE"]
+milk_BASIC_TEMPERATE->cargoicon_milk
+}

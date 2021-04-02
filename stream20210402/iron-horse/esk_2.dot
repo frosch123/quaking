@@ -1,0 +1,24 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+esk_2_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nesk_2_ss_unreversed_unflipped_0"]
+esk_2_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nesk_2_ss_unreversed_flipped_0"]
+esk_2_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nesk_2_switch_graphics_unreversed"]
+esk_2_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nesk_2_ss_vehicle_purchase_0"]
+esk_2_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nesk_2_switch_set_layers_register_more_sprites"]
+esk_2_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nesk_2_switch_graphics"]
+esk_2_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nesk_2_switch_colour_mapping"]
+esk_2 [fillcolor=red style="filled" label="<FEAT_TRAINS 4052>\nesk_2"]
+esk_2_switch_graphics_unreversed->esk_2_ss_unreversed_flipped_0
+esk_2->esk_2_switch_graphics
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+esk_2->esk_2_ss_vehicle_purchase_0
+esk_2_switch_graphics->switch_graphics_layer_tail_light_empty
+esk_2_switch_graphics_unreversed->esk_2_ss_unreversed_unflipped_0
+esk_2_switch_set_layers_register_more_sprites->esk_2_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+esk_2_switch_graphics->esk_2_switch_set_layers_register_more_sprites
+esk_2->esk_2_switch_colour_mapping
+}

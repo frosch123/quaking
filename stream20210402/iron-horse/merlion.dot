@@ -1,0 +1,77 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+merlion_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_unreversed_unflipped_0"]
+merlion_ss_unreversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_unreversed_unflipped_1"]
+merlion_switch_graphics_check_2cc_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_check_2cc_unreversed_unflipped"]
+merlion_switch_graphics_livery_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_livery_unreversed_unflipped"]
+merlion_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_unreversed_flipped_0"]
+merlion_ss_unreversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_unreversed_flipped_1"]
+merlion_switch_graphics_check_2cc_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_check_2cc_unreversed_flipped"]
+merlion_switch_graphics_livery_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_livery_unreversed_flipped"]
+merlion_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_unreversed"]
+merlion_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_reversed_unflipped_0"]
+merlion_ss_reversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_reversed_unflipped_1"]
+merlion_switch_graphics_check_2cc_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_check_2cc_reversed_unflipped"]
+merlion_switch_graphics_livery_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_livery_reversed_unflipped"]
+merlion_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_reversed_flipped_0"]
+merlion_ss_reversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_reversed_flipped_1"]
+merlion_switch_graphics_check_2cc_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_check_2cc_reversed_flipped"]
+merlion_switch_graphics_livery_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_livery_reversed_flipped"]
+merlion_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_reversed"]
+merlion_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nmerlion_switch_graphics_vehicle"]
+merlion_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_vehicle_purchase_0"]
+merlion_ss_vehicle_purchase_1 [fillcolor=green style="filled" label="<spriteset>\nmerlion_ss_vehicle_purchase_1"]
+merlion_switch_graphics_purchase_livery_check_2cc [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_purchase_livery_check_2cc"]
+merlion_switch_graphics_purchase_livery [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics_purchase_livery"]
+merlion_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_set_layers_register_more_sprites"]
+merlion_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_graphics"]
+merlion_switch_colour_mapping_check_2cc [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_colour_mapping_check_2cc"]
+merlion_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_colour_mapping"]
+merlion_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_create_effect_default_unreversed"]
+merlion_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_create_effect_default_reversed"]
+merlion_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nmerlion_switch_create_effect_reversed_variants"]
+merlion_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nmerlion_switch_buy_menu_text_result"]
+merlion [fillcolor=red style="filled" label="<FEAT_TRAINS 4920>\nmerlion"]
+merlion_switch_create_effect_reversed_variants->merlion_switch_create_effect_default_unreversed
+merlion_switch_graphics_livery_reversed_flipped->merlion_switch_graphics_check_2cc_reversed_flipped
+merlion_switch_graphics_check_2cc_unreversed_unflipped->merlion_ss_unreversed_unflipped_0
+merlion->merlion_switch_create_effect_reversed_variants
+merlion_switch_graphics_purchase_livery->merlion_ss_vehicle_purchase_0
+merlion_switch_graphics_unreversed->merlion_switch_graphics_livery_unreversed_unflipped
+merlion_switch_graphics_unreversed->merlion_switch_graphics_livery_unreversed_flipped
+merlion_switch_graphics_livery_unreversed_flipped->merlion_ss_unreversed_flipped_0
+merlion_switch_graphics_livery_reversed_unflipped->merlion_switch_graphics_check_2cc_reversed_unflipped
+merlion_switch_graphics_reversed->merlion_switch_graphics_livery_reversed_flipped
+merlion->merlion_switch_buy_menu_text_result
+merlion_switch_graphics_vehicle->merlion_switch_graphics_unreversed
+merlion_switch_graphics_reversed->merlion_switch_graphics_livery_reversed_unflipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+merlion_switch_graphics->merlion_switch_set_layers_register_more_sprites
+merlion_switch_graphics_check_2cc_unreversed_flipped->merlion_ss_unreversed_flipped_1
+merlion_switch_graphics_livery_unreversed_unflipped->merlion_ss_unreversed_unflipped_0
+merlion_switch_graphics_check_2cc_reversed_unflipped->merlion_ss_reversed_unflipped_0
+merlion_switch_graphics_check_2cc_reversed_flipped->merlion_ss_reversed_flipped_1
+merlion_switch_graphics_purchase_livery->merlion_switch_graphics_purchase_livery_check_2cc
+merlion_switch_graphics_check_2cc_unreversed_flipped->merlion_ss_unreversed_flipped_0
+merlion->merlion_switch_graphics_purchase_livery
+merlion_switch_graphics_livery_unreversed_unflipped->merlion_switch_graphics_check_2cc_unreversed_unflipped
+merlion_switch_graphics_livery_reversed_unflipped->merlion_ss_reversed_unflipped_0
+merlion->merlion_switch_graphics
+merlion_switch_graphics_purchase_livery_check_2cc->merlion_ss_vehicle_purchase_0
+merlion_switch_graphics_purchase_livery_check_2cc->merlion_ss_vehicle_purchase_1
+merlion_switch_colour_mapping->merlion_switch_colour_mapping_check_2cc
+merlion_switch_graphics_check_2cc_reversed_flipped->merlion_ss_reversed_flipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+merlion_switch_graphics_livery_reversed_flipped->merlion_ss_reversed_flipped_0
+merlion->merlion_switch_colour_mapping
+merlion_switch_set_layers_register_more_sprites->merlion_switch_graphics_vehicle
+merlion_switch_graphics_check_2cc_reversed_unflipped->merlion_ss_reversed_unflipped_1
+merlion_switch_graphics->switch_graphics_layer_tail_light_empty
+merlion_switch_create_effect_reversed_variants->merlion_switch_create_effect_default_reversed
+merlion_switch_graphics_livery_unreversed_flipped->merlion_switch_graphics_check_2cc_unreversed_flipped
+merlion_switch_graphics_vehicle->merlion_switch_graphics_reversed
+merlion_switch_graphics_check_2cc_unreversed_unflipped->merlion_ss_unreversed_unflipped_1
+}

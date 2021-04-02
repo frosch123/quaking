@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_zinc [fillcolor=green style="filled" label="<spriteset>\ncargoicon_zinc"]
+zinc_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <18>\nzinc_BASIC_ARCTIC"]
+zinc_BASIC_ARCTIC->cargoicon_zinc
+}

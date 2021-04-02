@@ -1,0 +1,98 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+quarry_extra_text [fillcolor=yellow style="filled" label="<switch>\nquarry_extra_text"]
+quarry_cargo_subtype_display_cargo_ENSP_economy_5 [fillcolor=yellow style="filled" label="<switch>\nquarry_cargo_subtype_display_cargo_ENSP_economy_5"]
+quarry_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nquarry_cargo_subtype_display_switch_cargo_economy_5"]
+quarry_cargo_subtype_display_cargo_ENSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\nquarry_cargo_subtype_display_cargo_ENSP_economy_3"]
+quarry_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nquarry_cargo_subtype_display_switch_cargo_economy_3"]
+quarry_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nquarry_cargo_subtype_display_switch_economy"]
+quarry_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nquarry_cargo_subtype_display"]
+quarry_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nquarry_monthly_prod_change"]
+quarry_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nquarry_clear_incoming_cargo_waiting_0"]
+quarry_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nquarry_store_incoming_cargo_waiting_0"]
+quarry_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nquarry_clear_incoming_cargo_waiting_1"]
+quarry_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nquarry_store_incoming_cargo_waiting_1"]
+quarry_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nquarry_clear_incoming_cargo_waiting_4"]
+quarry_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nquarry_store_incoming_cargo_waiting_4"]
+quarry_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nquarry_clear_incoming_cargo_waiting_5"]
+quarry_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nquarry_store_incoming_cargo_waiting_5"]
+quarry_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nquarry_clear_incoming_cargo_waiting_3"]
+quarry_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nquarry_store_incoming_cargo_waiting_3"]
+quarry_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nquarry_produce_cargo_arrival"]
+quarry_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nquarry_production_256_economy_0"]
+quarry_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nquarry_production_256_economy_1"]
+quarry_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nquarry_production_256_economy_4"]
+quarry_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nquarry_production_256_economy_5"]
+quarry_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nquarry_production_256_economy_3"]
+quarry_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nquarry_produce_256_ticks_switch_economy"]
+quarry_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nquarry_produce_256_ticks"]
+quarry_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability_param"]
+quarry_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nquarry_check_map_gen"]
+quarry_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nquarry_available_game_mode"]
+quarry_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability_0"]
+quarry_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability_1"]
+quarry_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability_4"]
+quarry_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability_5"]
+quarry_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability_3"]
+quarry_check_availability [fillcolor=yellow style="filled" label="<switch>\nquarry_check_availability"]
+quarry_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nquarry_min_distance_22"]
+quarry_min_distance_1 [fillcolor=yellow style="filled" label="<switch>\nquarry_min_distance_1"]
+quarry_min_distance_81 [fillcolor=yellow style="filled" label="<switch>\nquarry_min_distance_81"]
+quarry_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nquarry_min_distance_43"]
+quarry_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\nquarry_min_distance_7"]
+quarry_min_distance_10 [fillcolor=yellow style="filled" label="<switch>\nquarry_min_distance_10"]
+quarry_cluster_quarry [fillcolor=yellow style="filled" label="<switch>\nquarry_cluster_quarry"]
+quarry_check_location [fillcolor=yellow style="filled" label="<switch>\nquarry_check_location"]
+quarry [fillcolor=red style="filled" label="FEAT_INDUSTRIES <10>\nquarry"]
+quarry_cargo_subtype_display_switch_economy->quarry_cargo_subtype_display_switch_cargo_economy_5
+quarry_check_availability->quarry_check_availability_4
+quarry_produce_256_ticks_switch_economy->quarry_production_256_economy_5
+quarry_check_availability->quarry_check_availability_1
+quarry->quarry_cargo_subtype_display
+quarry_cargo_subtype_display_switch_economy->quarry_cargo_subtype_display_switch_cargo_economy_3
+quarry->quarry_extra_text
+quarry_min_distance_81->quarry_min_distance_1
+quarry_min_distance_7->quarry_min_distance_43
+quarry_produce_cargo_arrival->quarry_store_incoming_cargo_waiting_0
+quarry_produce_256_ticks->quarry_produce_256_ticks_switch_economy
+quarry->quarry_check_availability
+quarry_min_distance_43->quarry_min_distance_81
+quarry_store_incoming_cargo_waiting_5->quarry_clear_incoming_cargo_waiting_5
+quarry_store_incoming_cargo_waiting_1->quarry_clear_incoming_cargo_waiting_1
+quarry_check_availability_1->quarry_available_game_mode
+quarry->randomise_primary_production_on_build
+quarry_store_incoming_cargo_waiting_3->quarry_clear_incoming_cargo_waiting_3
+quarry_available_game_mode->quarry_check_map_gen
+quarry->quarry_produce_cargo_arrival
+quarry_check_availability->quarry_check_availability_0
+quarry_min_distance_1->quarry_min_distance_22
+quarry_cargo_subtype_display->quarry_cargo_subtype_display_switch_economy
+quarry_produce_256_ticks_switch_economy->quarry_production_256_economy_3
+quarry_produce_cargo_arrival->quarry_store_incoming_cargo_waiting_1
+quarry_produce_256_ticks_switch_economy->quarry_production_256_economy_0
+quarry_check_location->quarry_cluster_quarry
+quarry_check_availability_4->quarry_available_game_mode
+quarry_check_availability->quarry_check_availability_3
+quarry_check_availability_3->quarry_available_game_mode
+quarry_check_availability_0->quarry_available_game_mode
+quarry_min_distance_10->quarry_min_distance_7
+quarry_produce_cargo_arrival->quarry_store_incoming_cargo_waiting_3
+quarry_cargo_subtype_display_switch_cargo_economy_3->quarry_cargo_subtype_display_cargo_ENSP_economy_3
+quarry_cargo_subtype_display_switch_cargo_economy_5->quarry_cargo_subtype_display_cargo_ENSP_economy_5
+quarry_cluster_quarry->quarry_min_distance_10
+quarry->switch_colour
+quarry_produce_cargo_arrival->quarry_store_incoming_cargo_waiting_4
+quarry->quarry_monthly_prod_change
+quarry_produce_256_ticks_switch_economy->quarry_production_256_economy_4
+quarry_produce_cargo_arrival->quarry_store_incoming_cargo_waiting_5
+quarry->quarry_produce_256_ticks
+quarry_store_incoming_cargo_waiting_0->quarry_clear_incoming_cargo_waiting_0
+quarry_store_incoming_cargo_waiting_4->quarry_clear_incoming_cargo_waiting_4
+quarry->quarry_check_location
+quarry_check_availability_5->quarry_available_game_mode
+quarry_produce_256_ticks_switch_economy->quarry_production_256_economy_1
+quarry_check_availability->quarry_check_availability_5
+quarry_check_map_gen->quarry_check_availability_param
+}

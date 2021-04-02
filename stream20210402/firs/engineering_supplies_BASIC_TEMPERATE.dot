@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_engineering_supplies [fillcolor=green style="filled" label="<spriteset>\ncargoicon_engineering_supplies"]
+engineering_supplies_BASIC_TEMPERATE [fillcolor=red style="filled" label="FEAT_CARGOS <6>\nengineering_supplies_BASIC_TEMPERATE"]
+engineering_supplies_BASIC_TEMPERATE->cargoicon_engineering_supplies
+}

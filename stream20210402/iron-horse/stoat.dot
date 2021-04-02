@@ -1,0 +1,78 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+stoat_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_unreversed_unflipped_0"]
+stoat_ss_pantographs_down_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_down_unreversed_unflipped"]
+stoat_ss_pantographs_up_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_up_unreversed_unflipped"]
+stoat_switch_graphics_pantographs_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_pantographs_unreversed_unflipped"]
+stoat_switch_graphics_vehicle_layers_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_vehicle_layers_unreversed_unflipped"]
+stoat_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_unreversed_flipped_0"]
+stoat_ss_pantographs_down_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_down_unreversed_flipped"]
+stoat_ss_pantographs_up_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_up_unreversed_flipped"]
+stoat_switch_graphics_pantographs_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_pantographs_unreversed_flipped"]
+stoat_switch_graphics_vehicle_layers_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_vehicle_layers_unreversed_flipped"]
+stoat_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_unreversed"]
+stoat_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_reversed_unflipped_0"]
+stoat_ss_pantographs_down_reversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_down_reversed_unflipped"]
+stoat_ss_pantographs_up_reversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_up_reversed_unflipped"]
+stoat_switch_graphics_pantographs_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_pantographs_reversed_unflipped"]
+stoat_switch_graphics_vehicle_layers_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_vehicle_layers_reversed_unflipped"]
+stoat_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_reversed_flipped_0"]
+stoat_ss_pantographs_down_reversed_flipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_down_reversed_flipped"]
+stoat_ss_pantographs_up_reversed_flipped [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantographs_up_reversed_flipped"]
+stoat_switch_graphics_pantographs_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_pantographs_reversed_flipped"]
+stoat_switch_graphics_vehicle_layers_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_vehicle_layers_reversed_flipped"]
+stoat_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_reversed"]
+stoat_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nstoat_switch_graphics_vehicle"]
+stoat_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_vehicle_purchase_0"]
+stoat_ss_pantograph_purchase [fillcolor=green style="filled" label="<spriteset>\nstoat_ss_pantograph_purchase"]
+stoat_switch_set_layers_register_more_sprites_purchase [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_set_layers_register_more_sprites_purchase"]
+stoat_switch_graphics_purchase [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics_purchase"]
+stoat_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_set_layers_register_more_sprites"]
+stoat_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_graphics"]
+stoat_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_colour_mapping"]
+stoat_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_create_effect_default_unreversed"]
+stoat_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_create_effect_default_reversed"]
+stoat_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nstoat_switch_create_effect_reversed_variants"]
+stoat_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nstoat_switch_buy_menu_text_result"]
+stoat [fillcolor=red style="filled" label="<FEAT_TRAINS 3340>\nstoat"]
+stoat_switch_graphics_pantographs_unreversed_unflipped->stoat_ss_pantographs_up_unreversed_unflipped
+stoat_switch_graphics_vehicle_layers_reversed_unflipped->stoat_ss_reversed_unflipped_0
+stoat_switch_create_effect_reversed_variants->stoat_switch_create_effect_default_unreversed
+stoat_switch_graphics_reversed->stoat_switch_graphics_vehicle_layers_reversed_unflipped
+stoat->stoat_switch_graphics_purchase
+stoat->stoat_switch_colour_mapping
+stoat_switch_graphics->switch_graphics_layer_tail_light_empty
+stoat_switch_graphics_vehicle_layers_unreversed_flipped->stoat_switch_graphics_pantographs_unreversed_flipped
+stoat_switch_graphics_unreversed->stoat_switch_graphics_vehicle_layers_unreversed_unflipped
+stoat_switch_graphics_vehicle_layers_unreversed_unflipped->stoat_ss_unreversed_unflipped_0
+stoat_switch_graphics_unreversed->stoat_switch_graphics_vehicle_layers_unreversed_flipped
+stoat_switch_graphics_vehicle->stoat_switch_graphics_reversed
+stoat_switch_graphics_pantographs_reversed_unflipped->stoat_ss_pantographs_down_reversed_unflipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+stoat_switch_graphics_vehicle_layers_unreversed_unflipped->stoat_switch_graphics_pantographs_unreversed_unflipped
+stoat_switch_set_layers_register_more_sprites->stoat_switch_graphics_vehicle
+stoat->stoat_switch_create_effect_reversed_variants
+stoat_switch_graphics_pantographs_reversed_flipped->stoat_ss_pantographs_up_reversed_flipped
+stoat_switch_graphics_reversed->stoat_switch_graphics_vehicle_layers_reversed_flipped
+stoat_switch_graphics_vehicle_layers_reversed_flipped->stoat_switch_graphics_pantographs_reversed_flipped
+stoat_switch_graphics->stoat_switch_set_layers_register_more_sprites
+stoat->stoat_switch_graphics
+stoat_switch_set_layers_register_more_sprites_purchase->stoat_ss_vehicle_purchase_0
+stoat_switch_graphics_vehicle_layers_reversed_flipped->stoat_ss_reversed_flipped_0
+stoat_switch_graphics_pantographs_unreversed_unflipped->stoat_ss_pantographs_down_unreversed_unflipped
+stoat_switch_graphics_vehicle->stoat_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+stoat_switch_graphics_purchase->stoat_ss_pantograph_purchase
+stoat_switch_graphics_pantographs_unreversed_flipped->stoat_ss_pantographs_up_unreversed_flipped
+stoat->stoat_switch_buy_menu_text_result
+stoat_switch_graphics_pantographs_unreversed_flipped->stoat_ss_pantographs_down_unreversed_flipped
+stoat_switch_graphics_pantographs_reversed_unflipped->stoat_ss_pantographs_up_reversed_unflipped
+stoat_switch_create_effect_reversed_variants->stoat_switch_create_effect_default_reversed
+stoat_switch_graphics_vehicle_layers_unreversed_flipped->stoat_ss_unreversed_flipped_0
+stoat_switch_graphics_purchase->stoat_switch_set_layers_register_more_sprites_purchase
+stoat_switch_graphics_vehicle_layers_reversed_unflipped->stoat_switch_graphics_pantographs_reversed_unflipped
+stoat_switch_graphics_pantographs_reversed_flipped->stoat_ss_pantographs_down_reversed_flipped
+}

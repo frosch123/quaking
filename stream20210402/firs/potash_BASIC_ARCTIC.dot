@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_potash [fillcolor=green style="filled" label="<spriteset>\ncargoicon_potash"]
+potash_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <14>\npotash_BASIC_ARCTIC"]
+potash_BASIC_ARCTIC->cargoicon_potash
+}

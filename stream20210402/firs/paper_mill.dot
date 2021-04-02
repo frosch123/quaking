@@ -1,0 +1,86 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+paper_mill_produce_0 [fillcolor=green style="filled" label="<produce>\npaper_mill_produce_0"]
+paper_mill_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_produce_calculation_0"]
+paper_mill_produce_1 [fillcolor=green style="filled" label="<produce>\npaper_mill_produce_1"]
+paper_mill_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_produce_calculation_1"]
+paper_mill_produce_4 [fillcolor=green style="filled" label="<produce>\npaper_mill_produce_4"]
+paper_mill_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_produce_calculation_4"]
+paper_mill_produce_5 [fillcolor=green style="filled" label="<produce>\npaper_mill_produce_5"]
+paper_mill_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_produce_calculation_5"]
+paper_mill_produce_3 [fillcolor=green style="filled" label="<produce>\npaper_mill_produce_3"]
+paper_mill_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_produce_calculation_3"]
+paper_mill_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\npaper_mill_produce_cargo_arrival"]
+paper_mill_extra_text [fillcolor=yellow style="filled" label="<switch>\npaper_mill_extra_text"]
+paper_mill_cargo_subtype_display_cargo_KAOL_economy_1 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_cargo_subtype_display_cargo_KAOL_economy_1"]
+paper_mill_cargo_subtype_display_cargo_WOOD_economy_1 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_cargo_subtype_display_cargo_WOOD_economy_1"]
+paper_mill_cargo_subtype_display_cargo_SULP_economy_1 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_cargo_subtype_display_cargo_SULP_economy_1"]
+paper_mill_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_cargo_subtype_display_switch_cargo_economy_1"]
+paper_mill_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\npaper_mill_cargo_subtype_display_switch_economy"]
+paper_mill_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\npaper_mill_cargo_subtype_display"]
+paper_mill_check_availability_param [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability_param"]
+paper_mill_check_map_gen [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_map_gen"]
+paper_mill_available_game_mode [fillcolor=yellow style="filled" label="<switch>\npaper_mill_available_game_mode"]
+paper_mill_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability_0"]
+paper_mill_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability_1"]
+paper_mill_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability_4"]
+paper_mill_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability_5"]
+paper_mill_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability_3"]
+paper_mill_check_availability [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_availability"]
+paper_mill_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_57"]
+paper_mill_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_69"]
+paper_mill_min_distance_78 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_78"]
+paper_mill_min_distance_72 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_72"]
+paper_mill_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_61"]
+paper_mill_min_distance_11 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_11"]
+paper_mill_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_39"]
+paper_mill_min_distance_44 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_44"]
+paper_mill_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_60"]
+paper_mill_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\npaper_mill_min_distance_14"]
+paper_mill_check_location [fillcolor=yellow style="filled" label="<switch>\npaper_mill_check_location"]
+paper_mill [fillcolor=red style="filled" label="FEAT_INDUSTRIES <14>\npaper_mill"]
+paper_mill_min_distance_14->paper_mill_min_distance_60
+paper_mill->paper_mill_produce_cargo_arrival
+paper_mill_cargo_subtype_display_switch_economy->paper_mill_cargo_subtype_display_switch_cargo_economy_1
+paper_mill_check_location->paper_mill_min_distance_14
+paper_mill->paper_mill_extra_text
+paper_mill_produce_calculation_0->paper_mill_produce_0
+paper_mill->paper_mill_check_location
+paper_mill_min_distance_61->paper_mill_min_distance_72
+paper_mill_min_distance_69->paper_mill_min_distance_57
+paper_mill_check_availability->paper_mill_check_availability_3
+paper_mill_cargo_subtype_display->paper_mill_cargo_subtype_display_switch_economy
+paper_mill_check_availability_1->paper_mill_available_game_mode
+paper_mill_produce_calculation_3->paper_mill_produce_3
+paper_mill_produce_calculation_5->paper_mill_produce_5
+paper_mill_min_distance_44->paper_mill_min_distance_39
+paper_mill_available_game_mode->paper_mill_check_map_gen
+paper_mill_produce_calculation_1->paper_mill_produce_1
+paper_mill_min_distance_39->paper_mill_min_distance_11
+paper_mill_produce_cargo_arrival->paper_mill_produce_calculation_4
+paper_mill_produce_cargo_arrival->paper_mill_produce_calculation_5
+paper_mill_produce_cargo_arrival->paper_mill_produce_calculation_0
+paper_mill_min_distance_11->paper_mill_min_distance_61
+paper_mill_produce_calculation_4->paper_mill_produce_4
+paper_mill_check_map_gen->paper_mill_check_availability_param
+paper_mill_check_availability_3->paper_mill_available_game_mode
+paper_mill_check_availability_5->paper_mill_available_game_mode
+paper_mill_cargo_subtype_display_switch_cargo_economy_1->paper_mill_cargo_subtype_display_cargo_SULP_economy_1
+paper_mill_cargo_subtype_display_switch_cargo_economy_1->paper_mill_cargo_subtype_display_cargo_KAOL_economy_1
+paper_mill_check_availability_0->paper_mill_available_game_mode
+paper_mill_min_distance_72->paper_mill_min_distance_78
+paper_mill_produce_cargo_arrival->paper_mill_produce_calculation_3
+paper_mill->switch_colour
+paper_mill->paper_mill_check_availability
+paper_mill_check_availability->paper_mill_check_availability_4
+paper_mill_min_distance_78->paper_mill_min_distance_69
+paper_mill_min_distance_60->paper_mill_min_distance_44
+paper_mill_produce_cargo_arrival->paper_mill_produce_calculation_1
+paper_mill_check_availability->paper_mill_check_availability_1
+paper_mill_check_availability->paper_mill_check_availability_0
+paper_mill_check_availability->paper_mill_check_availability_5
+paper_mill->paper_mill_cargo_subtype_display
+paper_mill_cargo_subtype_display_switch_cargo_economy_1->paper_mill_cargo_subtype_display_cargo_WOOD_economy_1
+paper_mill_check_availability_4->paper_mill_available_game_mode
+}

@@ -1,0 +1,52 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+peasweep_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\npeasweep_articulated_cb_switch"]
+peasweep_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_unreversed_unflipped_0"]
+peasweep_ss_pantographs_down_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_pantographs_down_unreversed_unflipped"]
+peasweep_ss_pantographs_up_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_pantographs_up_unreversed_unflipped"]
+peasweep_switch_graphics_pantographs_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics_pantographs_unreversed_unflipped"]
+peasweep_switch_graphics_vehicle_layers_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics_vehicle_layers_unreversed_unflipped"]
+peasweep_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_unreversed_flipped_0"]
+peasweep_ss_pantographs_down_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_pantographs_down_unreversed_flipped"]
+peasweep_ss_pantographs_up_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_pantographs_up_unreversed_flipped"]
+peasweep_switch_graphics_pantographs_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics_pantographs_unreversed_flipped"]
+peasweep_switch_graphics_vehicle_layers_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics_vehicle_layers_unreversed_flipped"]
+peasweep_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics_unreversed"]
+peasweep_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_vehicle_purchase_0"]
+peasweep_ss_pantograph_purchase [fillcolor=green style="filled" label="<spriteset>\npeasweep_ss_pantograph_purchase"]
+peasweep_switch_set_layers_register_more_sprites_purchase [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_set_layers_register_more_sprites_purchase"]
+peasweep_switch_graphics_purchase [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics_purchase"]
+peasweep_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_set_layers_register_more_sprites"]
+peasweep_switch_graphics [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_graphics"]
+peasweep_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_colour_mapping"]
+peasweep_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_create_effect_default_unreversed"]
+peasweep_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\npeasweep_switch_buy_menu_text_result"]
+peasweep [fillcolor=red style="filled" label="<FEAT_TRAINS 1750>\npeasweep"]
+peasweep->peasweep_switch_graphics
+peasweep_switch_graphics_vehicle_layers_unreversed_flipped->peasweep_switch_graphics_pantographs_unreversed_flipped
+peasweep_switch_graphics->switch_graphics_layer_tail_light_empty
+peasweep_switch_graphics_purchase->peasweep_ss_pantograph_purchase
+peasweep_switch_set_layers_register_more_sprites_purchase->peasweep_ss_vehicle_purchase_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+peasweep->peasweep_articulated_cb_switch
+peasweep_switch_graphics_unreversed->peasweep_switch_graphics_vehicle_layers_unreversed_flipped
+peasweep_switch_graphics_vehicle_layers_unreversed_flipped->peasweep_ss_unreversed_flipped_0
+peasweep_switch_graphics_pantographs_unreversed_flipped->peasweep_ss_pantographs_down_unreversed_flipped
+peasweep->peasweep_switch_create_effect_default_unreversed
+peasweep_switch_graphics_pantographs_unreversed_unflipped->peasweep_ss_pantographs_down_unreversed_unflipped
+peasweep_switch_set_layers_register_more_sprites->peasweep_switch_graphics_unreversed
+peasweep->peasweep_switch_graphics_purchase
+peasweep->peasweep_switch_colour_mapping
+peasweep_switch_graphics_unreversed->peasweep_switch_graphics_vehicle_layers_unreversed_unflipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+peasweep_switch_graphics_vehicle_layers_unreversed_unflipped->peasweep_ss_unreversed_unflipped_0
+peasweep->peasweep_switch_buy_menu_text_result
+peasweep_switch_graphics_pantographs_unreversed_flipped->peasweep_ss_pantographs_up_unreversed_flipped
+peasweep_switch_graphics_pantographs_unreversed_unflipped->peasweep_ss_pantographs_up_unreversed_unflipped
+peasweep_switch_graphics->peasweep_switch_set_layers_register_more_sprites
+peasweep_switch_graphics_purchase->peasweep_switch_set_layers_register_more_sprites_purchase
+peasweep_switch_graphics_vehicle_layers_unreversed_unflipped->peasweep_switch_graphics_pantographs_unreversed_unflipped
+}

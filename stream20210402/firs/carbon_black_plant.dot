@@ -1,0 +1,73 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+carbon_black_plant_produce_0 [fillcolor=green style="filled" label="<produce>\ncarbon_black_plant_produce_0"]
+carbon_black_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_produce_calculation_0"]
+carbon_black_plant_produce_1 [fillcolor=green style="filled" label="<produce>\ncarbon_black_plant_produce_1"]
+carbon_black_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_produce_calculation_1"]
+carbon_black_plant_produce_4 [fillcolor=green style="filled" label="<produce>\ncarbon_black_plant_produce_4"]
+carbon_black_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_produce_calculation_4"]
+carbon_black_plant_produce_5 [fillcolor=green style="filled" label="<produce>\ncarbon_black_plant_produce_5"]
+carbon_black_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_produce_calculation_5"]
+carbon_black_plant_produce_3 [fillcolor=green style="filled" label="<produce>\ncarbon_black_plant_produce_3"]
+carbon_black_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_produce_calculation_3"]
+carbon_black_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_produce_cargo_arrival"]
+carbon_black_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_extra_text"]
+carbon_black_plant_cargo_subtype_display_cargo_CTAR_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_cargo_subtype_display_cargo_CTAR_economy_5"]
+carbon_black_plant_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_cargo_subtype_display_switch_cargo_economy_5"]
+carbon_black_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_cargo_subtype_display_switch_economy"]
+carbon_black_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_cargo_subtype_display"]
+carbon_black_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability_param"]
+carbon_black_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_map_gen"]
+carbon_black_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_available_game_mode"]
+carbon_black_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability_0"]
+carbon_black_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability_1"]
+carbon_black_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability_4"]
+carbon_black_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability_5"]
+carbon_black_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability_3"]
+carbon_black_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_availability"]
+carbon_black_plant_min_distance_78 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_min_distance_78"]
+carbon_black_plant_min_distance_70 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_min_distance_70"]
+carbon_black_plant_check_industry_max_distance_2 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_industry_max_distance_2"]
+carbon_black_plant_max_distance_78 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_max_distance_78"]
+carbon_black_plant_min_distance_84 [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_min_distance_84"]
+carbon_black_plant_check_location [fillcolor=yellow style="filled" label="<switch>\ncarbon_black_plant_check_location"]
+carbon_black_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <84>\ncarbon_black_plant"]
+carbon_black_plant_check_availability_4->carbon_black_plant_available_game_mode
+carbon_black_plant_check_availability->carbon_black_plant_check_availability_5
+carbon_black_plant_check_availability_5->carbon_black_plant_available_game_mode
+carbon_black_plant_check_map_gen->carbon_black_plant_check_availability_param
+carbon_black_plant->carbon_black_plant_produce_cargo_arrival
+carbon_black_plant_produce_cargo_arrival->carbon_black_plant_produce_calculation_5
+carbon_black_plant_check_availability_0->carbon_black_plant_available_game_mode
+carbon_black_plant_check_location->carbon_black_plant_min_distance_84
+carbon_black_plant_check_availability->carbon_black_plant_check_availability_1
+carbon_black_plant_cargo_subtype_display_switch_economy->carbon_black_plant_cargo_subtype_display_switch_cargo_economy_5
+carbon_black_plant_available_game_mode->carbon_black_plant_check_map_gen
+carbon_black_plant_produce_cargo_arrival->carbon_black_plant_produce_calculation_0
+carbon_black_plant_check_availability->carbon_black_plant_check_availability_4
+carbon_black_plant_produce_cargo_arrival->carbon_black_plant_produce_calculation_1
+carbon_black_plant_min_distance_84->carbon_black_plant_max_distance_78
+carbon_black_plant_check_availability_3->carbon_black_plant_available_game_mode
+carbon_black_plant->carbon_black_plant_check_location
+carbon_black_plant_check_industry_max_distance_2->carbon_black_plant_min_distance_70
+carbon_black_plant_check_availability_1->carbon_black_plant_available_game_mode
+carbon_black_plant_produce_calculation_4->carbon_black_plant_produce_4
+carbon_black_plant_produce_cargo_arrival->carbon_black_plant_produce_calculation_4
+carbon_black_plant_produce_calculation_5->carbon_black_plant_produce_5
+carbon_black_plant_produce_calculation_1->carbon_black_plant_produce_1
+carbon_black_plant_cargo_subtype_display_switch_cargo_economy_5->carbon_black_plant_cargo_subtype_display_cargo_CTAR_economy_5
+carbon_black_plant_max_distance_78->carbon_black_plant_min_distance_70
+carbon_black_plant->carbon_black_plant_check_availability
+carbon_black_plant->carbon_black_plant_extra_text
+carbon_black_plant_min_distance_70->carbon_black_plant_min_distance_78
+carbon_black_plant->carbon_black_plant_cargo_subtype_display
+carbon_black_plant_produce_calculation_0->carbon_black_plant_produce_0
+carbon_black_plant_cargo_subtype_display->carbon_black_plant_cargo_subtype_display_switch_economy
+carbon_black_plant_check_availability->carbon_black_plant_check_availability_3
+carbon_black_plant_produce_calculation_3->carbon_black_plant_produce_3
+carbon_black_plant_check_availability->carbon_black_plant_check_availability_0
+carbon_black_plant->switch_colour
+carbon_black_plant_max_distance_78->carbon_black_plant_check_industry_max_distance_2
+carbon_black_plant_produce_cargo_arrival->carbon_black_plant_produce_calculation_3
+}

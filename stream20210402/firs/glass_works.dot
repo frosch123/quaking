@@ -1,0 +1,104 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+glass_works_produce_0 [fillcolor=green style="filled" label="<produce>\nglass_works_produce_0"]
+glass_works_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nglass_works_produce_calculation_0"]
+glass_works_produce_1 [fillcolor=green style="filled" label="<produce>\nglass_works_produce_1"]
+glass_works_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nglass_works_produce_calculation_1"]
+glass_works_produce_4 [fillcolor=green style="filled" label="<produce>\nglass_works_produce_4"]
+glass_works_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nglass_works_produce_calculation_4"]
+glass_works_produce_5 [fillcolor=green style="filled" label="<produce>\nglass_works_produce_5"]
+glass_works_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nglass_works_produce_calculation_5"]
+glass_works_produce_3 [fillcolor=green style="filled" label="<produce>\nglass_works_produce_3"]
+glass_works_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nglass_works_produce_calculation_3"]
+glass_works_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nglass_works_produce_cargo_arrival"]
+glass_works_extra_text [fillcolor=yellow style="filled" label="<switch>\nglass_works_extra_text"]
+glass_works_cargo_subtype_display_cargo_SAND_economy_0 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_cargo_SAND_economy_0"]
+glass_works_cargo_subtype_display_cargo_RFPR_economy_0 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_cargo_RFPR_economy_0"]
+glass_works_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_switch_cargo_economy_0"]
+glass_works_cargo_subtype_display_cargo_SAND_economy_5 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_cargo_SAND_economy_5"]
+glass_works_cargo_subtype_display_cargo_SASH_economy_5 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_cargo_SASH_economy_5"]
+glass_works_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_switch_cargo_economy_5"]
+glass_works_cargo_subtype_display_cargo_SAND_economy_3 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_cargo_SAND_economy_3"]
+glass_works_cargo_subtype_display_cargo_RFPR_economy_3 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_cargo_RFPR_economy_3"]
+glass_works_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_switch_cargo_economy_3"]
+glass_works_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display_switch_economy"]
+glass_works_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nglass_works_cargo_subtype_display"]
+glass_works_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability_param"]
+glass_works_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_map_gen"]
+glass_works_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nglass_works_available_game_mode"]
+glass_works_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability_0"]
+glass_works_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability_1"]
+glass_works_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability_4"]
+glass_works_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability_5"]
+glass_works_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability_3"]
+glass_works_check_availability [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_availability"]
+glass_works_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_57"]
+glass_works_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_69"]
+glass_works_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_49"]
+glass_works_min_distance_10 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_10"]
+glass_works_min_distance_20 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_20"]
+glass_works_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_74"]
+glass_works_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_61"]
+glass_works_min_distance_96 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_96"]
+glass_works_min_distance_86 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_86"]
+glass_works_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_51"]
+glass_works_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_39"]
+glass_works_min_distance_63 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_63"]
+glass_works_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_60"]
+glass_works_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nglass_works_min_distance_22"]
+glass_works_check_location [fillcolor=yellow style="filled" label="<switch>\nglass_works_check_location"]
+glass_works [fillcolor=red style="filled" label="FEAT_INDUSTRIES <22>\nglass_works"]
+glass_works_check_location->glass_works_min_distance_22
+glass_works_produce_cargo_arrival->glass_works_produce_calculation_1
+glass_works_min_distance_69->glass_works_min_distance_57
+glass_works_min_distance_74->glass_works_min_distance_20
+glass_works_cargo_subtype_display_switch_economy->glass_works_cargo_subtype_display_switch_cargo_economy_3
+glass_works_min_distance_86->glass_works_min_distance_96
+glass_works_cargo_subtype_display_switch_cargo_economy_0->glass_works_cargo_subtype_display_cargo_SAND_economy_0
+glass_works_check_availability_0->glass_works_available_game_mode
+glass_works_check_availability_5->glass_works_available_game_mode
+glass_works_produce_cargo_arrival->glass_works_produce_calculation_0
+glass_works_cargo_subtype_display_switch_cargo_economy_3->glass_works_cargo_subtype_display_cargo_SAND_economy_3
+glass_works_produce_calculation_4->glass_works_produce_4
+glass_works->glass_works_extra_text
+glass_works_produce_calculation_3->glass_works_produce_3
+glass_works_check_availability_3->glass_works_available_game_mode
+glass_works_min_distance_96->glass_works_min_distance_61
+glass_works_cargo_subtype_display_switch_economy->glass_works_cargo_subtype_display_switch_cargo_economy_5
+glass_works_produce_calculation_1->glass_works_produce_1
+glass_works_produce_cargo_arrival->glass_works_produce_calculation_5
+glass_works_cargo_subtype_display_switch_cargo_economy_5->glass_works_cargo_subtype_display_cargo_SASH_economy_5
+glass_works_check_availability->glass_works_check_availability_3
+glass_works_min_distance_63->glass_works_min_distance_39
+glass_works_min_distance_22->glass_works_min_distance_60
+glass_works_produce_calculation_5->glass_works_produce_5
+glass_works_min_distance_49->glass_works_min_distance_69
+glass_works_cargo_subtype_display->glass_works_cargo_subtype_display_switch_economy
+glass_works->glass_works_produce_cargo_arrival
+glass_works_cargo_subtype_display_switch_cargo_economy_5->glass_works_cargo_subtype_display_cargo_SAND_economy_5
+glass_works_check_availability->glass_works_check_availability_1
+glass_works_check_availability->glass_works_check_availability_0
+glass_works_min_distance_61->glass_works_min_distance_74
+glass_works_cargo_subtype_display_switch_economy->glass_works_cargo_subtype_display_switch_cargo_economy_0
+glass_works_check_availability->glass_works_check_availability_4
+glass_works_min_distance_20->glass_works_min_distance_10
+glass_works_check_map_gen->glass_works_check_availability_param
+glass_works_cargo_subtype_display_switch_cargo_economy_3->glass_works_cargo_subtype_display_cargo_RFPR_economy_3
+glass_works->glass_works_check_availability
+glass_works_check_availability_4->glass_works_available_game_mode
+glass_works->glass_works_check_location
+glass_works_min_distance_51->glass_works_min_distance_86
+glass_works_available_game_mode->glass_works_check_map_gen
+glass_works_min_distance_39->glass_works_min_distance_51
+glass_works_check_availability_1->glass_works_available_game_mode
+glass_works_min_distance_60->glass_works_min_distance_63
+glass_works_check_availability->glass_works_check_availability_5
+glass_works_produce_calculation_0->glass_works_produce_0
+glass_works_produce_cargo_arrival->glass_works_produce_calculation_3
+glass_works_min_distance_10->glass_works_min_distance_49
+glass_works_produce_cargo_arrival->glass_works_produce_calculation_4
+glass_works->switch_colour
+glass_works_cargo_subtype_display_switch_cargo_economy_0->glass_works_cargo_subtype_display_cargo_RFPR_economy_0
+glass_works->glass_works_cargo_subtype_display
+}

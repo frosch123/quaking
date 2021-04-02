@@ -1,0 +1,83 @@
+digraph {
+rankdir="BT"
+sw_cc_red_mauve [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red_mauve"]
+spriteset_et_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_headlights"]
+spriteset_et_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_marker_lights"]
+spriteset_et_1_et_first [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_1_et_first"]
+spriteset_et_1_et_first_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_1_et_first_reversed"]
+spriteset_et_1_ft [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_1_ft"]
+spriteset_et_1_ft_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_1_ft_reversed"]
+spriteset_et_1_et_second [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_1_et_second"]
+spriteset_et_1_et_second_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_1_et_second_reversed"]
+spriteset_et_2_et_first [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_2_et_first"]
+spriteset_et_2_et_first_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_2_et_first_reversed"]
+spriteset_et_2_ft [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_2_ft"]
+spriteset_et_2_ft_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_2_ft_reversed"]
+spriteset_et_2_et_second [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_2_et_second"]
+spriteset_et_2_et_second_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_et_2_et_second_reversed"]
+sw_et_livery_et_first [fillcolor=yellow style="filled" label="<switch>\nsw_et_livery_et_first"]
+sw_et_livery_et_first_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_et_livery_et_first_reversed"]
+sw_et_livery_ft [fillcolor=yellow style="filled" label="<switch>\nsw_et_livery_ft"]
+sw_et_livery_ft_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_et_livery_ft_reversed"]
+sw_et_livery_et_second [fillcolor=yellow style="filled" label="<switch>\nsw_et_livery_et_second"]
+sw_et_livery_et_second_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_et_livery_et_second_reversed"]
+sw_et_et_first_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_first_with_headlights"]
+sw_et_et_first_position [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_first_position"]
+sw_et_et_first_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_first_with_marker_lights"]
+sw_et_et_first_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_first_reversed_position"]
+sw_et_et_second_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_second_with_headlights"]
+sw_et_et_second_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_second_reversed_position"]
+sw_et_et_second_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_second_with_marker_lights"]
+sw_et_et_second_position [fillcolor=yellow style="filled" label="<switch>\nsw_et_et_second_position"]
+sw_et_reverser_0 [fillcolor=yellow style="filled" label="<switch>\nsw_et_reverser_0"]
+sw_et_reverser_1 [fillcolor=yellow style="filled" label="<switch>\nsw_et_reverser_1"]
+sw_et_reverser_2 [fillcolor=yellow style="filled" label="<switch>\nsw_et_reverser_2"]
+sw_et_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_et_graphics"]
+sw_et_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_et_articulated_part"]
+sw_et_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_et_cargo_subtype_text"]
+sw_et_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_et_cargo_subtype"]
+item_et [fillcolor=red style="filled" label="<FEAT_TRAINS 5>\nitem_et"]
+sw_et_reverser_2->sw_et_et_second_position
+sw_et_et_first_position->sw_et_livery_et_first
+sw_et_livery_ft->spriteset_et_2_ft
+sw_et_livery_et_second->spriteset_et_2_et_second
+sw_et_reverser_1->sw_et_livery_ft_reversed
+sw_et_livery_ft->spriteset_et_1_ft
+sw_et_livery_et_second_reversed->spriteset_et_1_et_second_reversed
+sw_et_et_first_with_headlights->spriteset_et_headlights
+item_et->sw_et_livery_et_first
+sw_et_et_second_with_headlights->spriteset_et_headlights
+sw_et_et_first_with_marker_lights->spriteset_et_marker_lights
+sw_et_livery_ft_reversed->spriteset_et_1_ft_reversed
+sw_et_livery_ft_reversed->spriteset_et_2_ft_reversed
+sw_et_et_second_with_headlights->sw_et_livery_et_second_reversed
+sw_et_livery_et_second->spriteset_et_1_et_second
+item_et->sw_cc_red_mauve
+sw_et_et_first_with_marker_lights->sw_et_livery_et_first_reversed
+sw_et_et_second_position->sw_et_livery_et_second
+sw_et_et_second_reversed_position->sw_et_et_second_with_headlights
+sw_et_reverser_0->sw_et_et_second_reversed_position
+sw_et_livery_et_first_reversed->spriteset_et_2_et_first_reversed
+sw_et_et_second_position->sw_et_et_second_with_marker_lights
+sw_et_cargo_subtype->sw_et_cargo_subtype_text
+sw_et_et_first_position->sw_et_et_first_with_headlights
+sw_et_reverser_0->sw_et_et_first_position
+item_et->sw_et_cargo_subtype
+sw_et_livery_et_first->spriteset_et_1_et_first
+sw_et_et_second_with_marker_lights->sw_et_livery_et_second
+sw_et_et_first_reversed_position->sw_et_et_first_with_marker_lights
+sw_et_reverser_1->sw_et_livery_ft
+sw_et_et_first_with_headlights->sw_et_livery_et_first
+sw_et_et_first_reversed_position->sw_et_livery_et_first_reversed
+sw_et_et_second_reversed_position->sw_et_livery_et_second_reversed
+item_et->sw_et_graphics
+sw_et_livery_et_second_reversed->spriteset_et_2_et_second_reversed
+item_et->sw_et_articulated_part
+sw_et_livery_et_first->spriteset_et_2_et_first
+sw_et_graphics->sw_et_reverser_2
+sw_et_reverser_2->sw_et_et_first_reversed_position
+sw_et_graphics->sw_et_reverser_0
+sw_et_livery_et_first_reversed->spriteset_et_1_et_first_reversed
+sw_et_graphics->sw_et_reverser_1
+sw_et_et_second_with_marker_lights->spriteset_et_marker_lights
+}

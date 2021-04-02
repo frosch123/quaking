@@ -1,0 +1,47 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+snowplough_pony_gen_2_ss_unflipped_unreversed [fillcolor=green style="filled" label="<spriteset>\nsnowplough_pony_gen_2_ss_unflipped_unreversed"]
+snowplough_pony_gen_2_ss_flipped_unreversed [fillcolor=green style="filled" label="<spriteset>\nsnowplough_pony_gen_2_ss_flipped_unreversed"]
+snowplough_pony_gen_2_ss_unflipped_reversed [fillcolor=green style="filled" label="<spriteset>\nsnowplough_pony_gen_2_ss_unflipped_reversed"]
+snowplough_pony_gen_2_ss_flipped_reversed [fillcolor=green style="filled" label="<spriteset>\nsnowplough_pony_gen_2_ss_flipped_reversed"]
+snowplough_pony_gen_2_switch_graphics_vehicle_last [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_graphics_vehicle_last"]
+snowplough_pony_gen_2_switch_graphics_vehicle_default [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_graphics_vehicle_default"]
+snowplough_pony_gen_2_switch_graphics_check_last [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_graphics_check_last"]
+snowplough_pony_gen_2_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_graphics_vehicle"]
+snowplough_pony_gen_2_ss_purchase [fillcolor=green style="filled" label="<spriteset>\nsnowplough_pony_gen_2_ss_purchase"]
+snowplough_pony_gen_2_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_set_layers_register_more_sprites"]
+snowplough_pony_gen_2_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_graphics"]
+snowplough_pony_gen_2_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_cargo_capacity"]
+snowplough_pony_gen_2_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nsnowplough_pony_gen_2_switch_buy_menu_text_result"]
+snowplough_pony_gen_2 [fillcolor=red style="filled" label="<FEAT_TRAINS 4000>\nsnowplough_pony_gen_2"]
+snowplough_pony_gen_2_switch_graphics_vehicle_last->snowplough_pony_gen_2_ss_unflipped_reversed
+snowplough_pony_gen_2_switch_cargo_capacity->switch_cargo_capacity
+snowplough_pony_gen_2_switch_graphics->snowplough_pony_gen_2_switch_set_layers_register_more_sprites
+snowplough_pony_gen_2_switch_graphics_vehicle_default->snowplough_pony_gen_2_ss_unflipped_unreversed
+snowplough_pony_gen_2_switch_graphics_check_last->snowplough_pony_gen_2_switch_graphics_vehicle_default
+snowplough_pony_gen_2_switch_graphics_vehicle->snowplough_pony_gen_2_switch_graphics_vehicle_default
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+snowplough_pony_gen_2_switch_graphics_vehicle_default->snowplough_pony_gen_2_ss_flipped_unreversed
+snowplough_pony_gen_2->snowplough_pony_gen_2_switch_cargo_capacity
+snowplough_pony_gen_2_switch_set_layers_register_more_sprites->snowplough_pony_gen_2_switch_graphics_vehicle
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+snowplough_pony_gen_2->snowplough_pony_gen_2_switch_graphics
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+snowplough_pony_gen_2_switch_graphics_check_last->snowplough_pony_gen_2_switch_graphics_vehicle_last
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+snowplough_pony_gen_2_switch_graphics_vehicle->snowplough_pony_gen_2_switch_graphics_check_last
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+snowplough_pony_gen_2->snowplough_pony_gen_2_switch_buy_menu_text_result
+snowplough_pony_gen_2_switch_graphics->switch_graphics_layer_tail_light_empty
+snowplough_pony_gen_2->snowplough_pony_gen_2_ss_purchase
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+snowplough_pony_gen_2_switch_graphics_vehicle_last->snowplough_pony_gen_2_ss_flipped_reversed
+}

@@ -1,0 +1,48 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+hardware_store_produce_cargo_arrival_economy_3 [fillcolor=green style="filled" label="<produce>\nhardware_store_produce_cargo_arrival_economy_3"]
+hardware_store_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability_param"]
+hardware_store_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_map_gen"]
+hardware_store_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nhardware_store_available_game_mode"]
+hardware_store_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability_0"]
+hardware_store_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability_1"]
+hardware_store_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability_4"]
+hardware_store_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability_5"]
+hardware_store_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability_3"]
+hardware_store_check_availability [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_availability"]
+hardware_store_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_22"]
+hardware_store_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_39"]
+hardware_store_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_43"]
+hardware_store_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_14"]
+hardware_store_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_41"]
+hardware_store_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_9"]
+hardware_store_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\nhardware_store_min_distance_57"]
+hardware_store_check_location [fillcolor=yellow style="filled" label="<switch>\nhardware_store_check_location"]
+hardware_store [fillcolor=red style="filled" label="FEAT_INDUSTRIES <57>\nhardware_store"]
+hardware_store_check_map_gen->hardware_store_check_availability_param
+hardware_store_available_game_mode->hardware_store_check_map_gen
+hardware_store_check_availability->hardware_store_check_availability_3
+hardware_store_min_distance_9->hardware_store_min_distance_41
+hardware_store_min_distance_41->hardware_store_min_distance_14
+hardware_store_min_distance_57->hardware_store_min_distance_9
+hardware_store->hardware_store_check_availability
+hardware_store->hardware_store_produce_cargo_arrival_economy_3
+hardware_store_min_distance_43->hardware_store_min_distance_39
+hardware_store_check_availability_5->hardware_store_available_game_mode
+hardware_store_check_availability->hardware_store_check_availability_0
+hardware_store_check_availability->hardware_store_check_availability_5
+hardware_store_check_location->hardware_store_min_distance_57
+hardware_store_check_availability_4->hardware_store_available_game_mode
+hardware_store_check_availability_0->hardware_store_available_game_mode
+hardware_store_check_availability_1->hardware_store_available_game_mode
+hardware_store_min_distance_14->hardware_store_min_distance_43
+hardware_store->randomise_primary_production_on_build
+hardware_store_check_availability->hardware_store_check_availability_4
+hardware_store_min_distance_39->hardware_store_min_distance_22
+hardware_store_check_availability->hardware_store_check_availability_1
+hardware_store->hardware_store_check_location
+hardware_store->switch_colour
+hardware_store_check_availability_3->hardware_store_available_game_mode
+}

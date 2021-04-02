@@ -1,0 +1,84 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+metal_workshop_produce_0 [fillcolor=green style="filled" label="<produce>\nmetal_workshop_produce_0"]
+metal_workshop_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_produce_calculation_0"]
+metal_workshop_produce_1 [fillcolor=green style="filled" label="<produce>\nmetal_workshop_produce_1"]
+metal_workshop_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_produce_calculation_1"]
+metal_workshop_produce_4 [fillcolor=green style="filled" label="<produce>\nmetal_workshop_produce_4"]
+metal_workshop_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_produce_calculation_4"]
+metal_workshop_produce_5 [fillcolor=green style="filled" label="<produce>\nmetal_workshop_produce_5"]
+metal_workshop_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_produce_calculation_5"]
+metal_workshop_produce_3 [fillcolor=green style="filled" label="<produce>\nmetal_workshop_produce_3"]
+metal_workshop_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_produce_calculation_3"]
+metal_workshop_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_produce_cargo_arrival"]
+metal_workshop_extra_text [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_extra_text"]
+metal_workshop_cargo_subtype_display_cargo_STEL_economy_0 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_cargo_subtype_display_cargo_STEL_economy_0"]
+metal_workshop_cargo_subtype_display_cargo_RFPR_economy_0 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_cargo_subtype_display_cargo_RFPR_economy_0"]
+metal_workshop_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_cargo_subtype_display_switch_cargo_economy_0"]
+metal_workshop_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_cargo_subtype_display_switch_economy"]
+metal_workshop_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_cargo_subtype_display"]
+metal_workshop_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability_param"]
+metal_workshop_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_map_gen"]
+metal_workshop_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_available_game_mode"]
+metal_workshop_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability_0"]
+metal_workshop_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability_1"]
+metal_workshop_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability_4"]
+metal_workshop_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability_5"]
+metal_workshop_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability_3"]
+metal_workshop_check_availability [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_availability"]
+metal_workshop_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_57"]
+metal_workshop_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_69"]
+metal_workshop_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_49"]
+metal_workshop_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_74"]
+metal_workshop_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_61"]
+metal_workshop_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_7"]
+metal_workshop_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_51"]
+metal_workshop_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_39"]
+metal_workshop_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_60"]
+metal_workshop_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_min_distance_9"]
+metal_workshop_check_location [fillcolor=yellow style="filled" label="<switch>\nmetal_workshop_check_location"]
+metal_workshop [fillcolor=red style="filled" label="FEAT_INDUSTRIES <9>\nmetal_workshop"]
+metal_workshop_produce_cargo_arrival->metal_workshop_produce_calculation_4
+metal_workshop_produce_calculation_0->metal_workshop_produce_0
+metal_workshop_cargo_subtype_display->metal_workshop_cargo_subtype_display_switch_economy
+metal_workshop_check_availability_0->metal_workshop_available_game_mode
+metal_workshop_min_distance_49->metal_workshop_min_distance_69
+metal_workshop_produce_cargo_arrival->metal_workshop_produce_calculation_5
+metal_workshop_check_availability_5->metal_workshop_available_game_mode
+metal_workshop_produce_cargo_arrival->metal_workshop_produce_calculation_3
+metal_workshop->metal_workshop_check_availability
+metal_workshop_check_availability->metal_workshop_check_availability_0
+metal_workshop_produce_cargo_arrival->metal_workshop_produce_calculation_1
+metal_workshop_check_map_gen->metal_workshop_check_availability_param
+metal_workshop_produce_calculation_5->metal_workshop_produce_5
+metal_workshop_cargo_subtype_display_switch_economy->metal_workshop_cargo_subtype_display_switch_cargo_economy_0
+metal_workshop_min_distance_7->metal_workshop_min_distance_61
+metal_workshop->switch_colour
+metal_workshop_cargo_subtype_display_switch_cargo_economy_0->metal_workshop_cargo_subtype_display_cargo_RFPR_economy_0
+metal_workshop_check_availability_3->metal_workshop_available_game_mode
+metal_workshop_available_game_mode->metal_workshop_check_map_gen
+metal_workshop_check_availability->metal_workshop_check_availability_3
+metal_workshop_min_distance_39->metal_workshop_min_distance_51
+metal_workshop_check_availability_1->metal_workshop_available_game_mode
+metal_workshop_produce_calculation_4->metal_workshop_produce_4
+metal_workshop->metal_workshop_produce_cargo_arrival
+metal_workshop_produce_calculation_3->metal_workshop_produce_3
+metal_workshop_produce_cargo_arrival->metal_workshop_produce_calculation_0
+metal_workshop->metal_workshop_extra_text
+metal_workshop_min_distance_61->metal_workshop_min_distance_74
+metal_workshop_check_availability->metal_workshop_check_availability_4
+metal_workshop_cargo_subtype_display_switch_cargo_economy_0->metal_workshop_cargo_subtype_display_cargo_STEL_economy_0
+metal_workshop_produce_calculation_1->metal_workshop_produce_1
+metal_workshop->metal_workshop_check_location
+metal_workshop_check_availability->metal_workshop_check_availability_5
+metal_workshop_min_distance_74->metal_workshop_min_distance_49
+metal_workshop_min_distance_69->metal_workshop_min_distance_57
+metal_workshop_check_availability_4->metal_workshop_available_game_mode
+metal_workshop->metal_workshop_cargo_subtype_display
+metal_workshop_min_distance_51->metal_workshop_min_distance_7
+metal_workshop_check_location->metal_workshop_min_distance_9
+metal_workshop_min_distance_60->metal_workshop_min_distance_39
+metal_workshop_min_distance_9->metal_workshop_min_distance_60
+metal_workshop_check_availability->metal_workshop_check_availability_1
+}

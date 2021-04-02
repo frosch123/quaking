@@ -1,0 +1,84 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+tyre_plant_produce_0 [fillcolor=green style="filled" label="<produce>\ntyre_plant_produce_0"]
+tyre_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_produce_calculation_0"]
+tyre_plant_produce_1 [fillcolor=green style="filled" label="<produce>\ntyre_plant_produce_1"]
+tyre_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_produce_calculation_1"]
+tyre_plant_produce_4 [fillcolor=green style="filled" label="<produce>\ntyre_plant_produce_4"]
+tyre_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_produce_calculation_4"]
+tyre_plant_produce_5 [fillcolor=green style="filled" label="<produce>\ntyre_plant_produce_5"]
+tyre_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_produce_calculation_5"]
+tyre_plant_produce_3 [fillcolor=green style="filled" label="<produce>\ntyre_plant_produce_3"]
+tyre_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_produce_calculation_3"]
+tyre_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_produce_cargo_arrival"]
+tyre_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_extra_text"]
+tyre_plant_cargo_subtype_display_cargo_RUBR_economy_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display_cargo_RUBR_economy_5"]
+tyre_plant_cargo_subtype_display_cargo_CBLK_economy_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display_cargo_CBLK_economy_5"]
+tyre_plant_cargo_subtype_display_cargo_SULP_economy_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display_cargo_SULP_economy_5"]
+tyre_plant_cargo_subtype_display_cargo_STWR_economy_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display_cargo_STWR_economy_5"]
+tyre_plant_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display_switch_cargo_economy_5"]
+tyre_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display_switch_economy"]
+tyre_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_cargo_subtype_display"]
+tyre_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability_param"]
+tyre_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_map_gen"]
+tyre_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_available_game_mode"]
+tyre_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability_0"]
+tyre_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability_1"]
+tyre_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability_4"]
+tyre_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability_5"]
+tyre_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability_3"]
+tyre_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_availability"]
+tyre_plant_min_distance_72 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_72"]
+tyre_plant_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_51"]
+tyre_plant_min_distance_84 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_84"]
+tyre_plant_min_distance_53 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_53"]
+tyre_plant_min_distance_62 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_62"]
+tyre_plant_min_distance_78 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_78"]
+tyre_plant_min_distance_95 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_95"]
+tyre_plant_min_distance_70 [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_min_distance_70"]
+tyre_plant_check_location [fillcolor=yellow style="filled" label="<switch>\ntyre_plant_check_location"]
+tyre_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <70>\ntyre_plant"]
+tyre_plant_cargo_subtype_display_switch_economy->tyre_plant_cargo_subtype_display_switch_cargo_economy_5
+tyre_plant_available_game_mode->tyre_plant_check_map_gen
+tyre_plant_produce_calculation_4->tyre_plant_produce_4
+tyre_plant_produce_cargo_arrival->tyre_plant_produce_calculation_5
+tyre_plant_check_availability->tyre_plant_check_availability_3
+tyre_plant->tyre_plant_cargo_subtype_display
+tyre_plant_min_distance_62->tyre_plant_min_distance_53
+tyre_plant_check_map_gen->tyre_plant_check_availability_param
+tyre_plant_produce_calculation_1->tyre_plant_produce_1
+tyre_plant_check_availability->tyre_plant_check_availability_5
+tyre_plant_check_location->tyre_plant_min_distance_70
+tyre_plant->switch_colour
+tyre_plant_produce_cargo_arrival->tyre_plant_produce_calculation_3
+tyre_plant->tyre_plant_check_location
+tyre_plant_min_distance_70->tyre_plant_min_distance_95
+tyre_plant->tyre_plant_check_availability
+tyre_plant_produce_calculation_5->tyre_plant_produce_5
+tyre_plant_check_availability->tyre_plant_check_availability_1
+tyre_plant_cargo_subtype_display_switch_cargo_economy_5->tyre_plant_cargo_subtype_display_cargo_SULP_economy_5
+tyre_plant_produce_calculation_0->tyre_plant_produce_0
+tyre_plant_min_distance_51->tyre_plant_min_distance_72
+tyre_plant_min_distance_78->tyre_plant_min_distance_62
+tyre_plant_check_availability->tyre_plant_check_availability_0
+tyre_plant_produce_calculation_3->tyre_plant_produce_3
+tyre_plant_check_availability_4->tyre_plant_available_game_mode
+tyre_plant_min_distance_53->tyre_plant_min_distance_84
+tyre_plant_check_availability->tyre_plant_check_availability_4
+tyre_plant_check_availability_0->tyre_plant_available_game_mode
+tyre_plant_cargo_subtype_display->tyre_plant_cargo_subtype_display_switch_economy
+tyre_plant_min_distance_84->tyre_plant_min_distance_51
+tyre_plant->tyre_plant_produce_cargo_arrival
+tyre_plant_min_distance_95->tyre_plant_min_distance_78
+tyre_plant_produce_cargo_arrival->tyre_plant_produce_calculation_1
+tyre_plant_cargo_subtype_display_switch_cargo_economy_5->tyre_plant_cargo_subtype_display_cargo_CBLK_economy_5
+tyre_plant_cargo_subtype_display_switch_cargo_economy_5->tyre_plant_cargo_subtype_display_cargo_STWR_economy_5
+tyre_plant_cargo_subtype_display_switch_cargo_economy_5->tyre_plant_cargo_subtype_display_cargo_RUBR_economy_5
+tyre_plant_check_availability_3->tyre_plant_available_game_mode
+tyre_plant_produce_cargo_arrival->tyre_plant_produce_calculation_4
+tyre_plant_check_availability_1->tyre_plant_available_game_mode
+tyre_plant->tyre_plant_extra_text
+tyre_plant_produce_cargo_arrival->tyre_plant_produce_calculation_0
+tyre_plant_check_availability_5->tyre_plant_available_game_mode
+}

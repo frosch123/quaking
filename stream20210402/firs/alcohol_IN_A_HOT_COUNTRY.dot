@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_alcohol [fillcolor=green style="filled" label="<spriteset>\ncargoicon_alcohol"]
+alcohol_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <1>\nalcohol_IN_A_HOT_COUNTRY"]
+alcohol_IN_A_HOT_COUNTRY->cargoicon_alcohol
+}

@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+oil_rig_extra_text [fillcolor=yellow style="filled" label="<switch>\noil_rig_extra_text"]
+oil_rig_cargo_subtype_display_cargo_ENSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\noil_rig_cargo_subtype_display_cargo_ENSP_economy_3"]
+oil_rig_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\noil_rig_cargo_subtype_display_switch_cargo_economy_3"]
+oil_rig_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\noil_rig_cargo_subtype_display_switch_economy"]
+oil_rig_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\noil_rig_cargo_subtype_display"]
+oil_rig_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\noil_rig_monthly_prod_change"]
+oil_rig_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\noil_rig_clear_incoming_cargo_waiting_0"]
+oil_rig_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\noil_rig_store_incoming_cargo_waiting_0"]
+oil_rig_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\noil_rig_clear_incoming_cargo_waiting_1"]
+oil_rig_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\noil_rig_store_incoming_cargo_waiting_1"]
+oil_rig_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\noil_rig_clear_incoming_cargo_waiting_4"]
+oil_rig_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\noil_rig_store_incoming_cargo_waiting_4"]
+oil_rig_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\noil_rig_clear_incoming_cargo_waiting_5"]
+oil_rig_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\noil_rig_store_incoming_cargo_waiting_5"]
+oil_rig_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\noil_rig_clear_incoming_cargo_waiting_3"]
+oil_rig_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\noil_rig_store_incoming_cargo_waiting_3"]
+oil_rig_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\noil_rig_produce_cargo_arrival"]
+oil_rig_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\noil_rig_production_256_economy_0"]
+oil_rig_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\noil_rig_production_256_economy_1"]
+oil_rig_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\noil_rig_production_256_economy_4"]
+oil_rig_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\noil_rig_production_256_economy_5"]
+oil_rig_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\noil_rig_production_256_economy_3"]
+oil_rig_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\noil_rig_produce_256_ticks_switch_economy"]
+oil_rig_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\noil_rig_produce_256_ticks"]
+oil_rig_check_availability_param [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability_param"]
+oil_rig_check_map_gen [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_map_gen"]
+oil_rig_available_game_mode [fillcolor=yellow style="filled" label="<switch>\noil_rig_available_game_mode"]
+oil_rig_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability_0"]
+oil_rig_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability_1"]
+oil_rig_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability_4"]
+oil_rig_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability_5"]
+oil_rig_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability_3"]
+oil_rig_check_availability [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_availability"]
+oil_rig_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\noil_rig_min_distance_49"]
+oil_rig_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\noil_rig_min_distance_74"]
+oil_rig_coast_distance [fillcolor=yellow style="filled" label="<switch>\noil_rig_coast_distance"]
+oil_rig_min_distance_16 [fillcolor=yellow style="filled" label="<switch>\noil_rig_min_distance_16"]
+oil_rig_check_location [fillcolor=yellow style="filled" label="<switch>\noil_rig_check_location"]
+oil_rig [fillcolor=red style="filled" label="FEAT_INDUSTRIES <16>\noil_rig"]
+oil_rig->oil_rig_cargo_subtype_display
+oil_rig_produce_256_ticks_switch_economy->oil_rig_production_256_economy_0
+oil_rig_store_incoming_cargo_waiting_0->oil_rig_clear_incoming_cargo_waiting_0
+oil_rig_check_availability->oil_rig_check_availability_3
+oil_rig->switch_colour
+oil_rig_produce_256_ticks_switch_economy->oil_rig_production_256_economy_1
+oil_rig_produce_256_ticks_switch_economy->oil_rig_production_256_economy_4
+oil_rig_cargo_subtype_display_switch_cargo_economy_3->oil_rig_cargo_subtype_display_cargo_ENSP_economy_3
+oil_rig_produce_256_ticks_switch_economy->oil_rig_production_256_economy_3
+oil_rig_check_availability->oil_rig_check_availability_0
+oil_rig_check_availability_0->oil_rig_available_game_mode
+oil_rig_produce_cargo_arrival->oil_rig_store_incoming_cargo_waiting_1
+oil_rig_min_distance_16->oil_rig_coast_distance
+oil_rig->oil_rig_extra_text
+oil_rig_produce_cargo_arrival->oil_rig_store_incoming_cargo_waiting_5
+oil_rig_check_availability_1->oil_rig_available_game_mode
+oil_rig_coast_distance->oil_rig_min_distance_74
+oil_rig_available_game_mode->oil_rig_check_map_gen
+oil_rig_store_incoming_cargo_waiting_3->oil_rig_clear_incoming_cargo_waiting_3
+oil_rig_store_incoming_cargo_waiting_5->oil_rig_clear_incoming_cargo_waiting_5
+oil_rig_cargo_subtype_display->oil_rig_cargo_subtype_display_switch_economy
+oil_rig_produce_256_ticks_switch_economy->oil_rig_production_256_economy_5
+oil_rig_check_availability_3->oil_rig_available_game_mode
+oil_rig_check_availability_4->oil_rig_available_game_mode
+oil_rig_cargo_subtype_display_switch_economy->oil_rig_cargo_subtype_display_switch_cargo_economy_3
+oil_rig_check_availability->oil_rig_check_availability_1
+oil_rig_check_availability->oil_rig_check_availability_5
+oil_rig_produce_cargo_arrival->oil_rig_store_incoming_cargo_waiting_0
+oil_rig->oil_rig_monthly_prod_change
+oil_rig_check_map_gen->oil_rig_check_availability_param
+oil_rig_produce_cargo_arrival->oil_rig_store_incoming_cargo_waiting_3
+oil_rig->oil_rig_check_availability
+oil_rig_min_distance_74->oil_rig_min_distance_49
+oil_rig->oil_rig_produce_256_ticks
+oil_rig_check_availability->oil_rig_check_availability_4
+oil_rig_produce_cargo_arrival->oil_rig_store_incoming_cargo_waiting_4
+oil_rig_store_incoming_cargo_waiting_4->oil_rig_clear_incoming_cargo_waiting_4
+oil_rig_store_incoming_cargo_waiting_1->oil_rig_clear_incoming_cargo_waiting_1
+oil_rig->randomise_primary_production_on_build
+oil_rig->oil_rig_check_location
+oil_rig->oil_rig_produce_cargo_arrival
+oil_rig_check_availability_5->oil_rig_available_game_mode
+oil_rig_check_location->oil_rig_min_distance_16
+oil_rig_produce_256_ticks->oil_rig_produce_256_ticks_switch_economy
+}

@@ -1,0 +1,96 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+coal_mine_extra_text [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_extra_text"]
+coal_mine_cargo_subtype_display_cargo_ENSP_economy_0 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cargo_subtype_display_cargo_ENSP_economy_0"]
+coal_mine_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cargo_subtype_display_switch_cargo_economy_0"]
+coal_mine_cargo_subtype_display_cargo_ENSP_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cargo_subtype_display_cargo_ENSP_economy_5"]
+coal_mine_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cargo_subtype_display_switch_cargo_economy_5"]
+coal_mine_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cargo_subtype_display_switch_economy"]
+coal_mine_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cargo_subtype_display"]
+coal_mine_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_monthly_prod_change"]
+coal_mine_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\ncoal_mine_clear_incoming_cargo_waiting_0"]
+coal_mine_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_store_incoming_cargo_waiting_0"]
+coal_mine_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\ncoal_mine_clear_incoming_cargo_waiting_1"]
+coal_mine_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_store_incoming_cargo_waiting_1"]
+coal_mine_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\ncoal_mine_clear_incoming_cargo_waiting_4"]
+coal_mine_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_store_incoming_cargo_waiting_4"]
+coal_mine_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\ncoal_mine_clear_incoming_cargo_waiting_5"]
+coal_mine_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_store_incoming_cargo_waiting_5"]
+coal_mine_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\ncoal_mine_clear_incoming_cargo_waiting_3"]
+coal_mine_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_store_incoming_cargo_waiting_3"]
+coal_mine_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_produce_cargo_arrival"]
+coal_mine_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\ncoal_mine_production_256_economy_0"]
+coal_mine_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\ncoal_mine_production_256_economy_1"]
+coal_mine_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\ncoal_mine_production_256_economy_4"]
+coal_mine_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\ncoal_mine_production_256_economy_5"]
+coal_mine_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\ncoal_mine_production_256_economy_3"]
+coal_mine_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_produce_256_ticks_switch_economy"]
+coal_mine_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_produce_256_ticks"]
+coal_mine_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability_param"]
+coal_mine_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_map_gen"]
+coal_mine_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_available_game_mode"]
+coal_mine_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability_0"]
+coal_mine_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability_1"]
+coal_mine_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability_4"]
+coal_mine_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability_5"]
+coal_mine_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability_3"]
+coal_mine_check_availability [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_availability"]
+coal_mine_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_min_distance_43"]
+coal_mine_min_distance_78 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_min_distance_78"]
+coal_mine_min_distance_66 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_min_distance_66"]
+coal_mine_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_min_distance_7"]
+coal_mine_min_distance_0 [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_min_distance_0"]
+coal_mine_cluster_coal_mine [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_cluster_coal_mine"]
+coal_mine_check_location [fillcolor=yellow style="filled" label="<switch>\ncoal_mine_check_location"]
+coal_mine [fillcolor=red style="filled" label="FEAT_INDUSTRIES <0>\ncoal_mine"]
+coal_mine_min_distance_7->coal_mine_min_distance_66
+coal_mine_store_incoming_cargo_waiting_5->coal_mine_clear_incoming_cargo_waiting_5
+coal_mine_check_availability_0->coal_mine_available_game_mode
+coal_mine_cargo_subtype_display_switch_economy->coal_mine_cargo_subtype_display_switch_cargo_economy_5
+coal_mine->coal_mine_produce_cargo_arrival
+coal_mine_store_incoming_cargo_waiting_4->coal_mine_clear_incoming_cargo_waiting_4
+coal_mine_check_availability_3->coal_mine_available_game_mode
+coal_mine_check_map_gen->coal_mine_check_availability_param
+coal_mine_store_incoming_cargo_waiting_0->coal_mine_clear_incoming_cargo_waiting_0
+coal_mine_check_location->coal_mine_cluster_coal_mine
+coal_mine->switch_colour
+coal_mine_produce_cargo_arrival->coal_mine_store_incoming_cargo_waiting_5
+coal_mine_check_availability_5->coal_mine_available_game_mode
+coal_mine_produce_256_ticks_switch_economy->coal_mine_production_256_economy_3
+coal_mine_min_distance_66->coal_mine_min_distance_78
+coal_mine->coal_mine_monthly_prod_change
+coal_mine->coal_mine_produce_256_ticks
+coal_mine_produce_cargo_arrival->coal_mine_store_incoming_cargo_waiting_0
+coal_mine_check_availability->coal_mine_check_availability_1
+coal_mine_check_availability->coal_mine_check_availability_0
+coal_mine_check_availability->coal_mine_check_availability_5
+coal_mine_produce_cargo_arrival->coal_mine_store_incoming_cargo_waiting_1
+coal_mine_store_incoming_cargo_waiting_1->coal_mine_clear_incoming_cargo_waiting_1
+coal_mine_produce_256_ticks_switch_economy->coal_mine_production_256_economy_5
+coal_mine_store_incoming_cargo_waiting_3->coal_mine_clear_incoming_cargo_waiting_3
+coal_mine_check_availability->coal_mine_check_availability_4
+coal_mine_check_availability_4->coal_mine_available_game_mode
+coal_mine->randomise_primary_production_on_build
+coal_mine_cluster_coal_mine->coal_mine_min_distance_0
+coal_mine_produce_cargo_arrival->coal_mine_store_incoming_cargo_waiting_3
+coal_mine_produce_256_ticks_switch_economy->coal_mine_production_256_economy_4
+coal_mine_check_availability->coal_mine_check_availability_3
+coal_mine->coal_mine_cargo_subtype_display
+coal_mine_available_game_mode->coal_mine_check_map_gen
+coal_mine_cargo_subtype_display->coal_mine_cargo_subtype_display_switch_economy
+coal_mine_produce_256_ticks_switch_economy->coal_mine_production_256_economy_1
+coal_mine_min_distance_78->coal_mine_min_distance_43
+coal_mine_produce_256_ticks->coal_mine_produce_256_ticks_switch_economy
+coal_mine_produce_cargo_arrival->coal_mine_store_incoming_cargo_waiting_4
+coal_mine->coal_mine_check_availability
+coal_mine->coal_mine_extra_text
+coal_mine->coal_mine_check_location
+coal_mine_cargo_subtype_display_switch_cargo_economy_0->coal_mine_cargo_subtype_display_cargo_ENSP_economy_0
+coal_mine_cargo_subtype_display_switch_cargo_economy_5->coal_mine_cargo_subtype_display_cargo_ENSP_economy_5
+coal_mine_min_distance_0->coal_mine_min_distance_7
+coal_mine_check_availability_1->coal_mine_available_game_mode
+coal_mine_produce_256_ticks_switch_economy->coal_mine_production_256_economy_0
+coal_mine_cargo_subtype_display_switch_economy->coal_mine_cargo_subtype_display_switch_cargo_economy_0
+}

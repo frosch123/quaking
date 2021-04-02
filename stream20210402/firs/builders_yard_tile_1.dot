@@ -1,0 +1,749 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_concrete_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_concrete_1"]
+builders_yard_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_2_0"]
+builders_yard_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_2_0_snow"]
+builders_yard_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_3_0"]
+builders_yard_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_3_0_snow"]
+builders_yard_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_4_0"]
+builders_yard_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_4_0_snow"]
+builders_yard_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_5_0"]
+builders_yard_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nbuilders_yard_spriteset_5_0_snow"]
+builders_yard_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nbuilders_yard_spritelayout_1"]
+builders_yard_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nbuilders_yard_spritelayout_2"]
+builders_yard_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nbuilders_yard_spritelayout_3"]
+builders_yard_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nbuilders_yard_spritelayout_4"]
+builders_yard_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_industry_layout_1_graphics_switch"]
+builders_yard_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_industry_layout_2_graphics_switch"]
+builders_yard_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_industry_layout_3_graphics_switch"]
+builders_yard_industry_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_industry_layout_4_graphics_switch"]
+builders_yard_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_industry_graphics_switch_layouts"]
+builders_yard_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_industry_construction_state_graphics_switch"]
+builders_yard_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_store_temp_vars"]
+builders_yard_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_switch_graphics"]
+builders_yard_tile_1_lc_3_225 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_225"]
+builders_yard_tile_1_lc_3_224 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_224"]
+builders_yard_tile_1_lc_3_223 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_223"]
+builders_yard_tile_1_lc_3_222 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_222"]
+builders_yard_tile_1_lc_3_221 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_221"]
+builders_yard_tile_1_lc_3_220 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_220"]
+builders_yard_tile_1_lc_3_219 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_219"]
+builders_yard_tile_1_lc_3_218 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_218"]
+builders_yard_tile_1_lc_3_217 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_217"]
+builders_yard_tile_1_lc_3_216 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_216"]
+builders_yard_tile_1_lc_3_215 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_215"]
+builders_yard_tile_1_lc_3_214 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_214"]
+builders_yard_tile_1_lc_3_213 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_213"]
+builders_yard_tile_1_lc_3_212 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_212"]
+builders_yard_tile_1_lc_3_211 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_211"]
+builders_yard_tile_1_lc_3_210 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_210"]
+builders_yard_tile_1_lc_3_209 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_209"]
+builders_yard_tile_1_lc_3_208 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_208"]
+builders_yard_tile_1_lc_3_207 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_207"]
+builders_yard_tile_1_lc_3_206 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_206"]
+builders_yard_tile_1_lc_3_205 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_205"]
+builders_yard_tile_1_lc_3_204 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_204"]
+builders_yard_tile_1_lc_3_203 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_203"]
+builders_yard_tile_1_lc_3_202 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_202"]
+builders_yard_tile_1_lc_3_201 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_201"]
+builders_yard_tile_1_lc_3_200 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_200"]
+builders_yard_tile_1_lc_3_199 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_199"]
+builders_yard_tile_1_lc_3_198 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_198"]
+builders_yard_tile_1_lc_3_197 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_197"]
+builders_yard_tile_1_lc_3_196 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_196"]
+builders_yard_tile_1_lc_3_195 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_195"]
+builders_yard_tile_1_lc_3_194 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_194"]
+builders_yard_tile_1_lc_3_193 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_193"]
+builders_yard_tile_1_lc_3_192 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_192"]
+builders_yard_tile_1_lc_3_191 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_191"]
+builders_yard_tile_1_lc_3_190 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_190"]
+builders_yard_tile_1_lc_3_189 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_189"]
+builders_yard_tile_1_lc_3_188 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_188"]
+builders_yard_tile_1_lc_3_187 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_187"]
+builders_yard_tile_1_lc_3_186 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_186"]
+builders_yard_tile_1_lc_3_185 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_185"]
+builders_yard_tile_1_lc_3_184 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_184"]
+builders_yard_tile_1_lc_3_183 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_183"]
+builders_yard_tile_1_lc_3_182 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_182"]
+builders_yard_tile_1_lc_3_181 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_181"]
+builders_yard_tile_1_lc_3_180 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_180"]
+builders_yard_tile_1_lc_3_179 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_179"]
+builders_yard_tile_1_lc_3_178 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_178"]
+builders_yard_tile_1_lc_3_177 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_177"]
+builders_yard_tile_1_lc_3_176 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_176"]
+builders_yard_tile_1_lc_3_175 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_175"]
+builders_yard_tile_1_lc_3_174 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_174"]
+builders_yard_tile_1_lc_3_173 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_173"]
+builders_yard_tile_1_lc_3_172 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_172"]
+builders_yard_tile_1_lc_3_171 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_171"]
+builders_yard_tile_1_lc_3_170 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_170"]
+builders_yard_tile_1_lc_3_169 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_169"]
+builders_yard_tile_1_lc_3_168 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_168"]
+builders_yard_tile_1_lc_3_167 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_167"]
+builders_yard_tile_1_lc_3_166 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_166"]
+builders_yard_tile_1_lc_3_165 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_165"]
+builders_yard_tile_1_lc_3_164 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_164"]
+builders_yard_tile_1_lc_3_163 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_163"]
+builders_yard_tile_1_lc_3_162 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_162"]
+builders_yard_tile_1_lc_3_161 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_161"]
+builders_yard_tile_1_lc_3_160 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_160"]
+builders_yard_tile_1_lc_3_159 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_159"]
+builders_yard_tile_1_lc_3_158 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_158"]
+builders_yard_tile_1_lc_3_157 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_157"]
+builders_yard_tile_1_lc_3_156 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_156"]
+builders_yard_tile_1_lc_3_155 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_155"]
+builders_yard_tile_1_lc_3_154 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_154"]
+builders_yard_tile_1_lc_3_153 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_153"]
+builders_yard_tile_1_lc_3_152 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_152"]
+builders_yard_tile_1_lc_3_151 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_151"]
+builders_yard_tile_1_lc_3_150 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_150"]
+builders_yard_tile_1_lc_3_149 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_149"]
+builders_yard_tile_1_lc_3_148 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_148"]
+builders_yard_tile_1_lc_3_147 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_147"]
+builders_yard_tile_1_lc_3_146 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_146"]
+builders_yard_tile_1_lc_3_145 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_145"]
+builders_yard_tile_1_lc_3_144 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_144"]
+builders_yard_tile_1_lc_3_143 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_143"]
+builders_yard_tile_1_lc_3_142 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_142"]
+builders_yard_tile_1_lc_3_141 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_141"]
+builders_yard_tile_1_lc_3_140 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_140"]
+builders_yard_tile_1_lc_3_139 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_139"]
+builders_yard_tile_1_lc_3_138 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_138"]
+builders_yard_tile_1_lc_3_137 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_137"]
+builders_yard_tile_1_lc_3_136 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_136"]
+builders_yard_tile_1_lc_3_135 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_135"]
+builders_yard_tile_1_lc_3_134 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_134"]
+builders_yard_tile_1_lc_3_133 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_133"]
+builders_yard_tile_1_lc_3_132 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_132"]
+builders_yard_tile_1_lc_3_131 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_131"]
+builders_yard_tile_1_lc_3_130 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_130"]
+builders_yard_tile_1_lc_3_129 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_129"]
+builders_yard_tile_1_lc_3_128 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_128"]
+builders_yard_tile_1_lc_3_127 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_127"]
+builders_yard_tile_1_lc_3_126 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_126"]
+builders_yard_tile_1_lc_3_125 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_125"]
+builders_yard_tile_1_lc_3_124 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_124"]
+builders_yard_tile_1_lc_3_123 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_123"]
+builders_yard_tile_1_lc_3_122 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_122"]
+builders_yard_tile_1_lc_3_121 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_121"]
+builders_yard_tile_1_lc_3_120 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_120"]
+builders_yard_tile_1_lc_3_119 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_119"]
+builders_yard_tile_1_lc_3_118 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_118"]
+builders_yard_tile_1_lc_3_117 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_117"]
+builders_yard_tile_1_lc_3_116 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_116"]
+builders_yard_tile_1_lc_3_115 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_115"]
+builders_yard_tile_1_lc_3_114 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_114"]
+builders_yard_tile_1_lc_3_113 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_113"]
+builders_yard_tile_1_lc_3_112 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_112"]
+builders_yard_tile_1_lc_3_111 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_111"]
+builders_yard_tile_1_lc_3_110 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_110"]
+builders_yard_tile_1_lc_3_109 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_109"]
+builders_yard_tile_1_lc_3_108 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_108"]
+builders_yard_tile_1_lc_3_107 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_107"]
+builders_yard_tile_1_lc_3_106 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_106"]
+builders_yard_tile_1_lc_3_105 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_105"]
+builders_yard_tile_1_lc_3_104 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_104"]
+builders_yard_tile_1_lc_3_103 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_103"]
+builders_yard_tile_1_lc_3_102 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_102"]
+builders_yard_tile_1_lc_3_101 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_101"]
+builders_yard_tile_1_lc_3_100 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_100"]
+builders_yard_tile_1_lc_3_99 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_99"]
+builders_yard_tile_1_lc_3_98 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_98"]
+builders_yard_tile_1_lc_3_97 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_97"]
+builders_yard_tile_1_lc_3_96 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_96"]
+builders_yard_tile_1_lc_3_95 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_95"]
+builders_yard_tile_1_lc_3_94 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_94"]
+builders_yard_tile_1_lc_3_93 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_93"]
+builders_yard_tile_1_lc_3_92 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_92"]
+builders_yard_tile_1_lc_3_91 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_91"]
+builders_yard_tile_1_lc_3_90 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_90"]
+builders_yard_tile_1_lc_3_89 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_89"]
+builders_yard_tile_1_lc_3_88 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_88"]
+builders_yard_tile_1_lc_3_87 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_87"]
+builders_yard_tile_1_lc_3_86 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_86"]
+builders_yard_tile_1_lc_3_85 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_85"]
+builders_yard_tile_1_lc_3_84 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_84"]
+builders_yard_tile_1_lc_3_83 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_83"]
+builders_yard_tile_1_lc_3_82 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_82"]
+builders_yard_tile_1_lc_3_81 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_81"]
+builders_yard_tile_1_lc_3_80 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_80"]
+builders_yard_tile_1_lc_3_79 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_79"]
+builders_yard_tile_1_lc_3_78 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_78"]
+builders_yard_tile_1_lc_3_77 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_77"]
+builders_yard_tile_1_lc_3_76 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_76"]
+builders_yard_tile_1_lc_3_75 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_75"]
+builders_yard_tile_1_lc_3_74 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_74"]
+builders_yard_tile_1_lc_3_73 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_73"]
+builders_yard_tile_1_lc_3_72 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_72"]
+builders_yard_tile_1_lc_3_71 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_71"]
+builders_yard_tile_1_lc_3_70 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_70"]
+builders_yard_tile_1_lc_3_69 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_69"]
+builders_yard_tile_1_lc_3_68 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_68"]
+builders_yard_tile_1_lc_3_67 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_67"]
+builders_yard_tile_1_lc_3_66 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_66"]
+builders_yard_tile_1_lc_3_65 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_65"]
+builders_yard_tile_1_lc_3_64 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_64"]
+builders_yard_tile_1_lc_3_63 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_63"]
+builders_yard_tile_1_lc_3_62 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_62"]
+builders_yard_tile_1_lc_3_61 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_61"]
+builders_yard_tile_1_lc_3_60 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_60"]
+builders_yard_tile_1_lc_3_59 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_59"]
+builders_yard_tile_1_lc_3_58 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_58"]
+builders_yard_tile_1_lc_3_57 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_57"]
+builders_yard_tile_1_lc_3_56 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_56"]
+builders_yard_tile_1_lc_3_55 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_55"]
+builders_yard_tile_1_lc_3_54 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_54"]
+builders_yard_tile_1_lc_3_53 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_53"]
+builders_yard_tile_1_lc_3_52 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_52"]
+builders_yard_tile_1_lc_3_51 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_51"]
+builders_yard_tile_1_lc_3_50 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_50"]
+builders_yard_tile_1_lc_3_49 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_49"]
+builders_yard_tile_1_lc_3_48 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_48"]
+builders_yard_tile_1_lc_3_47 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_47"]
+builders_yard_tile_1_lc_3_46 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_46"]
+builders_yard_tile_1_lc_3_45 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_45"]
+builders_yard_tile_1_lc_3_44 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_44"]
+builders_yard_tile_1_lc_3_43 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_43"]
+builders_yard_tile_1_lc_3_42 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_42"]
+builders_yard_tile_1_lc_3_41 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_41"]
+builders_yard_tile_1_lc_3_40 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_40"]
+builders_yard_tile_1_lc_3_39 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_39"]
+builders_yard_tile_1_lc_3_38 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_38"]
+builders_yard_tile_1_lc_3_37 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_37"]
+builders_yard_tile_1_lc_3_36 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_36"]
+builders_yard_tile_1_lc_3_35 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_35"]
+builders_yard_tile_1_lc_3_34 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_34"]
+builders_yard_tile_1_lc_3_33 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_33"]
+builders_yard_tile_1_lc_3_32 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_32"]
+builders_yard_tile_1_lc_3_31 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_31"]
+builders_yard_tile_1_lc_3_30 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_30"]
+builders_yard_tile_1_lc_3_29 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_29"]
+builders_yard_tile_1_lc_3_28 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_28"]
+builders_yard_tile_1_lc_3_27 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_27"]
+builders_yard_tile_1_lc_3_26 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_26"]
+builders_yard_tile_1_lc_3_25 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_25"]
+builders_yard_tile_1_lc_3_24 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_24"]
+builders_yard_tile_1_lc_3_23 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_23"]
+builders_yard_tile_1_lc_3_22 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_22"]
+builders_yard_tile_1_lc_3_21 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_21"]
+builders_yard_tile_1_lc_3_20 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_20"]
+builders_yard_tile_1_lc_3_19 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_19"]
+builders_yard_tile_1_lc_3_18 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_18"]
+builders_yard_tile_1_lc_3_17 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_17"]
+builders_yard_tile_1_lc_3_16 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_16"]
+builders_yard_tile_1_lc_3_15 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_15"]
+builders_yard_tile_1_lc_3_14 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_14"]
+builders_yard_tile_1_lc_3_13 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_13"]
+builders_yard_tile_1_lc_3_12 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_12"]
+builders_yard_tile_1_lc_3_11 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_11"]
+builders_yard_tile_1_lc_3_10 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_10"]
+builders_yard_tile_1_lc_3_9 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_9"]
+builders_yard_tile_1_lc_3_8 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_8"]
+builders_yard_tile_1_lc_3_7 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_7"]
+builders_yard_tile_1_lc_3_6 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_6"]
+builders_yard_tile_1_lc_3_5 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_5"]
+builders_yard_tile_1_lc_3_4 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_4"]
+builders_yard_tile_1_lc_3_3 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_3"]
+builders_yard_tile_1_lc_3_2 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_2"]
+builders_yard_tile_1_lc_3_1 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_1"]
+builders_yard_tile_1_lc_3_0 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3_0"]
+builders_yard_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_3"]
+builders_yard_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_2"]
+builders_yard_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_1"]
+builders_yard_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_tile_1_lc_0"]
+builders_yard_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <164>\nbuilders_yard_tile_1"]
+builders_yard_tile_1_lc_3_55->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_50->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_0->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_3->spriteset_ground_tile_concrete_1
+builders_yard_tile_1_lc_3_90->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_80->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_107->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1->builders_yard_tile_1_lc_0
+builders_yard_tile_1_lc_3_114->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_90->builders_yard_tile_1_lc_3_91
+builders_yard_tile_1_lc_3_120->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_83->builders_yard_tile_1_lc_3_84
+builders_yard_tile_1_lc_3_120->builders_yard_tile_1_lc_3_121
+builders_yard_tile_1_lc_3_139->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_34->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_24->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_56->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_85->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_116->builders_yard_tile_1_lc_3_117
+builders_yard_tile_1_lc_3_207->builders_yard_tile_1_lc_3_208
+builders_yard_tile_1_lc_3_53->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_5->builders_yard_tile_1_lc_3_6
+builders_yard_tile_1_lc_3_26->builders_yard_tile_1_lc_3_27
+builders_yard_tile_1_lc_3_185->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_205->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_220->builders_yard_tile_1_lc_3_221
+builders_yard_tile_1_lc_3_51->builders_yard_tile_1_lc_3_52
+builders_yard_tile_1_lc_3_211->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_126->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_202->builders_yard_tile_1_lc_3_203
+builders_yard_tile_1_lc_3_110->builders_yard_tile_1_lc_3_111
+builders_yard_tile_1_lc_3_58->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_95->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_82->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_3->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_31->builders_yard_tile_1_lc_3_32
+builders_yard_tile_1_lc_3_2->builders_yard_tile_1_lc_3_3
+builders_yard_tile_1_lc_3_87->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_141->builders_yard_tile_1_lc_3_142
+builders_yard_tile_1_lc_3_209->builders_yard_tile_1_lc_3_210
+builders_yard_tile_1_lc_3_154->builders_yard_tile_1_lc_3_155
+builders_yard_tile_1_lc_3_114->builders_yard_tile_1_lc_3_115
+builders_yard_tile_1_lc_3_37->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_0->builders_yard_tile_1_lc_1
+builders_yard_tile_1_lc_3_59->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_1->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_177->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_7->builders_yard_tile_1_lc_3_8
+builders_yard_tile_1_lc_3_117->builders_yard_tile_1_lc_3_118
+builders_yard_tile_1_lc_3_182->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_175->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_143->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_4->builders_yard_tile_1_lc_3_5
+builders_yard_tile_1_lc_3_223->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_149->builders_yard_tile_1_lc_3_150
+builders_yard_tile_1_lc_3_208->builders_yard_tile_1_lc_3_209
+builders_yard_tile_1_lc_3_187->builders_yard_tile_1_lc_3_188
+builders_yard_tile_1_lc_3_10->builders_yard_tile_1_lc_3_11
+builders_yard_tile_1_lc_3_184->builders_yard_tile_1_lc_3_185
+builders_yard_tile_1_lc_3_20->builders_yard_tile_1_lc_3_21
+builders_yard_tile_1_lc_3_219->builders_yard_tile_1_lc_3_220
+builders_yard_tile_1_lc_3_73->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_42->builders_yard_tile_1_lc_3_43
+builders_yard_tile_1_lc_3_65->builders_yard_tile_1_lc_3_66
+builders_yard_industry_layout_4_graphics_switch->builders_yard_spritelayout_4
+builders_yard_tile_1_lc_3_73->builders_yard_tile_1_lc_3_74
+builders_yard_tile_1_lc_3_48->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_94->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_122->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_62->builders_yard_tile_1_lc_3_63
+builders_yard_tile_1_lc_3_197->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_198->builders_yard_tile_1_lc_3_225
+builders_yard_industry_graphics_switch_layouts->builders_yard_industry_layout_2_graphics_switch
+builders_yard_tile_1_lc_3_35->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_71->builders_yard_tile_1_lc_3_72
+builders_yard_tile_1_lc_3_148->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_1_graphics_switch->builders_yard_spritelayout_1
+builders_yard_tile_1_lc_3_9->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_45->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_50->builders_yard_tile_1_lc_3_51
+builders_yard_industry_layout_1_graphics_switch->builders_yard_spritelayout_4
+builders_yard_tile_1_lc_2->builders_yard_tile_1_lc_3
+builders_yard_tile_1_lc_3_38->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_156->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_216->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_7->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_10->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_48->builders_yard_tile_1_lc_3_49
+builders_yard_tile_1_lc_3_135->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_147->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_88->builders_yard_tile_1_lc_3_89
+builders_yard_tile_1_lc_3_111->builders_yard_tile_1_lc_3_112
+builders_yard_tile_1_lc_3_66->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_118->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_211->builders_yard_tile_1_lc_3_212
+builders_yard_tile_1_lc_3_72->builders_yard_tile_1_lc_3_73
+builders_yard_tile_1_lc_3_113->builders_yard_tile_1_lc_3_114
+builders_yard_spritelayout_2->spriteset_ground_tile_concrete_1
+builders_yard_tile_1_lc_3_39->builders_yard_tile_1_lc_3_40
+builders_yard_tile_1_lc_3_214->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_2_graphics_switch->builders_yard_spritelayout_3
+builders_yard_tile_1_lc_3_43->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_32->builders_yard_tile_1_lc_3_33
+builders_yard_tile_1_lc_3_97->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_5->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_3->builders_yard_spriteset_4_0_snow
+builders_yard_tile_1_lc_3_8->builders_yard_tile_1_lc_3_9
+builders_yard_tile_1_lc_3_186->builders_yard_tile_1_lc_3_187
+builders_yard_tile_1_lc_3_85->builders_yard_tile_1_lc_3_86
+builders_yard_tile_1_lc_3_175->builders_yard_tile_1_lc_3_176
+builders_yard_tile_1_lc_3_14->builders_yard_tile_1_lc_3_15
+builders_yard_tile_1_lc_3_131->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_108->builders_yard_tile_1_lc_3_109
+builders_yard_tile_1_lc_3_75->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_188->builders_yard_tile_1_lc_3_189
+builders_yard_tile_1_lc_3_67->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_30->builders_yard_tile_1_lc_3_31
+builders_yard_tile_1_lc_3_53->builders_yard_tile_1_lc_3_54
+builders_yard_tile_1_lc_3_210->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_4->spriteset_ground_tile_concrete_1
+builders_yard_tile_1_lc_3_218->builders_yard_tile_1_lc_3_225
+builders_yard_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+builders_yard_tile_1_lc_3_133->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_16->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_124->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_2->builders_yard_spriteset_3_0
+builders_yard_tile_1_lc_3_204->builders_yard_tile_1_lc_3_205
+builders_yard_tile_1_lc_3_70->builders_yard_tile_1_lc_3_71
+builders_yard_tile_1_lc_3_185->builders_yard_tile_1_lc_3_186
+builders_yard_tile_1_lc_3_173->builders_yard_tile_1_lc_3_174
+builders_yard_tile_1_lc_3_191->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_63->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_125->builders_yard_tile_1_lc_3_126
+builders_yard_tile_1_lc_3_214->builders_yard_tile_1_lc_3_215
+builders_yard_tile_1_lc_3_96->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_11->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_8->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_106->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_194->builders_yard_tile_1_lc_3_195
+builders_yard_tile_1_lc_3_46->builders_yard_tile_1_lc_3_47
+builders_yard_switch_graphics->builders_yard_store_temp_vars
+builders_yard_tile_1_lc_3_58->builders_yard_tile_1_lc_3_59
+builders_yard_tile_1_lc_3_30->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_1->builders_yard_spriteset_2_0
+builders_yard_tile_1_lc_3_124->builders_yard_tile_1_lc_3_125
+builders_yard_tile_1_lc_3_27->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_159->builders_yard_tile_1_lc_3_160
+builders_yard_tile_1_lc_3_6->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_201->builders_yard_tile_1_lc_3_202
+builders_yard_industry_layout_3_graphics_switch->builders_yard_spritelayout_2
+builders_yard_tile_1_lc_3_41->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_84->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_180->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_123->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_76->builders_yard_tile_1_lc_3_77
+builders_yard_tile_1_lc_3_105->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_156->builders_yard_tile_1_lc_3_157
+builders_yard_tile_1_lc_3_137->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_125->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_64->builders_yard_tile_1_lc_3_65
+builders_yard_industry_graphics_switch_layouts->builders_yard_industry_layout_3_graphics_switch
+builders_yard_tile_1_lc_3_78->builders_yard_tile_1_lc_3_79
+builders_yard_tile_1_lc_3_0->builders_yard_tile_1_lc_3_1
+builders_yard_tile_1_lc_3_177->builders_yard_tile_1_lc_3_178
+builders_yard_tile_1_lc_3_77->builders_yard_tile_1_lc_3_78
+builders_yard_tile_1_lc_3_17->builders_yard_tile_1_lc_3_18
+builders_yard_tile_1_lc_3_116->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_123->builders_yard_tile_1_lc_3_124
+builders_yard_tile_1_lc_3_93->builders_yard_tile_1_lc_3_94
+builders_yard_tile_1_lc_3_217->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_61->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_25->builders_yard_tile_1_lc_3_26
+builders_yard_tile_1_lc_3_215->builders_yard_tile_1_lc_3_216
+builders_yard_tile_1_lc_3_29->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_187->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_189->builders_yard_tile_1_lc_3_190
+builders_yard_tile_1_lc_3_221->builders_yard_tile_1_lc_3_222
+builders_yard_tile_1_lc_3_83->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_3_graphics_switch->builders_yard_spritelayout_4
+builders_yard_tile_1_lc_3_181->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_4_graphics_switch->builders_yard_spritelayout_2
+builders_yard_tile_1_lc_3_138->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_188->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_138->builders_yard_tile_1_lc_3_139
+builders_yard_tile_1_lc_3_164->builders_yard_tile_1_lc_3_165
+builders_yard_tile_1_lc_3_112->builders_yard_tile_1_lc_3_113
+builders_yard_tile_1_lc_3_222->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_52->builders_yard_tile_1_lc_3_53
+builders_yard_tile_1_lc_3_144->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_127->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_22->builders_yard_tile_1_lc_3_23
+builders_yard_tile_1_lc_3_119->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_148->builders_yard_tile_1_lc_3_149
+builders_yard_tile_1_lc_3_26->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_121->builders_yard_tile_1_lc_3_122
+builders_yard_tile_1_lc_3_129->builders_yard_tile_1_lc_3_225
+builders_yard_industry_graphics_switch_layouts->builders_yard_industry_layout_4_graphics_switch
+builders_yard_tile_1_lc_3_132->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_106->builders_yard_tile_1_lc_3_107
+builders_yard_tile_1_lc_3_218->builders_yard_tile_1_lc_3_219
+builders_yard_tile_1_lc_3_173->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_119->builders_yard_tile_1_lc_3_120
+builders_yard_tile_1_lc_3_82->builders_yard_tile_1_lc_3_83
+builders_yard_tile_1_lc_3_128->builders_yard_tile_1_lc_3_129
+builders_yard_tile_1_lc_3_56->builders_yard_tile_1_lc_3_57
+builders_yard_tile_1_lc_3_15->builders_yard_tile_1_lc_3_16
+builders_yard_tile_1_lc_3_200->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_201->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_169->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_129->builders_yard_tile_1_lc_3_130
+builders_yard_tile_1_lc_3_99->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_1_graphics_switch->builders_yard_spritelayout_3
+builders_yard_tile_1_lc_3_96->builders_yard_tile_1_lc_3_97
+builders_yard_tile_1_lc_3_171->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_184->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_121->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_190->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_176->builders_yard_tile_1_lc_3_177
+builders_yard_tile_1_lc_3_75->builders_yard_tile_1_lc_3_76
+builders_yard_tile_1_lc_3_89->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_220->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_64->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_28->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_144->builders_yard_tile_1_lc_3_145
+builders_yard_tile_1_lc_3_100->builders_yard_tile_1_lc_3_101
+builders_yard_tile_1_lc_3_152->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_35->builders_yard_tile_1_lc_3_36
+builders_yard_tile_1_lc_3_169->builders_yard_tile_1_lc_3_170
+builders_yard_tile_1_lc_3_209->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_210->builders_yard_tile_1_lc_3_211
+builders_yard_tile_1_lc_3_71->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_34->builders_yard_tile_1_lc_3_35
+builders_yard_tile_1_lc_3_21->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_204->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_137->builders_yard_tile_1_lc_3_138
+builders_yard_spritelayout_1->builders_yard_spriteset_2_0_snow
+builders_yard_tile_1_lc_3_49->builders_yard_tile_1_lc_3_50
+builders_yard_tile_1_lc_3_31->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_25->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_108->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_3->builders_yard_spriteset_4_0
+builders_yard_tile_1_lc_3_178->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_104->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_47->builders_yard_tile_1_lc_3_48
+builders_yard_tile_1_lc_3_112->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_93->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_2->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_142->builders_yard_tile_1_lc_3_143
+builders_yard_tile_1_lc_3_194->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_154->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_213->builders_yard_tile_1_lc_3_214
+builders_yard_tile_1_lc_3_165->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_203->builders_yard_tile_1_lc_3_204
+builders_yard_tile_1_lc_3_19->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_105->builders_yard_tile_1_lc_3_106
+builders_yard_tile_1_lc_3_43->builders_yard_tile_1_lc_3_44
+builders_yard_tile_1_lc_3_102->builders_yard_tile_1_lc_3_103
+builders_yard_tile_1_lc_3_186->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_205->builders_yard_tile_1_lc_3_206
+builders_yard_tile_1_lc_3_101->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_162->builders_yard_tile_1_lc_3_163
+builders_yard_tile_1_lc_3_38->builders_yard_tile_1_lc_3_39
+builders_yard_spritelayout_4->builders_yard_spriteset_5_0
+builders_yard_tile_1_lc_3_159->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_196->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_104->builders_yard_tile_1_lc_3_105
+builders_yard_tile_1_lc_3_52->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3->builders_yard_tile_1_lc_3_0
+builders_yard_tile_1_lc_3_224->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_107->builders_yard_tile_1_lc_3_108
+builders_yard_tile_1_lc_3_60->builders_yard_tile_1_lc_3_61
+builders_yard_tile_1_lc_3_146->builders_yard_tile_1_lc_3_147
+builders_yard_tile_1_lc_3_190->builders_yard_tile_1_lc_3_191
+builders_yard_tile_1_lc_3_74->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_149->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_168->builders_yard_tile_1_lc_3_169
+builders_yard_tile_1_lc_3_3->builders_yard_tile_1_lc_3_4
+builders_yard_tile_1_lc_3_22->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_165->builders_yard_tile_1_lc_3_166
+builders_yard_tile_1_lc_3_1->builders_yard_tile_1_lc_3_2
+builders_yard_tile_1_lc_3_72->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_54->builders_yard_tile_1_lc_3_55
+builders_yard_tile_1_lc_3_151->builders_yard_tile_1_lc_3_152
+builders_yard_tile_1_lc_3_164->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_19->builders_yard_tile_1_lc_3_20
+builders_yard_tile_1_lc_3_131->builders_yard_tile_1_lc_3_132
+builders_yard_tile_1_lc_3_18->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_86->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_81->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_167->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_78->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_206->builders_yard_tile_1_lc_3_207
+builders_yard_tile_1_lc_3_146->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_126->builders_yard_tile_1_lc_3_127
+builders_yard_tile_1_lc_3_44->builders_yard_tile_1_lc_3_45
+builders_yard_tile_1_lc_3_109->builders_yard_tile_1_lc_3_110
+builders_yard_tile_1_lc_3_130->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_13->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_68->builders_yard_tile_1_lc_3_69
+builders_yard_tile_1_lc_3_222->builders_yard_tile_1_lc_3_223
+builders_yard_tile_1_lc_3_122->builders_yard_tile_1_lc_3_123
+builders_yard_tile_1_lc_3_212->builders_yard_tile_1_lc_3_213
+builders_yard_tile_1_lc_3_70->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_117->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_118->builders_yard_tile_1_lc_3_119
+builders_yard_tile_1_lc_3_196->builders_yard_tile_1_lc_3_197
+builders_yard_tile_1_lc_3_195->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_215->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_153->builders_yard_tile_1_lc_3_225
+builders_yard_industry_graphics_switch_layouts->builders_yard_industry_layout_1_graphics_switch
+builders_yard_tile_1_lc_3_127->builders_yard_tile_1_lc_3_128
+builders_yard_industry_layout_1_graphics_switch->builders_yard_spritelayout_2
+builders_yard_tile_1_lc_3_133->builders_yard_tile_1_lc_3_134
+builders_yard_tile_1_lc_3_11->builders_yard_tile_1_lc_3_12
+builders_yard_tile_1_lc_3_145->builders_yard_tile_1_lc_3_146
+builders_yard_tile_1_lc_3_91->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_36->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_40->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_172->builders_yard_tile_1_lc_3_173
+builders_yard_tile_1_lc_3_168->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_150->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_27->builders_yard_tile_1_lc_3_28
+builders_yard_tile_1_lc_3_223->builders_yard_tile_1_lc_3_224
+builders_yard_tile_1_lc_3_16->builders_yard_tile_1_lc_3_17
+builders_yard_tile_1_lc_3_213->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_179->builders_yard_tile_1_lc_3_225
+builders_yard_store_temp_vars->builders_yard_industry_construction_state_graphics_switch
+builders_yard_tile_1_lc_3_170->builders_yard_tile_1_lc_3_171
+builders_yard_tile_1_lc_3_216->builders_yard_tile_1_lc_3_217
+builders_yard_tile_1_lc_3_150->builders_yard_tile_1_lc_3_151
+builders_yard_tile_1_lc_3_158->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_28->builders_yard_tile_1_lc_3_29
+builders_yard_tile_1_lc_3_12->builders_yard_tile_1_lc_3_13
+builders_yard_tile_1_lc_3_157->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_158->builders_yard_tile_1_lc_3_159
+builders_yard_tile_1_lc_3_99->builders_yard_tile_1_lc_3_100
+builders_yard_tile_1_lc_3_147->builders_yard_tile_1_lc_3_148
+builders_yard_tile_1_lc_3_41->builders_yard_tile_1_lc_3_42
+builders_yard_tile_1_lc_3_63->builders_yard_tile_1_lc_3_64
+builders_yard_tile_1_lc_3_14->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_199->builders_yard_tile_1_lc_3_200
+builders_yard_industry_layout_4_graphics_switch->builders_yard_spritelayout_3
+builders_yard_tile_1_lc_3_45->builders_yard_tile_1_lc_3_46
+builders_yard_tile_1_lc_3_160->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_49->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_113->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_1->builders_yard_tile_1_lc_2
+builders_yard_tile_1_lc_3_92->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_18->builders_yard_tile_1_lc_3_19
+builders_yard_tile_1_lc_3_77->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_3_graphics_switch->builders_yard_spritelayout_1
+builders_yard_tile_1_lc_3_197->builders_yard_tile_1_lc_3_198
+builders_yard_tile_1_lc_3_46->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_44->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_195->builders_yard_tile_1_lc_3_196
+builders_yard_industry_layout_2_graphics_switch->builders_yard_spritelayout_2
+builders_yard_tile_1_lc_3_183->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_69->builders_yard_tile_1_lc_3_70
+builders_yard_tile_1_lc_3_23->builders_yard_tile_1_lc_3_24
+builders_yard_tile_1_lc_3_140->builders_yard_tile_1_lc_3_141
+builders_yard_spritelayout_2->builders_yard_spriteset_3_0_snow
+builders_yard_tile_1_lc_3_115->builders_yard_tile_1_lc_3_116
+builders_yard_tile_1_lc_3_87->builders_yard_tile_1_lc_3_88
+builders_yard_tile_1_lc_3_199->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_219->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_207->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_166->builders_yard_tile_1_lc_3_167
+builders_yard_tile_1_lc_3_65->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_47->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_21->builders_yard_tile_1_lc_3_22
+builders_yard_tile_1_lc_3_111->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_67->builders_yard_tile_1_lc_3_68
+builders_yard_tile_1_lc_3_92->builders_yard_tile_1_lc_3_93
+builders_yard_tile_1_lc_3_136->builders_yard_tile_1_lc_3_137
+builders_yard_tile_1_lc_3_157->builders_yard_tile_1_lc_3_158
+builders_yard_tile_1_lc_3_6->builders_yard_tile_1_lc_3_7
+builders_yard_tile_1_lc_3_191->builders_yard_tile_1_lc_3_192
+builders_yard_tile_1_lc_3_39->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_140->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_180->builders_yard_tile_1_lc_3_181
+builders_yard_tile_1_lc_3_178->builders_yard_tile_1_lc_3_179
+builders_yard_tile_1_lc_3_74->builders_yard_tile_1_lc_3_75
+builders_yard_tile_1_lc_3_174->builders_yard_tile_1_lc_3_175
+builders_yard_tile_1_lc_3_193->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_4_graphics_switch->builders_yard_spritelayout_1
+builders_yard_tile_1_lc_3_155->builders_yard_tile_1_lc_3_156
+builders_yard_tile_1_lc_3_193->builders_yard_tile_1_lc_3_194
+builders_yard_tile_1_lc_3_89->builders_yard_tile_1_lc_3_90
+builders_yard_industry_construction_state_graphics_switch->builders_yard_industry_graphics_switch_layouts
+builders_yard_tile_1_lc_3_128->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_203->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_86->builders_yard_tile_1_lc_3_87
+builders_yard_tile_1_lc_3_161->builders_yard_tile_1_lc_3_162
+builders_yard_tile_1_lc_3_100->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_79->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_33->builders_yard_tile_1_lc_3_34
+builders_yard_tile_1_lc_3_88->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_179->builders_yard_tile_1_lc_3_180
+builders_yard_tile_1_lc_3_208->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_166->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_170->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_2_graphics_switch->builders_yard_spritelayout_1
+builders_yard_tile_1_lc_3_152->builders_yard_tile_1_lc_3_153
+builders_yard_tile_1_lc_3_109->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_20->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_9->builders_yard_tile_1_lc_3_10
+builders_yard_tile_1_lc_3_198->builders_yard_tile_1_lc_3_199
+builders_yard_tile_1_lc_3_110->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_155->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_62->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_183->builders_yard_tile_1_lc_3_184
+builders_yard_tile_1_lc_3_40->builders_yard_tile_1_lc_3_41
+builders_yard_tile_1_lc_3_68->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_97->builders_yard_tile_1_lc_3_98
+builders_yard_tile_1_lc_3_189->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_134->builders_yard_tile_1_lc_3_135
+spritelayout_default_construction_states->spriteset_default_construction_states
+builders_yard_spritelayout_1->spriteset_ground_tile_concrete_1
+builders_yard_tile_1->builders_yard_switch_graphics
+builders_yard_tile_1_lc_3_60->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_153->builders_yard_tile_1_lc_3_154
+builders_yard_tile_1_lc_3_172->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_81->builders_yard_tile_1_lc_3_82
+builders_yard_tile_1_lc_3_130->builders_yard_tile_1_lc_3_131
+builders_yard_tile_1_lc_3_103->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_141->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_136->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_176->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_57->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_101->builders_yard_tile_1_lc_3_102
+builders_yard_tile_1_lc_3_192->builders_yard_tile_1_lc_3_193
+builders_yard_tile_1_lc_3_134->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_36->builders_yard_tile_1_lc_3_37
+builders_yard_tile_1_lc_3_182->builders_yard_tile_1_lc_3_183
+builders_yard_tile_1_lc_3_76->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_91->builders_yard_tile_1_lc_3_92
+builders_yard_tile_1_lc_3_139->builders_yard_tile_1_lc_3_140
+builders_yard_tile_1_lc_3_143->builders_yard_tile_1_lc_3_144
+builders_yard_tile_1_lc_3_160->builders_yard_tile_1_lc_3_161
+builders_yard_tile_1_lc_3_61->builders_yard_tile_1_lc_3_62
+builders_yard_tile_1_lc_3_181->builders_yard_tile_1_lc_3_182
+builders_yard_tile_1_lc_3_55->builders_yard_tile_1_lc_3_56
+builders_yard_tile_1_lc_3_167->builders_yard_tile_1_lc_3_168
+builders_yard_tile_1_lc_3_24->builders_yard_tile_1_lc_3_25
+builders_yard_tile_1_lc_3_98->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_32->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_135->builders_yard_tile_1_lc_3_136
+builders_yard_tile_1_lc_3_200->builders_yard_tile_1_lc_3_201
+builders_yard_tile_1_lc_3_163->builders_yard_tile_1_lc_3_164
+builders_yard_tile_1_lc_3_29->builders_yard_tile_1_lc_3_30
+builders_yard_tile_1_lc_3_42->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_142->builders_yard_tile_1_lc_3_225
+builders_yard_industry_layout_2_graphics_switch->builders_yard_spritelayout_4
+builders_yard_tile_1_lc_3_98->builders_yard_tile_1_lc_3_99
+builders_yard_tile_1_lc_3_57->builders_yard_tile_1_lc_3_58
+builders_yard_tile_1_lc_3_15->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_212->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_80->builders_yard_tile_1_lc_3_81
+builders_yard_tile_1_lc_3_51->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_163->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_115->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_206->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_132->builders_yard_tile_1_lc_3_133
+builders_yard_tile_1_lc_3_95->builders_yard_tile_1_lc_3_96
+builders_yard_tile_1_lc_3_221->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_37->builders_yard_tile_1_lc_3_38
+builders_yard_tile_1_lc_3_102->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_103->builders_yard_tile_1_lc_3_104
+builders_yard_tile_1_lc_3_217->builders_yard_tile_1_lc_3_218
+builders_yard_industry_layout_3_graphics_switch->builders_yard_spritelayout_3
+builders_yard_tile_1_lc_3_54->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_33->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_12->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_192->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_84->builders_yard_tile_1_lc_3_85
+builders_yard_tile_1_lc_3_94->builders_yard_tile_1_lc_3_95
+builders_yard_tile_1_lc_3_162->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_161->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_66->builders_yard_tile_1_lc_3_67
+builders_yard_tile_1_lc_3_151->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_59->builders_yard_tile_1_lc_3_60
+builders_yard_tile_1_lc_3_79->builders_yard_tile_1_lc_3_80
+builders_yard_tile_1_lc_3_145->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_17->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_202->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_13->builders_yard_tile_1_lc_3_14
+builders_yard_tile_1_lc_3_171->builders_yard_tile_1_lc_3_172
+builders_yard_tile_1_lc_3_23->builders_yard_tile_1_lc_3_225
+builders_yard_spritelayout_4->builders_yard_spriteset_5_0_snow
+builders_yard_tile_1_lc_3_174->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_4->builders_yard_tile_1_lc_3_225
+builders_yard_tile_1_lc_3_69->builders_yard_tile_1_lc_3_225
+}

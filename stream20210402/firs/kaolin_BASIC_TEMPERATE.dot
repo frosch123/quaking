@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_kaolin [fillcolor=green style="filled" label="<spriteset>\ncargoicon_kaolin"]
+kaolin_BASIC_TEMPERATE [fillcolor=red style="filled" label="FEAT_CARGOS <12>\nkaolin_BASIC_TEMPERATE"]
+kaolin_BASIC_TEMPERATE->cargoicon_kaolin
+}

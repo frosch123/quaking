@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_paper [fillcolor=green style="filled" label="<spriteset>\ncargoicon_paper"]
+paper_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <10>\npaper_BASIC_ARCTIC"]
+paper_BASIC_ARCTIC->cargoicon_paper
+}

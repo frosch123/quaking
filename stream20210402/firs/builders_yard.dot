@@ -1,0 +1,50 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+builders_yard_produce_cargo_arrival_economy_5 [fillcolor=green style="filled" label="<produce>\nbuilders_yard_produce_cargo_arrival_economy_5"]
+builders_yard_produce_cargo_arrival_economy_3 [fillcolor=green style="filled" label="<produce>\nbuilders_yard_produce_cargo_arrival_economy_3"]
+builders_yard_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability_param"]
+builders_yard_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_map_gen"]
+builders_yard_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_available_game_mode"]
+builders_yard_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability_0"]
+builders_yard_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability_1"]
+builders_yard_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability_4"]
+builders_yard_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability_5"]
+builders_yard_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability_3"]
+builders_yard_check_availability [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_availability"]
+builders_yard_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_22"]
+builders_yard_min_distance_103 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_103"]
+builders_yard_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_43"]
+builders_yard_min_distance_80 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_80"]
+builders_yard_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_41"]
+builders_yard_min_distance_95 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_95"]
+builders_yard_min_distance_63 [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_min_distance_63"]
+builders_yard_check_location [fillcolor=yellow style="filled" label="<switch>\nbuilders_yard_check_location"]
+builders_yard [fillcolor=red style="filled" label="FEAT_INDUSTRIES <63>\nbuilders_yard"]
+builders_yard_check_availability->builders_yard_check_availability_0
+builders_yard->builders_yard_produce_cargo_arrival_economy_5
+builders_yard_check_location->builders_yard_min_distance_63
+builders_yard_check_map_gen->builders_yard_check_availability_param
+builders_yard_check_availability_4->builders_yard_available_game_mode
+builders_yard->builders_yard_produce_cargo_arrival_economy_3
+builders_yard->builders_yard_check_location
+builders_yard_check_availability_0->builders_yard_available_game_mode
+builders_yard_min_distance_41->builders_yard_min_distance_80
+builders_yard_check_availability->builders_yard_check_availability_3
+builders_yard_check_availability_3->builders_yard_available_game_mode
+builders_yard->switch_colour
+builders_yard_check_availability->builders_yard_check_availability_1
+builders_yard_min_distance_63->builders_yard_min_distance_95
+builders_yard_min_distance_103->builders_yard_min_distance_22
+builders_yard_check_availability->builders_yard_check_availability_4
+builders_yard_check_availability->builders_yard_check_availability_5
+builders_yard_min_distance_80->builders_yard_min_distance_43
+builders_yard->randomise_primary_production_on_build
+builders_yard_min_distance_95->builders_yard_min_distance_41
+builders_yard_check_availability_1->builders_yard_available_game_mode
+builders_yard->builders_yard_check_availability
+builders_yard_available_game_mode->builders_yard_check_map_gen
+builders_yard_check_availability_5->builders_yard_available_game_mode
+builders_yard_min_distance_43->builders_yard_min_distance_103
+}

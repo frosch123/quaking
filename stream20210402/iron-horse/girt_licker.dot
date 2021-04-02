@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+girt_licker_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_articulated_cb_switch"]
+girt_licker_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\ngirt_licker_ss_unreversed_unflipped_0"]
+girt_licker_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\ngirt_licker_ss_unreversed_flipped_0"]
+girt_licker_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_switch_graphics_unreversed"]
+girt_licker_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ngirt_licker_ss_vehicle_purchase_0"]
+girt_licker_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_switch_set_layers_register_more_sprites"]
+girt_licker_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_switch_graphics"]
+girt_licker_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_switch_colour_mapping"]
+girt_licker_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_switch_create_effect_default_unreversed"]
+girt_licker_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\ngirt_licker_switch_buy_menu_text_result"]
+girt_licker [fillcolor=red style="filled" label="<FEAT_TRAINS 70>\ngirt_licker"]
+girt_licker_switch_graphics->switch_graphics_layer_tail_light_empty
+girt_licker_switch_graphics_unreversed->girt_licker_ss_unreversed_unflipped_0
+girt_licker->girt_licker_switch_create_effect_default_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+girt_licker->girt_licker_ss_vehicle_purchase_0
+girt_licker_switch_graphics->girt_licker_switch_set_layers_register_more_sprites
+girt_licker_switch_graphics_unreversed->girt_licker_ss_unreversed_flipped_0
+girt_licker->girt_licker_articulated_cb_switch
+girt_licker->girt_licker_switch_buy_menu_text_result
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+girt_licker->girt_licker_switch_graphics
+girt_licker->girt_licker_switch_colour_mapping
+girt_licker_switch_set_layers_register_more_sprites->girt_licker_switch_graphics_unreversed
+}

@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+pegasus_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\npegasus_articulated_cb_switch"]
+pegasus_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\npegasus_ss_unreversed_unflipped_0"]
+pegasus_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\npegasus_ss_unreversed_flipped_0"]
+pegasus_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\npegasus_switch_graphics_unreversed"]
+pegasus_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\npegasus_ss_vehicle_purchase_0"]
+pegasus_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\npegasus_switch_set_layers_register_more_sprites"]
+pegasus_switch_graphics [fillcolor=yellow style="filled" label="<switch>\npegasus_switch_graphics"]
+pegasus_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\npegasus_switch_colour_mapping"]
+pegasus_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\npegasus_switch_create_effect_default_unreversed"]
+pegasus_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\npegasus_switch_buy_menu_text_result"]
+pegasus [fillcolor=red style="filled" label="<FEAT_TRAINS 300>\npegasus"]
+pegasus_switch_graphics_unreversed->pegasus_ss_unreversed_unflipped_0
+pegasus->pegasus_articulated_cb_switch
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+pegasus->pegasus_switch_colour_mapping
+pegasus_switch_graphics->switch_graphics_layer_tail_light_empty
+pegasus->pegasus_ss_vehicle_purchase_0
+pegasus->pegasus_switch_graphics
+pegasus_switch_set_layers_register_more_sprites->pegasus_switch_graphics_unreversed
+pegasus->pegasus_switch_create_effect_default_unreversed
+pegasus_switch_graphics_unreversed->pegasus_ss_unreversed_flipped_0
+pegasus_switch_graphics->pegasus_switch_set_layers_register_more_sprites
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+pegasus->pegasus_switch_buy_menu_text_result
+}

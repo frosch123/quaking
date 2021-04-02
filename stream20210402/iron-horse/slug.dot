@@ -1,0 +1,77 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+slug_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_unreversed_unflipped_0"]
+slug_ss_unreversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_unreversed_unflipped_1"]
+slug_switch_graphics_check_2cc_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_check_2cc_unreversed_unflipped"]
+slug_switch_graphics_livery_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_livery_unreversed_unflipped"]
+slug_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_unreversed_flipped_0"]
+slug_ss_unreversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_unreversed_flipped_1"]
+slug_switch_graphics_check_2cc_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_check_2cc_unreversed_flipped"]
+slug_switch_graphics_livery_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_livery_unreversed_flipped"]
+slug_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_unreversed"]
+slug_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_reversed_unflipped_0"]
+slug_ss_reversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_reversed_unflipped_1"]
+slug_switch_graphics_check_2cc_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_check_2cc_reversed_unflipped"]
+slug_switch_graphics_livery_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_livery_reversed_unflipped"]
+slug_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_reversed_flipped_0"]
+slug_ss_reversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_reversed_flipped_1"]
+slug_switch_graphics_check_2cc_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_check_2cc_reversed_flipped"]
+slug_switch_graphics_livery_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_livery_reversed_flipped"]
+slug_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_reversed"]
+slug_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nslug_switch_graphics_vehicle"]
+slug_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_vehicle_purchase_0"]
+slug_ss_vehicle_purchase_1 [fillcolor=green style="filled" label="<spriteset>\nslug_ss_vehicle_purchase_1"]
+slug_switch_graphics_purchase_livery_check_2cc [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_purchase_livery_check_2cc"]
+slug_switch_graphics_purchase_livery [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics_purchase_livery"]
+slug_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nslug_switch_set_layers_register_more_sprites"]
+slug_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nslug_switch_graphics"]
+slug_switch_colour_mapping_check_2cc [fillcolor=yellow style="filled" label="<switch>\nslug_switch_colour_mapping_check_2cc"]
+slug_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nslug_switch_colour_mapping"]
+slug_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nslug_switch_create_effect_default_unreversed"]
+slug_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nslug_switch_create_effect_default_reversed"]
+slug_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nslug_switch_create_effect_reversed_variants"]
+slug_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nslug_switch_buy_menu_text_result"]
+slug [fillcolor=red style="filled" label="<FEAT_TRAINS 1000>\nslug"]
+slug_switch_graphics_check_2cc_reversed_flipped->slug_ss_reversed_flipped_0
+slug_switch_create_effect_reversed_variants->slug_switch_create_effect_default_reversed
+slug_switch_graphics->switch_graphics_layer_tail_light_empty
+slug_switch_graphics_purchase_livery->slug_switch_graphics_purchase_livery_check_2cc
+slug_switch_graphics_livery_reversed_unflipped->slug_switch_graphics_check_2cc_reversed_unflipped
+slug_switch_graphics_livery_reversed_flipped->slug_ss_reversed_flipped_0
+slug_switch_graphics_check_2cc_reversed_flipped->slug_ss_reversed_flipped_1
+slug_switch_graphics_check_2cc_reversed_unflipped->slug_ss_reversed_unflipped_1
+slug_switch_graphics_livery_reversed_unflipped->slug_ss_reversed_unflipped_0
+slug_switch_graphics_livery_unreversed_unflipped->slug_switch_graphics_check_2cc_unreversed_unflipped
+slug_switch_graphics_check_2cc_reversed_unflipped->slug_ss_reversed_unflipped_0
+slug->slug_switch_colour_mapping
+slug->slug_switch_buy_menu_text_result
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+slug_switch_graphics_reversed->slug_switch_graphics_livery_reversed_flipped
+slug_switch_graphics_livery_unreversed_flipped->slug_switch_graphics_check_2cc_unreversed_flipped
+slug_switch_graphics_purchase_livery_check_2cc->slug_ss_vehicle_purchase_1
+slug_switch_graphics_livery_reversed_flipped->slug_switch_graphics_check_2cc_reversed_flipped
+slug_switch_graphics_vehicle->slug_switch_graphics_unreversed
+slug_switch_graphics_check_2cc_unreversed_flipped->slug_ss_unreversed_flipped_1
+slug_switch_graphics_check_2cc_unreversed_unflipped->slug_ss_unreversed_unflipped_1
+slug_switch_graphics_livery_unreversed_flipped->slug_ss_unreversed_flipped_0
+slug_switch_graphics_unreversed->slug_switch_graphics_livery_unreversed_flipped
+slug_switch_graphics_purchase_livery->slug_ss_vehicle_purchase_0
+slug_switch_graphics_livery_unreversed_unflipped->slug_ss_unreversed_unflipped_0
+slug_switch_graphics_check_2cc_unreversed_unflipped->slug_ss_unreversed_unflipped_0
+slug_switch_graphics_unreversed->slug_switch_graphics_livery_unreversed_unflipped
+slug_switch_graphics_purchase_livery_check_2cc->slug_ss_vehicle_purchase_0
+slug_switch_graphics_check_2cc_unreversed_flipped->slug_ss_unreversed_flipped_0
+slug->slug_switch_graphics
+slug_switch_set_layers_register_more_sprites->slug_switch_graphics_vehicle
+slug_switch_colour_mapping->slug_switch_colour_mapping_check_2cc
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+slug_switch_graphics->slug_switch_set_layers_register_more_sprites
+slug->slug_switch_create_effect_reversed_variants
+slug_switch_graphics_reversed->slug_switch_graphics_livery_reversed_unflipped
+slug_switch_graphics_vehicle->slug_switch_graphics_reversed
+slug_switch_create_effect_reversed_variants->slug_switch_create_effect_default_unreversed
+slug->slug_switch_graphics_purchase_livery
+}

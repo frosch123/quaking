@@ -1,0 +1,60 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+petrol_pump_produce_cargo_arrival_economy_3 [fillcolor=green style="filled" label="<produce>\npetrol_pump_produce_cargo_arrival_economy_3"]
+petrol_pump_check_availability_param [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability_param"]
+petrol_pump_check_map_gen [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_map_gen"]
+petrol_pump_available_game_mode [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_available_game_mode"]
+petrol_pump_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability_0"]
+petrol_pump_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability_1"]
+petrol_pump_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability_4"]
+petrol_pump_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability_5"]
+petrol_pump_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability_3"]
+petrol_pump_check_availability [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_availability"]
+petrol_pump_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_56"]
+petrol_pump_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_34"]
+petrol_pump_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_31"]
+petrol_pump_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_74"]
+petrol_pump_min_distance_14 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_14"]
+petrol_pump_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_39"]
+petrol_pump_min_distance_22 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_22"]
+petrol_pump_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_37"]
+petrol_pump_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_29"]
+petrol_pump_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_36"]
+petrol_pump_min_distance_85 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_85"]
+petrol_pump_min_distance_9 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_9"]
+petrol_pump_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_min_distance_60"]
+petrol_pump_check_location [fillcolor=yellow style="filled" label="<switch>\npetrol_pump_check_location"]
+petrol_pump [fillcolor=red style="filled" label="FEAT_INDUSTRIES <60>\npetrol_pump"]
+petrol_pump_min_distance_37->petrol_pump_min_distance_22
+petrol_pump->petrol_pump_check_location
+petrol_pump_check_availability_3->petrol_pump_available_game_mode
+petrol_pump_min_distance_22->petrol_pump_min_distance_39
+petrol_pump_check_availability_5->petrol_pump_available_game_mode
+petrol_pump_check_availability->petrol_pump_check_availability_3
+petrol_pump_available_game_mode->petrol_pump_check_map_gen
+petrol_pump_check_availability->petrol_pump_check_availability_4
+petrol_pump_check_availability->petrol_pump_check_availability_1
+petrol_pump_min_distance_14->petrol_pump_min_distance_74
+petrol_pump_check_availability_1->petrol_pump_available_game_mode
+petrol_pump_check_availability->petrol_pump_check_availability_0
+petrol_pump_min_distance_29->petrol_pump_min_distance_37
+petrol_pump_check_map_gen->petrol_pump_check_availability_param
+petrol_pump_min_distance_60->petrol_pump_min_distance_9
+petrol_pump_min_distance_74->petrol_pump_min_distance_31
+petrol_pump_min_distance_39->petrol_pump_min_distance_14
+petrol_pump_min_distance_34->petrol_pump_min_distance_56
+petrol_pump_check_availability->petrol_pump_check_availability_5
+petrol_pump->randomise_primary_production_on_build
+petrol_pump_check_availability_0->petrol_pump_available_game_mode
+petrol_pump_min_distance_9->petrol_pump_min_distance_85
+petrol_pump_min_distance_31->petrol_pump_min_distance_34
+petrol_pump->switch_colour
+petrol_pump->petrol_pump_produce_cargo_arrival_economy_3
+petrol_pump->petrol_pump_check_availability
+petrol_pump_check_availability_4->petrol_pump_available_game_mode
+petrol_pump_min_distance_85->petrol_pump_min_distance_36
+petrol_pump_check_location->petrol_pump_min_distance_60
+petrol_pump_min_distance_36->petrol_pump_min_distance_29
+}

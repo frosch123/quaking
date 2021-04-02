@@ -1,0 +1,158 @@
+digraph {
+rankdir="BT"
+forest_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_1_0"]
+forest_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_1_0_snow"]
+forest_spriteset_1_1 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_1_1"]
+forest_spriteset_1_1_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_1_1_snow"]
+forest_spriteset_1_2 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_1_2"]
+forest_spriteset_1_2_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_1_2_snow"]
+forest_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_2_0"]
+forest_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_2_0_snow"]
+forest_spriteset_2_1 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_2_1"]
+forest_spriteset_2_1_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_2_1_snow"]
+forest_spriteset_2_2 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_2_2"]
+forest_spriteset_2_2_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_2_2_snow"]
+forest_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_3_0"]
+forest_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_3_0_snow"]
+forest_spriteset_3_1 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_3_1"]
+forest_spriteset_3_1_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_3_1_snow"]
+forest_spriteset_3_2 [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_3_2"]
+forest_spriteset_3_2_snow [fillcolor=green style="filled" label="<spriteset>\nforest_spriteset_3_2_snow"]
+forest_equipment_spritelayout [fillcolor=yellow style="filled" label="<spritelayout>\nforest_equipment_spritelayout"]
+forest_wood_stack_spritelayout [fillcolor=yellow style="filled" label="<spritelayout>\nforest_wood_stack_spritelayout"]
+forest_slope_aware_ground_with_trees_uniform0 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform0"]
+forest_slope_aware_ground_with_trees_uniform1 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform1"]
+forest_slope_aware_ground_with_trees_uniform2 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform2"]
+forest_slope_aware_ground_with_trees_uniform3 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform3"]
+forest_slope_aware_ground_with_trees_uniform4 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform4"]
+forest_slope_aware_ground_with_trees_uniform5 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform5"]
+forest_slope_aware_ground_with_trees_uniform6 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform6"]
+forest_slope_aware_ground_with_trees_uniform7 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform7"]
+forest_slope_aware_ground_with_trees_uniform8 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform8"]
+forest_slope_aware_ground_with_trees_uniform9 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform9"]
+forest_slope_aware_ground_with_trees_uniform10 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform10"]
+forest_slope_aware_ground_with_trees_uniform11 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform11"]
+forest_slope_aware_ground_with_trees_uniform12 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform12"]
+forest_slope_aware_ground_with_trees_uniform13 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform13"]
+forest_slope_aware_ground_with_trees_uniform14 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform14"]
+forest_slope_aware_ground_with_trees_uniform23 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform23"]
+forest_slope_aware_ground_with_trees_uniform27 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform27"]
+forest_slope_aware_ground_with_trees_uniform29 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform29"]
+forest_slope_aware_ground_with_trees_uniform30 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_uniform30"]
+forest_slope_aware_ground_with_trees_dying0 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying0"]
+forest_slope_aware_ground_with_trees_dying1 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying1"]
+forest_slope_aware_ground_with_trees_dying2 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying2"]
+forest_slope_aware_ground_with_trees_dying3 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying3"]
+forest_slope_aware_ground_with_trees_dying4 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying4"]
+forest_slope_aware_ground_with_trees_dying5 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying5"]
+forest_slope_aware_ground_with_trees_dying6 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying6"]
+forest_slope_aware_ground_with_trees_dying7 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying7"]
+forest_slope_aware_ground_with_trees_dying8 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying8"]
+forest_slope_aware_ground_with_trees_dying9 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying9"]
+forest_slope_aware_ground_with_trees_dying10 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying10"]
+forest_slope_aware_ground_with_trees_dying11 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying11"]
+forest_slope_aware_ground_with_trees_dying12 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying12"]
+forest_slope_aware_ground_with_trees_dying13 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying13"]
+forest_slope_aware_ground_with_trees_dying14 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying14"]
+forest_slope_aware_ground_with_trees_dying23 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying23"]
+forest_slope_aware_ground_with_trees_dying27 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying27"]
+forest_slope_aware_ground_with_trees_dying29 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying29"]
+forest_slope_aware_ground_with_trees_dying30 [fillcolor=yellow style="filled" label="<spritelayout>\nforest_slope_aware_ground_with_trees_dying30"]
+forest_slope_aware_ground_with_trees_uniform [fillcolor=yellow style="filled" label="<switch>\nforest_slope_aware_ground_with_trees_uniform"]
+forest_slope_aware_ground_with_trees_dying [fillcolor=yellow style="filled" label="<switch>\nforest_slope_aware_ground_with_trees_dying"]
+forest_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nforest_layout_1_graphics_switch"]
+forest_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nforest_layout_2_graphics_switch"]
+forest_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nforest_layout_3_graphics_switch"]
+forest_layout_4_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nforest_layout_4_graphics_switch"]
+forest_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nforest_industry_graphics_switch_layouts"]
+forest_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nforest_store_temp_vars"]
+forest_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nforest_switch_graphics"]
+forest_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\nforest_tile_1_lc_3"]
+forest_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nforest_tile_1_lc_2"]
+forest_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nforest_tile_1_lc_1"]
+forest_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nforest_tile_1_lc_0"]
+forest_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <205>\nforest_tile_1"]
+forest_wood_stack_spritelayout->forest_spriteset_3_2
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying3
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform6
+forest_tile_1->forest_tile_1_lc_0
+forest_equipment_spritelayout->forest_spriteset_1_1
+forest_tile_1->forest_switch_graphics
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform9
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform11
+forest_equipment_spritelayout->forest_spriteset_2_0
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying8
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform30
+forest_layout_2_graphics_switch->forest_slope_aware_ground_with_trees_uniform
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying7
+forest_equipment_spritelayout->forest_spriteset_2_1
+forest_layout_3_graphics_switch->forest_slope_aware_ground_with_trees_dying
+forest_equipment_spritelayout->forest_spriteset_1_2
+forest_store_temp_vars->forest_industry_graphics_switch_layouts
+forest_equipment_spritelayout->forest_spriteset_1_2_snow
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform13
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform3
+forest_wood_stack_spritelayout->forest_spriteset_3_1_snow
+forest_layout_2_graphics_switch->forest_equipment_spritelayout
+forest_wood_stack_spritelayout->forest_spriteset_3_2_snow
+forest_layout_4_graphics_switch->forest_equipment_spritelayout
+forest_industry_graphics_switch_layouts->forest_layout_4_graphics_switch
+forest_industry_graphics_switch_layouts->forest_layout_1_graphics_switch
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform5
+forest_equipment_spritelayout->forest_spriteset_2_0_snow
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying11
+forest_tile_1_lc_1->forest_tile_1_lc_2
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying14
+forest_equipment_spritelayout->forest_spriteset_2_1_snow
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform14
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform2
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying5
+forest_tile_1_lc_2->forest_tile_1_lc_3
+forest_wood_stack_spritelayout->forest_spriteset_3_1
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying12
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying4
+forest_layout_1_graphics_switch->forest_slope_aware_ground_with_trees_dying
+forest_layout_1_graphics_switch->forest_slope_aware_ground_with_trees_uniform
+forest_layout_3_graphics_switch->forest_slope_aware_ground_with_trees_uniform
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform29
+forest_equipment_spritelayout->forest_spriteset_2_2
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying29
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying10
+forest_equipment_spritelayout->forest_spriteset_2_2_snow
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying0
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform4
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform0
+forest_layout_1_graphics_switch->forest_equipment_spritelayout
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying30
+forest_layout_3_graphics_switch->forest_wood_stack_spritelayout
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying9
+forest_layout_1_graphics_switch->forest_wood_stack_spritelayout
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying23
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform23
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform7
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform8
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying27
+forest_layout_2_graphics_switch->forest_slope_aware_ground_with_trees_dying
+forest_layout_4_graphics_switch->forest_slope_aware_ground_with_trees_dying
+forest_equipment_spritelayout->forest_spriteset_1_1_snow
+forest_equipment_spritelayout->forest_spriteset_1_0_snow
+forest_equipment_spritelayout->forest_spriteset_1_0
+forest_layout_4_graphics_switch->forest_slope_aware_ground_with_trees_uniform
+forest_industry_graphics_switch_layouts->forest_layout_3_graphics_switch
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying13
+forest_industry_graphics_switch_layouts->forest_layout_2_graphics_switch
+forest_wood_stack_spritelayout->forest_spriteset_3_0_snow
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying2
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform10
+forest_switch_graphics->forest_store_temp_vars
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform12
+forest_tile_1_lc_0->forest_tile_1_lc_1
+forest_layout_4_graphics_switch->forest_wood_stack_spritelayout
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying6
+forest_slope_aware_ground_with_trees_dying->forest_slope_aware_ground_with_trees_dying1
+forest_wood_stack_spritelayout->forest_spriteset_3_0
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform1
+forest_slope_aware_ground_with_trees_uniform->forest_slope_aware_ground_with_trees_uniform27
+forest_layout_2_graphics_switch->forest_wood_stack_spritelayout
+forest_layout_3_graphics_switch->forest_equipment_spritelayout
+}

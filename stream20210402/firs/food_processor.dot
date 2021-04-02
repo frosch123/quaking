@@ -1,0 +1,96 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+food_processor_produce_0 [fillcolor=green style="filled" label="<produce>\nfood_processor_produce_0"]
+food_processor_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_produce_calculation_0"]
+food_processor_produce_1 [fillcolor=green style="filled" label="<produce>\nfood_processor_produce_1"]
+food_processor_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_produce_calculation_1"]
+food_processor_produce_4 [fillcolor=green style="filled" label="<produce>\nfood_processor_produce_4"]
+food_processor_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_produce_calculation_4"]
+food_processor_produce_5 [fillcolor=green style="filled" label="<produce>\nfood_processor_produce_5"]
+food_processor_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_produce_calculation_5"]
+food_processor_produce_3 [fillcolor=green style="filled" label="<produce>\nfood_processor_produce_3"]
+food_processor_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_produce_calculation_3"]
+food_processor_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nfood_processor_produce_cargo_arrival"]
+food_processor_extra_text [fillcolor=yellow style="filled" label="<switch>\nfood_processor_extra_text"]
+food_processor_cargo_subtype_display_cargo_BEAN_economy_4 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_cargo_BEAN_economy_4"]
+food_processor_cargo_subtype_display_cargo_FRUT_economy_4 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_cargo_FRUT_economy_4"]
+food_processor_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_switch_cargo_economy_4"]
+food_processor_cargo_subtype_display_cargo_NUTS_economy_3 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_cargo_NUTS_economy_3"]
+food_processor_cargo_subtype_display_cargo_FRUT_economy_3 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_cargo_FRUT_economy_3"]
+food_processor_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_switch_cargo_economy_3"]
+food_processor_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display_switch_economy"]
+food_processor_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nfood_processor_cargo_subtype_display"]
+food_processor_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability_param"]
+food_processor_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_map_gen"]
+food_processor_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nfood_processor_available_game_mode"]
+food_processor_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability_0"]
+food_processor_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability_1"]
+food_processor_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability_4"]
+food_processor_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability_5"]
+food_processor_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability_3"]
+food_processor_check_availability [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_availability"]
+food_processor_min_distance_50 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_50"]
+food_processor_min_distance_68 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_68"]
+food_processor_min_distance_30 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_30"]
+food_processor_min_distance_26 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_26"]
+food_processor_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_61"]
+food_processor_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_74"]
+food_processor_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_51"]
+food_processor_min_distance_47 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_47"]
+food_processor_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_39"]
+food_processor_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_52"]
+food_processor_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_60"]
+food_processor_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_58"]
+food_processor_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_min_distance_56"]
+food_processor_check_location [fillcolor=yellow style="filled" label="<switch>\nfood_processor_check_location"]
+food_processor [fillcolor=red style="filled" label="FEAT_INDUSTRIES <56>\nfood_processor"]
+food_processor_cargo_subtype_display_switch_cargo_economy_3->food_processor_cargo_subtype_display_cargo_NUTS_economy_3
+food_processor_produce_cargo_arrival->food_processor_produce_calculation_0
+food_processor->food_processor_check_location
+food_processor_check_availability->food_processor_check_availability_0
+food_processor_check_availability_3->food_processor_available_game_mode
+food_processor->food_processor_extra_text
+food_processor_check_availability->food_processor_check_availability_5
+food_processor_produce_calculation_1->food_processor_produce_1
+food_processor_cargo_subtype_display_switch_cargo_economy_3->food_processor_cargo_subtype_display_cargo_FRUT_economy_3
+food_processor_check_availability->food_processor_check_availability_4
+food_processor_produce_calculation_4->food_processor_produce_4
+food_processor_cargo_subtype_display_switch_economy->food_processor_cargo_subtype_display_switch_cargo_economy_4
+food_processor->switch_colour
+food_processor_check_map_gen->food_processor_check_availability_param
+food_processor_check_availability_0->food_processor_available_game_mode
+food_processor_check_availability_5->food_processor_available_game_mode
+food_processor_min_distance_52->food_processor_min_distance_39
+food_processor_check_availability->food_processor_check_availability_3
+food_processor->food_processor_produce_cargo_arrival
+food_processor_min_distance_30->food_processor_min_distance_68
+food_processor->food_processor_check_availability
+food_processor_min_distance_26->food_processor_min_distance_30
+food_processor_min_distance_68->food_processor_min_distance_50
+food_processor_check_availability_1->food_processor_available_game_mode
+food_processor_cargo_subtype_display_switch_cargo_economy_4->food_processor_cargo_subtype_display_cargo_BEAN_economy_4
+food_processor_min_distance_61->food_processor_min_distance_26
+food_processor_cargo_subtype_display->food_processor_cargo_subtype_display_switch_economy
+food_processor_check_location->food_processor_min_distance_56
+food_processor_produce_cargo_arrival->food_processor_produce_calculation_3
+food_processor_produce_calculation_0->food_processor_produce_0
+food_processor_min_distance_51->food_processor_min_distance_74
+food_processor_min_distance_58->food_processor_min_distance_60
+food_processor_min_distance_39->food_processor_min_distance_47
+food_processor_available_game_mode->food_processor_check_map_gen
+food_processor_produce_cargo_arrival->food_processor_produce_calculation_4
+food_processor_check_availability_4->food_processor_available_game_mode
+food_processor_cargo_subtype_display_switch_cargo_economy_4->food_processor_cargo_subtype_display_cargo_FRUT_economy_4
+food_processor_min_distance_60->food_processor_min_distance_52
+food_processor_cargo_subtype_display_switch_economy->food_processor_cargo_subtype_display_switch_cargo_economy_3
+food_processor_produce_cargo_arrival->food_processor_produce_calculation_1
+food_processor_produce_cargo_arrival->food_processor_produce_calculation_5
+food_processor_min_distance_47->food_processor_min_distance_51
+food_processor_check_availability->food_processor_check_availability_1
+food_processor_produce_calculation_5->food_processor_produce_5
+food_processor->food_processor_cargo_subtype_display
+food_processor_min_distance_56->food_processor_min_distance_58
+food_processor_min_distance_74->food_processor_min_distance_61
+food_processor_produce_calculation_3->food_processor_produce_3
+}

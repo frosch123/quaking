@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+strongbow_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nstrongbow_articulated_cb_switch"]
+strongbow_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nstrongbow_ss_unreversed_unflipped_0"]
+strongbow_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nstrongbow_ss_unreversed_flipped_0"]
+strongbow_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nstrongbow_switch_graphics_unreversed"]
+strongbow_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nstrongbow_ss_vehicle_purchase_0"]
+strongbow_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nstrongbow_switch_set_layers_register_more_sprites"]
+strongbow_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nstrongbow_switch_graphics"]
+strongbow_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nstrongbow_switch_colour_mapping"]
+strongbow_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nstrongbow_switch_create_effect_default_unreversed"]
+strongbow_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nstrongbow_switch_buy_menu_text_result"]
+strongbow [fillcolor=red style="filled" label="<FEAT_TRAINS 4320>\nstrongbow"]
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+strongbow_switch_set_layers_register_more_sprites->strongbow_switch_graphics_unreversed
+strongbow->strongbow_articulated_cb_switch
+strongbow_switch_graphics_unreversed->strongbow_ss_unreversed_flipped_0
+strongbow_switch_graphics->switch_graphics_layer_tail_light_empty
+strongbow_switch_graphics->strongbow_switch_set_layers_register_more_sprites
+strongbow->strongbow_switch_create_effect_default_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+strongbow->strongbow_switch_graphics
+strongbow_switch_graphics_unreversed->strongbow_ss_unreversed_unflipped_0
+strongbow->strongbow_switch_colour_mapping
+strongbow->strongbow_ss_vehicle_purchase_0
+strongbow->strongbow_switch_buy_menu_text_result
+}

@@ -1,0 +1,65 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_concrete_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_concrete_1"]
+food_processor_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_2_0"]
+food_processor_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_2_0_snow"]
+food_processor_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_3_0"]
+food_processor_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_3_0_snow"]
+food_processor_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_4_0"]
+food_processor_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_4_0_snow"]
+food_processor_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_5_0"]
+food_processor_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nfood_processor_spriteset_5_0_snow"]
+food_processor_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nfood_processor_spritelayout_1"]
+food_processor_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nfood_processor_spritelayout_2"]
+food_processor_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nfood_processor_spritelayout_3"]
+food_processor_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nfood_processor_spritelayout_4"]
+food_processor_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nfood_processor_industry_layout_1_graphics_switch"]
+food_processor_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nfood_processor_industry_layout_2_graphics_switch"]
+food_processor_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nfood_processor_industry_layout_3_graphics_switch"]
+food_processor_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nfood_processor_industry_graphics_switch_layouts"]
+food_processor_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nfood_processor_industry_construction_state_graphics_switch"]
+food_processor_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nfood_processor_store_temp_vars"]
+food_processor_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nfood_processor_switch_graphics"]
+food_processor_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_tile_1_lc_2"]
+food_processor_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_tile_1_lc_1"]
+food_processor_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nfood_processor_tile_1_lc_0"]
+food_processor_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <229>\nfood_processor_tile_1"]
+food_processor_industry_layout_1_graphics_switch->food_processor_spritelayout_2
+food_processor_switch_graphics->food_processor_store_temp_vars
+food_processor_spritelayout_1->food_processor_spriteset_2_0
+food_processor_industry_graphics_switch_layouts->food_processor_industry_layout_3_graphics_switch
+food_processor_store_temp_vars->food_processor_industry_construction_state_graphics_switch
+food_processor_industry_layout_1_graphics_switch->food_processor_spritelayout_3
+food_processor_spritelayout_3->spriteset_ground_tile_concrete_1
+food_processor_spritelayout_2->food_processor_spriteset_3_0_snow
+food_processor_spritelayout_2->food_processor_spriteset_3_0
+food_processor_industry_graphics_switch_layouts->food_processor_industry_layout_2_graphics_switch
+food_processor_industry_construction_state_graphics_switch->food_processor_industry_graphics_switch_layouts
+food_processor_industry_layout_1_graphics_switch->food_processor_spritelayout_1
+food_processor_spritelayout_4->spriteset_ground_tile_concrete_1
+food_processor_industry_layout_2_graphics_switch->food_processor_spritelayout_3
+food_processor_tile_1->food_processor_switch_graphics
+food_processor_industry_layout_2_graphics_switch->food_processor_spritelayout_1
+food_processor_spritelayout_4->food_processor_spriteset_5_0
+food_processor_industry_layout_3_graphics_switch->food_processor_spritelayout_3
+food_processor_spritelayout_1->spriteset_ground_tile_concrete_1
+food_processor_spritelayout_2->spriteset_ground_tile_concrete_1
+food_processor_industry_layout_2_graphics_switch->food_processor_spritelayout_4
+food_processor_tile_1->food_processor_tile_1_lc_0
+food_processor_spritelayout_1->food_processor_spriteset_2_0_snow
+food_processor_tile_1_lc_1->food_processor_tile_1_lc_2
+food_processor_tile_1_lc_0->food_processor_tile_1_lc_1
+food_processor_industry_layout_2_graphics_switch->food_processor_spritelayout_2
+food_processor_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+food_processor_industry_layout_1_graphics_switch->food_processor_spritelayout_4
+food_processor_industry_layout_3_graphics_switch->food_processor_spritelayout_2
+spritelayout_default_construction_states->spriteset_default_construction_states
+food_processor_spritelayout_3->food_processor_spriteset_4_0_snow
+food_processor_industry_graphics_switch_layouts->food_processor_industry_layout_1_graphics_switch
+food_processor_spritelayout_4->food_processor_spriteset_5_0_snow
+food_processor_industry_layout_3_graphics_switch->food_processor_spritelayout_4
+food_processor_spritelayout_3->food_processor_spriteset_4_0
+food_processor_industry_layout_3_graphics_switch->food_processor_spritelayout_1
+}

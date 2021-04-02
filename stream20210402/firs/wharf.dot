@@ -1,0 +1,122 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+wharf_extra_text [fillcolor=yellow style="filled" label="<switch>\nwharf_extra_text"]
+wharf_cargo_subtype_display_cargo_BOOM_economy_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_BOOM_economy_1"]
+wharf_cargo_subtype_display_cargo_PEAT_economy_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_PEAT_economy_1"]
+wharf_cargo_subtype_display_cargo_WDPR_economy_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_WDPR_economy_1"]
+wharf_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_switch_cargo_economy_1"]
+wharf_cargo_subtype_display_cargo_STSE_economy_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_STSE_economy_5"]
+wharf_cargo_subtype_display_cargo_PIPE_economy_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_PIPE_economy_5"]
+wharf_cargo_subtype_display_cargo_CMNT_economy_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_CMNT_economy_5"]
+wharf_cargo_subtype_display_cargo_LYE__economy_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_cargo_LYE__economy_5"]
+wharf_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_switch_cargo_economy_5"]
+wharf_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display_switch_economy"]
+wharf_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nwharf_cargo_subtype_display"]
+wharf_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nwharf_monthly_prod_change"]
+wharf_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nwharf_clear_incoming_cargo_waiting_0"]
+wharf_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nwharf_store_incoming_cargo_waiting_0"]
+wharf_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nwharf_clear_incoming_cargo_waiting_1"]
+wharf_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_store_incoming_cargo_waiting_1"]
+wharf_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nwharf_clear_incoming_cargo_waiting_4"]
+wharf_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nwharf_store_incoming_cargo_waiting_4"]
+wharf_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nwharf_clear_incoming_cargo_waiting_5"]
+wharf_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_store_incoming_cargo_waiting_5"]
+wharf_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nwharf_clear_incoming_cargo_waiting_3"]
+wharf_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nwharf_store_incoming_cargo_waiting_3"]
+wharf_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nwharf_produce_cargo_arrival"]
+wharf_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nwharf_production_256_economy_0"]
+wharf_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nwharf_production_256_economy_1"]
+wharf_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nwharf_production_256_economy_4"]
+wharf_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nwharf_production_256_economy_5"]
+wharf_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nwharf_production_256_economy_3"]
+wharf_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nwharf_produce_256_ticks_switch_economy"]
+wharf_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nwharf_produce_256_ticks"]
+wharf_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability_param"]
+wharf_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nwharf_check_map_gen"]
+wharf_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nwharf_available_game_mode"]
+wharf_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability_0"]
+wharf_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability_1"]
+wharf_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability_4"]
+wharf_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability_5"]
+wharf_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability_3"]
+wharf_check_availability [fillcolor=yellow style="filled" label="<switch>\nwharf_check_availability"]
+wharf_min_distance_49 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_49"]
+wharf_min_distance_80 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_80"]
+wharf_min_distance_41 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_41"]
+wharf_min_distance_96 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_96"]
+wharf_min_distance_95 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_95"]
+wharf_min_distance_87 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_87"]
+wharf_min_distance_103 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_103"]
+wharf_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_51"]
+wharf_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_39"]
+wharf_min_distance_12 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_12"]
+wharf_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_43"]
+wharf_min_distance_88 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_88"]
+wharf_min_distance_5 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_5"]
+wharf_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nwharf_min_distance_82"]
+wharf_check_location [fillcolor=yellow style="filled" label="<switch>\nwharf_check_location"]
+wharf [fillcolor=red style="filled" label="FEAT_INDUSTRIES <82>\nwharf"]
+wharf_cargo_subtype_display_switch_economy->wharf_cargo_subtype_display_switch_cargo_economy_1
+wharf_store_incoming_cargo_waiting_1->wharf_clear_incoming_cargo_waiting_1
+wharf_check_availability_0->wharf_available_game_mode
+wharf_produce_cargo_arrival->wharf_store_incoming_cargo_waiting_5
+wharf->wharf_monthly_prod_change
+wharf_min_distance_103->wharf_min_distance_87
+wharf_min_distance_96->wharf_min_distance_41
+wharf_produce_cargo_arrival->wharf_store_incoming_cargo_waiting_3
+wharf_cargo_subtype_display_switch_cargo_economy_5->wharf_cargo_subtype_display_cargo_CMNT_economy_5
+wharf_check_map_gen->wharf_check_availability_param
+wharf_min_distance_88->wharf_min_distance_43
+wharf_min_distance_82->wharf_min_distance_5
+wharf_check_availability_5->wharf_available_game_mode
+wharf_cargo_subtype_display->wharf_cargo_subtype_display_switch_economy
+wharf_min_distance_80->wharf_min_distance_49
+wharf_cargo_subtype_display_switch_cargo_economy_1->wharf_cargo_subtype_display_cargo_PEAT_economy_1
+wharf_produce_256_ticks_switch_economy->wharf_production_256_economy_5
+wharf->wharf_check_availability
+wharf_cargo_subtype_display_switch_cargo_economy_5->wharf_cargo_subtype_display_cargo_STSE_economy_5
+wharf_check_availability->wharf_check_availability_4
+wharf_produce_256_ticks_switch_economy->wharf_production_256_economy_0
+wharf_produce_256_ticks_switch_economy->wharf_production_256_economy_1
+wharf_min_distance_87->wharf_min_distance_95
+wharf_cargo_subtype_display_switch_cargo_economy_5->wharf_cargo_subtype_display_cargo_PIPE_economy_5
+wharf->wharf_cargo_subtype_display
+wharf_check_availability_1->wharf_available_game_mode
+wharf_min_distance_51->wharf_min_distance_103
+wharf_check_availability->wharf_check_availability_3
+wharf_produce_cargo_arrival->wharf_store_incoming_cargo_waiting_1
+wharf->randomise_primary_production_on_build
+wharf_produce_cargo_arrival->wharf_store_incoming_cargo_waiting_4
+wharf_store_incoming_cargo_waiting_3->wharf_clear_incoming_cargo_waiting_3
+wharf_store_incoming_cargo_waiting_0->wharf_clear_incoming_cargo_waiting_0
+wharf_min_distance_43->wharf_min_distance_12
+wharf_check_availability_3->wharf_available_game_mode
+wharf->wharf_produce_cargo_arrival
+wharf_min_distance_5->wharf_min_distance_88
+wharf_produce_256_ticks_switch_economy->wharf_production_256_economy_3
+wharf_min_distance_12->wharf_min_distance_39
+wharf_store_incoming_cargo_waiting_4->wharf_clear_incoming_cargo_waiting_4
+wharf->wharf_extra_text
+wharf_cargo_subtype_display_switch_cargo_economy_1->wharf_cargo_subtype_display_cargo_WDPR_economy_1
+wharf_produce_256_ticks->wharf_produce_256_ticks_switch_economy
+wharf_store_incoming_cargo_waiting_5->wharf_clear_incoming_cargo_waiting_5
+wharf_cargo_subtype_display_switch_cargo_economy_1->wharf_cargo_subtype_display_cargo_BOOM_economy_1
+wharf_check_availability->wharf_check_availability_5
+wharf->wharf_produce_256_ticks
+wharf_check_availability->wharf_check_availability_1
+wharf_produce_256_ticks_switch_economy->wharf_production_256_economy_4
+wharf_min_distance_41->wharf_min_distance_80
+wharf_available_game_mode->wharf_check_map_gen
+wharf_check_availability_4->wharf_available_game_mode
+wharf_cargo_subtype_display_switch_economy->wharf_cargo_subtype_display_switch_cargo_economy_5
+wharf->wharf_check_location
+wharf_min_distance_39->wharf_min_distance_51
+wharf_produce_cargo_arrival->wharf_store_incoming_cargo_waiting_0
+wharf_min_distance_95->wharf_min_distance_96
+wharf_check_location->wharf_min_distance_82
+wharf->switch_colour
+wharf_check_availability->wharf_check_availability_0
+wharf_cargo_subtype_display_switch_cargo_economy_5->wharf_cargo_subtype_display_cargo_LYE__economy_5
+}

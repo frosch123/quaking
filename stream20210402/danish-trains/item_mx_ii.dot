@@ -1,0 +1,23 @@
+digraph {
+rankdir="BT"
+sw_cc_red_cream [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red_cream"]
+spriteset_mx_ii_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_mx_ii_1"]
+spriteset_mx_ii_2 [fillcolor=green style="filled" label="<spriteset>\nspriteset_mx_ii_2"]
+spriteset_mx_ii_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mx_ii_headlights"]
+sw_mx_ii_livery [fillcolor=yellow style="filled" label="<switch>\nsw_mx_ii_livery"]
+sw_mx_ii_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mx_ii_with_headlights"]
+sw_mx_ii_position [fillcolor=yellow style="filled" label="<switch>\nsw_mx_ii_position"]
+sw_mx_ii_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_mx_ii_cargo_subtype_text"]
+sw_mx_ii_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_mx_ii_cargo_subtype"]
+item_mx_ii [fillcolor=red style="filled" label="<FEAT_TRAINS 9>\nitem_mx_ii"]
+item_mx_ii->sw_mx_ii_cargo_subtype
+item_mx_ii->sw_mx_ii_position
+sw_mx_ii_livery->spriteset_mx_ii_1
+sw_mx_ii_with_headlights->sw_mx_ii_livery
+item_mx_ii->sw_cc_red_cream
+sw_mx_ii_position->sw_mx_ii_with_headlights
+sw_mx_ii_livery->spriteset_mx_ii_2
+sw_mx_ii_cargo_subtype->sw_mx_ii_cargo_subtype_text
+sw_mx_ii_position->sw_mx_ii_livery
+sw_mx_ii_with_headlights->spriteset_mx_ii_headlights
+}

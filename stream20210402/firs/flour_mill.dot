@@ -1,0 +1,97 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+flour_mill_produce_0 [fillcolor=green style="filled" label="<produce>\nflour_mill_produce_0"]
+flour_mill_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_produce_calculation_0"]
+flour_mill_produce_1 [fillcolor=green style="filled" label="<produce>\nflour_mill_produce_1"]
+flour_mill_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_produce_calculation_1"]
+flour_mill_produce_4 [fillcolor=green style="filled" label="<produce>\nflour_mill_produce_4"]
+flour_mill_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_produce_calculation_4"]
+flour_mill_produce_5 [fillcolor=green style="filled" label="<produce>\nflour_mill_produce_5"]
+flour_mill_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_produce_calculation_5"]
+flour_mill_produce_3 [fillcolor=green style="filled" label="<produce>\nflour_mill_produce_3"]
+flour_mill_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_produce_calculation_3"]
+flour_mill_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nflour_mill_produce_cargo_arrival"]
+flour_mill_extra_text [fillcolor=yellow style="filled" label="<switch>\nflour_mill_extra_text"]
+flour_mill_cargo_subtype_display_cargo_GRAI_economy_4 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display_cargo_GRAI_economy_4"]
+flour_mill_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display_switch_cargo_economy_4"]
+flour_mill_cargo_subtype_display_cargo_CASS_economy_3 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display_cargo_CASS_economy_3"]
+flour_mill_cargo_subtype_display_cargo_MAIZ_economy_3 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display_cargo_MAIZ_economy_3"]
+flour_mill_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display_switch_cargo_economy_3"]
+flour_mill_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display_switch_economy"]
+flour_mill_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nflour_mill_cargo_subtype_display"]
+flour_mill_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability_param"]
+flour_mill_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_map_gen"]
+flour_mill_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nflour_mill_available_game_mode"]
+flour_mill_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability_0"]
+flour_mill_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability_1"]
+flour_mill_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability_4"]
+flour_mill_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability_5"]
+flour_mill_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability_3"]
+flour_mill_check_availability [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_availability"]
+flour_mill_min_distance_26 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_26"]
+flour_mill_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_61"]
+flour_mill_min_distance_29 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_29"]
+flour_mill_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_51"]
+flour_mill_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_39"]
+flour_mill_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_52"]
+flour_mill_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_60"]
+flour_mill_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_58"]
+flour_mill_min_distance_34 [fillcolor=yellow style="filled" label="<switch>\nflour_mill_min_distance_34"]
+flour_mill_check_founder [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_founder"]
+flour_mill_brick_layouts_only_check_layout [fillcolor=yellow style="filled" label="<switch>\nflour_mill_brick_layouts_only_check_layout"]
+flour_mill_brick_layouts_only [fillcolor=yellow style="filled" label="<switch>\nflour_mill_brick_layouts_only"]
+flour_mill_windmill_layout_only [fillcolor=yellow style="filled" label="<switch>\nflour_mill_windmill_layout_only"]
+flour_mill_check_location [fillcolor=yellow style="filled" label="<switch>\nflour_mill_check_location"]
+flour_mill [fillcolor=red style="filled" label="FEAT_INDUSTRIES <34>\nflour_mill"]
+flour_mill_min_distance_52->flour_mill_min_distance_39
+flour_mill_check_availability->flour_mill_check_availability_1
+flour_mill_produce_cargo_arrival->flour_mill_produce_calculation_4
+flour_mill_brick_layouts_only_check_layout->flour_mill_check_founder
+flour_mill_check_availability->flour_mill_check_availability_3
+flour_mill_min_distance_34->flour_mill_min_distance_58
+flour_mill_cargo_subtype_display_switch_economy->flour_mill_cargo_subtype_display_switch_cargo_economy_3
+flour_mill_produce_cargo_arrival->flour_mill_produce_calculation_3
+flour_mill_check_availability_4->flour_mill_available_game_mode
+flour_mill_cargo_subtype_display_switch_cargo_economy_4->flour_mill_cargo_subtype_display_cargo_GRAI_economy_4
+flour_mill_min_distance_29->flour_mill_min_distance_61
+flour_mill_check_location->flour_mill_check_founder
+flour_mill_check_availability_3->flour_mill_available_game_mode
+flour_mill_min_distance_60->flour_mill_min_distance_52
+flour_mill_check_availability_5->flour_mill_available_game_mode
+flour_mill_check_availability_1->flour_mill_available_game_mode
+flour_mill_produce_calculation_4->flour_mill_produce_4
+flour_mill_check_location->flour_mill_windmill_layout_only
+flour_mill->flour_mill_cargo_subtype_display
+flour_mill_produce_cargo_arrival->flour_mill_produce_calculation_0
+flour_mill_check_founder->flour_mill_min_distance_34
+flour_mill_min_distance_51->flour_mill_min_distance_29
+flour_mill_check_availability->flour_mill_check_availability_0
+flour_mill_brick_layouts_only->flour_mill_brick_layouts_only_check_layout
+flour_mill_check_map_gen->flour_mill_check_availability_param
+flour_mill_produce_cargo_arrival->flour_mill_produce_calculation_5
+flour_mill_produce_calculation_3->flour_mill_produce_3
+flour_mill->flour_mill_check_availability
+flour_mill->switch_colour
+flour_mill_min_distance_39->flour_mill_min_distance_51
+flour_mill_check_availability_0->flour_mill_available_game_mode
+flour_mill_produce_calculation_0->flour_mill_produce_0
+flour_mill_produce_calculation_1->flour_mill_produce_1
+flour_mill_produce_calculation_5->flour_mill_produce_5
+flour_mill_min_distance_61->flour_mill_min_distance_26
+flour_mill_min_distance_58->flour_mill_min_distance_60
+flour_mill_windmill_layout_only->flour_mill_check_founder
+flour_mill_check_availability->flour_mill_check_availability_5
+flour_mill_cargo_subtype_display_switch_cargo_economy_3->flour_mill_cargo_subtype_display_cargo_MAIZ_economy_3
+flour_mill_cargo_subtype_display_switch_cargo_economy_3->flour_mill_cargo_subtype_display_cargo_CASS_economy_3
+flour_mill_check_location->flour_mill_brick_layouts_only
+flour_mill_check_availability->flour_mill_check_availability_4
+flour_mill->flour_mill_extra_text
+flour_mill->flour_mill_check_location
+flour_mill_available_game_mode->flour_mill_check_map_gen
+flour_mill->flour_mill_produce_cargo_arrival
+flour_mill_produce_cargo_arrival->flour_mill_produce_calculation_1
+flour_mill_cargo_subtype_display->flour_mill_cargo_subtype_display_switch_economy
+flour_mill_cargo_subtype_display_switch_economy->flour_mill_cargo_subtype_display_switch_cargo_economy_4
+flour_mill_brick_layouts_only->flour_mill_check_founder
+}

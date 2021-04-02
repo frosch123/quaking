@@ -1,0 +1,32 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+copper_mine_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\ncopper_mine_spritelayout_1"]
+copper_mine_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\ncopper_mine_spritelayout_2"]
+copper_mine_spritelayout_3_anim [fillcolor=yellow style="filled" label="<spritelayout>\ncopper_mine_spritelayout_3_anim"]
+copper_mine_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\ncopper_mine_spritelayout_4"]
+copper_mine_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\ncopper_mine_spritelayout_5"]
+copper_mine_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_industry_layout_1_graphics_switch"]
+copper_mine_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_industry_construction_state_graphics_switch"]
+copper_mine_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_store_temp_vars"]
+copper_mine_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_switch_graphics"]
+copper_mine_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_tile_1_lc_1"]
+copper_mine_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_tile_1_lc_0"]
+copper_mine_tile_1_anim_control [fillcolor=yellow style="filled" label="<switch>\ncopper_mine_tile_1_anim_control"]
+copper_mine_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <174>\ncopper_mine_tile_1"]
+copper_mine_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+copper_mine_switch_graphics->copper_mine_store_temp_vars
+copper_mine_store_temp_vars->copper_mine_industry_construction_state_graphics_switch
+copper_mine_tile_1->copper_mine_tile_1_lc_0
+copper_mine_tile_1->copper_mine_switch_graphics
+copper_mine_industry_construction_state_graphics_switch->copper_mine_industry_layout_1_graphics_switch
+copper_mine_tile_1->copper_mine_tile_1_anim_control
+copper_mine_industry_layout_1_graphics_switch->copper_mine_spritelayout_2
+copper_mine_tile_1_lc_0->copper_mine_tile_1_lc_1
+spritelayout_default_construction_states->spriteset_default_construction_states
+copper_mine_industry_layout_1_graphics_switch->copper_mine_spritelayout_3_anim
+copper_mine_industry_layout_1_graphics_switch->copper_mine_spritelayout_4
+copper_mine_industry_layout_1_graphics_switch->copper_mine_spritelayout_5
+copper_mine_industry_layout_1_graphics_switch->copper_mine_spritelayout_1
+}

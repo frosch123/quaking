@@ -1,0 +1,51 @@
+digraph {
+rankdir="BT"
+sw_cc_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red"]
+spriteset_ic2_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_ic2_headlights"]
+spriteset_ic2_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_ic2_marker_lights"]
+spriteset_ic2_1_mfa [fillcolor=green style="filled" label="<spriteset>\nspriteset_ic2_1_mfa"]
+spriteset_ic2_1_mfa_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ic2_1_mfa_reversed"]
+spriteset_ic2_1_fs [fillcolor=green style="filled" label="<spriteset>\nspriteset_ic2_1_fs"]
+spriteset_ic2_1_fs_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ic2_1_fs_reversed"]
+sw_ic2_mfa_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_mfa_with_headlights"]
+sw_ic2_mfa_position [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_mfa_position"]
+sw_ic2_mfa_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_mfa_with_marker_lights"]
+sw_ic2_mfa_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_mfa_reversed_position"]
+sw_ic2_fs_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_fs_with_headlights"]
+sw_ic2_fs_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_fs_reversed_position"]
+sw_ic2_fs_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_fs_with_marker_lights"]
+sw_ic2_fs_position [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_fs_position"]
+sw_ic2_reverser_0 [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_reverser_0"]
+sw_ic2_reverser_1 [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_reverser_1"]
+sw_ic2_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_graphics"]
+sw_ic2_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_articulated_part"]
+sw_ic2_visual_effect_and_powered [fillcolor=yellow style="filled" label="<switch>\nsw_ic2_visual_effect_and_powered"]
+item_ic2 [fillcolor=red style="filled" label="<FEAT_TRAINS 6>\nitem_ic2"]
+sw_ic2_reverser_0->sw_ic2_fs_reversed_position
+sw_ic2_fs_with_headlights->spriteset_ic2_1_fs_reversed
+item_ic2->sw_ic2_articulated_part
+sw_ic2_graphics->sw_ic2_reverser_1
+item_ic2->sw_ic2_graphics
+sw_ic2_fs_position->sw_ic2_fs_with_marker_lights
+sw_ic2_graphics->sw_ic2_reverser_0
+sw_ic2_mfa_reversed_position->spriteset_ic2_1_mfa_reversed
+sw_ic2_fs_reversed_position->sw_ic2_fs_with_headlights
+sw_ic2_mfa_with_headlights->spriteset_ic2_headlights
+sw_ic2_mfa_reversed_position->sw_ic2_mfa_with_marker_lights
+sw_ic2_mfa_with_headlights->spriteset_ic2_1_mfa
+sw_ic2_fs_with_headlights->spriteset_ic2_headlights
+sw_ic2_fs_position->spriteset_ic2_1_fs
+sw_ic2_fs_with_marker_lights->spriteset_ic2_marker_lights
+sw_ic2_mfa_with_marker_lights->spriteset_ic2_marker_lights
+sw_ic2_mfa_with_marker_lights->spriteset_ic2_1_mfa_reversed
+item_ic2->spriteset_ic2_1_mfa
+item_ic2->sw_ic2_visual_effect_and_powered
+sw_ic2_fs_with_marker_lights->spriteset_ic2_1_fs
+item_ic2->sw_cc_red
+sw_ic2_fs_reversed_position->spriteset_ic2_1_fs_reversed
+sw_ic2_reverser_1->sw_ic2_mfa_reversed_position
+sw_ic2_reverser_0->sw_ic2_mfa_position
+sw_ic2_reverser_1->sw_ic2_fs_position
+sw_ic2_mfa_position->spriteset_ic2_1_mfa
+sw_ic2_mfa_position->sw_ic2_mfa_with_headlights
+}

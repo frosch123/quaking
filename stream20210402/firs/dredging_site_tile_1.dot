@@ -1,0 +1,52 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+dredging_site_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_1_0"]
+dredging_site_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_1_0_snow"]
+dredging_site_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_2_0"]
+dredging_site_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_2_0_snow"]
+dredging_site_spriteset_2_1 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_2_1"]
+dredging_site_spriteset_2_1_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_2_1_snow"]
+dredging_site_spriteset_2_2 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_2_2"]
+dredging_site_spriteset_2_2_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_2_2_snow"]
+dredging_site_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_3_0"]
+dredging_site_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_3_0_snow"]
+dredging_site_spriteset_3_1 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_3_1"]
+dredging_site_spriteset_3_1_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_3_1_snow"]
+dredging_site_spriteset_3_2 [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_3_2"]
+dredging_site_spriteset_3_2_snow [fillcolor=green style="filled" label="<spriteset>\ndredging_site_spriteset_3_2_snow"]
+dredging_site_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\ndredging_site_spritelayout_1"]
+dredging_site_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ndredging_site_industry_layout_1_graphics_switch"]
+dredging_site_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ndredging_site_industry_construction_state_graphics_switch"]
+dredging_site_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\ndredging_site_store_temp_vars"]
+dredging_site_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ndredging_site_switch_graphics"]
+dredging_site_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_tile_1_lc_2"]
+dredging_site_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_tile_1_lc_1"]
+dredging_site_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\ndredging_site_tile_1_lc_0"]
+dredging_site_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <198>\ndredging_site_tile_1"]
+dredging_site_spritelayout_1->dredging_site_spriteset_2_2
+dredging_site_tile_1->dredging_site_switch_graphics
+dredging_site_spritelayout_1->dredging_site_spriteset_2_1_snow
+dredging_site_spritelayout_1->dredging_site_spriteset_2_1
+dredging_site_spritelayout_1->dredging_site_spriteset_3_0_snow
+dredging_site_spritelayout_1->dredging_site_spriteset_2_0
+dredging_site_industry_construction_state_graphics_switch->dredging_site_industry_layout_1_graphics_switch
+dredging_site_spritelayout_1->dredging_site_spriteset_2_0_snow
+dredging_site_tile_1->dredging_site_tile_1_lc_0
+dredging_site_store_temp_vars->dredging_site_industry_construction_state_graphics_switch
+dredging_site_spritelayout_1->dredging_site_spriteset_1_0_snow
+dredging_site_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+dredging_site_spritelayout_1->dredging_site_spriteset_3_0
+dredging_site_spritelayout_1->dredging_site_spriteset_3_1_snow
+dredging_site_tile_1_lc_1->dredging_site_tile_1_lc_2
+dredging_site_spritelayout_1->dredging_site_spriteset_3_2
+dredging_site_switch_graphics->dredging_site_store_temp_vars
+dredging_site_industry_layout_1_graphics_switch->dredging_site_spritelayout_1
+spritelayout_default_construction_states->spriteset_default_construction_states
+dredging_site_spritelayout_1->dredging_site_spriteset_3_1
+dredging_site_spritelayout_1->dredging_site_spriteset_2_2_snow
+dredging_site_spritelayout_1->dredging_site_spriteset_3_2_snow
+dredging_site_tile_1_lc_0->dredging_site_tile_1_lc_1
+dredging_site_spritelayout_1->dredging_site_spriteset_1_0
+}

@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+diablo_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\ndiablo_articulated_cb_switch"]
+diablo_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\ndiablo_ss_unreversed_unflipped_0"]
+diablo_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\ndiablo_ss_unreversed_flipped_0"]
+diablo_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\ndiablo_switch_graphics_unreversed"]
+diablo_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ndiablo_ss_vehicle_purchase_0"]
+diablo_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ndiablo_switch_set_layers_register_more_sprites"]
+diablo_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ndiablo_switch_graphics"]
+diablo_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\ndiablo_switch_colour_mapping"]
+diablo_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\ndiablo_switch_create_effect_default_unreversed"]
+diablo_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\ndiablo_switch_buy_menu_text_result"]
+diablo [fillcolor=red style="filled" label="<FEAT_TRAINS 4910>\ndiablo"]
+diablo->diablo_switch_create_effect_default_unreversed
+diablo->diablo_switch_graphics
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+diablo->diablo_articulated_cb_switch
+diablo_switch_graphics_unreversed->diablo_ss_unreversed_unflipped_0
+diablo->diablo_switch_colour_mapping
+diablo_switch_graphics->diablo_switch_set_layers_register_more_sprites
+diablo->diablo_switch_buy_menu_text_result
+diablo_switch_set_layers_register_more_sprites->diablo_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+diablo_switch_graphics->switch_graphics_layer_tail_light_empty
+diablo->diablo_ss_vehicle_purchase_0
+diablo_switch_graphics_unreversed->diablo_ss_unreversed_flipped_0
+}

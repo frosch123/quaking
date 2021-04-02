@@ -1,0 +1,80 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+component_factory_produce_0 [fillcolor=green style="filled" label="<produce>\ncomponent_factory_produce_0"]
+component_factory_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_produce_calculation_0"]
+component_factory_produce_1 [fillcolor=green style="filled" label="<produce>\ncomponent_factory_produce_1"]
+component_factory_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_produce_calculation_1"]
+component_factory_produce_4 [fillcolor=green style="filled" label="<produce>\ncomponent_factory_produce_4"]
+component_factory_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_produce_calculation_4"]
+component_factory_produce_5 [fillcolor=green style="filled" label="<produce>\ncomponent_factory_produce_5"]
+component_factory_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_produce_calculation_5"]
+component_factory_produce_3 [fillcolor=green style="filled" label="<produce>\ncomponent_factory_produce_3"]
+component_factory_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_produce_calculation_3"]
+component_factory_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_produce_cargo_arrival"]
+component_factory_extra_text [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_extra_text"]
+component_factory_cargo_subtype_display_cargo_STST_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display_cargo_STST_economy_5"]
+component_factory_cargo_subtype_display_cargo_PLAS_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display_cargo_PLAS_economy_5"]
+component_factory_cargo_subtype_display_cargo_STAL_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display_cargo_STAL_economy_5"]
+component_factory_cargo_subtype_display_cargo_POWR_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display_cargo_POWR_economy_5"]
+component_factory_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display_switch_cargo_economy_5"]
+component_factory_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display_switch_economy"]
+component_factory_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_cargo_subtype_display"]
+component_factory_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability_param"]
+component_factory_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_map_gen"]
+component_factory_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_available_game_mode"]
+component_factory_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability_0"]
+component_factory_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability_1"]
+component_factory_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability_4"]
+component_factory_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability_5"]
+component_factory_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability_3"]
+component_factory_check_availability [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_availability"]
+component_factory_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_min_distance_51"]
+component_factory_min_distance_62 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_min_distance_62"]
+component_factory_min_distance_77 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_min_distance_77"]
+component_factory_min_distance_79 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_min_distance_79"]
+component_factory_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_min_distance_82"]
+component_factory_min_distance_88 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_min_distance_88"]
+component_factory_check_location [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_check_location"]
+component_factory [fillcolor=red style="filled" label="FEAT_INDUSTRIES <88>\ncomponent_factory"]
+component_factory_check_availability->component_factory_check_availability_3
+component_factory_produce_cargo_arrival->component_factory_produce_calculation_0
+component_factory->switch_colour
+component_factory_produce_cargo_arrival->component_factory_produce_calculation_3
+component_factory->component_factory_produce_cargo_arrival
+component_factory_produce_calculation_3->component_factory_produce_3
+component_factory_cargo_subtype_display_switch_cargo_economy_5->component_factory_cargo_subtype_display_cargo_PLAS_economy_5
+component_factory_check_availability->component_factory_check_availability_0
+component_factory_produce_calculation_0->component_factory_produce_0
+component_factory_check_availability_4->component_factory_available_game_mode
+component_factory_cargo_subtype_display_switch_economy->component_factory_cargo_subtype_display_switch_cargo_economy_5
+component_factory_check_availability_0->component_factory_available_game_mode
+component_factory->component_factory_extra_text
+component_factory_check_location->component_factory_min_distance_88
+component_factory->component_factory_check_availability
+component_factory_min_distance_77->component_factory_min_distance_62
+component_factory_min_distance_62->component_factory_min_distance_51
+component_factory_produce_cargo_arrival->component_factory_produce_calculation_1
+component_factory_produce_cargo_arrival->component_factory_produce_calculation_4
+component_factory_check_map_gen->component_factory_check_availability_param
+component_factory_cargo_subtype_display_switch_cargo_economy_5->component_factory_cargo_subtype_display_cargo_POWR_economy_5
+component_factory_produce_calculation_4->component_factory_produce_4
+component_factory_cargo_subtype_display->component_factory_cargo_subtype_display_switch_economy
+component_factory_check_availability_1->component_factory_available_game_mode
+component_factory_produce_calculation_5->component_factory_produce_5
+component_factory_produce_cargo_arrival->component_factory_produce_calculation_5
+component_factory_min_distance_88->component_factory_min_distance_82
+component_factory_produce_calculation_1->component_factory_produce_1
+component_factory_check_availability->component_factory_check_availability_5
+component_factory_check_availability_5->component_factory_available_game_mode
+component_factory_cargo_subtype_display_switch_cargo_economy_5->component_factory_cargo_subtype_display_cargo_STST_economy_5
+component_factory->component_factory_check_location
+component_factory_available_game_mode->component_factory_check_map_gen
+component_factory->component_factory_cargo_subtype_display
+component_factory_cargo_subtype_display_switch_cargo_economy_5->component_factory_cargo_subtype_display_cargo_STAL_economy_5
+component_factory_min_distance_82->component_factory_min_distance_79
+component_factory_check_availability->component_factory_check_availability_4
+component_factory_check_availability->component_factory_check_availability_1
+component_factory_check_availability_3->component_factory_available_game_mode
+component_factory_min_distance_79->component_factory_min_distance_77
+}

@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+cement_plant_produce_0 [fillcolor=green style="filled" label="<produce>\ncement_plant_produce_0"]
+cement_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_produce_calculation_0"]
+cement_plant_produce_1 [fillcolor=green style="filled" label="<produce>\ncement_plant_produce_1"]
+cement_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_produce_calculation_1"]
+cement_plant_produce_4 [fillcolor=green style="filled" label="<produce>\ncement_plant_produce_4"]
+cement_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_produce_calculation_4"]
+cement_plant_produce_5 [fillcolor=green style="filled" label="<produce>\ncement_plant_produce_5"]
+cement_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_produce_calculation_5"]
+cement_plant_produce_3 [fillcolor=green style="filled" label="<produce>\ncement_plant_produce_3"]
+cement_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_produce_calculation_3"]
+cement_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncement_plant_produce_cargo_arrival"]
+cement_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\ncement_plant_extra_text"]
+cement_plant_cargo_subtype_display_cargo_PETR_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_cargo_subtype_display_cargo_PETR_economy_3"]
+cement_plant_cargo_subtype_display_cargo_CLAY_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_cargo_subtype_display_cargo_CLAY_economy_3"]
+cement_plant_cargo_subtype_display_cargo_GRVL_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_cargo_subtype_display_cargo_GRVL_economy_3"]
+cement_plant_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_cargo_subtype_display_switch_cargo_economy_3"]
+cement_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncement_plant_cargo_subtype_display_switch_economy"]
+cement_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncement_plant_cargo_subtype_display"]
+cement_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability_param"]
+cement_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_map_gen"]
+cement_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncement_plant_available_game_mode"]
+cement_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability_0"]
+cement_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability_1"]
+cement_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability_4"]
+cement_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability_5"]
+cement_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability_3"]
+cement_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_availability"]
+cement_plant_min_distance_57 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_57"]
+cement_plant_min_distance_69 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_69"]
+cement_plant_min_distance_10 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_10"]
+cement_plant_min_distance_0 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_0"]
+cement_plant_min_distance_74 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_74"]
+cement_plant_min_distance_54 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_54"]
+cement_plant_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_51"]
+cement_plant_min_distance_73 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_73"]
+cement_plant_min_distance_63 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_63"]
+cement_plant_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_82"]
+cement_plant_min_distance_43 [fillcolor=yellow style="filled" label="<switch>\ncement_plant_min_distance_43"]
+cement_plant_check_location [fillcolor=yellow style="filled" label="<switch>\ncement_plant_check_location"]
+cement_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <43>\ncement_plant"]
+cement_plant->cement_plant_check_availability
+cement_plant_min_distance_10->cement_plant_min_distance_69
+cement_plant_check_availability_4->cement_plant_available_game_mode
+cement_plant->cement_plant_extra_text
+cement_plant_check_availability->cement_plant_check_availability_4
+cement_plant_produce_cargo_arrival->cement_plant_produce_calculation_3
+cement_plant_check_map_gen->cement_plant_check_availability_param
+cement_plant_check_availability_0->cement_plant_available_game_mode
+cement_plant_check_availability->cement_plant_check_availability_1
+cement_plant_produce_calculation_4->cement_plant_produce_4
+cement_plant->cement_plant_produce_cargo_arrival
+cement_plant_min_distance_74->cement_plant_min_distance_0
+cement_plant_check_availability_3->cement_plant_available_game_mode
+cement_plant_produce_calculation_0->cement_plant_produce_0
+cement_plant_produce_calculation_5->cement_plant_produce_5
+cement_plant_min_distance_69->cement_plant_min_distance_57
+cement_plant->cement_plant_cargo_subtype_display
+cement_plant_check_location->cement_plant_min_distance_43
+cement_plant->switch_colour
+cement_plant_produce_calculation_3->cement_plant_produce_3
+cement_plant_check_availability->cement_plant_check_availability_0
+cement_plant_produce_calculation_1->cement_plant_produce_1
+cement_plant_min_distance_43->cement_plant_min_distance_82
+cement_plant_check_availability->cement_plant_check_availability_5
+cement_plant_produce_cargo_arrival->cement_plant_produce_calculation_1
+cement_plant_cargo_subtype_display->cement_plant_cargo_subtype_display_switch_economy
+cement_plant_min_distance_73->cement_plant_min_distance_51
+cement_plant_produce_cargo_arrival->cement_plant_produce_calculation_4
+cement_plant_cargo_subtype_display_switch_economy->cement_plant_cargo_subtype_display_switch_cargo_economy_3
+cement_plant_min_distance_0->cement_plant_min_distance_10
+cement_plant_min_distance_51->cement_plant_min_distance_54
+cement_plant_min_distance_82->cement_plant_min_distance_63
+cement_plant_check_availability_5->cement_plant_available_game_mode
+cement_plant_available_game_mode->cement_plant_check_map_gen
+cement_plant_produce_cargo_arrival->cement_plant_produce_calculation_0
+cement_plant_cargo_subtype_display_switch_cargo_economy_3->cement_plant_cargo_subtype_display_cargo_CLAY_economy_3
+cement_plant_check_availability->cement_plant_check_availability_3
+cement_plant_min_distance_63->cement_plant_min_distance_73
+cement_plant->cement_plant_check_location
+cement_plant_min_distance_54->cement_plant_min_distance_74
+cement_plant_check_availability_1->cement_plant_available_game_mode
+cement_plant_produce_cargo_arrival->cement_plant_produce_calculation_5
+cement_plant_cargo_subtype_display_switch_cargo_economy_3->cement_plant_cargo_subtype_display_cargo_GRVL_economy_3
+cement_plant_cargo_subtype_display_switch_cargo_economy_3->cement_plant_cargo_subtype_display_cargo_PETR_economy_3
+}

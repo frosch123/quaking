@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_copper_ore [fillcolor=green style="filled" label="<spriteset>\ncargoicon_copper_ore"]
+copper_ore_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <10>\ncopper_ore_IN_A_HOT_COUNTRY"]
+copper_ore_IN_A_HOT_COUNTRY->cargoicon_copper_ore
+}

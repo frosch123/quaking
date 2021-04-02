@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_nitrates [fillcolor=green style="filled" label="<spriteset>\ncargoicon_nitrates"]
+nitrates_BASIC_TROPIC [fillcolor=red style="filled" label="FEAT_CARGOS <16>\nnitrates_BASIC_TROPIC"]
+nitrates_BASIC_TROPIC->cargoicon_nitrates
+}

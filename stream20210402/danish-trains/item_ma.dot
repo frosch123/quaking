@@ -1,0 +1,129 @@
+digraph {
+rankdir="BT"
+sw_cc_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red"]
+spriteset_ma_ma_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_ma_headlights"]
+spriteset_ma_ma_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_ma_marker_lights"]
+spriteset_ma_bs_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_bs_headlights"]
+spriteset_ma_bs_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_bs_marker_lights"]
+spriteset_ma_1_ma [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_ma"]
+spriteset_ma_1_ma_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_ma_reversed"]
+spriteset_ma_1_br [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_br"]
+spriteset_ma_1_br_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_br_reversed"]
+spriteset_ma_1_am [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_am"]
+spriteset_ma_1_am_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_am_reversed"]
+spriteset_ma_1_bm [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_bm"]
+spriteset_ma_1_bm_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_bm_reversed"]
+spriteset_ma_1_bs [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_bs"]
+spriteset_ma_1_bs_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_1_bs_reversed"]
+spriteset_ma_2_ma [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_ma"]
+spriteset_ma_2_ma_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_ma_reversed"]
+spriteset_ma_2_br [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_br"]
+spriteset_ma_2_br_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_br_reversed"]
+spriteset_ma_2_am [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_am"]
+spriteset_ma_2_am_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_am_reversed"]
+spriteset_ma_2_bm [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_bm"]
+spriteset_ma_2_bm_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_bm_reversed"]
+spriteset_ma_2_bs [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_bs"]
+spriteset_ma_2_bs_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_ma_2_bs_reversed"]
+sw_ma_livery_ma [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_ma"]
+sw_ma_livery_ma_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_ma_reversed"]
+sw_ma_livery_br [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_br"]
+sw_ma_livery_br_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_br_reversed"]
+sw_ma_livery_am [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_am"]
+sw_ma_livery_am_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_am_reversed"]
+sw_ma_livery_bm [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_bm"]
+sw_ma_livery_bm_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_bm_reversed"]
+sw_ma_livery_bs [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_bs"]
+sw_ma_livery_bs_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_ma_livery_bs_reversed"]
+sw_ma_ma_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_ma_ma_with_headlights"]
+sw_ma_ma_position [fillcolor=yellow style="filled" label="<switch>\nsw_ma_ma_position"]
+sw_ma_ma_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_ma_ma_with_marker_lights"]
+sw_ma_ma_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_ma_ma_reversed_position"]
+sw_ma_bs_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_ma_bs_with_headlights"]
+sw_ma_bs_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_ma_bs_reversed_position"]
+sw_ma_bs_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_ma_bs_with_marker_lights"]
+sw_ma_bs_position [fillcolor=yellow style="filled" label="<switch>\nsw_ma_bs_position"]
+sw_ma_reverser_0a [fillcolor=yellow style="filled" label="<switch>\nsw_ma_reverser_0a"]
+sw_ma_reverser_1a [fillcolor=yellow style="filled" label="<switch>\nsw_ma_reverser_1a"]
+sw_ma_reverser_2a [fillcolor=yellow style="filled" label="<switch>\nsw_ma_reverser_2a"]
+sw_ma_reverser_3a [fillcolor=yellow style="filled" label="<switch>\nsw_ma_reverser_3a"]
+sw_ma_reverser_2b [fillcolor=yellow style="filled" label="<switch>\nsw_ma_reverser_2b"]
+sw_ma_reverser_5b [fillcolor=yellow style="filled" label="<switch>\nsw_ma_reverser_5b"]
+sw_ma_graphics_4 [fillcolor=yellow style="filled" label="<switch>\nsw_ma_graphics_4"]
+sw_ma_graphics_8 [fillcolor=yellow style="filled" label="<switch>\nsw_ma_graphics_8"]
+sw_ma_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_ma_graphics"]
+sw_ma_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_ma_articulated_part"]
+sw_ma_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_ma_cargo_subtype_text"]
+sw_ma_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_ma_cargo_subtype"]
+sw_ma_visual_effect_and_powered [fillcolor=yellow style="filled" label="<switch>\nsw_ma_visual_effect_and_powered"]
+item_ma [fillcolor=red style="filled" label="<FEAT_TRAINS 4>\nitem_ma"]
+sw_ma_livery_br_reversed->spriteset_ma_2_br_reversed
+sw_ma_livery_bs_reversed->spriteset_ma_1_bs_reversed
+sw_ma_livery_am->spriteset_ma_2_am
+sw_ma_livery_bs->spriteset_ma_2_bs
+sw_ma_livery_bm->spriteset_ma_2_bm
+sw_ma_graphics_8->sw_ma_ma_position
+sw_ma_graphics_4->sw_ma_reverser_0a
+sw_ma_graphics_4->sw_ma_reverser_1a
+sw_ma_livery_am_reversed->spriteset_ma_2_am_reversed
+item_ma->sw_cc_red
+item_ma->sw_ma_cargo_subtype
+sw_ma_ma_with_headlights->sw_ma_livery_ma
+sw_ma_ma_with_marker_lights->sw_ma_livery_ma_reversed
+sw_ma_livery_ma->spriteset_ma_1_ma
+sw_ma_bs_reversed_position->sw_ma_livery_bs_reversed
+sw_ma_reverser_2a->sw_ma_livery_br
+sw_ma_graphics_8->sw_ma_bs_reversed_position
+sw_ma_reverser_5b->sw_ma_livery_br_reversed
+sw_ma_graphics_4->sw_ma_reverser_2a
+sw_ma_livery_ma->spriteset_ma_2_ma
+item_ma->sw_ma_graphics
+sw_ma_graphics_8->sw_ma_reverser_2b
+sw_ma_livery_bm->spriteset_ma_1_bm
+sw_ma_graphics_8->sw_ma_livery_am
+sw_ma_reverser_0a->sw_ma_ma_position
+sw_ma_livery_bm_reversed->spriteset_ma_2_bm_reversed
+sw_ma_bs_position->sw_ma_bs_with_marker_lights
+sw_ma_graphics->sw_ma_graphics_4
+sw_ma_reverser_3a->sw_ma_ma_reversed_position
+sw_ma_graphics->sw_ma_graphics_8
+sw_ma_graphics_8->sw_ma_livery_am_reversed
+sw_ma_reverser_2b->sw_ma_livery_br
+sw_ma_graphics_4->sw_ma_reverser_3a
+sw_ma_livery_bs->spriteset_ma_1_bs
+sw_ma_livery_bs_reversed->spriteset_ma_2_bs_reversed
+sw_ma_livery_bm_reversed->spriteset_ma_1_bm_reversed
+sw_ma_graphics_8->sw_ma_bs_position
+sw_ma_ma_reversed_position->sw_ma_ma_with_marker_lights
+sw_ma_livery_br_reversed->spriteset_ma_1_br_reversed
+sw_ma_ma_with_headlights->spriteset_ma_ma_headlights
+sw_ma_livery_br->spriteset_ma_2_br
+sw_ma_reverser_1a->sw_ma_livery_br_reversed
+item_ma->sw_ma_livery_ma
+sw_ma_livery_ma_reversed->spriteset_ma_1_ma_reversed
+sw_ma_ma_reversed_position->sw_ma_livery_ma_reversed
+sw_ma_bs_with_headlights->sw_ma_livery_bs_reversed
+sw_ma_ma_position->sw_ma_ma_with_headlights
+sw_ma_graphics_8->sw_ma_reverser_5b
+sw_ma_bs_position->sw_ma_livery_bs
+sw_ma_reverser_2a->sw_ma_livery_am_reversed
+item_ma->sw_ma_articulated_part
+sw_ma_bs_with_headlights->spriteset_ma_bs_headlights
+sw_ma_bs_with_marker_lights->sw_ma_livery_bs
+sw_ma_livery_ma_reversed->spriteset_ma_2_ma_reversed
+item_ma->sw_ma_visual_effect_and_powered
+sw_ma_reverser_1a->sw_ma_livery_am
+sw_ma_graphics_8->sw_ma_ma_reversed_position
+sw_ma_reverser_2b->sw_ma_livery_bm
+sw_ma_bs_reversed_position->sw_ma_bs_with_headlights
+sw_ma_ma_position->sw_ma_livery_ma
+sw_ma_bs_with_marker_lights->spriteset_ma_bs_marker_lights
+sw_ma_cargo_subtype->sw_ma_cargo_subtype_text
+sw_ma_reverser_0a->sw_ma_bs_reversed_position
+sw_ma_ma_with_marker_lights->spriteset_ma_ma_marker_lights
+sw_ma_livery_br->spriteset_ma_1_br
+sw_ma_reverser_5b->sw_ma_livery_bm_reversed
+sw_ma_reverser_3a->sw_ma_bs_position
+sw_ma_livery_am->spriteset_ma_1_am
+sw_ma_livery_am_reversed->spriteset_ma_1_am_reversed
+}

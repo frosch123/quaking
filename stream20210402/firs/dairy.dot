@@ -1,0 +1,78 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+dairy_produce_0 [fillcolor=green style="filled" label="<produce>\ndairy_produce_0"]
+dairy_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_produce_calculation_0"]
+dairy_produce_1 [fillcolor=green style="filled" label="<produce>\ndairy_produce_1"]
+dairy_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\ndairy_produce_calculation_1"]
+dairy_produce_4 [fillcolor=green style="filled" label="<produce>\ndairy_produce_4"]
+dairy_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\ndairy_produce_calculation_4"]
+dairy_produce_5 [fillcolor=green style="filled" label="<produce>\ndairy_produce_5"]
+dairy_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\ndairy_produce_calculation_5"]
+dairy_produce_3 [fillcolor=green style="filled" label="<produce>\ndairy_produce_3"]
+dairy_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\ndairy_produce_calculation_3"]
+dairy_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ndairy_produce_cargo_arrival"]
+dairy_extra_text [fillcolor=yellow style="filled" label="<switch>\ndairy_extra_text"]
+dairy_cargo_subtype_display_cargo_MILK_economy_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_cargo_subtype_display_cargo_MILK_economy_0"]
+dairy_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_cargo_subtype_display_switch_cargo_economy_0"]
+dairy_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ndairy_cargo_subtype_display_switch_economy"]
+dairy_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ndairy_cargo_subtype_display"]
+dairy_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability_param"]
+dairy_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ndairy_check_map_gen"]
+dairy_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ndairy_available_game_mode"]
+dairy_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability_0"]
+dairy_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability_1"]
+dairy_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability_4"]
+dairy_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability_5"]
+dairy_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability_3"]
+dairy_check_availability [fillcolor=yellow style="filled" label="<switch>\ndairy_check_availability"]
+dairy_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_51"]
+dairy_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_39"]
+dairy_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_52"]
+dairy_min_distance_28 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_28"]
+dairy_min_distance_60 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_60"]
+dairy_min_distance_61 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_61"]
+dairy_min_distance_58 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_58"]
+dairy_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\ndairy_min_distance_36"]
+dairy_check_location [fillcolor=yellow style="filled" label="<switch>\ndairy_check_location"]
+dairy [fillcolor=red style="filled" label="FEAT_INDUSTRIES <36>\ndairy"]
+dairy->dairy_extra_text
+dairy_check_availability_4->dairy_available_game_mode
+dairy_produce_cargo_arrival->dairy_produce_calculation_3
+dairy_check_availability_3->dairy_available_game_mode
+dairy_check_location->dairy_min_distance_36
+dairy_check_availability_1->dairy_available_game_mode
+dairy->dairy_check_availability
+dairy_available_game_mode->dairy_check_map_gen
+dairy_check_availability_0->dairy_available_game_mode
+dairy_min_distance_28->dairy_min_distance_52
+dairy_min_distance_58->dairy_min_distance_61
+dairy_produce_cargo_arrival->dairy_produce_calculation_4
+dairy_produce_cargo_arrival->dairy_produce_calculation_1
+dairy_min_distance_36->dairy_min_distance_58
+dairy_check_availability->dairy_check_availability_0
+dairy_produce_cargo_arrival->dairy_produce_calculation_5
+dairy_produce_calculation_0->dairy_produce_0
+dairy_check_availability->dairy_check_availability_3
+dairy_min_distance_61->dairy_min_distance_60
+dairy_produce_calculation_4->dairy_produce_4
+dairy_produce_cargo_arrival->dairy_produce_calculation_0
+dairy_check_availability->dairy_check_availability_4
+dairy_produce_calculation_3->dairy_produce_3
+dairy->switch_colour
+dairy_cargo_subtype_display_switch_cargo_economy_0->dairy_cargo_subtype_display_cargo_MILK_economy_0
+dairy_check_availability->dairy_check_availability_1
+dairy_check_availability_5->dairy_available_game_mode
+dairy->dairy_check_location
+dairy_produce_calculation_1->dairy_produce_1
+dairy_min_distance_52->dairy_min_distance_39
+dairy->dairy_produce_cargo_arrival
+dairy_min_distance_60->dairy_min_distance_28
+dairy_cargo_subtype_display->dairy_cargo_subtype_display_switch_economy
+dairy_check_map_gen->dairy_check_availability_param
+dairy->dairy_cargo_subtype_display
+dairy_check_availability->dairy_check_availability_5
+dairy_cargo_subtype_display_switch_economy->dairy_cargo_subtype_display_switch_cargo_economy_0
+dairy_min_distance_39->dairy_min_distance_51
+dairy_produce_calculation_5->dairy_produce_5
+}

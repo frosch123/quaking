@@ -1,0 +1,83 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_concrete_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_concrete_1"]
+supply_yard_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_2_0"]
+supply_yard_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_2_0_snow"]
+supply_yard_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_3_0"]
+supply_yard_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_3_0_snow"]
+supply_yard_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_4_0"]
+supply_yard_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_4_0_snow"]
+supply_yard_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_5_0"]
+supply_yard_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_5_0_snow"]
+supply_yard_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_6_0"]
+supply_yard_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_6_0_snow"]
+supply_yard_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_7_0"]
+supply_yard_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nsupply_yard_spriteset_7_0_snow"]
+supply_yard_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nsupply_yard_spritelayout_1"]
+supply_yard_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nsupply_yard_spritelayout_2"]
+supply_yard_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nsupply_yard_spritelayout_3"]
+supply_yard_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nsupply_yard_spritelayout_4"]
+supply_yard_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nsupply_yard_spritelayout_5"]
+supply_yard_spritelayout_6 [fillcolor=yellow style="filled" label="<spritelayout>\nsupply_yard_spritelayout_6"]
+supply_yard_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_industry_layout_1_graphics_switch"]
+supply_yard_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_industry_layout_2_graphics_switch"]
+supply_yard_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_industry_layout_3_graphics_switch"]
+supply_yard_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_industry_graphics_switch_layouts"]
+supply_yard_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_industry_construction_state_graphics_switch"]
+supply_yard_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_store_temp_vars"]
+supply_yard_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_switch_graphics"]
+supply_yard_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_tile_1_lc_2"]
+supply_yard_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_tile_1_lc_1"]
+supply_yard_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nsupply_yard_tile_1_lc_0"]
+supply_yard_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <224>\nsupply_yard_tile_1"]
+supply_yard_industry_layout_2_graphics_switch->supply_yard_spritelayout_1
+supply_yard_industry_layout_2_graphics_switch->supply_yard_spritelayout_2
+supply_yard_industry_layout_2_graphics_switch->supply_yard_spritelayout_5
+supply_yard_industry_layout_2_graphics_switch->supply_yard_spritelayout_3
+supply_yard_store_temp_vars->supply_yard_industry_construction_state_graphics_switch
+supply_yard_industry_layout_1_graphics_switch->supply_yard_spritelayout_6
+supply_yard_industry_layout_1_graphics_switch->supply_yard_spritelayout_5
+supply_yard_spritelayout_6->supply_yard_spriteset_7_0
+supply_yard_industry_layout_1_graphics_switch->supply_yard_spritelayout_3
+supply_yard_tile_1->supply_yard_switch_graphics
+supply_yard_spritelayout_5->supply_yard_spriteset_6_0_snow
+supply_yard_spritelayout_4->supply_yard_spriteset_5_0_snow
+supply_yard_spritelayout_1->supply_yard_spriteset_2_0
+supply_yard_industry_layout_3_graphics_switch->supply_yard_spritelayout_4
+supply_yard_industry_layout_1_graphics_switch->supply_yard_spritelayout_4
+supply_yard_spritelayout_4->supply_yard_spriteset_5_0
+supply_yard_tile_1_lc_0->supply_yard_tile_1_lc_1
+supply_yard_industry_construction_state_graphics_switch->supply_yard_industry_graphics_switch_layouts
+supply_yard_spritelayout_1->spriteset_ground_tile_concrete_1
+supply_yard_industry_layout_3_graphics_switch->supply_yard_spritelayout_1
+supply_yard_spritelayout_5->supply_yard_spriteset_6_0
+supply_yard_industry_layout_2_graphics_switch->supply_yard_spritelayout_6
+supply_yard_industry_graphics_switch_layouts->supply_yard_industry_layout_1_graphics_switch
+supply_yard_spritelayout_2->spriteset_ground_tile_concrete_1
+supply_yard_industry_layout_1_graphics_switch->supply_yard_spritelayout_1
+supply_yard_spritelayout_6->supply_yard_spriteset_7_0_snow
+supply_yard_industry_layout_3_graphics_switch->supply_yard_spritelayout_5
+supply_yard_industry_layout_3_graphics_switch->supply_yard_spritelayout_2
+supply_yard_spritelayout_3->spriteset_ground_tile_concrete_1
+supply_yard_spritelayout_4->spriteset_ground_tile_concrete_1
+supply_yard_industry_layout_2_graphics_switch->supply_yard_spritelayout_4
+supply_yard_spritelayout_1->supply_yard_spriteset_2_0_snow
+supply_yard_industry_graphics_switch_layouts->supply_yard_industry_layout_3_graphics_switch
+supply_yard_spritelayout_5->spriteset_ground_tile_concrete_1
+supply_yard_industry_layout_3_graphics_switch->supply_yard_spritelayout_6
+supply_yard_industry_graphics_switch_layouts->supply_yard_industry_layout_2_graphics_switch
+supply_yard_industry_layout_1_graphics_switch->supply_yard_spritelayout_2
+supply_yard_spritelayout_2->supply_yard_spriteset_3_0
+supply_yard_spritelayout_3->supply_yard_spriteset_4_0_snow
+supply_yard_spritelayout_2->supply_yard_spriteset_3_0_snow
+spritelayout_default_construction_states->spriteset_default_construction_states
+supply_yard_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+supply_yard_tile_1_lc_1->supply_yard_tile_1_lc_2
+supply_yard_spritelayout_3->supply_yard_spriteset_4_0
+supply_yard_tile_1->supply_yard_tile_1_lc_0
+supply_yard_spritelayout_6->spriteset_ground_tile_concrete_1
+supply_yard_industry_layout_3_graphics_switch->supply_yard_spritelayout_3
+supply_yard_switch_graphics->supply_yard_store_temp_vars
+}

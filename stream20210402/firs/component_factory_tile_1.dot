@@ -1,0 +1,58 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_concrete_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_concrete_1"]
+component_factory_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_2_0"]
+component_factory_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_2_0_snow"]
+component_factory_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_3_0"]
+component_factory_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_3_0_snow"]
+component_factory_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_4_0"]
+component_factory_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_4_0_snow"]
+component_factory_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_5_0"]
+component_factory_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_5_0_snow"]
+component_factory_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_7_0"]
+component_factory_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\ncomponent_factory_spriteset_7_0_snow"]
+component_factory_spritelayout_large_building_1 [fillcolor=yellow style="filled" label="<spritelayout>\ncomponent_factory_spritelayout_large_building_1"]
+component_factory_spritelayout_large_building_2 [fillcolor=yellow style="filled" label="<spritelayout>\ncomponent_factory_spritelayout_large_building_2"]
+component_factory_spritelayout_large_building_3 [fillcolor=yellow style="filled" label="<spritelayout>\ncomponent_factory_spritelayout_large_building_3"]
+component_factory_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\ncomponent_factory_spritelayout_4"]
+component_factory_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\ncomponent_factory_spritelayout_5"]
+component_factory_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_industry_layout_1_graphics_switch"]
+component_factory_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_industry_construction_state_graphics_switch"]
+component_factory_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_store_temp_vars"]
+component_factory_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_switch_graphics"]
+component_factory_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_tile_1_lc_2"]
+component_factory_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_tile_1_lc_1"]
+component_factory_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\ncomponent_factory_tile_1_lc_0"]
+component_factory_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <125>\ncomponent_factory_tile_1"]
+component_factory_spritelayout_large_building_3->component_factory_spriteset_4_0
+component_factory_switch_graphics->component_factory_store_temp_vars
+component_factory_tile_1->component_factory_tile_1_lc_0
+component_factory_industry_layout_1_graphics_switch->component_factory_spritelayout_large_building_1
+component_factory_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+component_factory_industry_construction_state_graphics_switch->component_factory_industry_layout_1_graphics_switch
+component_factory_spritelayout_large_building_3->spriteset_ground_tile_concrete_1
+component_factory_spritelayout_4->component_factory_spriteset_5_0
+component_factory_industry_layout_1_graphics_switch->component_factory_spritelayout_4
+component_factory_store_temp_vars->component_factory_industry_construction_state_graphics_switch
+component_factory_spritelayout_4->spriteset_ground_tile_concrete_1
+component_factory_industry_layout_1_graphics_switch->component_factory_spritelayout_5
+component_factory_spritelayout_5->spriteset_ground_tile_concrete_1
+component_factory_spritelayout_large_building_2->component_factory_spriteset_3_0
+component_factory_spritelayout_5->component_factory_spriteset_7_0
+component_factory_industry_layout_1_graphics_switch->component_factory_spritelayout_large_building_2
+component_factory_spritelayout_large_building_2->component_factory_spriteset_3_0_snow
+component_factory_tile_1->component_factory_switch_graphics
+component_factory_tile_1_lc_1->component_factory_tile_1_lc_2
+component_factory_spritelayout_large_building_1->spriteset_ground_tile_concrete_1
+component_factory_spritelayout_large_building_3->component_factory_spriteset_4_0_snow
+component_factory_industry_layout_1_graphics_switch->component_factory_spritelayout_large_building_3
+component_factory_spritelayout_large_building_2->spriteset_ground_tile_concrete_1
+component_factory_tile_1_lc_0->component_factory_tile_1_lc_1
+spritelayout_default_construction_states->spriteset_default_construction_states
+component_factory_spritelayout_5->component_factory_spriteset_7_0_snow
+component_factory_spritelayout_large_building_1->component_factory_spriteset_2_0
+component_factory_spritelayout_4->component_factory_spriteset_5_0_snow
+component_factory_spritelayout_large_building_1->component_factory_spriteset_2_0_snow
+}

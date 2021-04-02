@@ -1,0 +1,24 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+tencendur_1_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\ntencendur_1_ss_unreversed_unflipped_0"]
+tencendur_1_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\ntencendur_1_ss_unreversed_flipped_0"]
+tencendur_1_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\ntencendur_1_switch_graphics_unreversed"]
+tencendur_1_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ntencendur_1_ss_vehicle_purchase_0"]
+tencendur_1_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ntencendur_1_switch_set_layers_register_more_sprites"]
+tencendur_1_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ntencendur_1_switch_graphics"]
+tencendur_1_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\ntencendur_1_switch_colour_mapping"]
+tencendur_1 [fillcolor=red style="filled" label="<FEAT_TRAINS 891>\ntencendur_1"]
+tencendur_1_switch_graphics->switch_graphics_layer_tail_light_empty
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+tencendur_1->tencendur_1_switch_colour_mapping
+tencendur_1_switch_graphics->tencendur_1_switch_set_layers_register_more_sprites
+tencendur_1_switch_graphics_unreversed->tencendur_1_ss_unreversed_unflipped_0
+tencendur_1_switch_graphics_unreversed->tencendur_1_ss_unreversed_flipped_0
+tencendur_1->tencendur_1_ss_vehicle_purchase_0
+tencendur_1->tencendur_1_switch_graphics
+tencendur_1_switch_set_layers_register_more_sprites->tencendur_1_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+}

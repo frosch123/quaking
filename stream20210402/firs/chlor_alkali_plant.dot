@@ -1,0 +1,76 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+chlor_alkali_plant_produce_0 [fillcolor=green style="filled" label="<produce>\nchlor_alkali_plant_produce_0"]
+chlor_alkali_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_produce_calculation_0"]
+chlor_alkali_plant_produce_1 [fillcolor=green style="filled" label="<produce>\nchlor_alkali_plant_produce_1"]
+chlor_alkali_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_produce_calculation_1"]
+chlor_alkali_plant_produce_4 [fillcolor=green style="filled" label="<produce>\nchlor_alkali_plant_produce_4"]
+chlor_alkali_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_produce_calculation_4"]
+chlor_alkali_plant_produce_5 [fillcolor=green style="filled" label="<produce>\nchlor_alkali_plant_produce_5"]
+chlor_alkali_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_produce_calculation_5"]
+chlor_alkali_plant_produce_3 [fillcolor=green style="filled" label="<produce>\nchlor_alkali_plant_produce_3"]
+chlor_alkali_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_produce_calculation_3"]
+chlor_alkali_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_produce_cargo_arrival"]
+chlor_alkali_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_extra_text"]
+chlor_alkali_plant_cargo_subtype_display_cargo_SALT_economy_5 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_cargo_subtype_display_cargo_SALT_economy_5"]
+chlor_alkali_plant_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_cargo_subtype_display_switch_cargo_economy_5"]
+chlor_alkali_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_cargo_subtype_display_switch_economy"]
+chlor_alkali_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_cargo_subtype_display"]
+chlor_alkali_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability_param"]
+chlor_alkali_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_map_gen"]
+chlor_alkali_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_available_game_mode"]
+chlor_alkali_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability_0"]
+chlor_alkali_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability_1"]
+chlor_alkali_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability_4"]
+chlor_alkali_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability_5"]
+chlor_alkali_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability_3"]
+chlor_alkali_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_availability"]
+chlor_alkali_plant_min_distance_86 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_86"]
+chlor_alkali_plant_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_51"]
+chlor_alkali_plant_min_distance_103 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_103"]
+chlor_alkali_plant_min_distance_82 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_82"]
+chlor_alkali_plant_min_distance_76 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_76"]
+chlor_alkali_plant_min_distance_95 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_95"]
+chlor_alkali_plant_min_distance_87 [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_min_distance_87"]
+chlor_alkali_plant_check_location [fillcolor=yellow style="filled" label="<switch>\nchlor_alkali_plant_check_location"]
+chlor_alkali_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <87>\nchlor_alkali_plant"]
+chlor_alkali_plant_produce_cargo_arrival->chlor_alkali_plant_produce_calculation_1
+chlor_alkali_plant_min_distance_103->chlor_alkali_plant_min_distance_51
+chlor_alkali_plant_produce_calculation_1->chlor_alkali_plant_produce_1
+chlor_alkali_plant->chlor_alkali_plant_produce_cargo_arrival
+chlor_alkali_plant->chlor_alkali_plant_extra_text
+chlor_alkali_plant_produce_cargo_arrival->chlor_alkali_plant_produce_calculation_3
+chlor_alkali_plant->chlor_alkali_plant_check_availability
+chlor_alkali_plant_produce_cargo_arrival->chlor_alkali_plant_produce_calculation_5
+chlor_alkali_plant_check_availability->chlor_alkali_plant_check_availability_3
+chlor_alkali_plant_check_availability->chlor_alkali_plant_check_availability_1
+chlor_alkali_plant_cargo_subtype_display->chlor_alkali_plant_cargo_subtype_display_switch_economy
+chlor_alkali_plant->chlor_alkali_plant_check_location
+chlor_alkali_plant_available_game_mode->chlor_alkali_plant_check_map_gen
+chlor_alkali_plant_check_map_gen->chlor_alkali_plant_check_availability_param
+chlor_alkali_plant_min_distance_76->chlor_alkali_plant_min_distance_82
+chlor_alkali_plant_produce_cargo_arrival->chlor_alkali_plant_produce_calculation_0
+chlor_alkali_plant_produce_calculation_4->chlor_alkali_plant_produce_4
+chlor_alkali_plant_check_availability_1->chlor_alkali_plant_available_game_mode
+chlor_alkali_plant_min_distance_51->chlor_alkali_plant_min_distance_86
+chlor_alkali_plant_cargo_subtype_display_switch_cargo_economy_5->chlor_alkali_plant_cargo_subtype_display_cargo_SALT_economy_5
+chlor_alkali_plant_check_availability_0->chlor_alkali_plant_available_game_mode
+chlor_alkali_plant_produce_cargo_arrival->chlor_alkali_plant_produce_calculation_4
+chlor_alkali_plant_check_availability_5->chlor_alkali_plant_available_game_mode
+chlor_alkali_plant_produce_calculation_0->chlor_alkali_plant_produce_0
+chlor_alkali_plant_check_availability->chlor_alkali_plant_check_availability_5
+chlor_alkali_plant_min_distance_82->chlor_alkali_plant_min_distance_103
+chlor_alkali_plant_check_availability->chlor_alkali_plant_check_availability_4
+chlor_alkali_plant_min_distance_95->chlor_alkali_plant_min_distance_76
+chlor_alkali_plant_check_location->chlor_alkali_plant_min_distance_87
+chlor_alkali_plant_check_availability->chlor_alkali_plant_check_availability_0
+chlor_alkali_plant_check_availability_4->chlor_alkali_plant_available_game_mode
+chlor_alkali_plant->switch_colour
+chlor_alkali_plant_produce_calculation_3->chlor_alkali_plant_produce_3
+chlor_alkali_plant->chlor_alkali_plant_cargo_subtype_display
+chlor_alkali_plant_check_availability_3->chlor_alkali_plant_available_game_mode
+chlor_alkali_plant_produce_calculation_5->chlor_alkali_plant_produce_5
+chlor_alkali_plant_cargo_subtype_display_switch_economy->chlor_alkali_plant_cargo_subtype_display_switch_cargo_economy_5
+chlor_alkali_plant_min_distance_87->chlor_alkali_plant_min_distance_95
+}

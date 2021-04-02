@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_pyrite_ore [fillcolor=green style="filled" label="<spriteset>\ncargoicon_pyrite_ore"]
+pyrite_ore_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <15>\npyrite_ore_BASIC_ARCTIC"]
+pyrite_ore_BASIC_ARCTIC->cargoicon_pyrite_ore
+}

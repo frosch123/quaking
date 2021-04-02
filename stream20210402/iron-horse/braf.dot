@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+braf_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nbraf_articulated_cb_switch"]
+braf_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nbraf_ss_unreversed_unflipped_0"]
+braf_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nbraf_ss_unreversed_flipped_0"]
+braf_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nbraf_switch_graphics_unreversed"]
+braf_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nbraf_ss_vehicle_purchase_0"]
+braf_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nbraf_switch_set_layers_register_more_sprites"]
+braf_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nbraf_switch_graphics"]
+braf_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nbraf_switch_colour_mapping"]
+braf_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nbraf_switch_create_effect_default_unreversed"]
+braf_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nbraf_switch_buy_menu_text_result"]
+braf [fillcolor=red style="filled" label="<FEAT_TRAINS 0>\nbraf"]
+braf_switch_graphics->braf_switch_set_layers_register_more_sprites
+braf_switch_graphics_unreversed->braf_ss_unreversed_flipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+braf->braf_switch_colour_mapping
+braf->braf_switch_buy_menu_text_result
+braf->braf_switch_graphics
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+braf_switch_graphics_unreversed->braf_ss_unreversed_unflipped_0
+braf_switch_graphics->switch_graphics_layer_tail_light_empty
+braf->braf_ss_vehicle_purchase_0
+braf->braf_articulated_cb_switch
+braf_switch_set_layers_register_more_sprites->braf_switch_graphics_unreversed
+braf->braf_switch_create_effect_default_unreversed
+}

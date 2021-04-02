@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+tencendur_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\ntencendur_articulated_cb_switch"]
+tencendur_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\ntencendur_ss_unreversed_unflipped_0"]
+tencendur_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\ntencendur_ss_unreversed_flipped_0"]
+tencendur_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\ntencendur_switch_graphics_unreversed"]
+tencendur_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\ntencendur_ss_vehicle_purchase_0"]
+tencendur_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\ntencendur_switch_set_layers_register_more_sprites"]
+tencendur_switch_graphics [fillcolor=yellow style="filled" label="<switch>\ntencendur_switch_graphics"]
+tencendur_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\ntencendur_switch_colour_mapping"]
+tencendur_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\ntencendur_switch_create_effect_default_unreversed"]
+tencendur_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\ntencendur_switch_buy_menu_text_result"]
+tencendur [fillcolor=red style="filled" label="<FEAT_TRAINS 890>\ntencendur"]
+tencendur->tencendur_switch_create_effect_default_unreversed
+tencendur_switch_graphics_unreversed->tencendur_ss_unreversed_flipped_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+tencendur_switch_set_layers_register_more_sprites->tencendur_switch_graphics_unreversed
+tencendur->tencendur_articulated_cb_switch
+tencendur->tencendur_ss_vehicle_purchase_0
+tencendur->tencendur_switch_graphics
+tencendur_switch_graphics->tencendur_switch_set_layers_register_more_sprites
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+tencendur_switch_graphics->switch_graphics_layer_tail_light_empty
+tencendur->tencendur_switch_colour_mapping
+tencendur_switch_graphics_unreversed->tencendur_ss_unreversed_unflipped_0
+tencendur->tencendur_switch_buy_menu_text_result
+}

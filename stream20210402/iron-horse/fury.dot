@@ -1,0 +1,78 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+fury_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nfury_ss_unreversed_unflipped_0"]
+fury_ss_pantographs_down_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_down_unreversed_unflipped"]
+fury_ss_pantographs_up_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_up_unreversed_unflipped"]
+fury_switch_graphics_pantographs_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_pantographs_unreversed_unflipped"]
+fury_switch_graphics_vehicle_layers_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_vehicle_layers_unreversed_unflipped"]
+fury_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nfury_ss_unreversed_flipped_0"]
+fury_ss_pantographs_down_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_down_unreversed_flipped"]
+fury_ss_pantographs_up_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_up_unreversed_flipped"]
+fury_switch_graphics_pantographs_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_pantographs_unreversed_flipped"]
+fury_switch_graphics_vehicle_layers_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_vehicle_layers_unreversed_flipped"]
+fury_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_unreversed"]
+fury_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nfury_ss_reversed_unflipped_0"]
+fury_ss_pantographs_down_reversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_down_reversed_unflipped"]
+fury_ss_pantographs_up_reversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_up_reversed_unflipped"]
+fury_switch_graphics_pantographs_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_pantographs_reversed_unflipped"]
+fury_switch_graphics_vehicle_layers_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_vehicle_layers_reversed_unflipped"]
+fury_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nfury_ss_reversed_flipped_0"]
+fury_ss_pantographs_down_reversed_flipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_down_reversed_flipped"]
+fury_ss_pantographs_up_reversed_flipped [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantographs_up_reversed_flipped"]
+fury_switch_graphics_pantographs_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_pantographs_reversed_flipped"]
+fury_switch_graphics_vehicle_layers_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_vehicle_layers_reversed_flipped"]
+fury_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_reversed"]
+fury_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nfury_switch_graphics_vehicle"]
+fury_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nfury_ss_vehicle_purchase_0"]
+fury_ss_pantograph_purchase [fillcolor=green style="filled" label="<spriteset>\nfury_ss_pantograph_purchase"]
+fury_switch_set_layers_register_more_sprites_purchase [fillcolor=yellow style="filled" label="<switch>\nfury_switch_set_layers_register_more_sprites_purchase"]
+fury_switch_graphics_purchase [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics_purchase"]
+fury_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nfury_switch_set_layers_register_more_sprites"]
+fury_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nfury_switch_graphics"]
+fury_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nfury_switch_colour_mapping"]
+fury_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nfury_switch_create_effect_default_unreversed"]
+fury_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nfury_switch_create_effect_default_reversed"]
+fury_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nfury_switch_create_effect_reversed_variants"]
+fury_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nfury_switch_buy_menu_text_result"]
+fury [fillcolor=red style="filled" label="<FEAT_TRAINS 2180>\nfury"]
+fury_switch_graphics_vehicle->fury_switch_graphics_reversed
+fury->fury_switch_colour_mapping
+fury_switch_graphics_reversed->fury_switch_graphics_vehicle_layers_reversed_flipped
+fury->fury_switch_graphics
+fury_switch_graphics_pantographs_reversed_flipped->fury_ss_pantographs_up_reversed_flipped
+fury_switch_graphics_vehicle_layers_reversed_flipped->fury_switch_graphics_pantographs_reversed_flipped
+fury_switch_set_layers_register_more_sprites->fury_switch_graphics_vehicle
+fury_switch_graphics_reversed->fury_switch_graphics_vehicle_layers_reversed_unflipped
+fury_switch_graphics->switch_graphics_layer_tail_light_empty
+fury_switch_graphics_unreversed->fury_switch_graphics_vehicle_layers_unreversed_flipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+fury_switch_graphics_vehicle_layers_unreversed_flipped->fury_switch_graphics_pantographs_unreversed_flipped
+fury->fury_switch_graphics_purchase
+fury_switch_graphics_vehicle_layers_reversed_unflipped->fury_switch_graphics_pantographs_reversed_unflipped
+fury_switch_graphics->fury_switch_set_layers_register_more_sprites
+fury_switch_graphics_vehicle_layers_reversed_flipped->fury_ss_reversed_flipped_0
+fury_switch_graphics_vehicle_layers_unreversed_unflipped->fury_switch_graphics_pantographs_unreversed_unflipped
+fury->fury_switch_buy_menu_text_result
+fury_switch_set_layers_register_more_sprites_purchase->fury_ss_vehicle_purchase_0
+fury_switch_graphics_purchase->fury_ss_pantograph_purchase
+fury->fury_switch_create_effect_reversed_variants
+fury_switch_graphics_unreversed->fury_switch_graphics_vehicle_layers_unreversed_unflipped
+fury_switch_graphics_vehicle_layers_unreversed_flipped->fury_ss_unreversed_flipped_0
+fury_switch_graphics_purchase->fury_switch_set_layers_register_more_sprites_purchase
+fury_switch_graphics_pantographs_reversed_unflipped->fury_ss_pantographs_up_reversed_unflipped
+fury_switch_graphics_pantographs_unreversed_unflipped->fury_ss_pantographs_down_unreversed_unflipped
+fury_switch_graphics_vehicle_layers_reversed_unflipped->fury_ss_reversed_unflipped_0
+fury_switch_graphics_vehicle->fury_switch_graphics_unreversed
+fury_switch_graphics_pantographs_reversed_flipped->fury_ss_pantographs_down_reversed_flipped
+fury_switch_graphics_pantographs_unreversed_flipped->fury_ss_pantographs_down_unreversed_flipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+fury_switch_graphics_pantographs_unreversed_unflipped->fury_ss_pantographs_up_unreversed_unflipped
+fury_switch_graphics_vehicle_layers_unreversed_unflipped->fury_ss_unreversed_unflipped_0
+fury_switch_create_effect_reversed_variants->fury_switch_create_effect_default_unreversed
+fury_switch_graphics_pantographs_unreversed_flipped->fury_ss_pantographs_up_unreversed_flipped
+fury_switch_graphics_pantographs_reversed_unflipped->fury_ss_pantographs_down_reversed_unflipped
+fury_switch_create_effect_reversed_variants->fury_switch_create_effect_default_reversed
+}

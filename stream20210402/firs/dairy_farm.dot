@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+dairy_farm_extra_text [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_extra_text"]
+dairy_farm_cargo_subtype_display_cargo_FMSP_economy_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_cargo_subtype_display_cargo_FMSP_economy_0"]
+dairy_farm_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_cargo_subtype_display_switch_cargo_economy_0"]
+dairy_farm_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_cargo_subtype_display_switch_economy"]
+dairy_farm_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_cargo_subtype_display"]
+dairy_farm_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_monthly_prod_change"]
+dairy_farm_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\ndairy_farm_clear_incoming_cargo_waiting_0"]
+dairy_farm_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_store_incoming_cargo_waiting_0"]
+dairy_farm_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\ndairy_farm_clear_incoming_cargo_waiting_1"]
+dairy_farm_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_store_incoming_cargo_waiting_1"]
+dairy_farm_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\ndairy_farm_clear_incoming_cargo_waiting_4"]
+dairy_farm_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_store_incoming_cargo_waiting_4"]
+dairy_farm_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\ndairy_farm_clear_incoming_cargo_waiting_5"]
+dairy_farm_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_store_incoming_cargo_waiting_5"]
+dairy_farm_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\ndairy_farm_clear_incoming_cargo_waiting_3"]
+dairy_farm_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_store_incoming_cargo_waiting_3"]
+dairy_farm_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_produce_cargo_arrival"]
+dairy_farm_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\ndairy_farm_production_256_economy_0"]
+dairy_farm_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\ndairy_farm_production_256_economy_1"]
+dairy_farm_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\ndairy_farm_production_256_economy_4"]
+dairy_farm_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\ndairy_farm_production_256_economy_5"]
+dairy_farm_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\ndairy_farm_production_256_economy_3"]
+dairy_farm_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_produce_256_ticks_switch_economy"]
+dairy_farm_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_produce_256_ticks"]
+dairy_farm_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability_param"]
+dairy_farm_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_map_gen"]
+dairy_farm_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_available_game_mode"]
+dairy_farm_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability_0"]
+dairy_farm_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability_1"]
+dairy_farm_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability_4"]
+dairy_farm_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability_5"]
+dairy_farm_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability_3"]
+dairy_farm_check_availability [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_availability"]
+dairy_farm_min_distance_36 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_min_distance_36"]
+dairy_farm_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_min_distance_37"]
+dairy_farm_min_distance_28 [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_min_distance_28"]
+dairy_farm_cluster_dairy_farm [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_cluster_dairy_farm"]
+dairy_farm_check_location [fillcolor=yellow style="filled" label="<switch>\ndairy_farm_check_location"]
+dairy_farm [fillcolor=red style="filled" label="FEAT_INDUSTRIES <28>\ndairy_farm"]
+dairy_farm_cluster_dairy_farm->dairy_farm_min_distance_28
+dairy_farm_store_incoming_cargo_waiting_4->dairy_farm_clear_incoming_cargo_waiting_4
+dairy_farm_check_availability->dairy_farm_check_availability_1
+dairy_farm->dairy_farm_check_availability
+dairy_farm->dairy_farm_produce_256_ticks
+dairy_farm_check_availability_0->dairy_farm_available_game_mode
+dairy_farm_check_location->dairy_farm_cluster_dairy_farm
+dairy_farm_produce_256_ticks_switch_economy->dairy_farm_production_256_economy_1
+dairy_farm->switch_colour
+dairy_farm->dairy_farm_monthly_prod_change
+dairy_farm_check_availability_5->dairy_farm_available_game_mode
+dairy_farm_cargo_subtype_display_switch_cargo_economy_0->dairy_farm_cargo_subtype_display_cargo_FMSP_economy_0
+dairy_farm_store_incoming_cargo_waiting_0->dairy_farm_clear_incoming_cargo_waiting_0
+dairy_farm_store_incoming_cargo_waiting_5->dairy_farm_clear_incoming_cargo_waiting_5
+dairy_farm_cargo_subtype_display_switch_economy->dairy_farm_cargo_subtype_display_switch_cargo_economy_0
+dairy_farm_produce_256_ticks->dairy_farm_produce_256_ticks_switch_economy
+dairy_farm->dairy_farm_cargo_subtype_display
+dairy_farm_produce_256_ticks_switch_economy->dairy_farm_production_256_economy_4
+dairy_farm_produce_256_ticks_switch_economy->dairy_farm_production_256_economy_0
+dairy_farm_store_incoming_cargo_waiting_1->dairy_farm_clear_incoming_cargo_waiting_1
+dairy_farm_cargo_subtype_display->dairy_farm_cargo_subtype_display_switch_economy
+dairy_farm_check_availability_3->dairy_farm_available_game_mode
+dairy_farm_produce_cargo_arrival->dairy_farm_store_incoming_cargo_waiting_3
+dairy_farm_produce_cargo_arrival->dairy_farm_store_incoming_cargo_waiting_4
+dairy_farm_produce_cargo_arrival->dairy_farm_store_incoming_cargo_waiting_5
+dairy_farm_check_availability->dairy_farm_check_availability_3
+dairy_farm->dairy_farm_extra_text
+dairy_farm_available_game_mode->dairy_farm_check_map_gen
+dairy_farm_check_availability->dairy_farm_check_availability_5
+dairy_farm->dairy_farm_produce_cargo_arrival
+dairy_farm->randomise_primary_production_on_build
+dairy_farm->dairy_farm_check_location
+dairy_farm_produce_256_ticks_switch_economy->dairy_farm_production_256_economy_3
+dairy_farm_produce_cargo_arrival->dairy_farm_store_incoming_cargo_waiting_0
+dairy_farm_check_availability_4->dairy_farm_available_game_mode
+dairy_farm_min_distance_37->dairy_farm_min_distance_36
+dairy_farm_produce_cargo_arrival->dairy_farm_store_incoming_cargo_waiting_1
+dairy_farm_check_availability->dairy_farm_check_availability_0
+dairy_farm_check_map_gen->dairy_farm_check_availability_param
+dairy_farm_check_availability_1->dairy_farm_available_game_mode
+dairy_farm_produce_256_ticks_switch_economy->dairy_farm_production_256_economy_5
+dairy_farm_check_availability->dairy_farm_check_availability_4
+dairy_farm_min_distance_28->dairy_farm_min_distance_37
+dairy_farm_store_incoming_cargo_waiting_3->dairy_farm_clear_incoming_cargo_waiting_3
+}

@@ -1,0 +1,96 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+coffee_estate_extra_text [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_extra_text"]
+coffee_estate_cargo_subtype_display_cargo_FMSP_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cargo_subtype_display_cargo_FMSP_economy_4"]
+coffee_estate_cargo_subtype_display_switch_cargo_economy_4 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cargo_subtype_display_switch_cargo_economy_4"]
+coffee_estate_cargo_subtype_display_cargo_FMSP_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cargo_subtype_display_cargo_FMSP_economy_3"]
+coffee_estate_cargo_subtype_display_switch_cargo_economy_3 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cargo_subtype_display_switch_cargo_economy_3"]
+coffee_estate_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cargo_subtype_display_switch_economy"]
+coffee_estate_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cargo_subtype_display"]
+coffee_estate_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_monthly_prod_change"]
+coffee_estate_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_clear_incoming_cargo_waiting_0"]
+coffee_estate_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_store_incoming_cargo_waiting_0"]
+coffee_estate_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_clear_incoming_cargo_waiting_1"]
+coffee_estate_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_store_incoming_cargo_waiting_1"]
+coffee_estate_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_clear_incoming_cargo_waiting_4"]
+coffee_estate_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_store_incoming_cargo_waiting_4"]
+coffee_estate_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_clear_incoming_cargo_waiting_5"]
+coffee_estate_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_store_incoming_cargo_waiting_5"]
+coffee_estate_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_clear_incoming_cargo_waiting_3"]
+coffee_estate_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_store_incoming_cargo_waiting_3"]
+coffee_estate_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_produce_cargo_arrival"]
+coffee_estate_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_production_256_economy_0"]
+coffee_estate_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_production_256_economy_1"]
+coffee_estate_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_production_256_economy_4"]
+coffee_estate_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_production_256_economy_5"]
+coffee_estate_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\ncoffee_estate_production_256_economy_3"]
+coffee_estate_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_produce_256_ticks_switch_economy"]
+coffee_estate_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_produce_256_ticks"]
+coffee_estate_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability_param"]
+coffee_estate_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_map_gen"]
+coffee_estate_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_available_game_mode"]
+coffee_estate_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability_0"]
+coffee_estate_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability_1"]
+coffee_estate_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability_4"]
+coffee_estate_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability_5"]
+coffee_estate_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability_3"]
+coffee_estate_check_availability [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_availability"]
+coffee_estate_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_min_distance_35"]
+coffee_estate_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_min_distance_56"]
+coffee_estate_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_min_distance_39"]
+coffee_estate_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_min_distance_52"]
+coffee_estate_min_distance_50 [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_min_distance_50"]
+coffee_estate_cluster_coffee_estate [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_cluster_coffee_estate"]
+coffee_estate_check_location [fillcolor=yellow style="filled" label="<switch>\ncoffee_estate_check_location"]
+coffee_estate [fillcolor=red style="filled" label="FEAT_INDUSTRIES <50>\ncoffee_estate"]
+coffee_estate_produce_cargo_arrival->coffee_estate_store_incoming_cargo_waiting_3
+coffee_estate_produce_cargo_arrival->coffee_estate_store_incoming_cargo_waiting_5
+coffee_estate_min_distance_52->coffee_estate_min_distance_39
+coffee_estate_produce_256_ticks_switch_economy->coffee_estate_production_256_economy_5
+coffee_estate_store_incoming_cargo_waiting_1->coffee_estate_clear_incoming_cargo_waiting_1
+coffee_estate_produce_256_ticks_switch_economy->coffee_estate_production_256_economy_3
+coffee_estate_produce_256_ticks->coffee_estate_produce_256_ticks_switch_economy
+coffee_estate_store_incoming_cargo_waiting_4->coffee_estate_clear_incoming_cargo_waiting_4
+coffee_estate_min_distance_56->coffee_estate_min_distance_35
+coffee_estate_min_distance_39->coffee_estate_min_distance_56
+coffee_estate_cargo_subtype_display->coffee_estate_cargo_subtype_display_switch_economy
+coffee_estate_produce_256_ticks_switch_economy->coffee_estate_production_256_economy_4
+coffee_estate_produce_cargo_arrival->coffee_estate_store_incoming_cargo_waiting_1
+coffee_estate_produce_256_ticks_switch_economy->coffee_estate_production_256_economy_0
+coffee_estate->coffee_estate_cargo_subtype_display
+coffee_estate_produce_cargo_arrival->coffee_estate_store_incoming_cargo_waiting_0
+coffee_estate->randomise_primary_production_on_build
+coffee_estate_cluster_coffee_estate->coffee_estate_min_distance_50
+coffee_estate->coffee_estate_check_availability
+coffee_estate_min_distance_50->coffee_estate_min_distance_52
+coffee_estate_check_location->coffee_estate_cluster_coffee_estate
+coffee_estate->coffee_estate_extra_text
+coffee_estate_store_incoming_cargo_waiting_0->coffee_estate_clear_incoming_cargo_waiting_0
+coffee_estate_store_incoming_cargo_waiting_5->coffee_estate_clear_incoming_cargo_waiting_5
+coffee_estate_produce_256_ticks_switch_economy->coffee_estate_production_256_economy_1
+coffee_estate_cargo_subtype_display_switch_economy->coffee_estate_cargo_subtype_display_switch_cargo_economy_4
+coffee_estate_cargo_subtype_display_switch_economy->coffee_estate_cargo_subtype_display_switch_cargo_economy_3
+coffee_estate_cargo_subtype_display_switch_cargo_economy_4->coffee_estate_cargo_subtype_display_cargo_FMSP_economy_4
+coffee_estate_store_incoming_cargo_waiting_3->coffee_estate_clear_incoming_cargo_waiting_3
+coffee_estate_check_availability_5->coffee_estate_available_game_mode
+coffee_estate_check_map_gen->coffee_estate_check_availability_param
+coffee_estate_check_availability_4->coffee_estate_available_game_mode
+coffee_estate->coffee_estate_produce_cargo_arrival
+coffee_estate->switch_colour
+coffee_estate_check_availability->coffee_estate_check_availability_5
+coffee_estate_check_availability_3->coffee_estate_available_game_mode
+coffee_estate_check_availability_0->coffee_estate_available_game_mode
+coffee_estate->coffee_estate_produce_256_ticks
+coffee_estate_check_availability->coffee_estate_check_availability_3
+coffee_estate_check_availability->coffee_estate_check_availability_1
+coffee_estate_available_game_mode->coffee_estate_check_map_gen
+coffee_estate_check_availability_1->coffee_estate_available_game_mode
+coffee_estate_produce_cargo_arrival->coffee_estate_store_incoming_cargo_waiting_4
+coffee_estate_check_availability->coffee_estate_check_availability_0
+coffee_estate->coffee_estate_check_location
+coffee_estate_check_availability->coffee_estate_check_availability_4
+coffee_estate_cargo_subtype_display_switch_cargo_economy_3->coffee_estate_cargo_subtype_display_cargo_FMSP_economy_3
+coffee_estate->coffee_estate_monthly_prod_change
+}

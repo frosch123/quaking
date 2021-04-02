@@ -1,0 +1,36 @@
+digraph {
+rankdir="BT"
+ss_tail_light_32px_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_32px_unflipped"]
+ss_tail_light_32px_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_32px_flipped"]
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+switch_graphics_layer_tail_light_32px [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_32px"]
+switch_cargo_capacity_by_cargo_0 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_0"]
+switch_cargo_capacity_by_cargo_1 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_1"]
+switch_cargo_capacity_by_cargo_2 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_2"]
+switch_cargo_capacity_by_cargo_3 [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity_by_cargo_3"]
+switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nswitch_cargo_capacity"]
+edibles_tank_car_pony_gen_6C_ss_0_unflipped [fillcolor=green style="filled" label="<spriteset>\nedibles_tank_car_pony_gen_6C_ss_0_unflipped"]
+edibles_tank_car_pony_gen_6C_ss_0_flipped [fillcolor=green style="filled" label="<spriteset>\nedibles_tank_car_pony_gen_6C_ss_0_flipped"]
+edibles_tank_car_pony_gen_6C_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<switch>\nedibles_tank_car_pony_gen_6C_switch_graphics_vehicle"]
+edibles_tank_car_pony_gen_6C_ss_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nedibles_tank_car_pony_gen_6C_ss_purchase_0"]
+edibles_tank_car_pony_gen_6C_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nedibles_tank_car_pony_gen_6C_switch_set_layers_register_more_sprites"]
+edibles_tank_car_pony_gen_6C_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nedibles_tank_car_pony_gen_6C_switch_graphics"]
+edibles_tank_car_pony_gen_6C_switch_cargo_capacity [fillcolor=yellow style="filled" label="<switch>\nedibles_tank_car_pony_gen_6C_switch_cargo_capacity"]
+edibles_tank_car_pony_gen_6C [fillcolor=red style="filled" label="<FEAT_TRAINS 2090>\nedibles_tank_car_pony_gen_6C"]
+edibles_tank_car_pony_gen_6C->edibles_tank_car_pony_gen_6C_switch_cargo_capacity
+edibles_tank_car_pony_gen_6C_switch_set_layers_register_more_sprites->edibles_tank_car_pony_gen_6C_switch_graphics_vehicle
+edibles_tank_car_pony_gen_6C_switch_graphics->switch_graphics_layer_tail_light_32px
+switch_graphics_layer_tail_light_32px->ss_tail_light_32px_flipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_1
+switch_graphics_layer_tail_light_32px->ss_tail_light_empty_unflipped
+edibles_tank_car_pony_gen_6C_switch_graphics_vehicle->edibles_tank_car_pony_gen_6C_ss_0_unflipped
+edibles_tank_car_pony_gen_6C_switch_graphics_vehicle->edibles_tank_car_pony_gen_6C_ss_0_flipped
+edibles_tank_car_pony_gen_6C_switch_cargo_capacity->switch_cargo_capacity
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_3
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_0
+edibles_tank_car_pony_gen_6C_switch_graphics->edibles_tank_car_pony_gen_6C_switch_set_layers_register_more_sprites
+edibles_tank_car_pony_gen_6C->edibles_tank_car_pony_gen_6C_switch_graphics
+switch_graphics_layer_tail_light_32px->ss_tail_light_32px_unflipped
+switch_cargo_capacity->switch_cargo_capacity_by_cargo_2
+edibles_tank_car_pony_gen_6C->edibles_tank_car_pony_gen_6C_ss_purchase_0
+}

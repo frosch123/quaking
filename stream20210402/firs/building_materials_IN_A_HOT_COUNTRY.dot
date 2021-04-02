@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_building_materials [fillcolor=green style="filled" label="<spriteset>\ncargoicon_building_materials"]
+building_materials_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <3>\nbuilding_materials_IN_A_HOT_COUNTRY"]
+building_materials_IN_A_HOT_COUNTRY->cargoicon_building_materials
+}

@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+swift_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nswift_articulated_cb_switch"]
+swift_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nswift_ss_unreversed_unflipped_0"]
+swift_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nswift_ss_unreversed_flipped_0"]
+swift_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nswift_switch_graphics_unreversed"]
+swift_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nswift_ss_vehicle_purchase_0"]
+swift_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nswift_switch_set_layers_register_more_sprites"]
+swift_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nswift_switch_graphics"]
+swift_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nswift_switch_colour_mapping"]
+swift_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nswift_switch_create_effect_default_unreversed"]
+swift_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nswift_switch_buy_menu_text_result"]
+swift [fillcolor=red style="filled" label="<FEAT_TRAINS 230>\nswift"]
+swift_switch_graphics_unreversed->swift_ss_unreversed_unflipped_0
+swift->swift_switch_create_effect_default_unreversed
+swift_switch_set_layers_register_more_sprites->swift_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+swift_switch_graphics->switch_graphics_layer_tail_light_empty
+swift_switch_graphics_unreversed->swift_ss_unreversed_flipped_0
+swift->swift_switch_colour_mapping
+swift->swift_articulated_cb_switch
+swift->swift_switch_graphics
+swift->swift_switch_buy_menu_text_result
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+swift->swift_ss_vehicle_purchase_0
+swift_switch_graphics->swift_switch_set_layers_register_more_sprites
+}

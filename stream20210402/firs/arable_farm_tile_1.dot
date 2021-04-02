@@ -1,0 +1,92 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+arable_farm_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_2_0"]
+arable_farm_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_2_0_snow"]
+arable_farm_spriteset_2_1 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_2_1"]
+arable_farm_spriteset_2_1_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_2_1_snow"]
+arable_farm_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_3_0"]
+arable_farm_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_3_0_snow"]
+arable_farm_spriteset_3_1 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_3_1"]
+arable_farm_spriteset_3_1_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_3_1_snow"]
+arable_farm_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_4_0"]
+arable_farm_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_4_0_snow"]
+arable_farm_spriteset_4_1 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_4_1"]
+arable_farm_spriteset_4_1_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_4_1_snow"]
+arable_farm_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_5_0"]
+arable_farm_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_5_0_snow"]
+arable_farm_spriteset_5_1 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_5_1"]
+arable_farm_spriteset_5_1_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_5_1_snow"]
+arable_farm_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_6_0"]
+arable_farm_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_6_0_snow"]
+arable_farm_spriteset_6_1 [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_6_1"]
+arable_farm_spriteset_6_1_snow [fillcolor=green style="filled" label="<spriteset>\narable_farm_spriteset_6_1_snow"]
+arable_farm_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\narable_farm_spritelayout_1"]
+arable_farm_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\narable_farm_spritelayout_2"]
+arable_farm_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\narable_farm_spritelayout_3"]
+arable_farm_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\narable_farm_spritelayout_4"]
+arable_farm_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\narable_farm_spritelayout_5"]
+arable_farm_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\narable_farm_industry_layout_1_graphics_switch"]
+arable_farm_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\narable_farm_industry_layout_2_graphics_switch"]
+arable_farm_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\narable_farm_industry_layout_3_graphics_switch"]
+arable_farm_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\narable_farm_industry_graphics_switch_layouts"]
+arable_farm_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\narable_farm_industry_construction_state_graphics_switch"]
+arable_farm_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\narable_farm_store_temp_vars"]
+arable_farm_switch_graphics [fillcolor=yellow style="filled" label="<switch>\narable_farm_switch_graphics"]
+arable_farm_tile_1_lc_4 [fillcolor=yellow style="filled" label="<switch>\narable_farm_tile_1_lc_4"]
+arable_farm_tile_1_lc_3 [fillcolor=yellow style="filled" label="<switch>\narable_farm_tile_1_lc_3"]
+arable_farm_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\narable_farm_tile_1_lc_2"]
+arable_farm_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\narable_farm_tile_1_lc_1"]
+arable_farm_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\narable_farm_tile_1_lc_0"]
+arable_farm_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <160>\narable_farm_tile_1"]
+arable_farm_industry_layout_2_graphics_switch->arable_farm_spritelayout_2
+arable_farm_tile_1_lc_3->arable_farm_tile_1_lc_4
+arable_farm_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+arable_farm_industry_layout_2_graphics_switch->arable_farm_spritelayout_3
+arable_farm_spritelayout_1->arable_farm_spriteset_2_1_snow
+arable_farm_store_temp_vars->arable_farm_industry_construction_state_graphics_switch
+arable_farm_industry_layout_1_graphics_switch->arable_farm_spritelayout_1
+arable_farm_spritelayout_5->arable_farm_spriteset_6_1_snow
+arable_farm_industry_layout_1_graphics_switch->arable_farm_spritelayout_4
+arable_farm_industry_layout_3_graphics_switch->arable_farm_spritelayout_1
+arable_farm_spritelayout_5->arable_farm_spriteset_6_0
+arable_farm_industry_layout_1_graphics_switch->arable_farm_spritelayout_5
+arable_farm_spritelayout_4->arable_farm_spriteset_5_0
+arable_farm_spritelayout_3->arable_farm_spriteset_4_1
+arable_farm_spritelayout_3->arable_farm_spriteset_4_1_snow
+arable_farm_spritelayout_1->arable_farm_spriteset_2_0
+arable_farm_spritelayout_2->arable_farm_spriteset_3_1
+arable_farm_industry_graphics_switch_layouts->arable_farm_industry_layout_2_graphics_switch
+arable_farm_spritelayout_1->arable_farm_spriteset_2_1
+arable_farm_spritelayout_2->arable_farm_spriteset_3_1_snow
+arable_farm_spritelayout_2->arable_farm_spriteset_3_0_snow
+arable_farm_tile_1->arable_farm_switch_graphics
+arable_farm_industry_layout_3_graphics_switch->arable_farm_spritelayout_2
+arable_farm_spritelayout_5->arable_farm_spriteset_6_1
+arable_farm_industry_graphics_switch_layouts->arable_farm_industry_layout_1_graphics_switch
+arable_farm_industry_layout_3_graphics_switch->arable_farm_spritelayout_3
+arable_farm_tile_1_lc_2->arable_farm_tile_1_lc_3
+arable_farm_spritelayout_4->arable_farm_spriteset_5_1_snow
+arable_farm_industry_construction_state_graphics_switch->arable_farm_industry_graphics_switch_layouts
+arable_farm_switch_graphics->arable_farm_store_temp_vars
+arable_farm_industry_layout_3_graphics_switch->arable_farm_spritelayout_4
+arable_farm_spritelayout_1->arable_farm_spriteset_2_0_snow
+arable_farm_tile_1->arable_farm_tile_1_lc_0
+arable_farm_spritelayout_2->arable_farm_spriteset_3_0
+arable_farm_industry_graphics_switch_layouts->arable_farm_industry_layout_3_graphics_switch
+arable_farm_industry_layout_1_graphics_switch->arable_farm_spritelayout_2
+arable_farm_spritelayout_3->arable_farm_spriteset_4_0_snow
+arable_farm_tile_1_lc_1->arable_farm_tile_1_lc_2
+arable_farm_spritelayout_4->arable_farm_spriteset_5_0_snow
+spritelayout_default_construction_states->spriteset_default_construction_states
+arable_farm_tile_1_lc_0->arable_farm_tile_1_lc_1
+arable_farm_industry_layout_2_graphics_switch->arable_farm_spritelayout_4
+arable_farm_spritelayout_4->arable_farm_spriteset_5_1
+arable_farm_spritelayout_3->arable_farm_spriteset_4_0
+arable_farm_spritelayout_5->arable_farm_spriteset_6_0_snow
+arable_farm_industry_layout_3_graphics_switch->arable_farm_spritelayout_5
+arable_farm_industry_layout_2_graphics_switch->arable_farm_spritelayout_5
+arable_farm_industry_layout_1_graphics_switch->arable_farm_spritelayout_3
+arable_farm_industry_layout_2_graphics_switch->arable_farm_spritelayout_1
+}

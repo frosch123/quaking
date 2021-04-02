@@ -1,0 +1,50 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+cryo_plant_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\ncryo_plant_production_256_economy_0"]
+cryo_plant_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\ncryo_plant_production_256_economy_1"]
+cryo_plant_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\ncryo_plant_production_256_economy_4"]
+cryo_plant_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\ncryo_plant_production_256_economy_5"]
+cryo_plant_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\ncryo_plant_production_256_economy_3"]
+cryo_plant_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_produce_256_ticks"]
+cryo_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability_param"]
+cryo_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_map_gen"]
+cryo_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_available_game_mode"]
+cryo_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability_0"]
+cryo_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability_1"]
+cryo_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability_4"]
+cryo_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability_5"]
+cryo_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability_3"]
+cryo_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_availability"]
+cryo_plant_min_distance_77 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_min_distance_77"]
+cryo_plant_min_distance_79 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_min_distance_79"]
+cryo_plant_min_distance_3 [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_min_distance_3"]
+cryo_plant_check_location [fillcolor=yellow style="filled" label="<switch>\ncryo_plant_check_location"]
+cryo_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <3>\ncryo_plant"]
+cryo_plant_produce_256_ticks->cryo_plant_production_256_economy_5
+cryo_plant_check_location->cryo_plant_min_distance_3
+cryo_plant_check_availability_5->cryo_plant_available_game_mode
+cryo_plant_check_availability_4->cryo_plant_available_game_mode
+cryo_plant_produce_256_ticks->cryo_plant_production_256_economy_4
+cryo_plant->cryo_plant_produce_256_ticks
+cryo_plant->randomise_primary_production_on_build
+cryo_plant_check_availability->cryo_plant_check_availability_1
+cryo_plant->cryo_plant_check_availability
+cryo_plant->switch_colour
+cryo_plant_check_availability_0->cryo_plant_available_game_mode
+cryo_plant_produce_256_ticks->cryo_plant_production_256_economy_0
+cryo_plant_available_game_mode->cryo_plant_check_map_gen
+cryo_plant->cryo_plant_check_location
+cryo_plant_check_map_gen->cryo_plant_check_availability_param
+cryo_plant_min_distance_3->cryo_plant_min_distance_79
+cryo_plant_check_availability->cryo_plant_check_availability_4
+cryo_plant_check_availability->cryo_plant_check_availability_0
+cryo_plant_check_availability_3->cryo_plant_available_game_mode
+cryo_plant_produce_256_ticks->cryo_plant_production_256_economy_1
+cryo_plant_min_distance_79->cryo_plant_min_distance_77
+cryo_plant_check_availability_1->cryo_plant_available_game_mode
+cryo_plant_check_availability->cryo_plant_check_availability_3
+cryo_plant_produce_256_ticks->cryo_plant_production_256_economy_3
+cryo_plant_check_availability->cryo_plant_check_availability_5
+}

@@ -1,0 +1,84 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+iron_ore_mine_spriteset_0_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_0_0"]
+iron_ore_mine_spriteset_0_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_0_0_snow"]
+iron_ore_mine_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_1_0"]
+iron_ore_mine_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_1_0_snow"]
+iron_ore_mine_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_2_0"]
+iron_ore_mine_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_2_0_snow"]
+iron_ore_mine_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_3_0"]
+iron_ore_mine_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_3_0_snow"]
+iron_ore_mine_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_4_0"]
+iron_ore_mine_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_4_0_snow"]
+iron_ore_mine_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_5_0"]
+iron_ore_mine_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_5_0_snow"]
+iron_ore_mine_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_6_0"]
+iron_ore_mine_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_6_0_snow"]
+iron_ore_mine_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_7_0"]
+iron_ore_mine_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_7_0_snow"]
+iron_ore_mine_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_8_0"]
+iron_ore_mine_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_8_0_snow"]
+iron_ore_mine_spriteset_9_0 [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_9_0"]
+iron_ore_mine_spriteset_9_0_snow [fillcolor=green style="filled" label="<spriteset>\niron_ore_mine_spriteset_9_0_snow"]
+iron_ore_mine_spritelayout_tile_empty [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_tile_empty"]
+iron_ore_mine_spritelayout_headgear_animated [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_headgear_animated"]
+iron_ore_mine_spritelayout_exit_trestle_animated [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_exit_trestle_animated"]
+iron_ore_mine_spritelayout_crusher_front_part [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_crusher_front_part"]
+iron_ore_mine_spritelayout_crusher_rear_part [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_crusher_rear_part"]
+iron_ore_mine_spritelayout_ore_truck [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_ore_truck"]
+iron_ore_mine_spritelayout_joined_ore_front [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_joined_ore_front"]
+iron_ore_mine_spritelayout_joined_ore_rear [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_joined_ore_rear"]
+iron_ore_mine_spritelayout_boiler_house [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_boiler_house"]
+iron_ore_mine_spritelayout_winding_house [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_winding_house"]
+iron_ore_mine_spritelayout_exit_shed_rear [fillcolor=yellow style="filled" label="<spritelayout>\niron_ore_mine_spritelayout_exit_shed_rear"]
+iron_ore_mine_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_industry_layout_1_graphics_switch"]
+iron_ore_mine_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_industry_construction_state_graphics_switch"]
+iron_ore_mine_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_store_temp_vars"]
+iron_ore_mine_switch_graphics [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_switch_graphics"]
+iron_ore_mine_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_tile_1_lc_2"]
+iron_ore_mine_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_tile_1_lc_1"]
+iron_ore_mine_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\niron_ore_mine_tile_1_lc_0"]
+iron_ore_mine_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <236>\niron_ore_mine_tile_1"]
+iron_ore_mine_tile_1->iron_ore_mine_switch_graphics
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_exit_trestle_animated
+iron_ore_mine_spritelayout_exit_shed_rear->iron_ore_mine_spriteset_8_0
+iron_ore_mine_spritelayout_joined_ore_front->iron_ore_mine_spriteset_5_0_snow
+iron_ore_mine_spritelayout_joined_ore_rear->iron_ore_mine_spriteset_6_0_snow
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_exit_shed_rear
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_joined_ore_front
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_boiler_house
+iron_ore_mine_spritelayout_exit_trestle_animated->iron_ore_mine_spriteset_1_0
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_winding_house
+iron_ore_mine_spritelayout_joined_ore_front->iron_ore_mine_spriteset_5_0
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_crusher_front_part
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_crusher_rear_part
+iron_ore_mine_spritelayout_exit_trestle_animated->iron_ore_mine_spriteset_1_0_snow
+iron_ore_mine_tile_1_lc_0->iron_ore_mine_tile_1_lc_1
+iron_ore_mine_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+iron_ore_mine_industry_construction_state_graphics_switch->iron_ore_mine_industry_layout_1_graphics_switch
+iron_ore_mine_spritelayout_ore_truck->iron_ore_mine_spriteset_4_0
+iron_ore_mine_spritelayout_boiler_house->iron_ore_mine_spriteset_9_0
+iron_ore_mine_spritelayout_crusher_rear_part->iron_ore_mine_spriteset_3_0_snow
+iron_ore_mine_spritelayout_boiler_house->iron_ore_mine_spriteset_9_0_snow
+iron_ore_mine_store_temp_vars->iron_ore_mine_industry_construction_state_graphics_switch
+iron_ore_mine_spritelayout_crusher_front_part->iron_ore_mine_spriteset_2_0_snow
+iron_ore_mine_spritelayout_winding_house->iron_ore_mine_spriteset_7_0
+iron_ore_mine_spritelayout_headgear_animated->iron_ore_mine_spriteset_0_0_snow
+iron_ore_mine_spritelayout_joined_ore_rear->iron_ore_mine_spriteset_6_0
+iron_ore_mine_spritelayout_exit_shed_rear->iron_ore_mine_spriteset_8_0_snow
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_tile_empty
+iron_ore_mine_spritelayout_headgear_animated->iron_ore_mine_spriteset_0_0
+iron_ore_mine_spritelayout_winding_house->iron_ore_mine_spriteset_7_0_snow
+spritelayout_default_construction_states->spriteset_default_construction_states
+iron_ore_mine_spritelayout_crusher_front_part->iron_ore_mine_spriteset_2_0
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_joined_ore_rear
+iron_ore_mine_spritelayout_ore_truck->iron_ore_mine_spriteset_4_0_snow
+iron_ore_mine_tile_1->iron_ore_mine_tile_1_lc_0
+iron_ore_mine_spritelayout_crusher_rear_part->iron_ore_mine_spriteset_3_0
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_ore_truck
+iron_ore_mine_switch_graphics->iron_ore_mine_store_temp_vars
+iron_ore_mine_tile_1_lc_1->iron_ore_mine_tile_1_lc_2
+iron_ore_mine_industry_layout_1_graphics_switch->iron_ore_mine_spritelayout_headgear_animated
+}

@@ -1,0 +1,94 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+orchard_piggery_extra_text [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_extra_text"]
+orchard_piggery_cargo_subtype_display_cargo_FMSP_economy_0 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_cargo_subtype_display_cargo_FMSP_economy_0"]
+orchard_piggery_cargo_subtype_display_switch_cargo_economy_0 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_cargo_subtype_display_switch_cargo_economy_0"]
+orchard_piggery_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_cargo_subtype_display_switch_economy"]
+orchard_piggery_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_cargo_subtype_display"]
+orchard_piggery_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_monthly_prod_change"]
+orchard_piggery_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\norchard_piggery_clear_incoming_cargo_waiting_0"]
+orchard_piggery_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_store_incoming_cargo_waiting_0"]
+orchard_piggery_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\norchard_piggery_clear_incoming_cargo_waiting_1"]
+orchard_piggery_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_store_incoming_cargo_waiting_1"]
+orchard_piggery_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\norchard_piggery_clear_incoming_cargo_waiting_4"]
+orchard_piggery_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_store_incoming_cargo_waiting_4"]
+orchard_piggery_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\norchard_piggery_clear_incoming_cargo_waiting_5"]
+orchard_piggery_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_store_incoming_cargo_waiting_5"]
+orchard_piggery_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\norchard_piggery_clear_incoming_cargo_waiting_3"]
+orchard_piggery_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_store_incoming_cargo_waiting_3"]
+orchard_piggery_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_produce_cargo_arrival"]
+orchard_piggery_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\norchard_piggery_production_256_economy_0"]
+orchard_piggery_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\norchard_piggery_production_256_economy_1"]
+orchard_piggery_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\norchard_piggery_production_256_economy_4"]
+orchard_piggery_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\norchard_piggery_production_256_economy_5"]
+orchard_piggery_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\norchard_piggery_production_256_economy_3"]
+orchard_piggery_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_produce_256_ticks_switch_economy"]
+orchard_piggery_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_produce_256_ticks"]
+orchard_piggery_check_availability_param [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability_param"]
+orchard_piggery_check_map_gen [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_map_gen"]
+orchard_piggery_available_game_mode [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_available_game_mode"]
+orchard_piggery_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability_0"]
+orchard_piggery_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability_1"]
+orchard_piggery_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability_4"]
+orchard_piggery_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability_5"]
+orchard_piggery_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability_3"]
+orchard_piggery_check_availability [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_availability"]
+orchard_piggery_min_distance_35 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_min_distance_35"]
+orchard_piggery_min_distance_37 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_min_distance_37"]
+orchard_piggery_min_distance_52 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_min_distance_52"]
+orchard_piggery_min_distance_39 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_min_distance_39"]
+orchard_piggery_min_distance_56 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_min_distance_56"]
+orchard_piggery_min_distance_47 [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_min_distance_47"]
+orchard_piggery_cluster_orchard_piggery [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_cluster_orchard_piggery"]
+orchard_piggery_check_location [fillcolor=yellow style="filled" label="<switch>\norchard_piggery_check_location"]
+orchard_piggery [fillcolor=red style="filled" label="FEAT_INDUSTRIES <47>\norchard_piggery"]
+orchard_piggery_check_availability->orchard_piggery_check_availability_0
+orchard_piggery_check_availability->orchard_piggery_check_availability_1
+orchard_piggery->orchard_piggery_cargo_subtype_display
+orchard_piggery_min_distance_56->orchard_piggery_min_distance_39
+orchard_piggery_check_availability->orchard_piggery_check_availability_4
+orchard_piggery_available_game_mode->orchard_piggery_check_map_gen
+orchard_piggery_check_availability_5->orchard_piggery_available_game_mode
+orchard_piggery_cargo_subtype_display_switch_economy->orchard_piggery_cargo_subtype_display_switch_cargo_economy_0
+orchard_piggery_cargo_subtype_display->orchard_piggery_cargo_subtype_display_switch_economy
+orchard_piggery_produce_cargo_arrival->orchard_piggery_store_incoming_cargo_waiting_0
+orchard_piggery_cargo_subtype_display_switch_cargo_economy_0->orchard_piggery_cargo_subtype_display_cargo_FMSP_economy_0
+orchard_piggery_min_distance_39->orchard_piggery_min_distance_52
+orchard_piggery_store_incoming_cargo_waiting_3->orchard_piggery_clear_incoming_cargo_waiting_3
+orchard_piggery_produce_256_ticks_switch_economy->orchard_piggery_production_256_economy_3
+orchard_piggery_produce_cargo_arrival->orchard_piggery_store_incoming_cargo_waiting_1
+orchard_piggery_min_distance_47->orchard_piggery_min_distance_56
+orchard_piggery_check_location->orchard_piggery_cluster_orchard_piggery
+orchard_piggery_check_availability_0->orchard_piggery_available_game_mode
+orchard_piggery->orchard_piggery_produce_cargo_arrival
+orchard_piggery_produce_cargo_arrival->orchard_piggery_store_incoming_cargo_waiting_3
+orchard_piggery_store_incoming_cargo_waiting_0->orchard_piggery_clear_incoming_cargo_waiting_0
+orchard_piggery_min_distance_37->orchard_piggery_min_distance_35
+orchard_piggery->orchard_piggery_produce_256_ticks
+orchard_piggery_check_availability->orchard_piggery_check_availability_3
+orchard_piggery->switch_colour
+orchard_piggery->orchard_piggery_check_availability
+orchard_piggery_cluster_orchard_piggery->orchard_piggery_min_distance_47
+orchard_piggery->orchard_piggery_extra_text
+orchard_piggery_produce_256_ticks->orchard_piggery_produce_256_ticks_switch_economy
+orchard_piggery_produce_cargo_arrival->orchard_piggery_store_incoming_cargo_waiting_4
+orchard_piggery_check_availability_3->orchard_piggery_available_game_mode
+orchard_piggery_check_availability_1->orchard_piggery_available_game_mode
+orchard_piggery->orchard_piggery_monthly_prod_change
+orchard_piggery->randomise_primary_production_on_build
+orchard_piggery_produce_256_ticks_switch_economy->orchard_piggery_production_256_economy_1
+orchard_piggery_check_map_gen->orchard_piggery_check_availability_param
+orchard_piggery_store_incoming_cargo_waiting_4->orchard_piggery_clear_incoming_cargo_waiting_4
+orchard_piggery->orchard_piggery_check_location
+orchard_piggery_produce_256_ticks_switch_economy->orchard_piggery_production_256_economy_0
+orchard_piggery_check_availability->orchard_piggery_check_availability_5
+orchard_piggery_produce_cargo_arrival->orchard_piggery_store_incoming_cargo_waiting_5
+orchard_piggery_check_availability_4->orchard_piggery_available_game_mode
+orchard_piggery_store_incoming_cargo_waiting_5->orchard_piggery_clear_incoming_cargo_waiting_5
+orchard_piggery_min_distance_52->orchard_piggery_min_distance_37
+orchard_piggery_produce_256_ticks_switch_economy->orchard_piggery_production_256_economy_4
+orchard_piggery_produce_256_ticks_switch_economy->orchard_piggery_production_256_economy_5
+orchard_piggery_store_incoming_cargo_waiting_1->orchard_piggery_clear_incoming_cargo_waiting_1
+}

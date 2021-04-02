@@ -1,0 +1,71 @@
+digraph {
+rankdir="BT"
+sw_cc_red [fillcolor=yellow style="filled" label="<switch>\nsw_cc_red"]
+spriteset_mr_headlights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_headlights"]
+spriteset_mr_marker_lights [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_marker_lights"]
+spriteset_mr_1_mr [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_1_mr"]
+spriteset_mr_1_mr_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_1_mr_reversed"]
+spriteset_mr_2_mr [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_2_mr"]
+spriteset_mr_2_mr_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_2_mr_reversed"]
+spriteset_mr_3_mr [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_3_mr"]
+spriteset_mr_3_mr_reversed [fillcolor=green style="filled" label="<spriteset>\nspriteset_mr_3_mr_reversed"]
+sw_mr_livery_mr [fillcolor=yellow style="filled" label="<switch>\nsw_mr_livery_mr"]
+sw_mr_livery_mr_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_mr_livery_mr_reversed"]
+sw_mr_livery_mrd [fillcolor=yellow style="filled" label="<switch>\nsw_mr_livery_mrd"]
+sw_mr_livery_mrd_reversed [fillcolor=yellow style="filled" label="<switch>\nsw_mr_livery_mrd_reversed"]
+sw_mr_mr_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mr_with_headlights"]
+sw_mr_mr_position [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mr_position"]
+sw_mr_mr_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mr_with_marker_lights"]
+sw_mr_mr_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mr_reversed_position"]
+sw_mr_mrd_with_headlights [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mrd_with_headlights"]
+sw_mr_mrd_reversed_position [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mrd_reversed_position"]
+sw_mr_mrd_with_marker_lights [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mrd_with_marker_lights"]
+sw_mr_mrd_position [fillcolor=yellow style="filled" label="<switch>\nsw_mr_mrd_position"]
+sw_mr_reverser_0 [fillcolor=yellow style="filled" label="<switch>\nsw_mr_reverser_0"]
+sw_mr_reverser_1 [fillcolor=yellow style="filled" label="<switch>\nsw_mr_reverser_1"]
+sw_mr_graphics [fillcolor=yellow style="filled" label="<switch>\nsw_mr_graphics"]
+sw_mr_articulated_part [fillcolor=yellow style="filled" label="<switch>\nsw_mr_articulated_part"]
+sw_mr_cargo_subtype_text [fillcolor=yellow style="filled" label="<switch>\nsw_mr_cargo_subtype_text"]
+sw_mr_cargo_subtype [fillcolor=yellow style="filled" label="<switch>\nsw_mr_cargo_subtype"]
+item_mr [fillcolor=red style="filled" label="<FEAT_TRAINS 10>\nitem_mr"]
+sw_mr_mrd_position->sw_mr_mrd_with_marker_lights
+sw_mr_livery_mrd_reversed->spriteset_mr_1_mr
+sw_mr_livery_mrd_reversed->spriteset_mr_3_mr
+sw_mr_mrd_position->sw_mr_livery_mrd
+sw_mr_mrd_reversed_position->sw_mr_livery_mrd_reversed
+sw_mr_livery_mrd->spriteset_mr_3_mr_reversed
+sw_mr_mrd_with_marker_lights->sw_mr_livery_mrd
+sw_mr_mr_position->sw_mr_livery_mr
+sw_mr_livery_mrd->spriteset_mr_1_mr_reversed
+sw_mr_mr_position->sw_mr_mr_with_headlights
+sw_mr_reverser_1->sw_mr_mrd_position
+sw_mr_livery_mr_reversed->spriteset_mr_3_mr_reversed
+sw_mr_mr_with_headlights->sw_mr_livery_mr
+item_mr->sw_cc_red
+sw_mr_livery_mr_reversed->spriteset_mr_1_mr_reversed
+sw_mr_livery_mr->spriteset_mr_3_mr
+sw_mr_livery_mrd_reversed->spriteset_mr_2_mr
+sw_mr_reverser_0->sw_mr_mr_position
+sw_mr_mr_reversed_position->sw_mr_mr_with_marker_lights
+item_mr->sw_mr_livery_mr
+sw_mr_mr_with_headlights->spriteset_mr_headlights
+sw_mr_mr_with_marker_lights->sw_mr_livery_mr_reversed
+sw_mr_mrd_with_headlights->spriteset_mr_headlights
+sw_mr_livery_mrd->spriteset_mr_2_mr_reversed
+sw_mr_mrd_reversed_position->sw_mr_mrd_with_headlights
+sw_mr_livery_mr_reversed->spriteset_mr_2_mr_reversed
+sw_mr_graphics->sw_mr_reverser_1
+sw_mr_livery_mr->spriteset_mr_2_mr
+sw_mr_mrd_with_headlights->sw_mr_livery_mrd_reversed
+item_mr->sw_mr_graphics
+item_mr->sw_mr_cargo_subtype
+sw_mr_cargo_subtype->sw_mr_cargo_subtype_text
+sw_mr_reverser_1->sw_mr_mr_reversed_position
+sw_mr_graphics->sw_mr_reverser_0
+sw_mr_mr_with_marker_lights->spriteset_mr_marker_lights
+sw_mr_reverser_0->sw_mr_mrd_reversed_position
+sw_mr_mr_reversed_position->sw_mr_livery_mr_reversed
+item_mr->sw_mr_articulated_part
+sw_mr_livery_mr->spriteset_mr_1_mr
+sw_mr_mrd_with_marker_lights->spriteset_mr_marker_lights
+}

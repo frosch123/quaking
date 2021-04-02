@@ -1,0 +1,119 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_hard_standing_dirt_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_hard_standing_dirt_1"]
+lime_kiln_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_2_0"]
+lime_kiln_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_2_0_snow"]
+lime_kiln_spriteset_2_1 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_2_1"]
+lime_kiln_spriteset_2_1_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_2_1_snow"]
+lime_kiln_spriteset_2_2 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_2_2"]
+lime_kiln_spriteset_2_2_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_2_2_snow"]
+lime_kiln_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_3_0"]
+lime_kiln_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_3_0_snow"]
+lime_kiln_spriteset_3_1 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_3_1"]
+lime_kiln_spriteset_3_1_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_3_1_snow"]
+lime_kiln_spriteset_3_2 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_3_2"]
+lime_kiln_spriteset_3_2_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_3_2_snow"]
+lime_kiln_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_4_0"]
+lime_kiln_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_4_0_snow"]
+lime_kiln_spriteset_4_1 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_4_1"]
+lime_kiln_spriteset_4_1_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_4_1_snow"]
+lime_kiln_spriteset_4_2 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_4_2"]
+lime_kiln_spriteset_4_2_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_4_2_snow"]
+lime_kiln_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_5_0"]
+lime_kiln_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_5_0_snow"]
+lime_kiln_spriteset_5_1 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_5_1"]
+lime_kiln_spriteset_5_1_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_5_1_snow"]
+lime_kiln_spriteset_5_2 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_5_2"]
+lime_kiln_spriteset_5_2_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_5_2_snow"]
+lime_kiln_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_6_0"]
+lime_kiln_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_6_0_snow"]
+lime_kiln_spriteset_6_1 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_6_1"]
+lime_kiln_spriteset_6_1_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_6_1_snow"]
+lime_kiln_spriteset_6_2 [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_6_2"]
+lime_kiln_spriteset_6_2_snow [fillcolor=green style="filled" label="<spriteset>\nlime_kiln_spriteset_6_2_snow"]
+lime_kiln_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nlime_kiln_spritelayout_1"]
+lime_kiln_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nlime_kiln_spritelayout_2"]
+lime_kiln_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nlime_kiln_spritelayout_3"]
+lime_kiln_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nlime_kiln_spritelayout_4"]
+lime_kiln_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nlime_kiln_spritelayout_5"]
+lime_kiln_spritelayout_6 [fillcolor=yellow style="filled" label="<spritelayout>\nlime_kiln_spritelayout_6"]
+lime_kiln_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_industry_layout_1_graphics_switch"]
+lime_kiln_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_industry_layout_2_graphics_switch"]
+lime_kiln_industry_layout_3_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_industry_layout_3_graphics_switch"]
+lime_kiln_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_industry_graphics_switch_layouts"]
+lime_kiln_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_industry_construction_state_graphics_switch"]
+lime_kiln_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_store_temp_vars"]
+lime_kiln_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_switch_graphics"]
+lime_kiln_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_tile_1_lc_2"]
+lime_kiln_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_tile_1_lc_1"]
+lime_kiln_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nlime_kiln_tile_1_lc_0"]
+lime_kiln_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <191>\nlime_kiln_tile_1"]
+lime_kiln_industry_layout_2_graphics_switch->lime_kiln_spritelayout_1
+lime_kiln_spritelayout_4->lime_kiln_spriteset_5_0
+lime_kiln_industry_graphics_switch_layouts->lime_kiln_industry_layout_3_graphics_switch
+lime_kiln_industry_layout_2_graphics_switch->lime_kiln_spritelayout_6
+lime_kiln_industry_layout_3_graphics_switch->lime_kiln_spritelayout_4
+lime_kiln_tile_1_lc_1->lime_kiln_tile_1_lc_2
+lime_kiln_spritelayout_5->lime_kiln_spriteset_6_2
+lime_kiln_industry_layout_3_graphics_switch->lime_kiln_spritelayout_5
+lime_kiln_industry_layout_1_graphics_switch->lime_kiln_spritelayout_4
+lime_kiln_spritelayout_5->lime_kiln_spriteset_6_2_snow
+lime_kiln_spritelayout_3->lime_kiln_spriteset_4_0_snow
+lime_kiln_industry_layout_1_graphics_switch->lime_kiln_spritelayout_2
+lime_kiln_spritelayout_2->lime_kiln_spriteset_3_2_snow
+lime_kiln_switch_graphics->lime_kiln_store_temp_vars
+lime_kiln_spritelayout_1->lime_kiln_spriteset_2_1_snow
+lime_kiln_spritelayout_2->lime_kiln_spriteset_3_0_snow
+lime_kiln_spritelayout_4->lime_kiln_spriteset_5_1
+lime_kiln_spritelayout_4->spriteset_ground_tile_hard_standing_dirt_1
+lime_kiln_industry_construction_state_graphics_switch->lime_kiln_industry_graphics_switch_layouts
+lime_kiln_spritelayout_4->lime_kiln_spriteset_5_0_snow
+lime_kiln_store_temp_vars->lime_kiln_industry_construction_state_graphics_switch
+lime_kiln_spritelayout_4->lime_kiln_spriteset_5_1_snow
+lime_kiln_spritelayout_2->spriteset_ground_tile_hard_standing_dirt_1
+lime_kiln_spritelayout_2->lime_kiln_spriteset_3_0
+lime_kiln_spritelayout_1->lime_kiln_spriteset_2_1
+lime_kiln_spritelayout_5->lime_kiln_spriteset_6_1_snow
+lime_kiln_tile_1->lime_kiln_tile_1_lc_0
+lime_kiln_spritelayout_1->lime_kiln_spriteset_2_2
+lime_kiln_spritelayout_1->lime_kiln_spriteset_2_0
+lime_kiln_industry_layout_2_graphics_switch->lime_kiln_spritelayout_5
+lime_kiln_industry_layout_3_graphics_switch->lime_kiln_spritelayout_3
+lime_kiln_spritelayout_3->lime_kiln_spriteset_4_2
+lime_kiln_spritelayout_1->lime_kiln_spriteset_2_2_snow
+lime_kiln_industry_layout_2_graphics_switch->lime_kiln_spritelayout_3
+lime_kiln_spritelayout_1->spriteset_ground_tile_hard_standing_dirt_1
+lime_kiln_spritelayout_2->lime_kiln_spriteset_3_1_snow
+lime_kiln_spritelayout_5->lime_kiln_spriteset_6_0_snow
+lime_kiln_spritelayout_5->spriteset_ground_tile_hard_standing_dirt_1
+lime_kiln_spritelayout_4->lime_kiln_spriteset_5_2_snow
+lime_kiln_spritelayout_3->lime_kiln_spriteset_4_1_snow
+lime_kiln_industry_graphics_switch_layouts->lime_kiln_industry_layout_2_graphics_switch
+lime_kiln_industry_layout_2_graphics_switch->lime_kiln_spritelayout_2
+lime_kiln_industry_graphics_switch_layouts->lime_kiln_industry_layout_1_graphics_switch
+lime_kiln_spritelayout_3->spriteset_ground_tile_hard_standing_dirt_1
+lime_kiln_spritelayout_1->lime_kiln_spriteset_2_0_snow
+lime_kiln_industry_layout_3_graphics_switch->lime_kiln_spritelayout_2
+lime_kiln_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+lime_kiln_tile_1_lc_0->lime_kiln_tile_1_lc_1
+lime_kiln_spritelayout_4->lime_kiln_spriteset_5_2
+lime_kiln_spritelayout_2->lime_kiln_spriteset_3_2
+lime_kiln_industry_layout_1_graphics_switch->lime_kiln_spritelayout_1
+lime_kiln_industry_layout_1_graphics_switch->lime_kiln_spritelayout_6
+spritelayout_default_construction_states->spriteset_default_construction_states
+lime_kiln_spritelayout_5->lime_kiln_spriteset_6_0
+lime_kiln_spritelayout_6->spriteset_ground_tile_hard_standing_dirt_1
+lime_kiln_spritelayout_5->lime_kiln_spriteset_6_1
+lime_kiln_industry_layout_3_graphics_switch->lime_kiln_spritelayout_6
+lime_kiln_industry_layout_2_graphics_switch->lime_kiln_spritelayout_4
+lime_kiln_tile_1->lime_kiln_switch_graphics
+lime_kiln_industry_layout_1_graphics_switch->lime_kiln_spritelayout_5
+lime_kiln_industry_layout_3_graphics_switch->lime_kiln_spritelayout_1
+lime_kiln_spritelayout_2->lime_kiln_spriteset_3_1
+lime_kiln_industry_layout_1_graphics_switch->lime_kiln_spritelayout_3
+lime_kiln_spritelayout_3->lime_kiln_spriteset_4_2_snow
+lime_kiln_spritelayout_3->lime_kiln_spriteset_4_0
+lime_kiln_spritelayout_3->lime_kiln_spriteset_4_1
+}

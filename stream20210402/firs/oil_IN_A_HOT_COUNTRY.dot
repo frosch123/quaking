@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_oil [fillcolor=green style="filled" label="<spriteset>\ncargoicon_oil"]
+oil_IN_A_HOT_COUNTRY [fillcolor=red style="filled" label="FEAT_CARGOS <22>\noil_IN_A_HOT_COUNTRY"]
+oil_IN_A_HOT_COUNTRY->cargoicon_oil
+}

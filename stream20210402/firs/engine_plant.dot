@@ -1,0 +1,78 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+engine_plant_produce_0 [fillcolor=green style="filled" label="<produce>\nengine_plant_produce_0"]
+engine_plant_produce_calculation_0 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_produce_calculation_0"]
+engine_plant_produce_1 [fillcolor=green style="filled" label="<produce>\nengine_plant_produce_1"]
+engine_plant_produce_calculation_1 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_produce_calculation_1"]
+engine_plant_produce_4 [fillcolor=green style="filled" label="<produce>\nengine_plant_produce_4"]
+engine_plant_produce_calculation_4 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_produce_calculation_4"]
+engine_plant_produce_5 [fillcolor=green style="filled" label="<produce>\nengine_plant_produce_5"]
+engine_plant_produce_calculation_5 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_produce_calculation_5"]
+engine_plant_produce_3 [fillcolor=green style="filled" label="<produce>\nengine_plant_produce_3"]
+engine_plant_produce_calculation_3 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_produce_calculation_3"]
+engine_plant_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nengine_plant_produce_cargo_arrival"]
+engine_plant_extra_text [fillcolor=yellow style="filled" label="<switch>\nengine_plant_extra_text"]
+engine_plant_cargo_subtype_display_cargo_CSTI_economy_5 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_cargo_subtype_display_cargo_CSTI_economy_5"]
+engine_plant_cargo_subtype_display_cargo_ALUM_economy_5 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_cargo_subtype_display_cargo_ALUM_economy_5"]
+engine_plant_cargo_subtype_display_cargo_SAND_economy_5 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_cargo_subtype_display_cargo_SAND_economy_5"]
+engine_plant_cargo_subtype_display_switch_cargo_economy_5 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_cargo_subtype_display_switch_cargo_economy_5"]
+engine_plant_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nengine_plant_cargo_subtype_display_switch_economy"]
+engine_plant_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nengine_plant_cargo_subtype_display"]
+engine_plant_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability_param"]
+engine_plant_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_map_gen"]
+engine_plant_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nengine_plant_available_game_mode"]
+engine_plant_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability_0"]
+engine_plant_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability_1"]
+engine_plant_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability_4"]
+engine_plant_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability_5"]
+engine_plant_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability_3"]
+engine_plant_check_availability [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_availability"]
+engine_plant_min_distance_51 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_min_distance_51"]
+engine_plant_min_distance_62 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_min_distance_62"]
+engine_plant_min_distance_10 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_min_distance_10"]
+engine_plant_min_distance_20 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_min_distance_20"]
+engine_plant_min_distance_7 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_min_distance_7"]
+engine_plant_min_distance_81 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_min_distance_81"]
+engine_plant_check_location [fillcolor=yellow style="filled" label="<switch>\nengine_plant_check_location"]
+engine_plant [fillcolor=red style="filled" label="FEAT_INDUSTRIES <81>\nengine_plant"]
+engine_plant_check_availability_1->engine_plant_available_game_mode
+engine_plant_produce_cargo_arrival->engine_plant_produce_calculation_4
+engine_plant_produce_cargo_arrival->engine_plant_produce_calculation_0
+engine_plant_cargo_subtype_display->engine_plant_cargo_subtype_display_switch_economy
+engine_plant_cargo_subtype_display_switch_cargo_economy_5->engine_plant_cargo_subtype_display_cargo_ALUM_economy_5
+engine_plant_cargo_subtype_display_switch_economy->engine_plant_cargo_subtype_display_switch_cargo_economy_5
+engine_plant_produce_calculation_0->engine_plant_produce_0
+engine_plant_check_availability_5->engine_plant_available_game_mode
+engine_plant->engine_plant_cargo_subtype_display
+engine_plant_check_availability->engine_plant_check_availability_5
+engine_plant_check_availability->engine_plant_check_availability_0
+engine_plant->engine_plant_extra_text
+engine_plant_produce_calculation_5->engine_plant_produce_5
+engine_plant_min_distance_20->engine_plant_min_distance_10
+engine_plant_check_availability_0->engine_plant_available_game_mode
+engine_plant_check_location->engine_plant_min_distance_81
+engine_plant->engine_plant_check_location
+engine_plant_cargo_subtype_display_switch_cargo_economy_5->engine_plant_cargo_subtype_display_cargo_SAND_economy_5
+engine_plant_cargo_subtype_display_switch_cargo_economy_5->engine_plant_cargo_subtype_display_cargo_CSTI_economy_5
+engine_plant_check_availability->engine_plant_check_availability_1
+engine_plant_min_distance_81->engine_plant_min_distance_7
+engine_plant_produce_calculation_3->engine_plant_produce_3
+engine_plant_check_map_gen->engine_plant_check_availability_param
+engine_plant_produce_calculation_4->engine_plant_produce_4
+engine_plant_produce_cargo_arrival->engine_plant_produce_calculation_3
+engine_plant_min_distance_10->engine_plant_min_distance_62
+engine_plant_check_availability->engine_plant_check_availability_4
+engine_plant_produce_cargo_arrival->engine_plant_produce_calculation_5
+engine_plant->engine_plant_check_availability
+engine_plant_check_availability->engine_plant_check_availability_3
+engine_plant_produce_cargo_arrival->engine_plant_produce_calculation_1
+engine_plant_available_game_mode->engine_plant_check_map_gen
+engine_plant->engine_plant_produce_cargo_arrival
+engine_plant_check_availability_4->engine_plant_available_game_mode
+engine_plant_check_availability_3->engine_plant_available_game_mode
+engine_plant_min_distance_7->engine_plant_min_distance_20
+engine_plant->switch_colour
+engine_plant_produce_calculation_1->engine_plant_produce_1
+engine_plant_min_distance_62->engine_plant_min_distance_51
+}

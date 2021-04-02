@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+reliance_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nreliance_articulated_cb_switch"]
+reliance_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nreliance_ss_unreversed_unflipped_0"]
+reliance_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nreliance_ss_unreversed_flipped_0"]
+reliance_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nreliance_switch_graphics_unreversed"]
+reliance_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nreliance_ss_vehicle_purchase_0"]
+reliance_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nreliance_switch_set_layers_register_more_sprites"]
+reliance_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nreliance_switch_graphics"]
+reliance_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nreliance_switch_colour_mapping"]
+reliance_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nreliance_switch_create_effect_default_unreversed"]
+reliance_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nreliance_switch_buy_menu_text_result"]
+reliance [fillcolor=red style="filled" label="<FEAT_TRAINS 4890>\nreliance"]
+reliance->reliance_articulated_cb_switch
+reliance_switch_graphics_unreversed->reliance_ss_unreversed_unflipped_0
+reliance_switch_set_layers_register_more_sprites->reliance_switch_graphics_unreversed
+reliance->reliance_ss_vehicle_purchase_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+reliance->reliance_switch_buy_menu_text_result
+reliance_switch_graphics->reliance_switch_set_layers_register_more_sprites
+reliance->reliance_switch_graphics
+reliance_switch_graphics_unreversed->reliance_ss_unreversed_flipped_0
+reliance->reliance_switch_create_effect_default_unreversed
+reliance_switch_graphics->switch_graphics_layer_tail_light_empty
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+reliance->reliance_switch_colour_mapping
+}

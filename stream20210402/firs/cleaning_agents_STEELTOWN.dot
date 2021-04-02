@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_cleaning_agents [fillcolor=green style="filled" label="<spriteset>\ncargoicon_cleaning_agents"]
+cleaning_agents_STEELTOWN [fillcolor=red style="filled" label="FEAT_CARGOS <12>\ncleaning_agents_STEELTOWN"]
+cleaning_agents_STEELTOWN->cargoicon_cleaning_agents
+}

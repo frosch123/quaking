@@ -1,0 +1,83 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+spriteset_ground_tile_cobble_1 [fillcolor=green style="filled" label="<spriteset>\nspriteset_ground_tile_cobble_1"]
+engine_plant_spriteset_2_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_2_0"]
+engine_plant_spriteset_2_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_2_0_snow"]
+engine_plant_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_3_0"]
+engine_plant_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_3_0_snow"]
+engine_plant_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_4_0"]
+engine_plant_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_4_0_snow"]
+engine_plant_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_5_0"]
+engine_plant_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_5_0_snow"]
+engine_plant_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_6_0"]
+engine_plant_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_6_0_snow"]
+engine_plant_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_7_0"]
+engine_plant_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_7_0_snow"]
+engine_plant_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_8_0"]
+engine_plant_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nengine_plant_spriteset_8_0_snow"]
+engine_plant_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_1"]
+engine_plant_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_2"]
+engine_plant_spritelayout_3 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_3"]
+engine_plant_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_4"]
+engine_plant_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_5"]
+engine_plant_spritelayout_6 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_6"]
+engine_plant_spritelayout_7 [fillcolor=yellow style="filled" label="<spritelayout>\nengine_plant_spritelayout_7"]
+engine_plant_industry_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nengine_plant_industry_layout_1_graphics_switch"]
+engine_plant_industry_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nengine_plant_industry_layout_2_graphics_switch"]
+engine_plant_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nengine_plant_industry_graphics_switch_layouts"]
+engine_plant_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nengine_plant_industry_construction_state_graphics_switch"]
+engine_plant_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nengine_plant_store_temp_vars"]
+engine_plant_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nengine_plant_switch_graphics"]
+engine_plant_tile_1_lc_2 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_tile_1_lc_2"]
+engine_plant_tile_1_lc_1 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_tile_1_lc_1"]
+engine_plant_tile_1_lc_0 [fillcolor=yellow style="filled" label="<switch>\nengine_plant_tile_1_lc_0"]
+engine_plant_tile_1 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <137>\nengine_plant_tile_1"]
+engine_plant_spritelayout_6->engine_plant_spriteset_7_0
+engine_plant_spritelayout_2->spriteset_ground_tile_cobble_1
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_5
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_6
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_7
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_7
+engine_plant_spritelayout_3->spriteset_ground_tile_cobble_1
+engine_plant_spritelayout_5->engine_plant_spriteset_6_0
+engine_plant_spritelayout_1->engine_plant_spriteset_2_0_snow
+engine_plant_tile_1->engine_plant_switch_graphics
+engine_plant_spritelayout_4->engine_plant_spriteset_5_0_snow
+engine_plant_spritelayout_2->engine_plant_spriteset_3_0
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_3
+engine_plant_spritelayout_1->engine_plant_spriteset_2_0
+engine_plant_spritelayout_3->engine_plant_spriteset_4_0
+engine_plant_tile_1->engine_plant_tile_1_lc_0
+engine_plant_store_temp_vars->engine_plant_industry_construction_state_graphics_switch
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_3
+engine_plant_spritelayout_5->spriteset_ground_tile_cobble_1
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_2
+engine_plant_industry_construction_state_graphics_switch->engine_plant_industry_graphics_switch_layouts
+engine_plant_spritelayout_6->engine_plant_spriteset_7_0_snow
+engine_plant_spritelayout_5->engine_plant_spriteset_6_0_snow
+engine_plant_spritelayout_4->engine_plant_spriteset_5_0
+engine_plant_spritelayout_7->engine_plant_spriteset_8_0_snow
+engine_plant_industry_graphics_switch_layouts->engine_plant_industry_layout_1_graphics_switch
+engine_plant_spritelayout_7->engine_plant_spriteset_8_0
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_5
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_4
+engine_plant_spritelayout_7->spriteset_ground_tile_cobble_1
+engine_plant_industry_graphics_switch_layouts->engine_plant_industry_layout_2_graphics_switch
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_6
+engine_plant_tile_1_lc_1->engine_plant_tile_1_lc_2
+engine_plant_tile_1_lc_0->engine_plant_tile_1_lc_1
+engine_plant_spritelayout_4->spriteset_ground_tile_cobble_1
+engine_plant_industry_layout_2_graphics_switch->engine_plant_spritelayout_1
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_1
+spritelayout_default_construction_states->spriteset_default_construction_states
+engine_plant_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+engine_plant_spritelayout_6->spriteset_ground_tile_cobble_1
+engine_plant_spritelayout_3->engine_plant_spriteset_4_0_snow
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_2
+engine_plant_spritelayout_2->engine_plant_spriteset_3_0_snow
+engine_plant_spritelayout_1->spriteset_ground_tile_cobble_1
+engine_plant_switch_graphics->engine_plant_store_temp_vars
+engine_plant_industry_layout_1_graphics_switch->engine_plant_spritelayout_4
+}

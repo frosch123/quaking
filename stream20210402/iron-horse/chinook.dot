@@ -1,0 +1,53 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+chinook_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nchinook_articulated_cb_switch"]
+chinook_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nchinook_ss_unreversed_unflipped_0"]
+chinook_ss_unreversed_unflipped_1 [fillcolor=green style="filled" label="<spriteset>\nchinook_ss_unreversed_unflipped_1"]
+chinook_switch_graphics_check_2cc_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_check_2cc_unreversed_unflipped"]
+chinook_switch_graphics_livery_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_livery_unreversed_unflipped"]
+chinook_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nchinook_ss_unreversed_flipped_0"]
+chinook_ss_unreversed_flipped_1 [fillcolor=green style="filled" label="<spriteset>\nchinook_ss_unreversed_flipped_1"]
+chinook_switch_graphics_check_2cc_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_check_2cc_unreversed_flipped"]
+chinook_switch_graphics_livery_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_livery_unreversed_flipped"]
+chinook_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_unreversed"]
+chinook_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nchinook_ss_vehicle_purchase_0"]
+chinook_ss_vehicle_purchase_1 [fillcolor=green style="filled" label="<spriteset>\nchinook_ss_vehicle_purchase_1"]
+chinook_switch_graphics_purchase_livery_check_2cc [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_purchase_livery_check_2cc"]
+chinook_switch_graphics_purchase_livery [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics_purchase_livery"]
+chinook_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_set_layers_register_more_sprites"]
+chinook_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_graphics"]
+chinook_switch_colour_mapping_check_2cc [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_colour_mapping_check_2cc"]
+chinook_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_colour_mapping"]
+chinook_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_create_effect_default_unreversed"]
+chinook_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nchinook_switch_buy_menu_text_result"]
+chinook [fillcolor=red style="filled" label="<FEAT_TRAINS 120>\nchinook"]
+chinook_switch_graphics_check_2cc_unreversed_unflipped->chinook_ss_unreversed_unflipped_1
+chinook_switch_graphics_unreversed->chinook_switch_graphics_livery_unreversed_unflipped
+chinook_switch_graphics_purchase_livery_check_2cc->chinook_ss_vehicle_purchase_1
+chinook->chinook_switch_graphics
+chinook_switch_graphics_check_2cc_unreversed_flipped->chinook_ss_unreversed_flipped_1
+chinook_switch_set_layers_register_more_sprites->chinook_switch_graphics_unreversed
+chinook->chinook_switch_buy_menu_text_result
+chinook_switch_graphics->chinook_switch_set_layers_register_more_sprites
+chinook_switch_graphics_purchase_livery->chinook_ss_vehicle_purchase_0
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+chinook->chinook_switch_create_effect_default_unreversed
+chinook_switch_graphics_purchase_livery_check_2cc->chinook_ss_vehicle_purchase_0
+chinook_switch_graphics->switch_graphics_layer_tail_light_empty
+chinook->chinook_articulated_cb_switch
+chinook->chinook_switch_graphics_purchase_livery
+chinook_switch_graphics_check_2cc_unreversed_flipped->chinook_ss_unreversed_flipped_0
+chinook_switch_colour_mapping->chinook_switch_colour_mapping_check_2cc
+chinook_switch_graphics_purchase_livery->chinook_switch_graphics_purchase_livery_check_2cc
+chinook_switch_graphics_livery_unreversed_unflipped->chinook_ss_unreversed_unflipped_0
+chinook_switch_graphics_unreversed->chinook_switch_graphics_livery_unreversed_flipped
+chinook_switch_graphics_livery_unreversed_unflipped->chinook_switch_graphics_check_2cc_unreversed_unflipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+chinook_switch_graphics_livery_unreversed_flipped->chinook_switch_graphics_check_2cc_unreversed_flipped
+chinook_switch_graphics_livery_unreversed_flipped->chinook_ss_unreversed_flipped_0
+chinook_switch_graphics_check_2cc_unreversed_unflipped->chinook_ss_unreversed_unflipped_0
+chinook->chinook_switch_colour_mapping
+}

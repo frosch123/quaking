@@ -1,0 +1,40 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+chuggypig_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nchuggypig_ss_unreversed_unflipped_0"]
+chuggypig_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nchuggypig_ss_unreversed_flipped_0"]
+chuggypig_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_graphics_unreversed"]
+chuggypig_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nchuggypig_ss_reversed_unflipped_0"]
+chuggypig_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nchuggypig_ss_reversed_flipped_0"]
+chuggypig_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_graphics_reversed"]
+chuggypig_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nchuggypig_switch_graphics_vehicle"]
+chuggypig_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nchuggypig_ss_vehicle_purchase_0"]
+chuggypig_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_set_layers_register_more_sprites"]
+chuggypig_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_graphics"]
+chuggypig_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_colour_mapping"]
+chuggypig_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_create_effect_default_unreversed"]
+chuggypig_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_create_effect_default_reversed"]
+chuggypig_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nchuggypig_switch_create_effect_reversed_variants"]
+chuggypig_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nchuggypig_switch_buy_menu_text_result"]
+chuggypig [fillcolor=red style="filled" label="<FEAT_TRAINS 4980>\nchuggypig"]
+chuggypig_switch_create_effect_reversed_variants->chuggypig_switch_create_effect_default_unreversed
+chuggypig_switch_graphics_unreversed->chuggypig_ss_unreversed_flipped_0
+chuggypig_switch_set_layers_register_more_sprites->chuggypig_switch_graphics_vehicle
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+chuggypig_switch_graphics_unreversed->chuggypig_ss_unreversed_unflipped_0
+chuggypig_switch_graphics->switch_graphics_layer_tail_light_empty
+chuggypig_switch_graphics_reversed->chuggypig_ss_reversed_flipped_0
+chuggypig_switch_graphics_reversed->chuggypig_ss_reversed_unflipped_0
+chuggypig_switch_create_effect_reversed_variants->chuggypig_switch_create_effect_default_reversed
+chuggypig->chuggypig_switch_buy_menu_text_result
+chuggypig_switch_graphics_vehicle->chuggypig_switch_graphics_unreversed
+chuggypig->chuggypig_switch_colour_mapping
+chuggypig->chuggypig_switch_graphics
+chuggypig_switch_graphics->chuggypig_switch_set_layers_register_more_sprites
+chuggypig_switch_graphics_vehicle->chuggypig_switch_graphics_reversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+chuggypig->chuggypig_switch_create_effect_reversed_variants
+chuggypig->chuggypig_ss_vehicle_purchase_0
+}

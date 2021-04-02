@@ -1,0 +1,30 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+spinner_articulated_cb_switch [fillcolor=yellow style="filled" label="<switch>\nspinner_articulated_cb_switch"]
+spinner_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nspinner_ss_unreversed_unflipped_0"]
+spinner_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nspinner_ss_unreversed_flipped_0"]
+spinner_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nspinner_switch_graphics_unreversed"]
+spinner_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nspinner_ss_vehicle_purchase_0"]
+spinner_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nspinner_switch_set_layers_register_more_sprites"]
+spinner_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nspinner_switch_graphics"]
+spinner_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nspinner_switch_colour_mapping"]
+spinner_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nspinner_switch_create_effect_default_unreversed"]
+spinner_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nspinner_switch_buy_menu_text_result"]
+spinner [fillcolor=red style="filled" label="<FEAT_TRAINS 480>\nspinner"]
+spinner->spinner_ss_vehicle_purchase_0
+spinner_switch_graphics->switch_graphics_layer_tail_light_empty
+spinner->spinner_switch_graphics
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+spinner->spinner_articulated_cb_switch
+spinner_switch_graphics_unreversed->spinner_ss_unreversed_flipped_0
+spinner->spinner_switch_buy_menu_text_result
+spinner_switch_graphics->spinner_switch_set_layers_register_more_sprites
+spinner->spinner_switch_create_effect_default_unreversed
+spinner_switch_set_layers_register_more_sprites->spinner_switch_graphics_unreversed
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+spinner_switch_graphics_unreversed->spinner_ss_unreversed_unflipped_0
+spinner->spinner_switch_colour_mapping
+}

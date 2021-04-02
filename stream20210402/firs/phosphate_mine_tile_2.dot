@@ -1,0 +1,200 @@
+digraph {
+rankdir="BT"
+spriteset_default_construction_states [fillcolor=green style="filled" label="<spriteset>\nspriteset_default_construction_states"]
+spritelayout_default_construction_states [fillcolor=yellow style="filled" label="<spritelayout>\nspritelayout_default_construction_states"]
+phosphate_mine_spriteset_1_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_1_0"]
+phosphate_mine_spriteset_1_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_1_0_snow"]
+phosphate_mine_spriteset_3_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_3_0"]
+phosphate_mine_spriteset_3_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_3_0_snow"]
+phosphate_mine_spriteset_4_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_4_0"]
+phosphate_mine_spriteset_4_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_4_0_snow"]
+phosphate_mine_spriteset_5_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_5_0"]
+phosphate_mine_spriteset_5_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_5_0_snow"]
+phosphate_mine_spriteset_6_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_6_0"]
+phosphate_mine_spriteset_6_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_6_0_snow"]
+phosphate_mine_spriteset_7_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_7_0"]
+phosphate_mine_spriteset_7_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_7_0_snow"]
+phosphate_mine_spriteset_8_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_8_0"]
+phosphate_mine_spriteset_8_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_8_0_snow"]
+phosphate_mine_spriteset_9_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_9_0"]
+phosphate_mine_spriteset_9_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_9_0_snow"]
+phosphate_mine_spriteset_10_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_10_0"]
+phosphate_mine_spriteset_10_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_10_0_snow"]
+phosphate_mine_spriteset_11_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_11_0"]
+phosphate_mine_spriteset_11_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_11_0_snow"]
+phosphate_mine_spriteset_12_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_12_0"]
+phosphate_mine_spriteset_12_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_12_0_snow"]
+phosphate_mine_spriteset_13_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_13_0"]
+phosphate_mine_spriteset_13_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_13_0_snow"]
+phosphate_mine_spriteset_14_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_14_0"]
+phosphate_mine_spriteset_14_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_14_0_snow"]
+phosphate_mine_spriteset_15_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_15_0"]
+phosphate_mine_spriteset_15_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_15_0_snow"]
+phosphate_mine_spriteset_16_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_16_0"]
+phosphate_mine_spriteset_16_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_16_0_snow"]
+phosphate_mine_spriteset_17_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_17_0"]
+phosphate_mine_spriteset_17_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_17_0_snow"]
+phosphate_mine_spriteset_18_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_18_0"]
+phosphate_mine_spriteset_18_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_18_0_snow"]
+phosphate_mine_spriteset_19_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_19_0"]
+phosphate_mine_spriteset_19_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_19_0_snow"]
+phosphate_mine_spriteset_20_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_20_0"]
+phosphate_mine_spriteset_20_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_20_0_snow"]
+phosphate_mine_spriteset_21_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_21_0"]
+phosphate_mine_spriteset_21_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_21_0_snow"]
+phosphate_mine_spriteset_22_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_22_0"]
+phosphate_mine_spriteset_22_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_22_0_snow"]
+phosphate_mine_spriteset_23_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_23_0"]
+phosphate_mine_spriteset_23_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_23_0_snow"]
+phosphate_mine_spriteset_24_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_24_0"]
+phosphate_mine_spriteset_24_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_24_0_snow"]
+phosphate_mine_spriteset_25_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_25_0"]
+phosphate_mine_spriteset_25_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_25_0_snow"]
+phosphate_mine_spriteset_26_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_26_0"]
+phosphate_mine_spriteset_26_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_26_0_snow"]
+phosphate_mine_spriteset_27_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_27_0"]
+phosphate_mine_spriteset_27_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_27_0_snow"]
+phosphate_mine_spriteset_28_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_28_0"]
+phosphate_mine_spriteset_28_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_28_0_snow"]
+phosphate_mine_spriteset_29_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_29_0"]
+phosphate_mine_spriteset_29_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_29_0_snow"]
+phosphate_mine_spriteset_30_0 [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_30_0"]
+phosphate_mine_spriteset_30_0_snow [fillcolor=green style="filled" label="<spriteset>\nphosphate_mine_spriteset_30_0_snow"]
+phosphate_mine_spritelayout_1 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_1"]
+phosphate_mine_spritelayout_2 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_2"]
+phosphate_mine_spritelayout_4 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_4"]
+phosphate_mine_spritelayout_5 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_5"]
+phosphate_mine_spritelayout_6 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_6"]
+phosphate_mine_spritelayout_7 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_7"]
+phosphate_mine_spritelayout_8 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_8"]
+phosphate_mine_spritelayout_10 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_10"]
+phosphate_mine_spritelayout_11 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_11"]
+phosphate_mine_spritelayout_12 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_12"]
+phosphate_mine_spritelayout_19 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_19"]
+phosphate_mine_spritelayout_20 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_20"]
+phosphate_mine_spritelayout_22 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_22"]
+phosphate_mine_spritelayout_23 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_23"]
+phosphate_mine_spritelayout_24 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_24"]
+phosphate_mine_spritelayout_39 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_39"]
+phosphate_mine_spritelayout_40 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_40"]
+phosphate_mine_spritelayout_41 [fillcolor=yellow style="filled" label="<spritelayout>\nphosphate_mine_spritelayout_41"]
+phosphate_mine_layout_1_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_layout_1_graphics_switch"]
+phosphate_mine_layout_2_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_layout_2_graphics_switch"]
+phosphate_mine_industry_graphics_switch_layouts [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_industry_graphics_switch_layouts"]
+phosphate_mine_industry_construction_state_graphics_switch [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_industry_construction_state_graphics_switch"]
+phosphate_mine_store_temp_vars [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_store_temp_vars"]
+phosphate_mine_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_switch_graphics"]
+phosphate_mine_tile_2_lc_3 [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_tile_2_lc_3"]
+phosphate_mine_tile_2_lc_2 [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_tile_2_lc_2"]
+phosphate_mine_tile_2_lc_1 [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_tile_2_lc_1"]
+phosphate_mine_tile_2_lc_0 [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_tile_2_lc_0"]
+phosphate_mine_tile_2_anim_control [fillcolor=yellow style="filled" label="<switch>\nphosphate_mine_tile_2_anim_control"]
+phosphate_mine_tile_2 [fillcolor=red style="filled" label="FEAT_INDUSTRYTILES <150>\nphosphate_mine_tile_2"]
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_1
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_40
+phosphate_mine_spritelayout_2->phosphate_mine_spriteset_20_0_snow
+phosphate_mine_spritelayout_23->phosphate_mine_spriteset_16_0
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_22
+phosphate_mine_spritelayout_7->phosphate_mine_spriteset_8_0_snow
+phosphate_mine_spritelayout_20->phosphate_mine_spriteset_21_0_snow
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_40
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_41
+phosphate_mine_spritelayout_5->phosphate_mine_spriteset_6_0_snow
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_11
+phosphate_mine_spritelayout_4->phosphate_mine_spriteset_5_0_snow
+phosphate_mine_spritelayout_10->phosphate_mine_spriteset_10_0
+phosphate_mine_spritelayout_5->phosphate_mine_spriteset_19_0_snow
+phosphate_mine_spritelayout_6->phosphate_mine_spriteset_7_0
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_2
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_10
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_39
+phosphate_mine_spritelayout_10->phosphate_mine_spriteset_10_0_snow
+phosphate_mine_switch_graphics->phosphate_mine_store_temp_vars
+phosphate_mine_spritelayout_22->phosphate_mine_spriteset_22_0
+phosphate_mine_spritelayout_12->phosphate_mine_spriteset_12_0
+phosphate_mine_spritelayout_22->phosphate_mine_spriteset_15_0_snow
+phosphate_mine_tile_2_lc_2->phosphate_mine_tile_2_lc_3
+phosphate_mine_spritelayout_41->phosphate_mine_spriteset_27_0
+phosphate_mine_store_temp_vars->phosphate_mine_industry_construction_state_graphics_switch
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_23
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_4
+phosphate_mine_spritelayout_24->phosphate_mine_spriteset_17_0_snow
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_12
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_7
+phosphate_mine_tile_2->phosphate_mine_switch_graphics
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_6
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_6
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_2
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_39
+phosphate_mine_spritelayout_41->phosphate_mine_spriteset_27_0_snow
+phosphate_mine_spritelayout_8->phosphate_mine_spriteset_9_0
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_8
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_5
+phosphate_mine_spritelayout_20->phosphate_mine_spriteset_14_0_snow
+phosphate_mine_spritelayout_24->phosphate_mine_spriteset_24_0
+phosphate_mine_spritelayout_2->phosphate_mine_spriteset_4_0
+phosphate_mine_industry_construction_state_graphics_switch->phosphate_mine_industry_graphics_switch_layouts
+phosphate_mine_spritelayout_1->phosphate_mine_spriteset_3_0_snow
+phosphate_mine_spritelayout_39->phosphate_mine_spriteset_25_0_snow
+phosphate_mine_spritelayout_6->phosphate_mine_spriteset_7_0_snow
+phosphate_mine_spritelayout_23->phosphate_mine_spriteset_23_0_snow
+phosphate_mine_tile_2_lc_1->phosphate_mine_tile_2_lc_2
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_4
+phosphate_mine_spritelayout_5->phosphate_mine_spriteset_18_0
+phosphate_mine_spritelayout_41->phosphate_mine_spriteset_30_0
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_19
+phosphate_mine_spritelayout_11->phosphate_mine_spriteset_11_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_10
+phosphate_mine_spritelayout_39->phosphate_mine_spriteset_28_0
+phosphate_mine_spritelayout_7->phosphate_mine_spriteset_8_0
+phosphate_mine_spritelayout_40->phosphate_mine_spriteset_29_0_snow
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_41
+phosphate_mine_spritelayout_22->phosphate_mine_spriteset_22_0_snow
+phosphate_mine_spritelayout_12->phosphate_mine_spriteset_12_0_snow
+phosphate_mine_spritelayout_20->phosphate_mine_spriteset_21_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_7
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_24
+phosphate_mine_spritelayout_41->phosphate_mine_spriteset_30_0_snow
+phosphate_mine_spritelayout_19->phosphate_mine_spriteset_13_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_8
+phosphate_mine_spritelayout_8->phosphate_mine_spriteset_1_0_snow
+phosphate_mine_spritelayout_11->phosphate_mine_spriteset_11_0_snow
+phosphate_mine_spritelayout_8->phosphate_mine_spriteset_9_0_snow
+phosphate_mine_tile_2->phosphate_mine_tile_2_lc_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_11
+phosphate_mine_spritelayout_39->phosphate_mine_spriteset_25_0
+phosphate_mine_spritelayout_24->phosphate_mine_spriteset_24_0_snow
+phosphate_mine_spritelayout_5->phosphate_mine_spriteset_6_0
+phosphate_mine_spritelayout_2->phosphate_mine_spriteset_20_0
+phosphate_mine_industry_construction_state_graphics_switch->spritelayout_default_construction_states
+phosphate_mine_spritelayout_5->phosphate_mine_spriteset_19_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_22
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_19
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_5
+phosphate_mine_tile_2->phosphate_mine_tile_2_anim_control
+phosphate_mine_spritelayout_40->phosphate_mine_spriteset_26_0_snow
+phosphate_mine_spritelayout_2->phosphate_mine_spriteset_4_0_snow
+phosphate_mine_spritelayout_39->phosphate_mine_spriteset_28_0_snow
+phosphate_mine_spritelayout_19->phosphate_mine_spriteset_13_0_snow
+phosphate_mine_industry_graphics_switch_layouts->phosphate_mine_layout_2_graphics_switch
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_20
+phosphate_mine_spritelayout_23->phosphate_mine_spriteset_23_0
+phosphate_mine_spritelayout_4->phosphate_mine_spriteset_5_0
+phosphate_mine_industry_graphics_switch_layouts->phosphate_mine_layout_1_graphics_switch
+phosphate_mine_spritelayout_40->phosphate_mine_spriteset_26_0
+phosphate_mine_spritelayout_40->phosphate_mine_spriteset_29_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_1
+phosphate_mine_tile_2_lc_0->phosphate_mine_tile_2_lc_1
+spritelayout_default_construction_states->spriteset_default_construction_states
+phosphate_mine_spritelayout_1->phosphate_mine_spriteset_3_0
+phosphate_mine_spritelayout_22->phosphate_mine_spriteset_15_0
+phosphate_mine_spritelayout_24->phosphate_mine_spriteset_17_0
+phosphate_mine_spritelayout_5->phosphate_mine_spriteset_18_0_snow
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_20
+phosphate_mine_layout_2_graphics_switch->phosphate_mine_spritelayout_24
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_12
+phosphate_mine_spritelayout_23->phosphate_mine_spriteset_16_0_snow
+phosphate_mine_spritelayout_20->phosphate_mine_spriteset_14_0
+phosphate_mine_layout_1_graphics_switch->phosphate_mine_spritelayout_23
+phosphate_mine_spritelayout_8->phosphate_mine_spriteset_1_0
+}

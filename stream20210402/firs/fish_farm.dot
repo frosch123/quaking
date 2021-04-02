@@ -1,0 +1,88 @@
+digraph {
+rankdir="BT"
+switch_colour [fillcolor=yellow style="filled" label="<switch>\nswitch_colour"]
+randomise_primary_production_on_build [fillcolor=yellow style="filled" label="<random_switch>\nrandomise_primary_production_on_build"]
+fish_farm_extra_text [fillcolor=yellow style="filled" label="<switch>\nfish_farm_extra_text"]
+fish_farm_cargo_subtype_display_cargo_FMSP_economy_1 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_cargo_subtype_display_cargo_FMSP_economy_1"]
+fish_farm_cargo_subtype_display_switch_cargo_economy_1 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_cargo_subtype_display_switch_cargo_economy_1"]
+fish_farm_cargo_subtype_display_switch_economy [fillcolor=yellow style="filled" label="<switch>\nfish_farm_cargo_subtype_display_switch_economy"]
+fish_farm_cargo_subtype_display [fillcolor=yellow style="filled" label="<switch>\nfish_farm_cargo_subtype_display"]
+fish_farm_monthly_prod_change [fillcolor=yellow style="filled" label="<switch>\nfish_farm_monthly_prod_change"]
+fish_farm_clear_incoming_cargo_waiting_0 [fillcolor=green style="filled" label="<produce>\nfish_farm_clear_incoming_cargo_waiting_0"]
+fish_farm_store_incoming_cargo_waiting_0 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_store_incoming_cargo_waiting_0"]
+fish_farm_clear_incoming_cargo_waiting_1 [fillcolor=green style="filled" label="<produce>\nfish_farm_clear_incoming_cargo_waiting_1"]
+fish_farm_store_incoming_cargo_waiting_1 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_store_incoming_cargo_waiting_1"]
+fish_farm_clear_incoming_cargo_waiting_4 [fillcolor=green style="filled" label="<produce>\nfish_farm_clear_incoming_cargo_waiting_4"]
+fish_farm_store_incoming_cargo_waiting_4 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_store_incoming_cargo_waiting_4"]
+fish_farm_clear_incoming_cargo_waiting_5 [fillcolor=green style="filled" label="<produce>\nfish_farm_clear_incoming_cargo_waiting_5"]
+fish_farm_store_incoming_cargo_waiting_5 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_store_incoming_cargo_waiting_5"]
+fish_farm_clear_incoming_cargo_waiting_3 [fillcolor=green style="filled" label="<produce>\nfish_farm_clear_incoming_cargo_waiting_3"]
+fish_farm_store_incoming_cargo_waiting_3 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_store_incoming_cargo_waiting_3"]
+fish_farm_produce_cargo_arrival [fillcolor=yellow style="filled" label="<switch>\nfish_farm_produce_cargo_arrival"]
+fish_farm_production_256_economy_0 [fillcolor=green style="filled" label="<produce>\nfish_farm_production_256_economy_0"]
+fish_farm_production_256_economy_1 [fillcolor=green style="filled" label="<produce>\nfish_farm_production_256_economy_1"]
+fish_farm_production_256_economy_4 [fillcolor=green style="filled" label="<produce>\nfish_farm_production_256_economy_4"]
+fish_farm_production_256_economy_5 [fillcolor=green style="filled" label="<produce>\nfish_farm_production_256_economy_5"]
+fish_farm_production_256_economy_3 [fillcolor=green style="filled" label="<produce>\nfish_farm_production_256_economy_3"]
+fish_farm_produce_256_ticks_switch_economy [fillcolor=yellow style="filled" label="<switch>\nfish_farm_produce_256_ticks_switch_economy"]
+fish_farm_produce_256_ticks [fillcolor=yellow style="filled" label="<switch>\nfish_farm_produce_256_ticks"]
+fish_farm_check_availability_param [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability_param"]
+fish_farm_check_map_gen [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_map_gen"]
+fish_farm_available_game_mode [fillcolor=yellow style="filled" label="<switch>\nfish_farm_available_game_mode"]
+fish_farm_check_availability_0 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability_0"]
+fish_farm_check_availability_1 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability_1"]
+fish_farm_check_availability_4 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability_4"]
+fish_farm_check_availability_5 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability_5"]
+fish_farm_check_availability_3 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability_3"]
+fish_farm_check_availability [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_availability"]
+fish_farm_min_distance_31 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_min_distance_31"]
+fish_farm_coast_distance [fillcolor=yellow style="filled" label="<switch>\nfish_farm_coast_distance"]
+fish_farm_min_distance_94 [fillcolor=yellow style="filled" label="<switch>\nfish_farm_min_distance_94"]
+fish_farm_cluster_fish_farm [fillcolor=yellow style="filled" label="<switch>\nfish_farm_cluster_fish_farm"]
+fish_farm_check_location [fillcolor=yellow style="filled" label="<switch>\nfish_farm_check_location"]
+fish_farm [fillcolor=red style="filled" label="FEAT_INDUSTRIES <94>\nfish_farm"]
+fish_farm->fish_farm_extra_text
+fish_farm_check_availability_1->fish_farm_available_game_mode
+fish_farm_store_incoming_cargo_waiting_0->fish_farm_clear_incoming_cargo_waiting_0
+fish_farm_check_availability->fish_farm_check_availability_3
+fish_farm_check_availability->fish_farm_check_availability_1
+fish_farm_store_incoming_cargo_waiting_3->fish_farm_clear_incoming_cargo_waiting_3
+fish_farm_coast_distance->fish_farm_min_distance_31
+fish_farm->switch_colour
+fish_farm_check_map_gen->fish_farm_check_availability_param
+fish_farm_cargo_subtype_display_switch_cargo_economy_1->fish_farm_cargo_subtype_display_cargo_FMSP_economy_1
+fish_farm_store_incoming_cargo_waiting_4->fish_farm_clear_incoming_cargo_waiting_4
+fish_farm->randomise_primary_production_on_build
+fish_farm_check_location->fish_farm_cluster_fish_farm
+fish_farm_check_availability->fish_farm_check_availability_0
+fish_farm_produce_cargo_arrival->fish_farm_store_incoming_cargo_waiting_3
+fish_farm_produce_256_ticks_switch_economy->fish_farm_production_256_economy_5
+fish_farm_produce_cargo_arrival->fish_farm_store_incoming_cargo_waiting_4
+fish_farm_store_incoming_cargo_waiting_1->fish_farm_clear_incoming_cargo_waiting_1
+fish_farm_check_availability->fish_farm_check_availability_4
+fish_farm->fish_farm_check_location
+fish_farm_produce_256_ticks_switch_economy->fish_farm_production_256_economy_3
+fish_farm_check_availability_4->fish_farm_available_game_mode
+fish_farm_cargo_subtype_display_switch_economy->fish_farm_cargo_subtype_display_switch_cargo_economy_1
+fish_farm_check_availability->fish_farm_check_availability_5
+fish_farm->fish_farm_cargo_subtype_display
+fish_farm_cluster_fish_farm->fish_farm_min_distance_94
+fish_farm_min_distance_94->fish_farm_coast_distance
+fish_farm->fish_farm_produce_cargo_arrival
+fish_farm_check_availability_3->fish_farm_available_game_mode
+fish_farm_produce_256_ticks_switch_economy->fish_farm_production_256_economy_0
+fish_farm_available_game_mode->fish_farm_check_map_gen
+fish_farm_store_incoming_cargo_waiting_5->fish_farm_clear_incoming_cargo_waiting_5
+fish_farm_check_availability_5->fish_farm_available_game_mode
+fish_farm_produce_256_ticks_switch_economy->fish_farm_production_256_economy_1
+fish_farm->fish_farm_monthly_prod_change
+fish_farm_produce_cargo_arrival->fish_farm_store_incoming_cargo_waiting_5
+fish_farm_produce_cargo_arrival->fish_farm_store_incoming_cargo_waiting_0
+fish_farm_produce_256_ticks->fish_farm_produce_256_ticks_switch_economy
+fish_farm->fish_farm_produce_256_ticks
+fish_farm_cargo_subtype_display->fish_farm_cargo_subtype_display_switch_economy
+fish_farm->fish_farm_check_availability
+fish_farm_produce_256_ticks_switch_economy->fish_farm_production_256_economy_4
+fish_farm_check_availability_0->fish_farm_available_game_mode
+fish_farm_produce_cargo_arrival->fish_farm_store_incoming_cargo_waiting_1
+}

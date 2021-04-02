@@ -1,0 +1,78 @@
+digraph {
+rankdir="BT"
+ss_tail_light_empty_unflipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_unflipped"]
+ss_tail_light_empty_flipped [fillcolor=green style="filled" label="<spriteset>\nss_tail_light_empty_flipped"]
+switch_graphics_layer_tail_light_empty [fillcolor=yellow style="filled" label="<switch>\nswitch_graphics_layer_tail_light_empty"]
+argus_ss_unreversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nargus_ss_unreversed_unflipped_0"]
+argus_ss_pantographs_down_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_down_unreversed_unflipped"]
+argus_ss_pantographs_up_unreversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_up_unreversed_unflipped"]
+argus_switch_graphics_pantographs_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_pantographs_unreversed_unflipped"]
+argus_switch_graphics_vehicle_layers_unreversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_vehicle_layers_unreversed_unflipped"]
+argus_ss_unreversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nargus_ss_unreversed_flipped_0"]
+argus_ss_pantographs_down_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_down_unreversed_flipped"]
+argus_ss_pantographs_up_unreversed_flipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_up_unreversed_flipped"]
+argus_switch_graphics_pantographs_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_pantographs_unreversed_flipped"]
+argus_switch_graphics_vehicle_layers_unreversed_flipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_vehicle_layers_unreversed_flipped"]
+argus_switch_graphics_unreversed [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_unreversed"]
+argus_ss_reversed_unflipped_0 [fillcolor=green style="filled" label="<spriteset>\nargus_ss_reversed_unflipped_0"]
+argus_ss_pantographs_down_reversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_down_reversed_unflipped"]
+argus_ss_pantographs_up_reversed_unflipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_up_reversed_unflipped"]
+argus_switch_graphics_pantographs_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_pantographs_reversed_unflipped"]
+argus_switch_graphics_vehicle_layers_reversed_unflipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_vehicle_layers_reversed_unflipped"]
+argus_ss_reversed_flipped_0 [fillcolor=green style="filled" label="<spriteset>\nargus_ss_reversed_flipped_0"]
+argus_ss_pantographs_down_reversed_flipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_down_reversed_flipped"]
+argus_ss_pantographs_up_reversed_flipped [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantographs_up_reversed_flipped"]
+argus_switch_graphics_pantographs_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_pantographs_reversed_flipped"]
+argus_switch_graphics_vehicle_layers_reversed_flipped [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_vehicle_layers_reversed_flipped"]
+argus_switch_graphics_reversed [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_reversed"]
+argus_switch_graphics_vehicle [fillcolor=yellow style="filled" label="<random_switch>\nargus_switch_graphics_vehicle"]
+argus_ss_vehicle_purchase_0 [fillcolor=green style="filled" label="<spriteset>\nargus_ss_vehicle_purchase_0"]
+argus_ss_pantograph_purchase [fillcolor=green style="filled" label="<spriteset>\nargus_ss_pantograph_purchase"]
+argus_switch_set_layers_register_more_sprites_purchase [fillcolor=yellow style="filled" label="<switch>\nargus_switch_set_layers_register_more_sprites_purchase"]
+argus_switch_graphics_purchase [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics_purchase"]
+argus_switch_set_layers_register_more_sprites [fillcolor=yellow style="filled" label="<switch>\nargus_switch_set_layers_register_more_sprites"]
+argus_switch_graphics [fillcolor=yellow style="filled" label="<switch>\nargus_switch_graphics"]
+argus_switch_colour_mapping [fillcolor=yellow style="filled" label="<switch>\nargus_switch_colour_mapping"]
+argus_switch_create_effect_default_unreversed [fillcolor=yellow style="filled" label="<switch>\nargus_switch_create_effect_default_unreversed"]
+argus_switch_create_effect_default_reversed [fillcolor=yellow style="filled" label="<switch>\nargus_switch_create_effect_default_reversed"]
+argus_switch_create_effect_reversed_variants [fillcolor=yellow style="filled" label="<random_switch>\nargus_switch_create_effect_reversed_variants"]
+argus_switch_buy_menu_text_result [fillcolor=yellow style="filled" label="<switch>\nargus_switch_buy_menu_text_result"]
+argus [fillcolor=red style="filled" label="<FEAT_TRAINS 5400>\nargus"]
+argus_switch_graphics_vehicle_layers_unreversed_unflipped->argus_switch_graphics_pantographs_unreversed_unflipped
+argus_switch_graphics_unreversed->argus_switch_graphics_vehicle_layers_unreversed_unflipped
+argus_switch_graphics_vehicle_layers_reversed_flipped->argus_ss_reversed_flipped_0
+argus_switch_graphics_vehicle_layers_reversed_flipped->argus_switch_graphics_pantographs_reversed_flipped
+argus->argus_switch_create_effect_reversed_variants
+argus_switch_graphics_reversed->argus_switch_graphics_vehicle_layers_reversed_unflipped
+argus_switch_graphics_unreversed->argus_switch_graphics_vehicle_layers_unreversed_flipped
+argus_switch_graphics_purchase->argus_switch_set_layers_register_more_sprites_purchase
+argus->argus_switch_graphics
+argus_switch_graphics_pantographs_unreversed_unflipped->argus_ss_pantographs_down_unreversed_unflipped
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_flipped
+argus_switch_graphics_pantographs_unreversed_flipped->argus_ss_pantographs_up_unreversed_flipped
+argus_switch_graphics_pantographs_unreversed_flipped->argus_ss_pantographs_down_unreversed_flipped
+argus_switch_graphics_vehicle->argus_switch_graphics_unreversed
+argus_switch_create_effect_reversed_variants->argus_switch_create_effect_default_unreversed
+argus_switch_graphics_pantographs_reversed_unflipped->argus_ss_pantographs_down_reversed_unflipped
+argus_switch_graphics_vehicle->argus_switch_graphics_reversed
+argus_switch_graphics_reversed->argus_switch_graphics_vehicle_layers_reversed_flipped
+argus_switch_graphics_purchase->argus_ss_pantograph_purchase
+argus_switch_graphics_pantographs_unreversed_unflipped->argus_ss_pantographs_up_unreversed_unflipped
+argus_switch_graphics_pantographs_reversed_unflipped->argus_ss_pantographs_up_reversed_unflipped
+argus_switch_graphics_vehicle_layers_unreversed_flipped->argus_ss_unreversed_flipped_0
+argus_switch_graphics_pantographs_reversed_flipped->argus_ss_pantographs_up_reversed_flipped
+argus_switch_graphics_vehicle_layers_unreversed_unflipped->argus_ss_unreversed_unflipped_0
+argus_switch_set_layers_register_more_sprites->argus_switch_graphics_vehicle
+argus_switch_set_layers_register_more_sprites_purchase->argus_ss_vehicle_purchase_0
+argus->argus_switch_graphics_purchase
+argus_switch_graphics_vehicle_layers_unreversed_flipped->argus_switch_graphics_pantographs_unreversed_flipped
+argus_switch_graphics->argus_switch_set_layers_register_more_sprites
+switch_graphics_layer_tail_light_empty->ss_tail_light_empty_unflipped
+argus_switch_graphics_pantographs_reversed_flipped->argus_ss_pantographs_down_reversed_flipped
+argus_switch_graphics->switch_graphics_layer_tail_light_empty
+argus_switch_graphics_vehicle_layers_reversed_unflipped->argus_ss_reversed_unflipped_0
+argus->argus_switch_colour_mapping
+argus->argus_switch_buy_menu_text_result
+argus_switch_create_effect_reversed_variants->argus_switch_create_effect_default_reversed
+argus_switch_graphics_vehicle_layers_reversed_unflipped->argus_switch_graphics_pantographs_reversed_unflipped
+}

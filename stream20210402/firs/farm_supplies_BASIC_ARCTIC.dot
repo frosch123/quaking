@@ -1,0 +1,6 @@
+digraph {
+rankdir="BT"
+cargoicon_farm_supplies [fillcolor=green style="filled" label="<spriteset>\ncargoicon_farm_supplies"]
+farm_supplies_BASIC_ARCTIC [fillcolor=red style="filled" label="FEAT_CARGOS <5>\nfarm_supplies_BASIC_ARCTIC"]
+farm_supplies_BASIC_ARCTIC->cargoicon_farm_supplies
+}
