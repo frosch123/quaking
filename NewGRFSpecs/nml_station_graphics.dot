@@ -1,0 +1,57 @@
+digraph {
+    rankdir="LR"
+    subgraph {
+        rank = same
+        select_sprite_layout [fontname="Noto Mono, bold"]
+        purchase_select_sprite_layout [fontname="Noto Mono, bold"]
+        prepare_layout [fontname="Noto Mono, bold"]
+        purchase_prepare_layout [fontname="Noto Mono, bold"]
+    }
+    select_sprite_layout -> sprite_layouts [label="indexes into"]
+    purchase_select_sprite_layout -> sprite_layouts [label="indexes into"]
+    prepare_layout -> STORE_TEMP
+    purchase_prepare_layout -> STORE_TEMP
+    STORE_TEMP -> LOAD_TEMP
+    STORE_TEMP [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+    sprite_layouts [label="sprite_layouts[]" fontname="Noto Mono, bold"]
+    sprite_layouts -> spritelayout
+    subgraph cluster_spritelayout {
+        rank = same
+        label = "spritelayout"
+        spritelayout [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        LOAD_TEMP [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        DEFAULT [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        CUSTOM [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        spritelayout -> LOAD_TEMP [dir=none constraint=false]
+        spritelayout -> DEFAULT [dir=none]
+        spritelayout -> CUSTOM [dir=none]
+    }
+
+    subgraph cluster_main {
+        label = "main spriteset with cargo-type and cargo-amount specific spritesets"
+        subgraph {
+            rank = same
+            DEFAULT -> default
+            DEFAULT -> cargotype
+            DEFAULT -> purchase
+        }
+        cargotype [label="<cargo-label>"]
+        cargotype -> spritegroup
+        default -> spritegroup
+        purchase -> spriteset
+        spritegroup [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        spriteset [fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        spritegroup -> spriteset [label="\nwaiting cargo amount"]
+    }
+
+    CUSTOM -> custom_spritesets [label="indexes into"]
+    custom_spritesets [label="custom_spritesets[]"  fontname="Noto Mono, bold"]
+    custom_spritesets -> spriteset1
+    spritelayout -> spriteset2
+    subgraph cluster_custom {
+        rank = same
+        label = "up to 6 additional spritesets"
+        spriteset1 [label="spriteset" fontname="Noto Mono, bold" fontcolor="darkgreen"]
+        spriteset2 [label="spriteset" fontname="Noto Mono, bold" fontcolor="darkgreen"]
+    }
+}
